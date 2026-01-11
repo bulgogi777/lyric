@@ -1,0 +1,24 @@
+{
+  "name": "lyric",
+  "version": "1.0.0",
+  "description": "Chinese lyrics study tool with pinyin and translation",
+  "module": "src/cli.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "lyric": "./src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "test": "bun run src/cli.ts test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "pinyin-pro": "^3.27.0"
+  }
+}
