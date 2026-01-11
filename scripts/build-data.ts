@@ -115,14 +115,44 @@ function toPinyin(text: string): string {
 }
 
 /**
+ * Check if a line looks like LLM thinking/error text
+ */
+function isLLMNoise(text: string): boolean {
+  const noisePatterns = [
+    /^I will/i,
+    /^I'll/i,
+    /^I need to/i,
+    /^Let me/i,
+    /\.md`/,
+    /`[^`]+`/,
+    /directory/i,
+    /file/i,
+    /check.*translation/i,
+    /read.*to understand/i,
+    /existing translations/i,
+    /project.*conventions/i,
+  ];
+  return noisePatterns.some(p => p.test(text));
+}
+
+/**
  * Translate Chinese lyrics using Gemini CLI
  */
 async function translateWithGemini(chineseLines: string[]): Promise<string[]> {
   if (chineseLines.length === 0) return [];
 
-  const prompt = `Translate these Chinese song lyrics to natural English. Return ONLY the translations, one per line, in the same order. No numbering, no explanations, no quotes.
+  const prompt = `TASK: Translate Chinese song lyrics to English.
 
-${chineseLines.map((l, i) => `${i + 1}. ${l}`).join('\n')}`;
+RULES:
+- Output EXACTLY ${chineseLines.length} lines
+- One English translation per line
+- No numbering, no explanations, no thinking
+- Just the translations, nothing else
+
+LYRICS:
+${chineseLines.map((l, i) => `${i + 1}. ${l}`).join('\n')}
+
+TRANSLATIONS:`;
 
   const proc = Bun.spawn(['gemini', '-p', prompt], {
     stdout: 'pipe',
@@ -137,19 +167,20 @@ ${chineseLines.map((l, i) => `${i + 1}. ${l}`).join('\n')}`;
     throw new Error(`Gemini translation failed: ${stderr}`);
   }
 
-  // Parse output - one translation per line
+  // Parse output - one translation per line, filter out LLM noise
   const translations = output
     .trim()
     .split('\n')
     .map(line => line.replace(/^\d+\.\s*/, '').trim())
-    .filter(line => line.length > 0);
+    .filter(line => line.length > 0 && !isLLMNoise(line));
 
   // Pad with placeholders if needed
   while (translations.length < chineseLines.length) {
     translations.push('[translation unavailable]');
   }
 
-  return translations;
+  // Truncate if too many (LLM added extra lines)
+  return translations.slice(0, chineseLines.length);
 }
 
 /**
