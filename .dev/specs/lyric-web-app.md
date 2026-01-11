@@ -158,34 +158,34 @@ Raw lyrics to process:
 ---
 ## Tasks
 
-### Phase 1: Data Setup
-- [ ] Extract playlist metadata from new YouTube Music URL via yt-dlp (data/songs.json)
-- [ ] Fetch lyrics from LRCLIB for all songs, store in songs.json
-- [ ] Process LRCLIB lyrics with Gemini for pinyin/translation
-- [ ] Migrate any usable data from existing songs/Chinese/*.md
+### Phase 1: Data Setup ✅
+- [x] Extract playlist metadata from new YouTube Music URL via yt-dlp (data/songs.json)
+- [x] Fetch lyrics from LRCLIB for all songs, store in songs.json
+- [x] Process LRCLIB lyrics with Gemini for pinyin/translation
+- [x] ~~Migrate any usable data from existing songs/Chinese/*.md~~ (skipped - new playlist)
 
-### Phase 2: Project Setup
-- [ ] Initialize Astro project in existing directory
-- [ ] Configure Tailwind CSS with Chinese font support
-- [ ] Create base layout with responsive design (src/layouts/Base.astro)
-- [ ] Create print layout (src/layouts/Print.astro)
-- [ ] Set up API routes structure
+### Phase 2: Project Setup ✅
+- [x] Initialize Astro project in existing directory
+- [x] Configure Tailwind CSS with Chinese font support
+- [x] Create base layout with responsive design (src/layouts/Layout.astro)
+- [ ] Create print layout (src/layouts/Print.astro) - using @media print in global.css instead
+- [ ] Set up API routes structure - deferred to Phase 5
 
-### Phase 3: Playlist View (FR-001, FR-002)
-- [ ] [P] Test: Playlist page displays all songs from data
-- [ ] FR-001: Create SongCard component (src/components/SongCard.astro)
-- [ ] FR-002: Build index page with song grid (src/pages/index.astro)
-- [ ] Add lyrics availability indicator to cards
+### Phase 3: Playlist View (FR-001, FR-002) ✅
+- [x] [P] Test: Playlist page displays all songs from data
+- [x] FR-001: Create SongCard component (src/components/SongCard.astro)
+- [x] FR-002: Build index page with song grid (src/pages/index.astro)
+- [x] Add lyrics availability indicator to cards
 
-### Phase 4: Song View (FR-003, FR-004, FR-005, FR-006)
-- [ ] [P] Test: Song page displays lyrics in stacked format
-- [ ] [P] Test: YouTube player embeds and plays
-- [ ] [P] Test: Timestamp click seeks player
-- [ ] FR-003: Create LyricsDisplay component (src/components/LyricsDisplay.astro)
-- [ ] FR-004: Add timestamp gutter to lyrics display
-- [ ] FR-005: Create YouTubePlayer component (src/components/YouTubePlayer.astro)
-- [ ] FR-006: Wire timestamp clicks to player.seekTo()
-- [ ] Build song page (src/pages/song/[id].astro)
+### Phase 4: Song View (FR-003, FR-004, FR-005, FR-006) ✅
+- [x] [P] Test: Song page displays lyrics in stacked format
+- [x] [P] Test: YouTube player embeds and plays
+- [x] [P] Test: Timestamp click seeks player
+- [x] FR-003: Create LyricsDisplay component (src/components/LyricsDisplay.astro)
+- [x] FR-004: Add timestamp gutter to lyrics display
+- [x] FR-005: Create YouTubePlayer component (src/components/YouTubePlayer.astro)
+- [x] FR-006: Wire timestamp clicks to player.seekTo()
+- [x] Build song page (src/pages/song/[id].astro)
 
 ### Phase 5: Admin/Edit View (FR-008, FR-009, FR-010, FR-011)
 - [ ] [P] Test: Paste lyrics and process with Gemini
@@ -203,8 +203,8 @@ Raw lyrics to process:
 - [ ] Add print button to song view
 - [ ] Verify print layout on Chrome/Firefox
 
-### Phase 7: Deployment
-- [ ] Push to GitHub repo (bulgogi777/lyric)
+### Phase 7: Deployment (In Progress)
+- [x] Push to GitHub repo (bulgogi777/lyric)
 - [ ] Connect Vercel to GitHub repo
 - [ ] Configure custom domain lyric.bwe4.net in Vercel
 - [ ] Verify auto-deploy on push
