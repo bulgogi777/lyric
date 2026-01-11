@@ -19,29 +19,72 @@ function timestampToSeconds(timestamp: string): number {
   const seconds = parseFloat(parts[1]);
   return minutes * 60 + seconds;
 }
+
+// Check if translation looks like LLM error (contains code/file references)
+function isValidTranslation(text: string): boolean {
+  const errorPatterns = [
+    /I will/i,
+    /I'll/i,
+    /\.md`/,
+    /`.*`/,
+    /directory/i,
+    /file/i,
+    /check.*translation/i,
+    /read.*to understand/i,
+  ];
+  return !errorPatterns.some(p => p.test(text));
+}
 ---
 
-<div class="space-y-6">
+<div class="lyrics-container">
   {lyrics.map((line, index) => (
-    <div class="lyric-block border-l-2 border-slate-700 hover:border-primary pl-4 py-2 transition-colors">
+    <div class="lyric-block">
       {line.timestamp && (
         <button
-          class="timestamp mb-1 block"
+          class="timestamp"
           onclick={`seekToTime(${timestampToSeconds(line.timestamp)})`}
         >
           [{line.timestamp}]
         </button>
       )}
-      <div class="chinese">{line.chinese}</div>
-      <div class="pinyin">{line.pinyin}</div>
-      <div class="english">{line.english}</div>
+      <div class="lyric-content">
+        <div class="chinese">{line.chinese}</div>
+        <div class="pinyin">{line.pinyin}</div>
+        {isValidTranslation(line.english) && (
+          <div class="english">{line.english}</div>
+        )}
+      </div>
     </div>
   ))}
 </div>
 
 <style>
+  .lyrics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .lyric-block {
+    border-left: 3px solid #334155;
+    padding: 1rem 0 1rem 1.25rem;
+    transition: all 0.2s ease;
+  }
+
   .lyric-block:hover {
-    background: linear-gradient(to right, rgba(59, 130, 246, 0.1), transparent);
+    border-left-color: #3b82f6;
+    background: linear-gradient(to right, rgba(59, 130, 246, 0.08), transparent);
+  }
+
+  .lyric-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .timestamp {
+    display: block;
+    margin-bottom: 0.5rem;
   }
 
   @media print {
@@ -49,6 +92,11 @@ function timestampToSeconds(timestamp: string): number {
       border-left-color: #ccc;
       break-inside: avoid;
       page-break-inside: avoid;
+      padding: 0.75rem 0 0.75rem 1rem;
+    }
+
+    .lyrics-container {
+      gap: 1rem;
     }
   }
 </style>
