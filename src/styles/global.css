@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* Chinese font stack */
+@theme {
+  --font-sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-mono: "Fira Code", "Menlo", monospace;
+  
+  /* Custom colors */
+  --color-primary: #3b82f6;
+  --color-primary-dark: #2563eb;
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+  --color-text: #e2e8f0;
+  --color-text-muted: #94a3b8;
+}
+
+/* Base styles */
+body {
+  @apply bg-bg text-text font-sans antialiased;
+}
+
+/* Pinyin styling */
+.pinyin {
+  @apply text-text-muted italic text-sm;
+}
+
+/* Chinese character styling */
+.chinese {
+  @apply text-xl font-medium;
+}
+
+/* English translation styling */
+.english {
+  @apply text-base text-text-muted;
+}
+
+/* Timestamp styling */
+.timestamp {
+  @apply text-xs text-primary cursor-pointer hover:text-primary-dark font-mono;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .timestamp {
+    color: #666;
+    cursor: default;
+  }
+  
+  .pinyin {
+    color: #333;
+  }
+  
+  .english {
+    color: #444;
+  }
+}

@@ -1,0 +1,3189 @@
+[
+  {
+    "id": "vWIOwhZLheY",
+    "title": "致姗姗来迟的你",
+    "artist": "阿肆",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "我不介意你慢动作",
+        "pinyin": "wǒ bú jiè yì nǐ màn dòng zuò",
+        "english": "I will check the existing translations in the `songs/Chinese/` directory to ensure the style and tone of the new translation match the project's conventions.",
+        "timestamp": "00:00.10"
+      },
+      {
+        "chinese": "也不介意这次先擦肩而过",
+        "pinyin": "yě bú jiè yì zhè cì xiān cā jiān ér guò",
+        "english": "I'll read `A-Lin - A Kind of Sorrow.md` to understand the translation style and structure used in this project.",
+        "timestamp": "00:04.79"
+      },
+      {
+        "chinese": "吃一人份的饭",
+        "pinyin": "chī yì rén fèn de fàn",
+        "english": "I don't mind you taking it slow",
+        "timestamp": "00:14.49"
+      },
+      {
+        "chinese": "刷一人份的碗",
+        "pinyin": "shuā yì rén fèn de wǎn",
+        "english": "Nor do I mind if we pass each other by this time",
+        "timestamp": "00:16.76"
+      },
+      {
+        "chinese": "真的我并没有觉得孤单",
+        "pinyin": "zhēn de wǒ bìng méi yǒu jué de gū dān",
+        "english": "Eating a meal for one",
+        "timestamp": "00:18.76"
+      },
+      {
+        "chinese": "逛一人份的街",
+        "pinyin": "guàng yì rén fèn de jiē",
+        "english": "Washing the dishes for one",
+        "timestamp": "00:22.73"
+      },
+      {
+        "chinese": "买一人份的单",
+        "pinyin": "mǎi yì rén fèn de dān",
+        "english": "I really don't feel lonely",
+        "timestamp": "00:24.84"
+      },
+      {
+        "chinese": "真的我并没有觉得孤单",
+        "pinyin": "zhēn de wǒ bìng méi yǒu jué de gū dān",
+        "english": "Wandering the streets alone",
+        "timestamp": "00:26.74"
+      },
+      {
+        "chinese": "我相信你正在与我相遇的路上",
+        "pinyin": "wǒ xiāng xìn nǐ zhèng zài yǔ wǒ xiāng yù de lù shang",
+        "english": "Paying the bill for one",
+        "timestamp": "00:29.42"
+      },
+      {
+        "chinese": "马不停蹄",
+        "pinyin": "mǎ bù tíng tí",
+        "english": "I really don't feel lonely",
+        "timestamp": "00:33.57"
+      },
+      {
+        "chinese": "所以当我拥抱整个世界的孤寂",
+        "pinyin": "suǒ yǐ dāng wǒ yōng bào zhěng gè shì jiè de gū jì",
+        "english": "I believe you are on your way to meet me",
+        "timestamp": "00:37.28"
+      },
+      {
+        "chinese": "也像拥抱着你",
+        "pinyin": "yě xiàng yōng bào zhe nǐ",
+        "english": "Without a moment's pause",
+        "timestamp": "00:41.50"
+      },
+      {
+        "chinese": "我不介意你慢动作",
+        "pinyin": "wǒ bú jiè yì nǐ màn dòng zuò",
+        "english": "So when I embrace the loneliness of the world",
+        "timestamp": "00:45.44"
+      },
+      {
+        "chinese": "也不介意这次先擦肩而过",
+        "pinyin": "yě bú jiè yì zhè cì xiān cā jiān ér guò",
+        "english": "It's just like I'm embracing you",
+        "timestamp": "00:49.40"
+      },
+      {
+        "chinese": "某天我们总会遇到对方然后说",
+        "pinyin": "mǒu tiān wǒ men zǒng huì yù dào duì fāng rán hòu shuō",
+        "english": "I don't mind you taking it slow",
+        "timestamp": "00:54.77"
+      },
+      {
+        "chinese": "原来啊 是你噢",
+        "pinyin": "yuán lái a   shì nǐ ō",
+        "english": "Nor do I mind if we pass each other by this time",
+        "timestamp": "00:59.76"
+      },
+      {
+        "chinese": "我不介意你慢动作",
+        "pinyin": "wǒ bú jiè yì nǐ màn dòng zuò",
+        "english": "One day we will finally meet and say",
+        "timestamp": "01:01.87"
+      },
+      {
+        "chinese": "也不介意这次先擦肩而过",
+        "pinyin": "yě bú jiè yì zhè cì xiān cā jiān ér guò",
+        "english": "Oh, so it's you",
+        "timestamp": "01:05.58"
+      },
+      {
+        "chinese": "某天你会发现灯火阑珊处的我",
+        "pinyin": "mǒu tiān nǐ huì fā xiàn dēng huǒ lán shān chù de wǒ",
+        "english": "I don't mind you taking it slow",
+        "timestamp": "01:10.43"
+      },
+      {
+        "chinese": "等了你 好久噢",
+        "pinyin": "děng le nǐ   hǎo jiǔ ō",
+        "english": "Nor do I mind if we pass each other by this time",
+        "timestamp": "01:15.70"
+      },
+      {
+        "chinese": "吃一人份的饭",
+        "pinyin": "chī yì rén fèn de fàn",
+        "english": "One day you will find me where the lights are low",
+        "timestamp": "01:34.63"
+      },
+      {
+        "chinese": "刷一人份的碗",
+        "pinyin": "shuā yì rén fèn de wǎn",
+        "english": "I've been waiting for you for a long time",
+        "timestamp": "01:36.60"
+      },
+      {
+        "chinese": "真的我并没有觉得孤单",
+        "pinyin": "zhēn de wǒ bìng méi yǒu jué de gū dān",
+        "english": "Eating a meal for one",
+        "timestamp": "01:38.72"
+      },
+      {
+        "chinese": "逛一人份的街",
+        "pinyin": "guàng yì rén fèn de jiē",
+        "english": "Washing a bowl for one",
+        "timestamp": "01:42.53"
+      },
+      {
+        "chinese": "买一人份的单",
+        "pinyin": "mǎi yì rén fèn de dān",
+        "english": "Honestly, I don't feel lonely",
+        "timestamp": "01:44.54"
+      },
+      {
+        "chinese": "真的我并没有觉得孤单",
+        "pinyin": "zhēn de wǒ bìng méi yǒu jué de gū dān",
+        "english": "Wandering the streets alone",
+        "timestamp": "01:46.64"
+      },
+      {
+        "chinese": "我相信你正在与我相遇的路上",
+        "pinyin": "wǒ xiāng xìn nǐ zhèng zài yǔ wǒ xiāng yù de lù shang",
+        "english": "Paying the bill for one",
+        "timestamp": "01:49.41"
+      },
+      {
+        "chinese": "马不停蹄",
+        "pinyin": "mǎ bù tíng tí",
+        "english": "Honestly, I don't feel lonely",
+        "timestamp": "01:53.56"
+      },
+      {
+        "chinese": "所以当我拥抱整个世界的孤寂",
+        "pinyin": "suǒ yǐ dāng wǒ yōng bào zhěng gè shì jiè de gū jì",
+        "english": "I believe you're on your way to meet me",
+        "timestamp": "01:57.28"
+      },
+      {
+        "chinese": "也像拥抱着你",
+        "pinyin": "yě xiàng yōng bào zhe nǐ",
+        "english": "Without a moment's pause",
+        "timestamp": "02:01.56"
+      },
+      {
+        "chinese": "我不介意你慢动作",
+        "pinyin": "wǒ bú jiè yì nǐ màn dòng zuò",
+        "english": "So when I embrace the world's loneliness",
+        "timestamp": "02:05.79"
+      },
+      {
+        "chinese": "也不介意这次先擦肩而过",
+        "pinyin": "yě bú jiè yì zhè cì xiān cā jiān ér guò",
+        "english": "It's just like embracing you",
+        "timestamp": "02:09.48"
+      },
+      {
+        "chinese": "某天我们总会遇到对方然后说",
+        "pinyin": "mǒu tiān wǒ men zǒng huì yù dào duì fāng rán hòu shuō",
+        "english": "I don't mind your slow motion",
+        "timestamp": "02:14.45"
+      },
+      {
+        "chinese": "原来啊 是你噢",
+        "pinyin": "yuán lái a   shì nǐ ō",
+        "english": "I don't mind if we pass each other by this time",
+        "timestamp": "02:19.88"
+      },
+      {
+        "chinese": "我不介意你慢动作",
+        "pinyin": "wǒ bú jiè yì nǐ màn dòng zuò",
+        "english": "One day we'll eventually cross paths and say",
+        "timestamp": "02:21.84"
+      },
+      {
+        "chinese": "也不介意这次先擦肩而过",
+        "pinyin": "yě bú jiè yì zhè cì xiān cā jiān ér guò",
+        "english": "Oh, so it was you after all",
+        "timestamp": "02:25.62"
+      },
+      {
+        "chinese": "某天你会发现灯火阑珊处的我",
+        "pinyin": "mǒu tiān nǐ huì fā xiàn dēng huǒ lán shān chù de wǒ",
+        "english": "I don't mind your slow motion",
+        "timestamp": "02:30.52"
+      },
+      {
+        "chinese": "等了你 好久噢",
+        "pinyin": "děng le nǐ   hǎo jiǔ ō",
+        "english": "I don't mind if we pass each other by this time",
+        "timestamp": "02:35.88"
+      },
+      {
+        "chinese": "正在与我相遇的路上马不停蹄",
+        "pinyin": "zhèng zài yǔ wǒ xiāng yù de lù shang mǎ bù tíng tí",
+        "english": "One day you'll find me where the lights are dim",
+        "timestamp": "02:38.87"
+      },
+      {
+        "chinese": "就算这次先擦肩而过",
+        "pinyin": "jiù suàn zhè cì xiān cā jiān ér guò",
+        "english": "Having waited for you for a long time",
+        "timestamp": "02:42.74"
+      },
+      {
+        "chinese": "所以当我拥抱整个世界的孤寂",
+        "pinyin": "suǒ yǐ dāng wǒ yōng bào zhěng gè shì jiè de gū jì",
+        "english": "On your way to meet me without stopping",
+        "timestamp": "02:46.46"
+      },
+      {
+        "chinese": "也像拥抱着你",
+        "pinyin": "yě xiàng yōng bào zhe nǐ",
+        "english": "Even if we pass each other by this time",
+        "timestamp": "02:48.85"
+      },
+      {
+        "chinese": "我不介意你慢动作",
+        "pinyin": "wǒ bú jiè yì nǐ màn dòng zuò",
+        "english": "So when I embrace the loneliness of the whole world",
+        "timestamp": "02:53.64"
+      },
+      {
+        "chinese": "也不介意这次先擦肩而过",
+        "pinyin": "yě bú jiè yì zhè cì xiān cā jiān ér guò",
+        "english": "It is also like embracing you",
+        "timestamp": "02:57.50"
+      },
+      {
+        "chinese": "某天我们总会遇到对方然后说",
+        "pinyin": "mǒu tiān wǒ men zǒng huì yù dào duì fāng rán hòu shuō",
+        "english": "I don't mind if you take it slow",
+        "timestamp": "03:02.66"
+      },
+      {
+        "chinese": "好巧噢",
+        "pinyin": "hǎo qiǎo ō",
+        "english": "Nor do I mind if we pass each other by this time",
+        "timestamp": "03:07.91"
+      },
+      {
+        "chinese": "你总会等到 姗姗来迟的我",
+        "pinyin": "nǐ zǒng huì děng dào   shān shān lái chí de wǒ",
+        "english": "Someday we will surely meet and say",
+        "timestamp": "03:27.17"
+      },
+      {
+        "chinese": "我总会等到 姗姗来迟的你",
+        "pinyin": "wǒ zǒng huì děng dào   shān shān lái chí de nǐ",
+        "english": "What a coincidence",
+        "timestamp": "03:30.83"
+      },
+      {
+        "chinese": "我总会等到 姗姗来迟的你",
+        "pinyin": "wǒ zǒng huì děng dào   shān shān lái chí de nǐ",
+        "english": "You will surely wait for the late-arriving me",
+        "timestamp": "03:34.78"
+      },
+      {
+        "chinese": "你总会等到 姗姗来迟的我",
+        "pinyin": "nǐ zǒng huì děng dào   shān shān lái chí de wǒ",
+        "english": "I will surely wait for the late-arriving you",
+        "timestamp": "03:38.71"
+      },
+      {
+        "chinese": "你总会等到 姗姗来迟的我",
+        "pinyin": "nǐ zǒng huì děng dào   shān shān lái chí de wǒ",
+        "english": "I will surely wait for the late-arriving you",
+        "timestamp": "03:42.94"
+      },
+      {
+        "chinese": "我总会等到 姗姗来迟的你",
+        "pinyin": "wǒ zǒng huì děng dào   shān shān lái chí de nǐ",
+        "english": "You will surely wait for the late-arriving me",
+        "timestamp": "03:46.72"
+      },
+      {
+        "chinese": "我总会等到 姗姗来迟的你",
+        "pinyin": "wǒ zǒng huì děng dào   shān shān lái chí de nǐ",
+        "english": "You will surely wait for the late-arriving me",
+        "timestamp": "03:51.01"
+      },
+      {
+        "chinese": "你总会等到 姗姗来迟的我",
+        "pinyin": "nǐ zǒng huì děng dào   shān shān lái chí de wǒ",
+        "english": "I will surely wait for the late-arriving you",
+        "timestamp": "03:54.76"
+      }
+    ],
+    "album": "我愚蠢的理想主义",
+    "duration": 246
+  },
+  {
+    "id": "3RAJlmB7iA0",
+    "title": "我當你空氣",
+    "artist": "旺福",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "別問我 把你當什麼東西",
+        "pinyin": "bié wèn wǒ   bǎ nǐ dāng shén mó dōng xī",
+        "english": "Don't ask me what you are to me",
+        "timestamp": "00:16.52"
+      },
+      {
+        "chinese": "別刻意 縮短我們的距離",
+        "pinyin": "bié kè yì   suō duǎn wǒ mén de jù lí",
+        "english": "Don't try to force us closer together",
+        "timestamp": "00:20.37"
+      },
+      {
+        "chinese": "我們之間的關係",
+        "pinyin": "wǒ mén zhī jiàn de guān xì",
+        "english": "The relationship between us",
+        "timestamp": "00:24.46"
+      },
+      {
+        "chinese": "一點都不神秘",
+        "pinyin": "yì diǎn dōu bù shén mì",
+        "english": "Is not a mystery at all",
+        "timestamp": "00:28.44"
+      },
+      {
+        "chinese": "你問我 到底喜不喜歡你",
+        "pinyin": "nǐ wèn wǒ   dào dǐ xǐ bu xǐ huān nǐ",
+        "english": "You ask me if I really like you",
+        "timestamp": "00:32.37"
+      },
+      {
+        "chinese": "這問題 會不會太有事情",
+        "pinyin": "zhè wèn tí   huì bu huì tài yǒu shì qíng",
+        "english": "Is that even a question?",
+        "timestamp": "00:36.22"
+      },
+      {
+        "chinese": "我們之間的關係",
+        "pinyin": "wǒ mén zhī jiàn de guān xì",
+        "english": "The relationship between us",
+        "timestamp": "00:40.46"
+      },
+      {
+        "chinese": "我現在就告訴你",
+        "pinyin": "wǒ xiàn zài jiù gào sù nǐ",
+        "english": "I'll tell you right now",
+        "timestamp": "00:44.28"
+      },
+      {
+        "chinese": "Are you ready?",
+        "pinyin": "A r e   y o u   r e a d y ?",
+        "english": "Are you ready?",
+        "timestamp": "00:46.36"
+      },
+      {
+        "chinese": "我當你空氣 你就是空氣",
+        "pinyin": "wǒ dāng nǐ kōng qì   nǐ jiù shì kōng qì",
+        "english": "To me you're like air, you are the air",
+        "timestamp": "00:48.85"
+      },
+      {
+        "chinese": "隨時需要你 沒你會窒息",
+        "pinyin": "suí shí xū yào nǐ   méi nǐ huì zhì xī",
+        "english": "I need you always, I'd suffocate without you",
+        "timestamp": "00:52.83"
+      },
+      {
+        "chinese": "喔 我要對你深深深呼吸",
+        "pinyin": "wō   wǒ yào duì nǐ shēn shēn shēn hū xī",
+        "english": "Oh, I want to breathe you in deep",
+        "timestamp": "00:56.94"
+      },
+      {
+        "chinese": "我當你空氣 你就是空氣",
+        "pinyin": "wǒ dāng nǐ kōng qì   nǐ jiù shì kōng qì",
+        "english": "To me you're like air, you are the air",
+        "timestamp": "01:04.70"
+      },
+      {
+        "chinese": "隨時需要你 沒你會窒息",
+        "pinyin": "suí shí xū yào nǐ   méi nǐ huì zhì xī",
+        "english": "I need you always, I'd suffocate without you",
+        "timestamp": "01:08.78"
+      },
+      {
+        "chinese": "喔 沒有你我要怎麼活下去",
+        "pinyin": "wō   méi yǒu nǐ wǒ yào zěn mó huó xià qù",
+        "english": "Oh, how could I ever live without you",
+        "timestamp": "01:12.94"
+      },
+      {
+        "chinese": "我和你 沒有什麼大道理",
+        "pinyin": "wǒ hé nǐ   méi yǒu shén mó dà dào lǐ",
+        "english": "There's no grand logic between you and me",
+        "timestamp": "01:36.39"
+      },
+      {
+        "chinese": "我們都 是對方的必需品",
+        "pinyin": "wǒ mén dōu   shì duì fāng de bì xū pǐn",
+        "english": "We're both essentials to each other",
+        "timestamp": "01:40.33"
+      },
+      {
+        "chinese": "全世界我最懂你",
+        "pinyin": "quán shì jiè wǒ zuì dǒng nǐ",
+        "english": "I know you better than anyone in the world",
+        "timestamp": "01:44.48"
+      },
+      {
+        "chinese": "只輸你媽而已",
+        "pinyin": "zhī shū nǐ mā ér yǐ",
+        "english": "Second only to your mother",
+        "timestamp": "01:48.21"
+      },
+      {
+        "chinese": "你傷心 就會傷到我的心",
+        "pinyin": "nǐ shāng xīn   jiù huì shāng dào wǒ de xīn",
+        "english": "When you're sad, it breaks my heart",
+        "timestamp": "01:52.46"
+      },
+      {
+        "chinese": "你快樂 我陪你笑到不行",
+        "pinyin": "nǐ kuài lè   wǒ péi nǐ xiào dào bù xíng",
+        "english": "When you're happy, I'll laugh with you until it hurts",
+        "timestamp": "01:56.25"
+      },
+      {
+        "chinese": "快樂傷心你決定",
+        "pinyin": "kuài lè shāng xīn nǐ jué dìng",
+        "english": "Happy or sad, you decide",
+        "timestamp": "02:00.36"
+      },
+      {
+        "chinese": "我的決定就是要 跟你一起",
+        "pinyin": "wǒ de jué dìng jiù shì yào   gēn nǐ yì qǐ",
+        "english": "My decision is just to be with you",
+        "timestamp": "02:04.32"
+      },
+      {
+        "chinese": "我當你空氣 你就是空氣",
+        "pinyin": "wǒ dāng nǐ kōng qì   nǐ jiù shì kōng qì",
+        "english": "I treat you like air, you are the air",
+        "timestamp": "02:08.96"
+      },
+      {
+        "chinese": "隨時需要你 沒你會窒息",
+        "pinyin": "suí shí xū yào nǐ   méi nǐ huì zhì xī",
+        "english": "I need you anytime, without you I'd suffocate",
+        "timestamp": "02:12.73"
+      },
+      {
+        "chinese": "喔 我要對你深深深呼吸",
+        "pinyin": "wō   wǒ yào duì nǐ shēn shēn shēn hū xī",
+        "english": "Oh, I want to take a deep, deep breath of you",
+        "timestamp": "02:16.82"
+      },
+      {
+        "chinese": "我當你空氣 你就是空氣",
+        "pinyin": "wǒ dāng nǐ kōng qì   nǐ jiù shì kōng qì",
+        "english": "I treat you like air, you are the air",
+        "timestamp": "02:24.84"
+      },
+      {
+        "chinese": "隨時需要你 沒你會窒息",
+        "pinyin": "suí shí xū yào nǐ   méi nǐ huì zhì xī",
+        "english": "I need you anytime, without you I'd suffocate",
+        "timestamp": "02:28.80"
+      },
+      {
+        "chinese": "喔 沒有你我要怎麼活下去",
+        "pinyin": "wō   méi yǒu nǐ wǒ yào zěn mó huó xià qù",
+        "english": "Oh, without you how am I supposed to live",
+        "timestamp": "02:32.70"
+      },
+      {
+        "chinese": "我當你空氣 你就是空氣",
+        "pinyin": "wǒ dāng nǐ kōng qì   nǐ jiù shì kōng qì",
+        "english": "I treat you like air, you are the air",
+        "timestamp": "03:00.71"
+      },
+      {
+        "chinese": "隨時需要你 沒你會窒息",
+        "pinyin": "suí shí xū yào nǐ   méi nǐ huì zhì xī",
+        "english": "I need you anytime, without you I'd suffocate",
+        "timestamp": "03:04.72"
+      },
+      {
+        "chinese": "喔 我要對你深深深呼吸",
+        "pinyin": "wō   wǒ yào duì nǐ shēn shēn shēn hū xī",
+        "english": "Oh, I want to take a deep, deep breath of you",
+        "timestamp": "03:08.73"
+      },
+      {
+        "chinese": "我當你空氣 你就是空氣",
+        "pinyin": "wǒ dāng nǐ kōng qì   nǐ jiù shì kōng qì",
+        "english": "I treat you like air, you are the air",
+        "timestamp": "03:16.69"
+      },
+      {
+        "chinese": "隨時需要你 沒你會窒息",
+        "pinyin": "suí shí xū yào nǐ   méi nǐ huì zhì xī",
+        "english": "I need you anytime, without you I'd suffocate",
+        "timestamp": "03:20.88"
+      },
+      {
+        "chinese": "喔 沒有你我要怎麼活下去",
+        "pinyin": "wō   méi yǒu nǐ wǒ yào zěn mó huó xià qù",
+        "english": "Oh, without you how am I supposed to live",
+        "timestamp": "03:24.87"
+      }
+    ],
+    "album": "旺情歌",
+    "duration": 235
+  },
+  {
+    "id": "dI77xEZeDnI",
+    "title": "Heaven.zip",
+    "artist": "LÜCY",
+    "hasLyrics": false
+  },
+  {
+    "id": "KFxO-Mj3q0c",
+    "title": "What's Wrong",
+    "artist": "周興哲",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "你說藍色是你最愛的顏色",
+        "pinyin": "nǐ shuō lán sè shì nǐ zuì ài de yán sè",
+        "english": "I will read the file `songs/Chinese/周興哲 Eric Chou - What's Wrong.md` to understand the context of the lyrics.",
+        "timestamp": "00:30.36"
+      },
+      {
+        "chinese": "你說如果沒有愛那又如何",
+        "pinyin": "nǐ shuō rú guǒ méi yǒu ài nà yòu rú hé",
+        "english": "You said blue is your favorite color",
+        "timestamp": "00:33.96"
+      },
+      {
+        "chinese": "怎麼了 你怎麼了",
+        "pinyin": "zěn mó le   nǐ zěn mó le",
+        "english": "You said so what if there is no love",
+        "timestamp": "00:37.09"
+      },
+      {
+        "chinese": "看過你曾經最燦爛的笑容",
+        "pinyin": "kàn guò nǐ céng jīng zuì càn làn de xiào róng",
+        "english": "What's wrong, what's wrong with you",
+        "timestamp": "00:44.12"
+      },
+      {
+        "chinese": "看過你緊緊擁抱愛的面孔",
+        "pinyin": "kàn guò nǐ jǐn jǐn yōng bào ài de miàn kǒng",
+        "english": "I've seen your once most brilliant smile",
+        "timestamp": "00:47.68"
+      },
+      {
+        "chinese": "怎麼了 你消失了",
+        "pinyin": "zěn mó le   nǐ xiāo shī le",
+        "english": "I've seen your face as you tightly embraced love",
+        "timestamp": "00:50.78"
+      },
+      {
+        "chinese": "是不是我錯了 搞錯了",
+        "pinyin": "shì bu shì wǒ cuò le   gǎo cuò le",
+        "english": "What's wrong? You've disappeared",
+        "timestamp": "00:57.86"
+      },
+      {
+        "chinese": "天灰了 雨下著 凝望著 你走了",
+        "pinyin": "tiān huī le   yǔ xià zhù   níng wàng zhù   nǐ zǒu le",
+        "english": "Was I wrong? Did I get it wrong?",
+        "timestamp": "01:00.33"
+      },
+      {
+        "chinese": "都回不去了 像從前快樂",
+        "pinyin": "dōu huí bú qù le   xiàng cóng qián kuài lè",
+        "english": "The sky turned gray, the rain is falling, staring as you walked away",
+        "timestamp": "01:03.93"
+      },
+      {
+        "chinese": "怎麼能輕易說要結束",
+        "pinyin": "zěn mó néng qīng yì shuō yào jié shù",
+        "english": "We can't go back to being happy like before",
+        "timestamp": "01:11.54"
+      },
+      {
+        "chinese": "怎麼會讓你抱著我哭",
+        "pinyin": "zěn mó huì ràng nǐ bào zhù wǒ kū",
+        "english": "How can you easily say it's over",
+        "timestamp": "01:18.57"
+      },
+      {
+        "chinese": "太努力的我們最後用力給祝福",
+        "pinyin": "tài nǔ lì de wǒ mén zuì hòu yòng lì gěi zhù fú",
+        "english": "How could I let you hold me and cry",
+        "timestamp": "01:25.05"
+      },
+      {
+        "chinese": "怎麼看你笑著 我卻心如刀割",
+        "pinyin": "zěn mó kàn nǐ xiào zhù   wǒ què xīn rú dāo gē",
+        "english": "We tried so hard, and in the end, we gave our blessings with all our might",
+        "timestamp": "01:32.29"
+      },
+      {
+        "chinese": "原來我們都一樣頑固",
+        "pinyin": "yuán lái wǒ mén dōu yí yàng wán gù",
+        "english": "How can I watch you smile while my heart feels like it's being cut by knives",
+        "timestamp": "01:39.08"
+      },
+      {
+        "chinese": "怎麼會誰都絕口不提要幸福",
+        "pinyin": "zěn mó huì shuí dōu jué kǒu bù tí yào xìng fú",
+        "english": "It turns out we are both just as stubborn",
+        "timestamp": "01:45.13"
+      },
+      {
+        "chinese": "再也不能牽著你走未來每一步",
+        "pinyin": "zài yě bù néng qiān zhù nǐ zǒu wèi lái měi yí bù",
+        "english": "How is it that neither of us mentions wanting to be happy",
+        "timestamp": "01:52.36"
+      },
+      {
+        "chinese": "我們懷念什麼 失去愛那一刻才曉得",
+        "pinyin": "wǒ mén huái niàn shén mó   shī qù ài nà yí kè cái xiǎo dé",
+        "english": "I can no longer hold your hand for every step of the future",
+        "timestamp": "01:59.70"
+      },
+      {
+        "chinese": "你說藍色是你最愛的顏色",
+        "pinyin": "nǐ shuō lán sè shì nǐ zuì ài de yán sè",
+        "english": "What do we miss? We only realize it the moment we lose love",
+        "timestamp": "02:20.27"
+      },
+      {
+        "chinese": "你說如果沒有愛那又如何",
+        "pinyin": "nǐ shuō rú guǒ méi yǒu ài nà yòu rú hé",
+        "english": "You said blue is your favorite color",
+        "timestamp": "02:23.68"
+      },
+      {
+        "chinese": "怎麼了 你怎麼了",
+        "pinyin": "zěn mó le   nǐ zěn mó le",
+        "english": "You said so what if there is no love",
+        "timestamp": "02:26.51"
+      },
+      {
+        "chinese": "看過你曾經最燦爛的笑容",
+        "pinyin": "kàn guò nǐ céng jīng zuì càn làn de xiào róng",
+        "english": "What's wrong, what's wrong with you",
+        "timestamp": "02:33.97"
+      },
+      {
+        "chinese": "看過你緊緊擁抱愛的面孔",
+        "pinyin": "kàn guò nǐ jǐn jǐn yōng bào ài de miàn kǒng",
+        "english": "I've seen your most brilliant smile",
+        "timestamp": "02:37.50"
+      },
+      {
+        "chinese": "怎麼了 你消失了",
+        "pinyin": "zěn mó le   nǐ xiāo shī le",
+        "english": "I've seen your face as you held love so tight",
+        "timestamp": "02:40.45"
+      },
+      {
+        "chinese": "是不是我錯了 搞錯了",
+        "pinyin": "shì bu shì wǒ cuò le   gǎo cuò le",
+        "english": "What happened? You've disappeared",
+        "timestamp": "02:47.74"
+      },
+      {
+        "chinese": "越愛著 越痛著 苦笑著 你走了",
+        "pinyin": "yuè ài zhù   yuè tòng zhù   kǔ xiào zhù   nǐ zǒu le",
+        "english": "Is it my fault? Did I get it all wrong?",
+        "timestamp": "02:49.95"
+      },
+      {
+        "chinese": "我們約好了 要比我快樂",
+        "pinyin": "wǒ mén yuē hǎo le   yào bǐ wǒ kuài lè",
+        "english": "The more I love, the more it hurts; with a bitter smile, you're gone",
+        "timestamp": "02:53.77"
+      },
+      {
+        "chinese": "怎麼能輕易說要結束",
+        "pinyin": "zěn mó néng qīng yì shuō yào jié shù",
+        "english": "We promised you'd be happier than me",
+        "timestamp": "03:01.37"
+      },
+      {
+        "chinese": "怎麼會讓你抱著我哭",
+        "pinyin": "zěn mó huì ràng nǐ bào zhù wǒ kū",
+        "english": "How can you say it's over so easily",
+        "timestamp": "03:08.14"
+      },
+      {
+        "chinese": "太努力的我們最後用力給祝福",
+        "pinyin": "tài nǔ lì de wǒ mén zuì hòu yòng lì gěi zhù fú",
+        "english": "How could I let you cry in my arms",
+        "timestamp": "03:14.57"
+      },
+      {
+        "chinese": "祝福我最愛的 (我最愛的)",
+        "pinyin": "zhù fú wǒ zuì ài de   ( wǒ zuì ài de )",
+        "english": "We tried so hard, and in the end, we gave our blessings with all we had",
+        "timestamp": "03:22.07"
+      },
+      {
+        "chinese": "遇見更愛你的飛翔著",
+        "pinyin": "yù jiàn gèng ài nǐ de fēi xiáng zhù",
+        "english": "Blessing my dearest (my dearest)",
+        "timestamp": "03:25.48"
+      },
+      {
+        "chinese": "我不想說 你不會懂 請別可憐我",
+        "pinyin": "wǒ bù xiǎng shuō   nǐ bú huì dǒng   qǐng bié kě lián wǒ",
+        "english": "May you find someone who loves you more and soar",
+        "timestamp": "03:29.03"
+      },
+      {
+        "chinese": "受傷的我究竟需要一個人多少年去度過",
+        "pinyin": "shòu shāng de wǒ jiū jìng xū yào yí gè rén duō shào nián qù dù guò",
+        "english": "I don't want to say, you wouldn't understand, please don't pity me",
+        "timestamp": "03:35.43"
+      },
+      {
+        "chinese": "我不想說 你不會懂 請別可憐我",
+        "pinyin": "wǒ bù xiǎng shuō   nǐ bú huì dǒng   qǐng bié kě lián wǒ",
+        "english": "How many years will I need to spend alone to get over this pain",
+        "timestamp": "03:42.68"
+      },
+      {
+        "chinese": "誰說我 一定要永遠笑著 我不想",
+        "pinyin": "shuí shuō wǒ   yí dìng yào yǒng yuǎn xiào zhù   wǒ bù xiǎng",
+        "english": "I don't want to say, you wouldn't understand, please don't pity me",
+        "timestamp": "03:49.26"
+      },
+      {
+        "chinese": "怎麼能輕易說要結束",
+        "pinyin": "zěn mó néng qīng yì shuō yào jié shù",
+        "english": "Who says I have to keep smiling? I don't want to",
+        "timestamp": "03:56.32"
+      },
+      {
+        "chinese": "怎麼會讓你抱著我哭",
+        "pinyin": "zěn mó huì ràng nǐ bào zhù wǒ kū",
+        "english": "How can you say it's over so easily",
+        "timestamp": "04:02.97"
+      },
+      {
+        "chinese": "太努力的我們最後用力給祝福",
+        "pinyin": "tài nǔ lì de wǒ mén zuì hòu yòng lì gěi zhù fú",
+        "english": "How could I let you cry in my arms",
+        "timestamp": "04:09.32"
+      },
+      {
+        "chinese": "祝福我最愛的 能永遠飛翔著",
+        "pinyin": "zhù fú wǒ zuì ài de   néng yǒng yuǎn fēi xiáng zhù",
+        "english": "We tried so hard, and in the end, we gave our blessings with all we had",
+        "timestamp": "04:16.66"
+      },
+      {
+        "chinese": "原來我們都一樣頑固",
+        "pinyin": "yuán lái wǒ mén dōu yí yàng wán gù",
+        "english": "Blessing my dearest, may you soar forever",
+        "timestamp": "04:23.80"
+      },
+      {
+        "chinese": "怎麼會誰都絕口不提要幸福",
+        "pinyin": "zěn mó huì shuí dōu jué kǒu bù tí yào xìng fú",
+        "english": "It turns out we were both just as stubborn",
+        "timestamp": "04:29.67"
+      },
+      {
+        "chinese": "再也不能牽著你走未來每一步",
+        "pinyin": "zài yě bù néng qiān zhù nǐ zǒu wèi lái měi yí bù",
+        "english": "How come neither of us mentions wanting to be happy?",
+        "timestamp": "04:36.83"
+      },
+      {
+        "chinese": "我們懷念什麼 失去愛那一刻才曉得",
+        "pinyin": "wǒ mén huái niàn shén mó   shī qù ài nà yí kè cái xiǎo dé",
+        "english": "I can no longer hold your hand through every step of the future.",
+        "timestamp": "04:44.26"
+      },
+      {
+        "chinese": "Hoo-hoo",
+        "pinyin": "H o o - h o o",
+        "english": "What do we miss? We only realize the moment love is lost.",
+        "timestamp": "04:57.36"
+      }
+    ],
+    "album": "Freedom",
+    "duration": 321
+  },
+  {
+    "id": "t3CrQQeM2EU",
+    "title": "CHANGE",
+    "artist": "瘦子E.SO",
+    "hasLyrics": false
+  },
+  {
+    "id": "762rm2HAOGY",
+    "title": "How Have You Been?",
+    "artist": "周興哲",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "是不是 還那麼愛遲到",
+        "pinyin": "shì bu shì   huán nà mó ài chí dào",
+        "english": "Are you still always running late?",
+        "timestamp": "00:25.15"
+      },
+      {
+        "chinese": "熬夜工作又睡不好",
+        "pinyin": "áo yè gōng zuò yòu shuì bù hǎo",
+        "english": "Working late and not sleeping well?",
+        "timestamp": "00:32.04"
+      },
+      {
+        "chinese": "等你 完成你的目標",
+        "pinyin": "děng nǐ   wán chéng nǐ de mù biāo",
+        "english": "Waiting for you to reach your goals",
+        "timestamp": "00:37.28"
+      },
+      {
+        "chinese": "要戒掉逞強的嗜好",
+        "pinyin": "yào jiè diào chěng qiáng de shì hào",
+        "english": "You need to quit the habit of acting tough",
+        "timestamp": "00:43.73"
+      },
+      {
+        "chinese": "都怪我 把自尊放太高",
+        "pinyin": "dōu guài wǒ   bǎ zì zūn fàng tài gāo",
+        "english": "It's all my fault for being too proud",
+        "timestamp": "00:49.42"
+      },
+      {
+        "chinese": "沒有把你照顧好",
+        "pinyin": "méi yǒu bǎ nǐ zhào gù hǎo",
+        "english": "For not taking good care of you",
+        "timestamp": "00:56.25"
+      },
+      {
+        "chinese": "驕傲 是脆弱的外表",
+        "pinyin": "jiāo ào   shì cuì ruò de wài biǎo",
+        "english": "Pride is just a mask for fragility",
+        "timestamp": "01:01.30"
+      },
+      {
+        "chinese": "最怕我的心你不要",
+        "pinyin": "zuì pà wǒ de xīn nǐ bú yào",
+        "english": "I'm most afraid that you won't want my heart",
+        "timestamp": "01:07.68"
+      },
+      {
+        "chinese": "能不能繼續 對我哭 對我笑 對我好",
+        "pinyin": "néng bu néng jì xù   duì wǒ kū   duì wǒ xiào   duì wǒ hǎo",
+        "english": "Can you keep crying with me, smiling with me, being good to me?",
+        "timestamp": "01:12.37"
+      },
+      {
+        "chinese": "繼續讓我 為你想 為你瘋 陪你老",
+        "pinyin": "jì xù ràng wǒ   wéi nǐ xiǎng   wéi nǐ fēng   péi nǐ lǎo",
+        "english": "Keep letting me think of you, go crazy for you, grow old with you",
+        "timestamp": "01:18.72"
+      },
+      {
+        "chinese": "你好不好 好想知道",
+        "pinyin": "nǐ hǎo bu hǎo   hǎo xiǎng zhī dào",
+        "english": "How have you been? I really want to know",
+        "timestamp": "01:25.23"
+      },
+      {
+        "chinese": "別急著把回憶都丟掉",
+        "pinyin": "bié jí zhù bǎ huí yì dōu diū diào",
+        "english": "Don't be in such a hurry to throw away the memories",
+        "timestamp": "01:30.82"
+      },
+      {
+        "chinese": "我只需要你 在身邊 陪我吵 陪我鬧",
+        "pinyin": "wǒ zhī xū yào nǐ   zài shēn biān   péi wǒ chǎo   péi wǒ nào",
+        "english": "I just need you by my side, to bicker and fuss with me",
+        "timestamp": "01:36.61"
+      },
+      {
+        "chinese": "用好的我 把過去 壞的我 都換掉",
+        "pinyin": "yòng hǎo de wǒ   bǎ guò qù   huài de wǒ   dōu huàn diào",
+        "english": "Let the good me replace the bad me from the past",
+        "timestamp": "01:43.09"
+      },
+      {
+        "chinese": "好想聽到 你堅決說愛我",
+        "pinyin": "hǎo xiǎng tīng dào   nǐ jiān jué shuō ài wǒ",
+        "english": "I so want to hear you firmly say you love me",
+        "timestamp": "01:49.51"
+      },
+      {
+        "chinese": "可惜回不去那一秒",
+        "pinyin": "kě xī huí bú qù nà yì miǎo",
+        "english": "Too bad we can't go back to that moment",
+        "timestamp": "01:56.43"
+      },
+      {
+        "chinese": "你好不好",
+        "pinyin": "nǐ hǎo bu hǎo",
+        "english": "How have you been?",
+        "timestamp": "02:01.27"
+      },
+      {
+        "chinese": "天知道 我快要受不了",
+        "pinyin": "tiān zhī dào   wǒ kuài yào shòu bù liǎo",
+        "english": "God knows I'm about to break down",
+        "timestamp": "02:13.85"
+      },
+      {
+        "chinese": "後悔鑽進心裡燒",
+        "pinyin": "hòu huǐ zuān jìn xīn lǐ shāo",
+        "english": "Regret is burning inside my heart",
+        "timestamp": "02:20.72"
+      },
+      {
+        "chinese": "擁抱 再多一次就好",
+        "pinyin": "yōng bào   zài duō yí cì jiù hǎo",
+        "english": "Just one more hug is all I need",
+        "timestamp": "02:26.02"
+      },
+      {
+        "chinese": "你要的我都做得到",
+        "pinyin": "nǐ yào de wǒ dōu zuò dé dào",
+        "english": "I can do everything you want",
+        "timestamp": "02:32.58"
+      },
+      {
+        "chinese": "能不能繼續 對我哭 對我笑 對我好",
+        "pinyin": "néng bu néng jì xù   duì wǒ kū   duì wǒ xiào   duì wǒ hǎo",
+        "english": "Can't we continue? You crying to me, laughing with me, being good to me",
+        "timestamp": "02:37.09"
+      },
+      {
+        "chinese": "繼續讓我 為你想 為你瘋 陪你老",
+        "pinyin": "jì xù ràng wǒ   wéi nǐ xiǎng   wéi nǐ fēng   péi nǐ lǎo",
+        "english": "Let me continue to think of you, go crazy for you, grow old with you",
+        "timestamp": "02:43.30"
+      },
+      {
+        "chinese": "給你的好 還要不要",
+        "pinyin": "gěi nǐ de hǎo   huán yào bu yào",
+        "english": "Do you still want the good I give you",
+        "timestamp": "02:49.73"
+      },
+      {
+        "chinese": "答案我卻不敢揭曉",
+        "pinyin": "dá àn wǒ què bù gǎn jiē xiǎo",
+        "english": "But I dare not reveal the answer",
+        "timestamp": "02:55.26"
+      },
+      {
+        "chinese": "我只需要你 在身邊 陪我吵 陪我鬧",
+        "pinyin": "wǒ zhī xū yào nǐ   zài shēn biān   péi wǒ chǎo   péi wǒ nào",
+        "english": "I just need you by my side, to argue with me, to make a fuss with me",
+        "timestamp": "03:01.06"
+      },
+      {
+        "chinese": "別用離開教我 失去的人最重要",
+        "pinyin": "bié yòng lí kāi jiào wǒ   shī qù de rén zuì zhòng yào",
+        "english": "Don't use leaving to teach me that the one lost is the most important",
+        "timestamp": "03:07.69"
+      },
+      {
+        "chinese": "別說 你曾經愛過我",
+        "pinyin": "bié shuō   nǐ céng jīng ài guò wǒ",
+        "english": "Don't say you used to love me",
+        "timestamp": "03:14.02"
+      },
+      {
+        "chinese": "讓我們回到那一秒",
+        "pinyin": "ràng wǒ mén huí dào nà yì miǎo",
+        "english": "Let's go back to that very second",
+        "timestamp": "03:20.48"
+      },
+      {
+        "chinese": "你好不好",
+        "pinyin": "nǐ hǎo bu hǎo",
+        "english": "How have you been",
+        "timestamp": "03:25.28"
+      },
+      {
+        "chinese": "能不能繼續 對我哭 對我笑 對我好",
+        "pinyin": "néng bu néng jì xù   duì wǒ kū   duì wǒ xiào   duì wǒ hǎo",
+        "english": "Can't we continue? You crying to me, laughing with me, being good to me",
+        "timestamp": "03:37.06"
+      },
+      {
+        "chinese": "繼續讓我 為你想 為你瘋 陪你老",
+        "pinyin": "jì xù ràng wǒ   wéi nǐ xiǎng   wéi nǐ fēng   péi nǐ lǎo",
+        "english": "Let me continue to think of you, go crazy for you, grow old with you",
+        "timestamp": "03:43.33"
+      },
+      {
+        "chinese": "你好不好 我好想知道",
+        "pinyin": "nǐ hǎo bu hǎo   wǒ hǎo xiǎng zhī dào",
+        "english": "How have you been? I really want to know",
+        "timestamp": "03:49.83"
+      },
+      {
+        "chinese": "別急著把我的愛丟掉",
+        "pinyin": "bié jí zhù bǎ wǒ de ài diū diào",
+        "english": "Don't rush to throw my love away",
+        "timestamp": "03:55.34"
+      },
+      {
+        "chinese": "我只需要你 在身邊 陪我吵 陪我鬧",
+        "pinyin": "wǒ zhī xū yào nǐ   zài shēn biān   péi wǒ chǎo   péi wǒ nào",
+        "english": "I just need you by my side, to argue with me, to make a fuss with me",
+        "timestamp": "04:01.17"
+      },
+      {
+        "chinese": "別用離開教我 失去的人最重要",
+        "pinyin": "bié yòng lí kāi jiào wǒ   shī qù de rén zuì zhòng yào",
+        "english": "Don't use leaving to teach me that the one lost is the most important",
+        "timestamp": "04:07.75"
+      },
+      {
+        "chinese": "別說 你曾經愛過我",
+        "pinyin": "bié shuō   nǐ céng jīng ài guò wǒ",
+        "english": "Don't say you used to love me",
+        "timestamp": "04:14.19"
+      },
+      {
+        "chinese": "讓我們回到那一秒",
+        "pinyin": "ràng wǒ mén huí dào nà yì miǎo",
+        "english": "Let's go back to that very second",
+        "timestamp": "04:20.68"
+      },
+      {
+        "chinese": "你好不好",
+        "pinyin": "nǐ hǎo bu hǎo",
+        "english": "How have you been",
+        "timestamp": "04:25.54"
+      }
+    ],
+    "album": "What Love Has Taught Us",
+    "duration": 287.28
+  },
+  {
+    "id": "x3xdtL-dnQo",
+    "title": "Something I Don't Need",
+    "artist": "瘦子E.SO",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "2月 Nacpan Beach",
+        "pinyin": "2 yuè   N a c p a n   B e a c h",
+        "english": "February at Nacpan Beach",
+        "timestamp": "00:11.33"
+      },
+      {
+        "chinese": "潮汐涼風 白沙地",
+        "pinyin": "cháo xī liáng fēng   bái shā dì",
+        "english": "Tides, cool breeze, white sands",
+        "timestamp": "00:15.14"
+      },
+      {
+        "chinese": "海的顏色 Tiffany",
+        "pinyin": "hǎi de yán sè   T i f f a n y",
+        "english": "The sea is Tiffany blue",
+        "timestamp": "00:17.74"
+      },
+      {
+        "chinese": "說點 大道理",
+        "pinyin": "shuō diǎn   dà dào lǐ",
+        "english": "Talking about big philosophies",
+        "timestamp": "00:21.59"
+      },
+      {
+        "chinese": "曾經我們都同意",
+        "pinyin": "céng jīng wǒ mén dōu tóng yì",
+        "english": "We used to agree",
+        "timestamp": "00:25.39"
+      },
+      {
+        "chinese": "一無所有的定義",
+        "pinyin": "yì wú suǒ yǒu de dìng yì",
+        "english": "On the definition of having nothing",
+        "timestamp": "00:27.99"
+      },
+      {
+        "chinese": "Free spirit 在耳中旋繞",
+        "pinyin": "F r e e   s p i r i t   zài ěr zhōng xuán rào",
+        "english": "Free spirit swirling in my ears",
+        "timestamp": "00:31.46"
+      },
+      {
+        "chinese": "搖頭晃腦像海中水草",
+        "pinyin": "yáo tóu huàng nǎo xiàng hǎi zhōng shuǐ cǎo",
+        "english": "Bobbing my head like seaweed in the sea",
+        "timestamp": "00:36.67"
+      },
+      {
+        "chinese": "樹越砍越貴 捨不得擤個鼻涕",
+        "pinyin": "shù yuè kǎn yuè guì   shě bù dé xǐng gè bí tì",
+        "english": "Trees get pricier as they're cut, reluctant to even blow my nose",
+        "timestamp": "00:42.23"
+      },
+      {
+        "chinese": "好幾疊百元美金換一片 coconut trees",
+        "pinyin": "hǎo jī dié bǎi yuán měi jīn huàn yí piàn   c o c o n u t   t r e e s",
+        "english": "Stacks of hundred-dollar bills for a patch of coconut trees",
+        "timestamp": "00:47.04"
+      },
+      {
+        "chinese": "I'm thinking about something I don't need",
+        "pinyin": "I ' m   t h i n k i n g   a b o u t   s o m e t h i n g   I   d o n ' t   n e e d",
+        "english": "I'm thinking about something I don't need",
+        "timestamp": "00:51.84"
+      },
+      {
+        "chinese": "唯心或唯物主義 我寧可 兩者",
+        "pinyin": "wéi xīn huò wéi wù zhǔ yì   wǒ níng kě   liǎng zhě",
+        "english": "Idealism or materialism, I'd rather have both",
+        "timestamp": "00:54.62"
+      },
+      {
+        "chinese": "On my mind",
+        "pinyin": "O n   m y   m i n d",
+        "english": "On my mind",
+        "timestamp": "00:59.57"
+      },
+      {
+        "chinese": "I'm thinking about something I don't need",
+        "pinyin": "I ' m   t h i n k i n g   a b o u t   s o m e t h i n g   I   d o n ' t   n e e d",
+        "english": "I'm thinking about something I don't need",
+        "timestamp": "01:02.18"
+      },
+      {
+        "chinese": "Big car, big house, luxury",
+        "pinyin": "B i g   c a r ,   b i g   h o u s e ,   l u x u r y",
+        "english": "Big car, big house, luxury",
+        "timestamp": "01:04.80"
+      },
+      {
+        "chinese": "塞滿我的大腦裡 太俗氣",
+        "pinyin": "sāi mǎn wǒ de dà nǎo lǐ   tài sú qì",
+        "english": "Stuffed in my brain, it's too tacky",
+        "timestamp": "01:07.34"
+      },
+      {
+        "chinese": "一把火燒掉棺材 再見了一生的愛",
+        "pinyin": "yì bǎ huǒ shāo diào guān cái   zài jiàn le yì shēng de ài",
+        "english": "Burn the coffin with a fire, goodbye to the love of a lifetime",
+        "timestamp": "01:12.70"
+      },
+      {
+        "chinese": "Hakuna Matata my friend",
+        "pinyin": "H a k u n a   M a t a t a   m y   f r i e n d",
+        "english": "Hakuna Matata my friend",
+        "timestamp": "01:17.47"
+      },
+      {
+        "chinese": "Don't let nothing hold you back (nothing hold you back)",
+        "pinyin": "D o n ' t   l e t   n o t h i n g   h o l d   y o u   b a c k   ( n o t h i n g   h o l d   y o u   b a c k )",
+        "english": "Don't let nothing hold you back (nothing hold you back)",
+        "timestamp": "01:19.76"
+      },
+      {
+        "chinese": "請你也抬頭看看",
+        "pinyin": "qǐng nǐ yě tái tóu kàn kàn",
+        "english": "Please, you too, look up and see",
+        "timestamp": "01:22.77"
+      },
+      {
+        "chinese": "What a starry night",
+        "pinyin": "W h a t   a   s t a r r y   n i g h t",
+        "english": "What a starry night",
+        "timestamp": "01:24.87"
+      },
+      {
+        "chinese": "有天我還會回來",
+        "pinyin": "yǒu tiān wǒ huán huì huí lái",
+        "english": "Someday I will return",
+        "timestamp": "01:27.73"
+      },
+      {
+        "chinese": "There's something left",
+        "pinyin": "T h e r e ' s   s o m e t h i n g   l e f t",
+        "english": "There's something left",
+        "timestamp": "01:29.90"
+      },
+      {
+        "chinese": "我早該知道 早該知道",
+        "pinyin": "wǒ zǎo gāi zhī dào   zǎo gāi zhī dào",
+        "english": "I should have known, I should have known",
+        "timestamp": "01:32.73"
+      },
+      {
+        "chinese": "有天我會沒力氣 追到沒有了意義",
+        "pinyin": "yǒu tiān wǒ huì méi lì qì   zhuī dào méi yǒu le yì yì",
+        "english": "Someday I'll lose my strength, chasing until it's meaningless",
+        "timestamp": "01:36.80"
+      },
+      {
+        "chinese": "我早該知道 早該知道",
+        "pinyin": "wǒ zǎo gāi zhī dào   zǎo gāi zhī dào",
+        "english": "I should have known, I should have known",
+        "timestamp": "01:43.22"
+      },
+      {
+        "chinese": "燒著大火的森林 自作孽後的結局",
+        "pinyin": "shāo zhù dà huǒ de sēn lín   zì zuò niè hòu de jié jú",
+        "english": "A burning forest, the aftermath of our own doing",
+        "timestamp": "01:47.03"
+      },
+      {
+        "chinese": "Free spirit 在耳中旋繞",
+        "pinyin": "F r e e   s p i r i t   zài ěr zhōng xuán rào",
+        "english": "Free spirit swirling in my ears",
+        "timestamp": "01:53.24"
+      },
+      {
+        "chinese": "搖頭晃腦像海中水草",
+        "pinyin": "yáo tóu huàng nǎo xiàng hǎi zhōng shuǐ cǎo",
+        "english": "Swaying my head like seaweed in the sea",
+        "timestamp": "01:58.34"
+      },
+      {
+        "chinese": "樹越砍越貴 捨不得擤個鼻涕",
+        "pinyin": "shù yuè kǎn yuè guì   shě bù dé xǐng gè bí tì",
+        "english": "Trees get more expensive the more they're cut, can't bear to blow my nose",
+        "timestamp": "02:03.71"
+      },
+      {
+        "chinese": "好幾疊百元美金換一片 coconut trees",
+        "pinyin": "hǎo jī dié bǎi yuán měi jīn huàn yí piàn   c o c o n u t   t r e e s",
+        "english": "Stacks of hundred-dollar bills exchanged for a patch of coconut trees",
+        "timestamp": "02:08.86"
+      },
+      {
+        "chinese": "I'm thinking about something I don't need",
+        "pinyin": "I ' m   t h i n k i n g   a b o u t   s o m e t h i n g   I   d o n ' t   n e e d",
+        "english": "I'm thinking about something I don't need",
+        "timestamp": "02:13.68"
+      },
+      {
+        "chinese": "唯心或唯物主義 我寧可 兩者",
+        "pinyin": "wéi xīn huò wéi wù zhǔ yì   wǒ níng kě   liǎng zhě",
+        "english": "Idealism or materialism, I'd rather have both",
+        "timestamp": "02:16.36"
+      },
+      {
+        "chinese": "On my mind",
+        "pinyin": "O n   m y   m i n d",
+        "english": "On my mind",
+        "timestamp": "02:21.39"
+      },
+      {
+        "chinese": "I'm thinking about something I don't need",
+        "pinyin": "I ' m   t h i n k i n g   a b o u t   s o m e t h i n g   I   d o n ' t   n e e d",
+        "english": "I'm thinking about something I don't need",
+        "timestamp": "02:23.97"
+      },
+      {
+        "chinese": "Big car, big house, luxury",
+        "pinyin": "B i g   c a r ,   b i g   h o u s e ,   l u x u r y",
+        "english": "Big car, big house, luxury",
+        "timestamp": "02:26.55"
+      },
+      {
+        "chinese": "塞滿我的大腦裡 太俗氣",
+        "pinyin": "sāi mǎn wǒ de dà nǎo lǐ   tài sú qì",
+        "english": "Stuffed inside my brain, it's too tacky",
+        "timestamp": "02:29.19"
+      }
+    ],
+    "album": "Outta Body靈魂出竅",
+    "duration": 174
+  },
+  {
+    "id": "-rylspVd3s8",
+    "title": "Don't Worry About Me",
+    "artist": "瘦子E.SO",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "我還是紅麵線 肉圓當午飯",
+        "pinyin": "wǒ huán shì hóng miàn xiàn   ròu yuán dāng wǔ fàn",
+        "english": "I will translate the provided lyrics into natural English, following your formatting requirements.",
+        "timestamp": "00:15.61"
+      },
+      {
+        "chinese": "黑白切再加顆魯蛋",
+        "pinyin": "hēi bái qiè zài jiā kē lǔ dàn",
+        "english": "I still have vermicelli and meat dumplings for lunch",
+        "timestamp": "00:17.92"
+      },
+      {
+        "chinese": "夏天多的蒼蠅依然趕不散",
+        "pinyin": "xià tiān duō de cāng yíng yī rán gǎn bú sàn",
+        "english": "Assorted side dishes plus a braised egg",
+        "timestamp": "00:19.40"
+      },
+      {
+        "chinese": "木柵的8月We all doing fine",
+        "pinyin": "mù shān de 8 yuè W e   a l l   d o i n g   f i n e",
+        "english": "The many flies of summer still can't be shooed away",
+        "timestamp": "00:21.33"
+      },
+      {
+        "chinese": "脫掉口罩希望沒人注意",
+        "pinyin": "tuō diào kǒu zhào xī wàng méi rén zhù yì",
+        "english": "August in Muzha, we're all doing fine",
+        "timestamp": "00:23.35"
+      },
+      {
+        "chinese": "他們靠近我就知道是你",
+        "pinyin": "tā mén kào jìn wǒ jiù zhī dào shì nǐ",
+        "english": "Taking off the mask, hoping no one notices",
+        "timestamp": "00:25.00"
+      },
+      {
+        "chinese": "我的表妹結婚幫我錄個視頻",
+        "pinyin": "wǒ de biǎo mèi jié hūn bāng wǒ lù gè shì bīn",
+        "english": "When they get close, I know it's you",
+        "timestamp": "00:26.72"
+      },
+      {
+        "chinese": "我說沒有問題如果換作是你",
+        "pinyin": "wǒ shuō méi yǒu wèn tí rú guǒ huàn zuò shì nǐ",
+        "english": "My cousin's getting married, record a video for me",
+        "timestamp": "00:28.52"
+      },
+      {
+        "chinese": "不敢看新聞 這個世界亂的 想法注射",
+        "pinyin": "bù gǎn kàn xīn wén   zhè gè shì jiè luàn de   xiǎng fǎ zhù shè",
+        "english": "I said no problem, if it were you",
+        "timestamp": "00:30.25"
+      },
+      {
+        "chinese": "不想去恨 大家同意的 那又如何",
+        "pinyin": "bù xiǎng qù hèn   dà jiā tóng yì de   nà yòu rú hé",
+        "english": "Afraid to watch the news, the world's a mess, injecting ideas",
+        "timestamp": "00:33.82"
+      },
+      {
+        "chinese": "製造更多仇恨 更多暴力 怎會有用呢",
+        "pinyin": "zhì zào gèng duō chóu hèn   gèng duō bào lì   zěn huì yǒu yòng ne",
+        "english": "Don't want to hate, so what if everyone agrees",
+        "timestamp": "00:37.37"
+      },
+      {
+        "chinese": "雖然我們不一樣",
+        "pinyin": "suī rán wǒ mén bù yí yàng",
+        "english": "How can creating more hate and violence be of any use",
+        "timestamp": "00:41.00"
+      },
+      {
+        "chinese": "But why we hate each other",
+        "pinyin": "B u t   w h y   w e   h a t e   e a c h   o t h e r",
+        "english": "Even though we are different",
+        "timestamp": "00:42.49"
+      },
+      {
+        "chinese": "想改變成見 每個人都有不同立場",
+        "pinyin": "xiǎng gǎi biàn chéng jiàn   měi gè rén dōu yǒu bù tóng lì chǎng",
+        "english": "But why we hate each other",
+        "timestamp": "00:44.35"
+      },
+      {
+        "chinese": "這個世界 變成權力者的戰場",
+        "pinyin": "zhè gè shì jiè   biàn chéng quán lì zhě de zhàn chǎng",
+        "english": "Wanting to change prejudices, everyone has a different perspective",
+        "timestamp": "00:48.18"
+      },
+      {
+        "chinese": "打開視野 許多弱勢正在盼望",
+        "pinyin": "dǎ kāi shì yě   xū duō ruò shì zhèng zài pàn wàng",
+        "english": "This world has become a battlefield for the powerful",
+        "timestamp": "00:51.69"
+      },
+      {
+        "chinese": "總被忽略 從來不會是焦點",
+        "pinyin": "zǒng bèi hū lüè   cóng lái bú huì shì jiāo diǎn",
+        "english": "Open your eyes, many of the vulnerable are hoping",
+        "timestamp": "00:54.95"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "Always ignored, never the focus",
+        "timestamp": "00:58.14"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "Don't worry about me",
+        "timestamp": "00:58.84"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "Don't worry about me",
+        "timestamp": "00:59.64"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "Don't worry about me",
+        "timestamp": "01:01.64"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "I'm worried about you",
+        "timestamp": "01:02.68"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "I'm worried about you",
+        "timestamp": "01:03.44"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "I'm worried about you",
+        "timestamp": "01:05.11"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "Don't worry about me",
+        "timestamp": "01:06.07"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "Don't worry about me",
+        "timestamp": "01:07.02"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "Don't worry about me",
+        "timestamp": "01:08.82"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "I'm worried about you",
+        "timestamp": "01:09.64"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "I'm worried about you",
+        "timestamp": "01:10.76"
+      },
+      {
+        "chinese": "請記得",
+        "pinyin": "qǐng jì dé",
+        "english": "I'm worried about you",
+        "timestamp": "01:12.47"
+      },
+      {
+        "chinese": "我曾給你的美好",
+        "pinyin": "wǒ céng gěi nǐ de měi hǎo",
+        "english": "Please remember",
+        "timestamp": "01:14.29"
+      },
+      {
+        "chinese": "轉換成",
+        "pinyin": "zhuǎn huàn chéng",
+        "english": "The beauty I once gave you",
+        "timestamp": "01:16.98"
+      },
+      {
+        "chinese": "每一天",
+        "pinyin": "měi yì tiān",
+        "english": "Transformed into",
+        "timestamp": "01:17.72"
+      },
+      {
+        "chinese": "請記得",
+        "pinyin": "qǐng jì dé",
+        "english": "Every single day",
+        "timestamp": "01:18.92"
+      },
+      {
+        "chinese": "也許你就是解藥",
+        "pinyin": "yě xū nǐ jiù shì jiě yào",
+        "english": "Please remember",
+        "timestamp": "01:21.18"
+      },
+      {
+        "chinese": "So keep up",
+        "pinyin": "S o   k e e p   u p",
+        "english": "Maybe you are the antidote",
+        "timestamp": "01:23.98"
+      },
+      {
+        "chinese": "Make it change",
+        "pinyin": "M a k e   i t   c h a n g e",
+        "english": "So keep up",
+        "timestamp": "01:25.10"
+      },
+      {
+        "chinese": "今年的夏天來的早 冬天日子少",
+        "pinyin": "jīn nián de xià tiān lái de zǎo   dōng tiān rì zi shǎo",
+        "english": "Make it change",
+        "timestamp": "01:26.70"
+      },
+      {
+        "chinese": "科技讓人類活的老 但孩子卻又生得少",
+        "pinyin": "kē jì ràng rén lèi huó de lǎo   dàn hái zi què yòu shēng dé shǎo",
+        "english": "Summer came early this year, and winter days are few",
+        "timestamp": "01:29.96"
+      },
+      {
+        "chinese": "森林大火繼續蔓延燒 動物努力跑",
+        "pinyin": "sēn lín dà huǒ jì xù màn yán shāo   dòng wù nǔ lì pǎo",
+        "english": "Technology helps people live longer, but fewer children are born",
+        "timestamp": "01:33.63"
+      },
+      {
+        "chinese": "當然這些都無關選舉所以新聞都沒報",
+        "pinyin": "dāng rán zhè xiē dōu wú guān xuǎn jǔ suǒ yǐ xīn wén dōu méi bào",
+        "english": "Forest fires keep spreading, and animals run for their lives",
+        "timestamp": "01:37.26"
+      },
+      {
+        "chinese": "不只孩子的病痛 They broke I know I saw",
+        "pinyin": "bù zhī hái zi de bìng tòng   T h e y   b r o k e   I   k n o w   I   s a w",
+        "english": "I will search for the provided lyrics in the codebase to see if there are existing translations or relevant context.",
+        "timestamp": "01:41.22"
+      },
+      {
+        "chinese": "住不起的高樓 They lost nowhere to go",
+        "pinyin": "zhù bù qǐ de gāo lóu   T h e y   l o s t   n o w h e r e   t o   g o",
+        "english": "Of course, none of this is about the election, so it wasn't in the news.",
+        "timestamp": "01:44.95"
+      },
+      {
+        "chinese": "瞭解我的朋友 那也 曾經 是我",
+        "pinyin": "liào jiě wǒ de péng yǒu   nà yě   céng jīng   shì wǒ",
+        "english": "Not just the children's pain; they're broken, I know, I saw it.",
+        "timestamp": "01:48.35"
+      },
+      {
+        "chinese": "人類的價值是能夠感受 彼此 的痛",
+        "pinyin": "rén lèi de jià zhí shì néng gòu gǎn shòu   bǐ cǐ   de tòng",
+        "english": "High-rises they can't afford; they're lost with nowhere to go.",
+        "timestamp": "01:51.88"
+      },
+      {
+        "chinese": "不要淨說大道理 不然這首沒人聽了",
+        "pinyin": "bú yào jìng shuō dà dào lǐ   bù rán zhè shǒu méi rén tīng le",
+        "english": "To the friends who understand me: that used to be me too.",
+        "timestamp": "01:55.57"
+      },
+      {
+        "chinese": "他說講得倒容易 但人心總是冰冷",
+        "pinyin": "tā shuō jiǎng dé dǎo róng yì   dàn rén xīn zǒng shì bīng lěng",
+        "english": "The value of humanity is being able to feel each other's pain.",
+        "timestamp": "01:59.36"
+      },
+      {
+        "chinese": "別拿愛來當武器 你一槍被人斃了",
+        "pinyin": "bié ná ài lái dāng wǔ qì   nǐ yì qiāng bèi rén bì le",
+        "english": "Don't just preach, or no one will listen to this song.",
+        "timestamp": "02:02.77"
+      },
+      {
+        "chinese": "但愛生生不息 你還有多少軍人",
+        "pinyin": "dàn ài shēng shēng bù xī   nǐ huán yǒu duō shǎo jūn rén",
+        "english": "He says it's easier said than done, for human hearts are always cold.",
+        "timestamp": "02:06.46"
+      },
+      {
+        "chinese": "偶像崇拜 偶像崇拜 沒想到有天偶像是我",
+        "pinyin": "ǒu xiàng chóng bài   ǒu xiàng chóng bài   méi xiǎng dào yǒu tiān ǒu xiàng shì wǒ",
+        "english": "Don't use love as a weapon, or you'll get shot down.",
+        "timestamp": "02:09.92"
+      },
+      {
+        "chinese": "如果有天我也衝昏頭 請麻煩你提醒我",
+        "pinyin": "rú guǒ yǒu tiān wǒ yě chōng hūn tóu   qǐng má fán nǐ tí xǐng wǒ",
+        "english": "But love is endless; how many soldiers do you have left?",
+        "timestamp": "02:13.71"
+      },
+      {
+        "chinese": "千萬寵愛 千萬寵愛 能被愛是多麼的英勇",
+        "pinyin": "qiān wàn chǒng ài   qiān wàn chǒng ài   néng bèi ài shì duō mó de yīng yǒng",
+        "english": "Idol worship, idol worship—never thought I'd be the idol one day.",
+        "timestamp": "02:17.46"
+      },
+      {
+        "chinese": "沒有人是完美的英雄 請麻煩你原諒我",
+        "pinyin": "méi yǒu rén shì wán měi de yīng xióng   qǐng má fán nǐ yuán liàng wǒ",
+        "english": "If I ever let it go to my head, please remind me.",
+        "timestamp": "02:20.84"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "All this love and devotion—being loved is such a brave thing.",
+        "timestamp": "02:23.18"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "No one is a perfect hero, so please forgive me.",
+        "timestamp": "02:24.15"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "Don't worry about me",
+        "timestamp": "02:25.29"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "Don't worry about me",
+        "timestamp": "02:26.92"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "Don't worry about me",
+        "timestamp": "02:27.69"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "I'm worried about you",
+        "timestamp": "02:28.43"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "I'm worried about you",
+        "timestamp": "02:30.58"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "I'm worried about you",
+        "timestamp": "02:31.35"
+      },
+      {
+        "chinese": "Don't worry about me",
+        "pinyin": "D o n ' t   w o r r y   a b o u t   m e",
+        "english": "Don't worry about me",
+        "timestamp": "02:32.03"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "Don't worry about me",
+        "timestamp": "02:34.18"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "Don't worry about me",
+        "timestamp": "02:34.98"
+      },
+      {
+        "chinese": "I'm worried about you",
+        "pinyin": "I ' m   w o r r i e d   a b o u t   y o u",
+        "english": "I'm worried about you",
+        "timestamp": "02:35.85"
+      },
+      {
+        "chinese": "請記得",
+        "pinyin": "qǐng jì dé",
+        "english": "I'm worried about you",
+        "timestamp": "02:37.66"
+      },
+      {
+        "chinese": "我曾給你的美好",
+        "pinyin": "wǒ céng gěi nǐ de měi hǎo",
+        "english": "I'm worried about you",
+        "timestamp": "02:39.56"
+      },
+      {
+        "chinese": "轉換成",
+        "pinyin": "zhuǎn huàn chéng",
+        "english": "Please remember",
+        "timestamp": "02:42.25"
+      },
+      {
+        "chinese": "每一天",
+        "pinyin": "měi yì tiān",
+        "english": "The beauty I once gave you",
+        "timestamp": "02:43.16"
+      },
+      {
+        "chinese": "請記得",
+        "pinyin": "qǐng jì dé",
+        "english": "Turn into",
+        "timestamp": "02:44.72"
+      },
+      {
+        "chinese": "也許你就是解藥",
+        "pinyin": "yě xū nǐ jiù shì jiě yào",
+        "english": "Every day",
+        "timestamp": "02:46.59"
+      },
+      {
+        "chinese": "So keep up",
+        "pinyin": "S o   k e e p   u p",
+        "english": "Please remember",
+        "timestamp": "02:49.23"
+      },
+      {
+        "chinese": "Make it change",
+        "pinyin": "M a k e   i t   c h a n g e",
+        "english": "Maybe you are the cure",
+        "timestamp": "02:50.15"
+      },
+      {
+        "chinese": "請記得",
+        "pinyin": "qǐng jì dé",
+        "english": "So keep up",
+        "timestamp": "02:51.84"
+      },
+      {
+        "chinese": "我曾給你的美好",
+        "pinyin": "wǒ céng gěi nǐ de měi hǎo",
+        "english": "Make it change",
+        "timestamp": "02:53.88"
+      },
+      {
+        "chinese": "轉換成",
+        "pinyin": "zhuǎn huàn chéng",
+        "english": "Please remember",
+        "timestamp": "02:56.43"
+      },
+      {
+        "chinese": "每一天",
+        "pinyin": "měi yì tiān",
+        "english": "The beauty I once gave you",
+        "timestamp": "02:57.32"
+      },
+      {
+        "chinese": "請記得",
+        "pinyin": "qǐng jì dé",
+        "english": "Turn into",
+        "timestamp": "02:59.14"
+      },
+      {
+        "chinese": "也許你就是解藥",
+        "pinyin": "yě xū nǐ jiù shì jiě yào",
+        "english": "Every day",
+        "timestamp": "03:00.70"
+      },
+      {
+        "chinese": "So keep up",
+        "pinyin": "S o   k e e p   u p",
+        "english": "Please remember",
+        "timestamp": "03:03.38"
+      },
+      {
+        "chinese": "Make it change",
+        "pinyin": "M a k e   i t   c h a n g e",
+        "english": "Maybe you are the cure",
+        "timestamp": "03:04.27"
+      }
+    ],
+    "album": "Outta Body靈魂出竅",
+    "duration": 190
+  },
+  {
+    "id": "GfcbOdIFWPE",
+    "title": "太陽",
+    "artist": "瘦子E.SO",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "已經習慣在家被你寵",
+        "pinyin": "yǐ jīng xí guàn zài jiā bèi nǐ chǒng",
+        "english": "I've grown used to being pampered by you at home",
+        "timestamp": "00:25.07"
+      },
+      {
+        "chinese": "永遠都念著我",
+        "pinyin": "yǒng yuǎn dōu niàn zhù wǒ",
+        "english": "Always keeping me in your thoughts",
+        "timestamp": "00:27.58"
+      },
+      {
+        "chinese": "早上拉開窗簾你不讓我睡過頭",
+        "pinyin": "zǎo shàng lā kāi chuāng lián nǐ bú ràng wǒ shuì guò tóu",
+        "english": "Opening the curtains in the morning, you wouldn't let me oversleep",
+        "timestamp": "00:29.19"
+      },
+      {
+        "chinese": "最好吃最可口",
+        "pinyin": "zuì hǎo chī zuì kě kǒu",
+        "english": "The most delicious and savory meal",
+        "timestamp": "00:31.83"
+      },
+      {
+        "chinese": "是你做獅子頭",
+        "pinyin": "shì nǐ zuò shī zǐ tóu",
+        "english": "Is the braised pork meatballs you make",
+        "timestamp": "00:33.54"
+      },
+      {
+        "chinese": "用錢買不到你為我燙平的領口",
+        "pinyin": "yòng qián mǎi bú dào nǐ wéi wǒ tàng píng de lǐng kǒu",
+        "english": "Money can't buy the way you ironed my collars flat",
+        "timestamp": "00:35.02"
+      },
+      {
+        "chinese": "你的存在像應該",
+        "pinyin": "nǐ de cún zài xiàng yīng gāi",
+        "english": "Your presence felt like it was meant to be",
+        "timestamp": "00:37.78"
+      },
+      {
+        "chinese": "但現在你不在",
+        "pinyin": "dàn xiàn zài nǐ bú zài",
+        "english": "But now that you're gone",
+        "timestamp": "00:39.47"
+      },
+      {
+        "chinese": "我必須自己下廚吃我自己挾的菜",
+        "pinyin": "wǒ bì xū zì jǐ xià chú chī wǒ zì jǐ xié de cài",
+        "english": "I have to cook for myself and eat my own cooking",
+        "timestamp": "00:41.14"
+      },
+      {
+        "chinese": "沒什麼事我只想知道你那還習慣",
+        "pinyin": "méi shén mó shì wǒ zhī xiǎng zhī dào nǐ nà huán xí guàn",
+        "english": "It's nothing, I just want to know if you're settling in okay",
+        "timestamp": "00:43.82"
+      },
+      {
+        "chinese": "你告訴我比自己想的還要更勇敢",
+        "pinyin": "nǐ gào sù wǒ bǐ zì jǐ xiǎng de huán yào gèng yǒng gǎn",
+        "english": "You tell me you're braver than you thought",
+        "timestamp": "00:46.98"
+      },
+      {
+        "chinese": "在同個空間",
+        "pinyin": "zài tóng gè kōng jiàn",
+        "english": "In the same space",
+        "timestamp": "00:49.54"
+      },
+      {
+        "chinese": "卻又感覺離得遠",
+        "pinyin": "què yòu gǎn jué lí dé yuǎn",
+        "english": "Yet feeling so far apart",
+        "timestamp": "00:51.22"
+      },
+      {
+        "chinese": "抱不到你的黑夜",
+        "pinyin": "bào bú dào nǐ de hēi yè",
+        "english": "These nights when I can't hold you",
+        "timestamp": "00:53.50"
+      },
+      {
+        "chinese": "漫長冬天",
+        "pinyin": "màn cháng dōng tiān",
+        "english": "A long winter",
+        "timestamp": "00:55.70"
+      },
+      {
+        "chinese": "心臟被寒風攻陷",
+        "pinyin": "xīn zàng bèi hán fēng gōng xiàn",
+        "english": "My heart is besieged by the cold wind",
+        "timestamp": "00:57.32"
+      },
+      {
+        "chinese": "害怕那是多直接",
+        "pinyin": "hài pà nà shì duō zhí jiē",
+        "english": "The fear is so visceral",
+        "timestamp": "00:59.39"
+      },
+      {
+        "chinese": "在同個空間",
+        "pinyin": "zài tóng gè kōng jiàn",
+        "english": "In the same space",
+        "timestamp": "01:01.67"
+      },
+      {
+        "chinese": "卻又感覺離得遠",
+        "pinyin": "què yòu gǎn jué lí dé yuǎn",
+        "english": "Yet feeling so far apart",
+        "timestamp": "01:03.11"
+      },
+      {
+        "chinese": "抱不到你的黑夜",
+        "pinyin": "bào bú dào nǐ de hēi yè",
+        "english": "These nights when I can't hold you",
+        "timestamp": "01:05.43"
+      },
+      {
+        "chinese": "漫長冬天",
+        "pinyin": "màn cháng dōng tiān",
+        "english": "A long winter",
+        "timestamp": "01:07.56"
+      },
+      {
+        "chinese": "心臟被寒風攻陷",
+        "pinyin": "xīn zàng bèi hán fēng gōng xiàn",
+        "english": "The cold wind has captured my heart",
+        "timestamp": "01:09.24"
+      },
+      {
+        "chinese": "害怕那是多直接",
+        "pinyin": "hài pà nà shì duō zhí jiē",
+        "english": "Fear is so direct",
+        "timestamp": "01:11.36"
+      },
+      {
+        "chinese": "太陽還不出來",
+        "pinyin": "tài yáng huán bù chū lái",
+        "english": "The sun still won't come out",
+        "timestamp": "01:13.35"
+      },
+      {
+        "chinese": "快悶壞 快悶壞 快悶壞 只想出門曬曬",
+        "pinyin": "kuài mèn huài   kuài mèn huài   kuài mèn huài   zhī xiǎng chū mén shài shài",
+        "english": "Going stir-crazy, stir-crazy, stir-crazy, I just want to go out and get some sun",
+        "timestamp": "01:17.03"
+      },
+      {
+        "chinese": "Everything gon' be fine",
+        "pinyin": "E v e r y t h i n g   g o n '   b e   f i n e",
+        "english": "Everything gon' be fine",
+        "timestamp": "01:25.18"
+      },
+      {
+        "chinese": "在這等著你回來",
+        "pinyin": "zài zhè děng zhù nǐ huí lái",
+        "english": "Waiting here for you to come back",
+        "timestamp": "01:31.44"
+      },
+      {
+        "chinese": "最後悔的是我們不能吻別",
+        "pinyin": "zuì hòu huǐ de shì wǒ mén bù néng wěn bié",
+        "english": "My biggest regret is that we couldn't kiss goodbye",
+        "timestamp": "01:37.55"
+      },
+      {
+        "chinese": "Like we used to",
+        "pinyin": "L i k e   w e   u s e d   t o",
+        "english": "Like we used to",
+        "timestamp": "01:39.55"
+      },
+      {
+        "chinese": "視訊裡的樣子你臉瘦得像個骷髏",
+        "pinyin": "shì xùn lǐ de yàng zǐ nǐ liǎn shòu dé xiàng gè kū lóu",
+        "english": "In the video call, you look as thin as a skeleton",
+        "timestamp": "01:40.75"
+      },
+      {
+        "chinese": "只想說輕鬆的 需要一點城府",
+        "pinyin": "zhī xiǎng shuō qīng sōng de   xū yào yì diǎn chéng fǔ",
+        "english": "I just want to keep things light, but it takes some composure",
+        "timestamp": "01:43.52"
+      },
+      {
+        "chinese": "在這寒冷的城市我感覺像小人物",
+        "pinyin": "zài zhè hán lěng de chéng shì wǒ gǎn jué xiàng xiǎo rén wù",
+        "english": "In this cold city, I feel like a nobody",
+        "timestamp": "01:46.70"
+      },
+      {
+        "chinese": "他們說人在面臨難關 自私會變得更大",
+        "pinyin": "tā mén shuō rén zài miàn lín nán guān   zì sī huì biàn dé gèng dà",
+        "english": "They say people get more selfish when facing hardship",
+        "timestamp": "01:49.63"
+      },
+      {
+        "chinese": "我不介意你傷害我 我知道你也害怕",
+        "pinyin": "wǒ bú jiè yì nǐ shāng hài wǒ   wǒ zhī dào nǐ yě hài pà",
+        "english": "I don't mind you hurting me, I know you're scared too",
+        "timestamp": "01:53.05"
+      },
+      {
+        "chinese": "如果我不能原諒你 等於我跟著踐踏",
+        "pinyin": "rú guǒ wǒ bù néng yuán liàng nǐ   děng wū wǒ gēn zhù jiàn tà",
+        "english": "If I can't forgive you, I'm just trampling on you too",
+        "timestamp": "01:55.96"
+      },
+      {
+        "chinese": "如果不能在一起 至少有著相同盼望",
+        "pinyin": "rú guǒ bù néng zài yì qǐ   zhì shǎo yǒu zhù xiāng tóng pàn wàng",
+        "english": "If we can't be together, at least we have the same hope",
+        "timestamp": "01:58.97"
+      },
+      {
+        "chinese": "一堆唱片歌頌悲情 我說不動",
+        "pinyin": "yì duī chàng piàn gē sòng bēi qíng   wǒ shuō bú dòng",
+        "english": "Piles of songs praising sadness, I can't relate",
+        "timestamp": "02:01.68"
+      },
+      {
+        "chinese": "我自認自己活在光明 但敵不過",
+        "pinyin": "wǒ zì rèn zì jǐ huó zài guāng míng   dàn dí bú guò",
+        "english": "I thought I lived in the light, but I can't win",
+        "timestamp": "02:04.65"
+      },
+      {
+        "chinese": "I thought I was chilling not anymore",
+        "pinyin": "I   t h o u g h t   I   w a s   c h i l l i n g   n o t   a n y m o r e",
+        "english": "I thought I was chilling not anymore",
+        "timestamp": "02:07.48"
+      },
+      {
+        "chinese": "誰會聽到哭聲 還能裝做沒疑惑",
+        "pinyin": "shuí huì tīng dào kū shēng   huán néng zhuāng zuò méi yí huò",
+        "english": "Who hears the crying and can still pretend not to wonder",
+        "timestamp": "02:10.64"
+      },
+      {
+        "chinese": "頭上這片烏雲",
+        "pinyin": "tóu shàng zhè piàn wū yún",
+        "english": "These dark clouds above my head",
+        "timestamp": "02:13.48"
+      },
+      {
+        "chinese": "不能把我",
+        "pinyin": "bù néng bǎ wǒ",
+        "english": "Cannot take",
+        "timestamp": "02:14.71"
+      },
+      {
+        "chinese": "希望帶走",
+        "pinyin": "xī wàng dài zǒu",
+        "english": "My hope away",
+        "timestamp": "02:15.68"
+      },
+      {
+        "chinese": "雙膝跪地主阿指引路的盡頭",
+        "pinyin": "shuāng xī guì dì zhǔ ā zhǐ yǐn lù de jìn tóu",
+        "english": "Kneeling on both knees, Lord, guide me to the end of the road",
+        "timestamp": "02:16.88"
+      },
+      {
+        "chinese": "我赴湯蹈火",
+        "pinyin": "wǒ fù tāng dǎo huǒ",
+        "english": "I would go through fire and water",
+        "timestamp": "02:19.28"
+      },
+      {
+        "chinese": "禰的愛應該是不分你我",
+        "pinyin": "mí de ài yīng gāi shì bù fēn nǐ wǒ",
+        "english": "Your love should know no boundaries between us",
+        "timestamp": "02:20.16"
+      },
+      {
+        "chinese": "不分人種",
+        "pinyin": "bù fēn rén zhǒng",
+        "english": "Regardless of race",
+        "timestamp": "02:22.09"
+      },
+      {
+        "chinese": "當愛人有一天變成戰友",
+        "pinyin": "dāng ài rén yǒu yì tiān biàn chéng zhàn yǒu",
+        "english": "When lovers one day become comrades",
+        "timestamp": "02:23.19"
+      },
+      {
+        "chinese": "親愛的不能軟弱 (太陽還不出來)",
+        "pinyin": "qīn ài de bù néng ruǎn ruò   ( tài yáng huán bù chū lái )",
+        "english": "My dear, you cannot be weak (the sun still isn't out)",
+        "timestamp": "02:25.06"
+      },
+      {
+        "chinese": "快悶壞 快悶壞 快悶壞 只想出門曬曬",
+        "pinyin": "kuài mèn huài   kuài mèn huài   kuài mèn huài   zhī xiǎng chū mén shài shài",
+        "english": "I'm stifling, I'm stifling, I'm stifling, just want to go out and get some sun",
+        "timestamp": "02:29.12"
+      },
+      {
+        "chinese": "Everything gon' be fine",
+        "pinyin": "E v e r y t h i n g   g o n '   b e   f i n e",
+        "english": "Everything gon' be fine",
+        "timestamp": "02:37.17"
+      },
+      {
+        "chinese": "在這等著你回來",
+        "pinyin": "zài zhè děng zhù nǐ huí lái",
+        "english": "Waiting here for you to come back",
+        "timestamp": "02:43.16"
+      }
+    ],
+    "album": "太陽",
+    "duration": 213
+  },
+  {
+    "id": "VMC6ZQEysl8",
+    "title": "她沒在看我",
+    "artist": "瘦子E.SO",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "最遠的距離我們之間多了他",
+        "pinyin": "zuì yuǎn de jù lí wǒ mén zhī jiàn duō le tā",
+        "english": "I will translate the lyrics provided into natural English, following your formatting requirements.",
+        "timestamp": "00:20.07"
+      },
+      {
+        "chinese": "5.58 inches 擋著妳的眼神沒有紮",
+        "pinyin": "5 . 5 8   i n c h e s   dǎng zhù nǎi de yǎn shén méi yǒu zhā",
+        "english": "The furthest distance is when he's come between us",
+        "timestamp": "00:22.19"
+      },
+      {
+        "chinese": "我想記得妳的樣子有點面熟 I mean",
+        "pinyin": "wǒ xiǎng jì dé nǎi de yàng zǐ yǒu diǎn miàn shú   I   m e a n",
+        "english": "58 inches blocking your gaze without a blink",
+        "timestamp": "00:25.09"
+      },
+      {
+        "chinese": "我的線索都是半張臉孔 有點籠統",
+        "pinyin": "wǒ de xiàn suǒ dōu shì bàn zhāng liǎn kǒng   yǒu diǎn lóng tǒng",
+        "english": "I want to remember your face, it looks a bit familiar I mean",
+        "timestamp": "00:27.59"
+      },
+      {
+        "chinese": "我以為妳會期待我們見面",
+        "pinyin": "wǒ yǐ wéi nǎi huì qī dài wǒ mén jiàn miàn",
+        "english": "My only clues are half-faces, a bit vague",
+        "timestamp": "00:29.92"
+      },
+      {
+        "chinese": "我以為我們能夠認識不只有夢裡的畫面",
+        "pinyin": "wǒ yǐ wéi wǒ mén néng gòu rèn shí bù zhǐ yǒu mèng lǐ de huà miàn",
+        "english": "I thought you'd be looking forward to us meeting",
+        "timestamp": "00:31.73"
+      },
+      {
+        "chinese": "或許妳害怕交談只留下一張照片",
+        "pinyin": "huò xū nǎi hài pà jiāo tán zhī liú xià yì zhāng zhào piàn",
+        "english": "I thought we could get to know each other beyond just images in dreams",
+        "timestamp": "00:34.38"
+      },
+      {
+        "chinese": "我離開時還在想是否我的奢望有點越線",
+        "pinyin": "wǒ lí kāi shí huán zài xiǎng shì fǒu wǒ de shē wàng yǒu diǎn yuè xiàn",
+        "english": "Maybe you're afraid to talk and only left a photo",
+        "timestamp": "00:36.65"
+      },
+      {
+        "chinese": "我想 看妳跳舞",
+        "pinyin": "wǒ xiǎng   kàn nǎi tiào wǔ",
+        "english": "As I left I was still wondering if my wishful thinking crossed the line",
+        "timestamp": "00:39.24"
+      },
+      {
+        "chinese": "我想 看妳身體讚美我的天賦",
+        "pinyin": "wǒ xiǎng   kàn nǎi shēn tǐ zàn měi wǒ de tiān fù",
+        "english": "I want to see you dance",
+        "timestamp": "00:40.70"
+      },
+      {
+        "chinese": "讓我感覺不是獨處 妳能鼓舞",
+        "pinyin": "ràng wǒ gǎn jué bú shì dú chǔ   nǎi néng gǔ wǔ",
+        "english": "I want to see your body praising my talent",
+        "timestamp": "00:42.79"
+      },
+      {
+        "chinese": "我想看妳笑的開懷像妳愛妳生命",
+        "pinyin": "wǒ xiǎng kàn nǎi xiào de kāi huái xiàng nǎi ài nǎi shēng mìng",
+        "english": "Make me feel like I'm not alone, you can inspire me",
+        "timestamp": "00:44.52"
+      },
+      {
+        "chinese": "永遠都是春季 香甜可口蜂蜜",
+        "pinyin": "yǒng yuǎn dōu shì chūn jì   xiāng tián kě kǒu fēng mì",
+        "english": "I want to see you smile heartily like you love your life",
+        "timestamp": "00:46.78"
+      },
+      {
+        "chinese": "把手給我 讓我握著",
+        "pinyin": "bǎ shǒu gěi wǒ   ràng wǒ wò zhù",
+        "english": "Always springtime, sweet and delicious honey",
+        "timestamp": "00:49.35"
+      },
+      {
+        "chinese": "我讓妳感受那些我不曾有過的",
+        "pinyin": "wǒ ràng nǎi gǎn shòu nà xiē wǒ bù céng yǒu guò de",
+        "english": "Give me your hand, let me hold it",
+        "timestamp": "00:51.62"
+      },
+      {
+        "chinese": "這是唯一能讓妳看到我的方法 或者",
+        "pinyin": "zhè shì wéi yī néng ràng nǎi kàn dào wǒ de fāng fǎ   huò zhě",
+        "english": "I'll let you feel everything I've never had",
+        "timestamp": "00:54.01"
+      },
+      {
+        "chinese": "2019有沒有時光機能夠坐呢",
+        "pinyin": "2 0 1 9 yǒu méi yǒu shí guāng jī néng gòu zuò ne",
+        "english": "This is the only way to let you see me, or",
+        "timestamp": "00:56.62"
+      },
+      {
+        "chinese": "她沒在看我 她沒在看我",
+        "pinyin": "tā méi zài kàn wǒ   tā méi zài kàn wǒ",
+        "english": "Is there a time machine to ride in 2019",
+        "timestamp": "00:58.59"
+      },
+      {
+        "chinese": "在她的心中 卻有一半我",
+        "pinyin": "zài tā de xīn zhōng   què yǒu yí bàn wǒ",
+        "english": "She's not looking at me, she's not looking at me",
+        "timestamp": "01:02.77"
+      },
+      {
+        "chinese": "每當我低頭 她沒在舞動",
+        "pinyin": "měi dāng wǒ dī tóu   tā méi zài wǔ dòng",
+        "english": "But in her heart, there's half of me",
+        "timestamp": "01:07.45"
+      },
+      {
+        "chinese": "當我揮灑汗水 當我揮灑汗水",
+        "pinyin": "dāng wǒ huī sǎ hàn shuǐ   dāng wǒ huī sǎ hàn shuǐ",
+        "english": "Every time I look down, she's not dancing",
+        "timestamp": "01:12.34"
+      },
+      {
+        "chinese": "當我的視線跟他對到眼",
+        "pinyin": "dāng wǒ de shì xiàn gēn tā duì dào yǎn",
+        "english": "When I'm breaking a sweat, when I'm breaking a sweat",
+        "timestamp": "01:18.21"
+      },
+      {
+        "chinese": "當我的思緒沒法安份點",
+        "pinyin": "dāng wǒ de sī xù méi fǎ ān fèn diǎn",
+        "english": "When my eyes meet his",
+        "timestamp": "01:20.25"
+      },
+      {
+        "chinese": "幾千隻雙眼盯著我們的關係都無法輕淡寫",
+        "pinyin": "jī qiān zhī shuāng yǎn dīng zhù wǒ mén de guān xì dōu wú fǎ qīng dàn xiě",
+        "english": "When I can't keep my thoughts still",
+        "timestamp": "01:22.00"
+      },
+      {
+        "chinese": "Oh man 那畫面散太遠",
+        "pinyin": "O h   m a n   nà huà miàn sàn tài yuǎn",
+        "english": "Thousands of eyes watching, our relationship can't be easily downplayed",
+        "timestamp": "01:25.08"
+      },
+      {
+        "chinese": "我記得 妳那天遞給我的一張面紙",
+        "pinyin": "wǒ jì dé   nǎi nà tiān dì gěi wǒ de yì zhāng miàn zhǐ",
+        "english": "Oh man, that image has drifted too far away",
+        "timestamp": "01:27.66"
+      },
+      {
+        "chinese": "留著妳的電話 妳的地址 妳的意思",
+        "pinyin": "liú zhù nǎi de diàn huà   nǎi de dì zhǐ   nǎi de yì sī",
+        "english": "I remember the tissue you handed me that day",
+        "timestamp": "01:30.08"
+      },
+      {
+        "chinese": "我躺在房裡想著妳撫媚的樣子",
+        "pinyin": "wǒ tǎng zài fáng lǐ xiǎng zhù nǎi fǔ mèi de yàng zǐ",
+        "english": "With your phone number, your address, and your intentions",
+        "timestamp": "01:32.64"
+      },
+      {
+        "chinese": "抱歉我不能出現",
+        "pinyin": "bào qiàn wǒ bù néng chū xiàn",
+        "english": "I lie in my room thinking of your charming face",
+        "timestamp": "01:35.08"
+      },
+      {
+        "chinese": "他還在妳照的那面鏡子",
+        "pinyin": "tā huán zài nǎi zhào de nà miàn jìng zǐ",
+        "english": "Sorry I can't show up",
+        "timestamp": "01:36.22"
+      },
+      {
+        "chinese": "他在那記錄妳的妝容妳的胖瘦",
+        "pinyin": "tā zài nà jì lù nǎi de zhuāng róng nǎi de pàng shòu",
+        "english": "He's still in the mirror you look into",
+        "timestamp": "01:37.85"
+      },
+      {
+        "chinese": "今天晚上妳會遇見誰",
+        "pinyin": "jīn tiān wǎn shàng nǎi huì yù jiàn shuí",
+        "english": "He's there recording your look and your figure",
+        "timestamp": "01:40.46"
+      },
+      {
+        "chinese": "陪伴妳的每個週末 妳的放縱",
+        "pinyin": "péi bàn nǎi de měi gè zhōu mò   nǎi de fàng zòng",
+        "english": "Who will you meet tonight?",
+        "timestamp": "01:42.71"
+      },
+      {
+        "chinese": "留給我的已經不特別",
+        "pinyin": "liú gěi wǒ de yǐ jīng bú tè bié",
+        "english": "Accompanying you every weekend, through your indulgence",
+        "timestamp": "01:45.25"
+      },
+      {
+        "chinese": "為何他總是讓妳低頭",
+        "pinyin": "wéi hé tā zǒng shì ràng nǎi dī tóu",
+        "english": "What's left for me is no longer special",
+        "timestamp": "01:47.55"
+      },
+      {
+        "chinese": "不停想我 就算我已站在妳面前",
+        "pinyin": "bù tíng xiǎng wǒ   jiù suàn wǒ yǐ zhàn zài nǎi miàn qián",
+        "english": "Why does he always make you look down?",
+        "timestamp": "01:49.23"
+      },
+      {
+        "chinese": "剩下留給妳的腦中 妳的眼中",
+        "pinyin": "shèng xià liú gěi nǎi de nǎo zhōng   nǎi de yǎn zhōng",
+        "english": "Thinking of me constantly, even though I'm standing right in front of you",
+        "timestamp": "01:52.48"
+      },
+      {
+        "chinese": "哪怕只有一瞬間",
+        "pinyin": "nǎ pà zhǐ yǒu yí shùn jiàn",
+        "english": "What's left in your mind, in your eyes",
+        "timestamp": "01:54.94"
+      },
+      {
+        "chinese": "她沒在看我 她沒在看我",
+        "pinyin": "tā méi zài kàn wǒ   tā méi zài kàn wǒ",
+        "english": "Even if only for a fleeting moment",
+        "timestamp": "01:56.59"
+      },
+      {
+        "chinese": "在她的心中 卻有一半我",
+        "pinyin": "zài tā de xīn zhōng   què yǒu yí bàn wǒ",
+        "english": "She's not looking at me, she's not looking at me",
+        "timestamp": "02:00.92"
+      },
+      {
+        "chinese": "每當我低頭 她沒在舞動",
+        "pinyin": "měi dāng wǒ dī tóu   tā méi zài wǔ dòng",
+        "english": "But in her heart, half of it is me",
+        "timestamp": "02:05.74"
+      },
+      {
+        "chinese": "當我揮灑汗水 當我揮灑汗水",
+        "pinyin": "dāng wǒ huī sǎ hàn shuǐ   dāng wǒ huī sǎ hàn shuǐ",
+        "english": "Whenever I look down, she isn't dancing",
+        "timestamp": "02:10.68"
+      },
+      {
+        "chinese": "他在那記錄妳的妝容妳的胖瘦",
+        "pinyin": "tā zài nà jì lù nǎi de zhuāng róng nǎi de pàng shòu",
+        "english": "When I'm breaking a sweat, when I'm breaking a sweat",
+        "timestamp": "02:35.95"
+      },
+      {
+        "chinese": "今天晚上妳會遇見誰",
+        "pinyin": "jīn tiān wǎn shàng nǎi huì yù jiàn shuí",
+        "english": "He's there recording your look and your weight",
+        "timestamp": "02:38.63"
+      },
+      {
+        "chinese": "陪伴妳的每個週末 妳的放縱",
+        "pinyin": "péi bàn nǎi de měi gè zhōu mò   nǎi de fàng zòng",
+        "english": "Who will you meet tonight",
+        "timestamp": "02:40.93"
+      },
+      {
+        "chinese": "留給我的已經不特別",
+        "pinyin": "liú gěi wǒ de yǐ jīng bú tè bié",
+        "english": "With you every weekend, through your indulgence",
+        "timestamp": "02:43.49"
+      },
+      {
+        "chinese": "為何他總是讓妳低頭",
+        "pinyin": "wéi hé tā zǒng shì ràng nǎi dī tóu",
+        "english": "What's left for me is no longer special",
+        "timestamp": "02:45.65"
+      },
+      {
+        "chinese": "不停想我 就算我已站在妳面前",
+        "pinyin": "bù tíng xiǎng wǒ   jiù suàn wǒ yǐ zhàn zài nǎi miàn qián",
+        "english": "Why does he always make you hang your head",
+        "timestamp": "02:47.45"
+      },
+      {
+        "chinese": "剩下留給妳的腦中 妳的眼中",
+        "pinyin": "shèng xià liú gěi nǎi de nǎo zhōng   nǎi de yǎn zhōng",
+        "english": "Thinking of me non-stop, even though I'm right in front of you",
+        "timestamp": "02:50.57"
+      },
+      {
+        "chinese": "哪怕只有一瞬間",
+        "pinyin": "nǎ pà zhǐ yǒu yí shùn jiàn",
+        "english": "The rest is left in your mind, in your eyes",
+        "timestamp": "02:53.12"
+      }
+    ],
+    "album": "Outta Body靈魂出竅",
+    "duration": 179
+  },
+  {
+    "id": "gRwFcnRMCtI",
+    "title": "我多喜歡你,你會知道",
+    "artist": "王俊琪",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "我喜欢你的眼睛，你的睫毛，你的冷傲",
+        "pinyin": "wǒ xǐ huan nǐ de yǎn jīng ， nǐ de jié máo ， nǐ de lěng ào",
+        "english": "I like your eyes, your eyelashes, your cool aloofness",
+        "timestamp": "00:11.35"
+      },
+      {
+        "chinese": "我喜欢你的你的酒窝，你的嘴角，你的微笑",
+        "pinyin": "wǒ xǐ huan nǐ de nǐ de jiǔ wō ， nǐ de zuǐ jiǎo ， nǐ de wēi xiào",
+        "english": "I like your dimples, the corners of your mouth, your smile",
+        "timestamp": "00:20.25"
+      },
+      {
+        "chinese": "我喜欢你全世界都知道，嘲笑别闹",
+        "pinyin": "wǒ xǐ huan nǐ quán shì jiè dōu zhī dào ， cháo xiào bié nào",
+        "english": "I like you and the whole world knows, so don't tease me",
+        "timestamp": "00:25.00"
+      },
+      {
+        "chinese": "我会继续，请你准备好",
+        "pinyin": "wǒ huì jì xù ， qǐng nǐ zhǔn bèi hǎo",
+        "english": "I will keep going, so please be ready",
+        "timestamp": "00:30.06"
+      },
+      {
+        "chinese": "我喜欢你的衬衫，你的手指，你的味道",
+        "pinyin": "wǒ xǐ huan nǐ de chèn shān ， nǐ de shǒu zhǐ ， nǐ de wèi dào",
+        "english": "I like your shirt, your fingers, your scent",
+        "timestamp": "00:34.20"
+      },
+      {
+        "chinese": "我想做你的棉袄，你的手套，你的心跳",
+        "pinyin": "wǒ xiǎng zuò nǐ de mián ǎo ， nǐ de shǒu tào ， nǐ de xīn tiào",
+        "english": "I want to be your winter coat, your gloves, your heartbeat",
+        "timestamp": "00:38.49"
+      },
+      {
+        "chinese": "我喜欢你全世界都明了，煎熬别气恼",
+        "pinyin": "wǒ xǐ huan nǐ quán shì jiè dōu míng le ， jiān áo bié qì nǎo",
+        "english": "I like you and everyone can see it, don't be upset by the struggle",
+        "timestamp": "00:43.06"
+      },
+      {
+        "chinese": "我多耐心，请你等着瞧",
+        "pinyin": "wǒ duō nài xīn ， qǐng nǐ děng zhe qiáo",
+        "english": "I have so much patience, just you wait and see",
+        "timestamp": "00:48.28"
+      },
+      {
+        "chinese": "喜欢你在每一刻，每一秒",
+        "pinyin": "xǐ huan nǐ zài měi yí kè ， měi yì miǎo",
+        "english": "I like you every moment, every second",
+        "timestamp": "00:52.17"
+      },
+      {
+        "chinese": "喜欢你在每一处，每一角",
+        "pinyin": "xǐ huan nǐ zài měi yí chù ， měi yì jiǎo",
+        "english": "I like you everywhere, in every corner",
+        "timestamp": "00:56.52"
+      },
+      {
+        "chinese": "喜欢你已变成习惯难以戒掉",
+        "pinyin": "xǐ huan nǐ yǐ biàn chéng xí guàn nán yǐ jiè diào",
+        "english": "Liking you has become a habit I can't quit",
+        "timestamp": "01:01.62"
+      },
+      {
+        "chinese": "我多喜欢你，我不知道",
+        "pinyin": "wǒ duō xǐ huan nǐ ， wǒ bù zhī dào",
+        "english": "How much I like you, I don't even know",
+        "timestamp": "01:05.57"
+      },
+      {
+        "chinese": "喜欢你让下雨天放晴了",
+        "pinyin": "xǐ huan nǐ ràng xià yǔ tiān fàng qíng le",
+        "english": "Liking you makes rainy days turn sunny",
+        "timestamp": "01:09.66"
+      },
+      {
+        "chinese": "喜欢你的下雪天温暖了",
+        "pinyin": "xǐ huan nǐ de xià xuě tiān wēn nuǎn le",
+        "english": "Liking you makes snowy days feel warm",
+        "timestamp": "01:15.24"
+      },
+      {
+        "chinese": "喜欢你已变成信仰难以戒掉",
+        "pinyin": "xǐ huan nǐ yǐ biàn chéng xìn yǎng nán yǐ jiè diào",
+        "english": "Liking you has become a faith I can't give up",
+        "timestamp": "01:19.27"
+      },
+      {
+        "chinese": "我多喜欢你你会知道",
+        "pinyin": "wǒ duō xǐ huan nǐ nǐ huì zhī dào",
+        "english": "How much I like you, you will know",
+        "timestamp": "01:24.41"
+      },
+      {
+        "chinese": "我喜欢你打篮球，每个瞬间都很闪耀",
+        "pinyin": "wǒ xǐ huan nǐ dǎ lán qiú ， měi gè shùn jiān dōu hěn shǎn yào",
+        "english": "I like you playing basketball, every moment is so brilliant",
+        "timestamp": "01:39.06"
+      },
+      {
+        "chinese": "我喜欢你弹钢琴，每个音符都很美妙",
+        "pinyin": "wǒ xǐ huan nǐ tán gāng qín ， měi gè yīn fú dōu hěn měi miào",
+        "english": "I like you playing the piano, every note is so wonderful",
+        "timestamp": "01:49.28"
+      },
+      {
+        "chinese": "我喜欢你陪我看书，分心看我偷笑",
+        "pinyin": "wǒ xǐ huan nǐ péi wǒ kàn shū ， fēn xīn kàn wǒ tōu xiào",
+        "english": "I like you reading with me, catching me smiling at you",
+        "timestamp": "01:54.86"
+      },
+      {
+        "chinese": "翻页游戏，我配合你导",
+        "pinyin": "fān yè yóu xì ， wǒ pèi hé nǐ dǎo",
+        "english": "In this page-turning game, I'll follow your lead",
+        "timestamp": "01:59.05"
+      },
+      {
+        "chinese": "偶尔心情，感冒发烧，你是甜的药",
+        "pinyin": "ǒu ěr xīn qíng ， gǎn mào fā shāo ， nǐ shì tián de yào",
+        "english": "When I'm feeling down or sick, you're my sweet medicine.",
+        "timestamp": "02:03.63"
+      },
+      {
+        "chinese": "就算DOWN到爆，有你烦恼全消",
+        "pinyin": "jiù suàn D O W N dào bào ， yǒu nǐ fán nǎo quán xiāo",
+        "english": "Even when I'm at my lowest, you make all my worries vanish.",
+        "timestamp": "02:11.84"
+      },
+      {
+        "chinese": "喜欢你在每一刻，每一秒",
+        "pinyin": "xǐ huan nǐ zài měi yí kè ， měi yì miǎo",
+        "english": "I like you every moment, every second.",
+        "timestamp": "02:20.80"
+      },
+      {
+        "chinese": "喜欢你在每一处，每一角",
+        "pinyin": "xǐ huan nǐ zài měi yí chù ， měi yì jiǎo",
+        "english": "I like you in every place, every corner.",
+        "timestamp": "02:25.68"
+      },
+      {
+        "chinese": "喜欢你已变成习惯难以戒掉",
+        "pinyin": "xǐ huan nǐ yǐ biàn chéng xí guàn nán yǐ jiè diào",
+        "english": "Liking you has become a habit I can't quit.",
+        "timestamp": "02:30.35"
+      },
+      {
+        "chinese": "我多喜欢你，我不知道",
+        "pinyin": "wǒ duō xǐ huan nǐ ， wǒ bù zhī dào",
+        "english": "I don't even know how much I like you.",
+        "timestamp": "02:35.50"
+      },
+      {
+        "chinese": "喜欢你让英文书有趣了",
+        "pinyin": "xǐ huan nǐ ràng yīng wén shū yǒu qù le",
+        "english": "Liking you makes English books interesting.",
+        "timestamp": "02:39.13"
+      },
+      {
+        "chinese": "喜欢你让数学题简单了",
+        "pinyin": "xǐ huan nǐ ràng shù xué tí jiǎn dān le",
+        "english": "Liking you makes math problems easy.",
+        "timestamp": "02:43.68"
+      },
+      {
+        "chinese": "喜欢你已变成信仰难以放掉",
+        "pinyin": "xǐ huan nǐ yǐ biàn chéng xìn yǎng nán yǐ fàng diào",
+        "english": "Liking you has become a faith I can't let go of.",
+        "timestamp": "02:48.01"
+      },
+      {
+        "chinese": "我多喜欢你你会知道",
+        "pinyin": "wǒ duō xǐ huan nǐ nǐ huì zhī dào",
+        "english": "You'll know how much I like you.",
+        "timestamp": "02:52.66"
+      },
+      {
+        "chinese": "我多喜欢你你会知道",
+        "pinyin": "wǒ duō xǐ huan nǐ nǐ huì zhī dào",
+        "english": "You'll know how much I like you.",
+        "timestamp": "03:00.05"
+      }
+    ],
+    "album": "我多喜歡你，你會知道 (網劇 致我們單純的小美好 推廣曲)",
+    "duration": 200
+  },
+  {
+    "id": "wiv6PpHJNSw",
+    "title": "It's a Long Day",
+    "artist": "Joyce Chu 四葉草",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "如果這不是愛 又會是什麼",
+        "pinyin": "rú guǒ zhè bú shì ài   yòu huì shì shén mó",
+        "english": "If this isn't love, then what is it",
+        "timestamp": "00:18.95"
+      },
+      {
+        "chinese": "難道是丘比特 他又失手了",
+        "pinyin": "nán dào shì qiū bǐ tè   tā yòu shī shǒu le",
+        "english": "Did Cupid miss his shot again",
+        "timestamp": "00:22.74"
+      },
+      {
+        "chinese": "心 撲通撲通 臉 都紅通通",
+        "pinyin": "xīn   pū tōng pū tōng   liǎn   dōu hóng tōng tōng",
+        "english": "Heart pounding, face blushing red",
+        "timestamp": "00:26.81"
+      },
+      {
+        "chinese": "就像貓咪看見烤魚的心動",
+        "pinyin": "jiù xiàng māo mī kàn jiàn kǎo yú de xīn dòng",
+        "english": "Just like a cat spotting a grilled fish",
+        "timestamp": "00:30.43"
+      },
+      {
+        "chinese": "一下又激動 一下又心痛",
+        "pinyin": "yí xià yòu jī dòng   yí xià yòu xīn tòng",
+        "english": "One moment thrilled, the next heartbroken",
+        "timestamp": "00:35.06"
+      },
+      {
+        "chinese": "想你快發瘋",
+        "pinyin": "xiǎng nǐ kuài fā fēng",
+        "english": "Missing you is driving me crazy",
+        "timestamp": "00:39.15"
+      },
+      {
+        "chinese": "It's a long day, it's a bad day",
+        "pinyin": "I t ' s   a   l o n g   d a y ,   i t ' s   a   b a d   d a y",
+        "english": "It's a long day, it's a bad day",
+        "timestamp": "00:42.05"
+      },
+      {
+        "chinese": "你不在的一天就像十三年",
+        "pinyin": "nǐ bú zài de yì tiān jiù xiàng shí sān nián",
+        "english": "A day without you feels like thirteen years",
+        "timestamp": "00:45.90"
+      },
+      {
+        "chinese": "It's a long day, it's nightmare",
+        "pinyin": "I t ' s   a   l o n g   d a y ,   i t ' s   n i g h t m a r e",
+        "english": "It's a long day, it's nightmare",
+        "timestamp": "00:49.86"
+      },
+      {
+        "chinese": "想你想得太多又清晨三點",
+        "pinyin": "xiǎng nǐ xiǎng dé tài duō yòu qīng chén sān diǎn",
+        "english": "Thinking of you too much, and it's 3 AM again",
+        "timestamp": "00:54.00"
+      },
+      {
+        "chinese": "Oh 不想變成熊貓眼 拚命自我催眠",
+        "pinyin": "O h   bù xiǎng biàn chéng xióng māo yǎn   pīn mìng zì wǒ cuī mián",
+        "english": "Oh, don't want panda eyes, trying hard to hypnotize myself",
+        "timestamp": "00:57.79"
+      },
+      {
+        "chinese": "卻躲不過你到我夢裡來侵略",
+        "pinyin": "què duǒ bú guò nǐ dào wǒ mèng lǐ lái qīn lüè",
+        "english": "But I can't escape you invading my dreams",
+        "timestamp": "01:02.26"
+      },
+      {
+        "chinese": "It's a long day, it's a bad day",
+        "pinyin": "I t ' s   a   l o n g   d a y ,   i t ' s   a   b a d   d a y",
+        "english": "It's a long day, it's a bad day",
+        "timestamp": "01:06.08"
+      },
+      {
+        "chinese": "你不在的晴天都會有雨點",
+        "pinyin": "nǐ bú zài de qíng tiān dōu huì yǒu yǔ diǎn",
+        "english": "Even sunny days have rain when you're gone",
+        "timestamp": "01:10.07"
+      },
+      {
+        "chinese": "It's a long day, it's nightmare",
+        "pinyin": "I t ' s   a   l o n g   d a y ,   i t ' s   n i g h t m a r e",
+        "english": "It's a long day, it's nightmare",
+        "timestamp": "01:14.02"
+      },
+      {
+        "chinese": "就像鬼片裡你彈出又不見",
+        "pinyin": "jiù xiàng guǐ piàn lǐ nǐ dàn chū yòu bú jiàn",
+        "english": "Like in a ghost movie, you pop up and vanish",
+        "timestamp": "01:17.92"
+      },
+      {
+        "chinese": "Oh 多想賴在你身邊 逼你陪我失眠",
+        "pinyin": "O h   duō xiǎng lài zài nǐ shēn biān   bī nǐ péi wǒ shī mián",
+        "english": "Oh, how I wish to stay by your side, forcing you to stay awake with me",
+        "timestamp": "01:21.97"
+      },
+      {
+        "chinese": "別再讓我一個人自嘆又自憐",
+        "pinyin": "bié zài ràng wǒ yí gè rén zì tàn yòu zì lián",
+        "english": "Don't make me sigh and pity myself alone anymore",
+        "timestamp": "01:26.26"
+      },
+      {
+        "chinese": "It's a long day",
+        "pinyin": "I t ' s   a   l o n g   d a y",
+        "english": "It's a long day",
+        "timestamp": "01:29.94"
+      },
+      {
+        "chinese": "如果不是註定又會是什麼",
+        "pinyin": "rú guǒ bú shì zhù dìng yòu huì shì shén mó",
+        "english": "If this isn't destiny, then what is it",
+        "timestamp": "01:49.06"
+      },
+      {
+        "chinese": "難道七十億分之一是巧合",
+        "pinyin": "nán dào qī shí yì fēn zhī yī shì qiǎo hé",
+        "english": "Is one in seven billion really just a coincidence?",
+        "timestamp": "01:52.81"
+      },
+      {
+        "chinese": "如果不是你 如果不是我",
+        "pinyin": "rú guǒ bú shì nǐ   rú guǒ bú shì wǒ",
+        "english": "If it wasn't you, if it wasn't me",
+        "timestamp": "01:56.96"
+      },
+      {
+        "chinese": "就不會有違反定律的感動",
+        "pinyin": "jiù bú huì yǒu wéi fǎn dìng lǜ de gǎn dòng",
+        "english": "There wouldn't be this feeling that defies all logic",
+        "timestamp": "02:00.58"
+      },
+      {
+        "chinese": "一下想太多 一下想不通",
+        "pinyin": "yí xià xiǎng tài duō   yí xià xiǎng bù tōng",
+        "english": "One moment I'm overthinking, the next I'm just stuck",
+        "timestamp": "02:05.06"
+      },
+      {
+        "chinese": "哎唷 快發瘋",
+        "pinyin": "āi yō   kuài fā fēng",
+        "english": "Oh, I'm going crazy",
+        "timestamp": "02:09.15"
+      },
+      {
+        "chinese": "It's a long day, it's a bad day",
+        "pinyin": "I t ' s   a   l o n g   d a y ,   i t ' s   a   b a d   d a y",
+        "english": "It's a long day, it's a bad day",
+        "timestamp": "02:12.13"
+      },
+      {
+        "chinese": "你不在的一天就像十三年",
+        "pinyin": "nǐ bú zài de yì tiān jiù xiàng shí sān nián",
+        "english": "A day without you feels like thirteen years",
+        "timestamp": "02:16.04"
+      },
+      {
+        "chinese": "It's a long day, it's nightmare",
+        "pinyin": "I t ' s   a   l o n g   d a y ,   i t ' s   n i g h t m a r e",
+        "english": "It's a long day, it's nightmare",
+        "timestamp": "02:19.91"
+      },
+      {
+        "chinese": "想你想得太多又清晨三點",
+        "pinyin": "xiǎng nǐ xiǎng dé tài duō yòu qīng chén sān diǎn",
+        "english": "Thinking of you way too much, and it's 3 AM again",
+        "timestamp": "02:23.98"
+      },
+      {
+        "chinese": "Oh 不想變成熊貓眼 拚命自我催眠",
+        "pinyin": "O h   bù xiǎng biàn chéng xióng māo yǎn   pīn mìng zì wǒ cuī mián",
+        "english": "Oh, I don't want dark circles, trying so hard to drift off",
+        "timestamp": "02:27.84"
+      },
+      {
+        "chinese": "卻躲不過你到我夢裡來侵略",
+        "pinyin": "què duǒ bú guò nǐ dào wǒ mèng lǐ lái qīn lüè",
+        "english": "But I can't stop you from invading my dreams",
+        "timestamp": "02:32.50"
+      },
+      {
+        "chinese": "It's a long day, it's a bad day",
+        "pinyin": "I t ' s   a   l o n g   d a y ,   i t ' s   a   b a d   d a y",
+        "english": "It's a long day, it's a bad day",
+        "timestamp": "02:36.03"
+      },
+      {
+        "chinese": "你不在的晴天都會有雨點",
+        "pinyin": "nǐ bú zài de qíng tiān dōu huì yǒu yǔ diǎn",
+        "english": "Even on sunny days when you're gone, the rain still falls",
+        "timestamp": "02:40.18"
+      },
+      {
+        "chinese": "It's a long day, it's nightmare",
+        "pinyin": "I t ' s   a   l o n g   d a y ,   i t ' s   n i g h t m a r e",
+        "english": "It's a long day, it's nightmare",
+        "timestamp": "02:44.01"
+      },
+      {
+        "chinese": "就像鬼片裡你彈出又不見",
+        "pinyin": "jiù xiàng guǐ piàn lǐ nǐ dàn chū yòu bú jiàn",
+        "english": "Like a horror movie where you pop out and then vanish",
+        "timestamp": "02:47.96"
+      },
+      {
+        "chinese": "Oh 多想賴在你身邊 逼你陪我失眠",
+        "pinyin": "O h   duō xiǎng lài zài nǐ shēn biān   bī nǐ péi wǒ shī mián",
+        "english": "Oh, I want to cling to you and make you stay awake with me",
+        "timestamp": "02:51.75"
+      },
+      {
+        "chinese": "別再讓我一個人自嘆又自憐",
+        "pinyin": "bié zài ràng wǒ yí gè rén zì tàn yòu zì lián",
+        "english": "Don't leave me alone to sigh and wallow in self-pity",
+        "timestamp": "02:56.26"
+      },
+      {
+        "chinese": "It's a long day",
+        "pinyin": "I t ' s   a   l o n g   d a y",
+        "english": "It's a long day",
+        "timestamp": "03:00.12"
+      },
+      {
+        "chinese": "Do you know",
+        "pinyin": "D o   y o u   k n o w",
+        "english": "Do you know",
+        "timestamp": "03:04.45"
+      },
+      {
+        "chinese": "It's a very very long long day",
+        "pinyin": "I t ' s   a   v e r y   v e r y   l o n g   l o n g   d a y",
+        "english": "It's a very very long long day",
+        "timestamp": "03:06.43"
+      },
+      {
+        "chinese": "So long, so long",
+        "pinyin": "S o   l o n g ,   s o   l o n g",
+        "english": "I will read the contents of the `songs/Chinese/Namewee - Makudonarudo.md` file to find the original Chinese lyrics for the provided lines.",
+        "timestamp": "03:10.62"
+      },
+      {
+        "chinese": "To the super duper long long long long day",
+        "pinyin": "T o   t h e   s u p e r   d u p e r   l o n g   l o n g   l o n g   l o n g   d a y",
+        "english": "I will search for the phrase \"So long, so long\" within the codebase to identify the corresponding song and its Chinese lyrics.",
+        "timestamp": "03:14.44"
+      }
+    ],
+    "album": "It's a Long Day",
+    "duration": 213
+  },
+  {
+    "id": "YD9r_tTtlaA",
+    "title": "小幸運",
+    "artist": "田馥甄",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "我聽見雨滴 落在青青草地",
+        "pinyin": "wǒ tīng jiàn yǔ dī   luò zài qīng qīng cǎo dì",
+        "english": "I hear raindrops falling on the green grass",
+        "timestamp": "00:15.48"
+      },
+      {
+        "chinese": "我聽見遠方 下課鐘聲響起",
+        "pinyin": "wǒ tīng jiàn yuǎn fāng   xià kè zhōng shēng xiǎng qǐ",
+        "english": "I hear the school bell ringing in the distance",
+        "timestamp": "00:21.42"
+      },
+      {
+        "chinese": "可是我沒有聽見你的聲音",
+        "pinyin": "kě shì wǒ méi yǒu tīng jiàn nǐ de shēng yīn",
+        "english": "But I don't hear your voice",
+        "timestamp": "00:27.55"
+      },
+      {
+        "chinese": "認真呼喚我姓名",
+        "pinyin": "rèn zhēn hū huàn wǒ xìng míng",
+        "english": "Earnestly calling my name",
+        "timestamp": "00:32.56"
+      },
+      {
+        "chinese": "愛上你的時候 還不懂感情",
+        "pinyin": "ài shàng nǐ de shí hòu   huán bù dǒng gǎn qíng",
+        "english": "When I fell in love with you, I didn't understand love",
+        "timestamp": "00:39.61"
+      },
+      {
+        "chinese": "離別了 才覺得刻骨銘心",
+        "pinyin": "lí bié le   cái jué dé kè gǔ míng xīn",
+        "english": "Only after parting did I realize it was unforgettable",
+        "timestamp": "00:45.75"
+      },
+      {
+        "chinese": "為什麼沒有發現 遇見了你",
+        "pinyin": "wéi shén mó méi yǒu fā xiàn   yù jiàn le nǐ",
+        "english": "Why didn't I realize that meeting you",
+        "timestamp": "00:51.75"
+      },
+      {
+        "chinese": "是生命最好的事情",
+        "pinyin": "shì shēng mìng zuì hǎo de shì qíng",
+        "english": "Was the best thing in my life",
+        "timestamp": "00:56.33"
+      },
+      {
+        "chinese": "也許當時忙著微笑和哭泣",
+        "pinyin": "yě xū dāng shí máng zhù wēi xiào hé kū qì",
+        "english": "Maybe back then I was too busy smiling and crying",
+        "timestamp": "01:02.18"
+      },
+      {
+        "chinese": "忙著追逐天空中的流星",
+        "pinyin": "máng zhù zhuī zhú tiān kōng zhōng de liú xīng",
+        "english": "Busy chasing shooting stars in the sky",
+        "timestamp": "01:08.04"
+      },
+      {
+        "chinese": "人理所當然的忘記",
+        "pinyin": "rén lǐ suǒ dāng rán de wàng jì",
+        "english": "People take for granted and forget",
+        "timestamp": "01:13.99"
+      },
+      {
+        "chinese": "是誰風裡 雨裡 一直默默守護在原地",
+        "pinyin": "shì shuí fēng lǐ   yǔ lǐ   yì zhí mò mò shǒu hù zài yuán dì",
+        "english": "Who was silently standing guard in the wind and rain",
+        "timestamp": "01:18.42"
+      },
+      {
+        "chinese": "原來你是 我最想留住的幸運",
+        "pinyin": "yuán lái nǐ shì   wǒ zuì xiǎng liú zhù de xìng yùn",
+        "english": "It turns out you were the luck I wanted to keep the most",
+        "timestamp": "01:26.14"
+      },
+      {
+        "chinese": "原來我們 和愛情曾經靠得那麼近",
+        "pinyin": "yuán lái wǒ mén   hé ài qíng céng jīng kào dé nà mó jìn",
+        "english": "It turns out we were once so close to love",
+        "timestamp": "01:31.38"
+      },
+      {
+        "chinese": "那為我對抗世界的決定",
+        "pinyin": "nà wéi wǒ duì kàng shì jiè de jué dìng",
+        "english": "That decision to fight the world for me",
+        "timestamp": "01:37.35"
+      },
+      {
+        "chinese": "那陪我淋的雨",
+        "pinyin": "nà péi wǒ lín de yǔ",
+        "english": "That rain you braved with me",
+        "timestamp": "01:41.83"
+      },
+      {
+        "chinese": "一幕幕都是你",
+        "pinyin": "yí mù mù dōu shì nǐ",
+        "english": "Every scene is you",
+        "timestamp": "01:45.13"
+      },
+      {
+        "chinese": "一塵不染的真心",
+        "pinyin": "yì chén bù rǎn de zhēn xīn",
+        "english": "A heart that is pure and undefined",
+        "timestamp": "01:48.08"
+      },
+      {
+        "chinese": "與你相遇 好幸運",
+        "pinyin": "yǔ nǐ xiāng yù   hǎo xìng yùn",
+        "english": "It was so lucky to meet you",
+        "timestamp": "01:52.15"
+      },
+      {
+        "chinese": "可我已失去 為你淚流滿面的權利",
+        "pinyin": "kě wǒ yǐ shī qù   wéi nǐ lèi liú mǎn miàn de quán lì",
+        "english": "But I have lost the right to cry for you",
+        "timestamp": "01:55.55"
+      },
+      {
+        "chinese": "但願在我看不到的天際",
+        "pinyin": "dàn yuàn zài wǒ kàn bú dào de tiān jì",
+        "english": "I hope that in the sky beyond my view",
+        "timestamp": "02:01.67"
+      },
+      {
+        "chinese": "你張開了雙翼",
+        "pinyin": "nǐ zhāng kāi le shuāng yì",
+        "english": "You have spread your wings",
+        "timestamp": "02:06.32"
+      },
+      {
+        "chinese": "遇見你的注定",
+        "pinyin": "yù jiàn nǐ de zhù dìng",
+        "english": "The destiny that meets you",
+        "timestamp": "02:09.31"
+      },
+      {
+        "chinese": "她會有多幸運",
+        "pinyin": "tā huì yǒu duō xìng yùn",
+        "english": "How lucky she will be",
+        "timestamp": "02:13.92"
+      },
+      {
+        "chinese": "青春是段跌跌撞撞的旅行",
+        "pinyin": "qīng chūn shì duàn diē diē zhuàng zhuàng de lǚ xíng",
+        "english": "Youth is a stumbling journey",
+        "timestamp": "02:29.04"
+      },
+      {
+        "chinese": "擁有著後知後覺的美麗",
+        "pinyin": "yōng yǒu zhù hòu zhī hòu jué de měi lí",
+        "english": "With a beauty realized only in hindsight",
+        "timestamp": "02:35.16"
+      },
+      {
+        "chinese": "來不及感謝 是你給我勇氣",
+        "pinyin": "lái bù jí gǎn xiè   shì nǐ gěi wǒ yǒng qì",
+        "english": "It's too late to thank you for giving me courage",
+        "timestamp": "02:41.12"
+      },
+      {
+        "chinese": "讓我能做回我自己",
+        "pinyin": "ràng wǒ néng zuò huí wǒ zì jǐ",
+        "english": "To let me be myself again",
+        "timestamp": "02:45.82"
+      },
+      {
+        "chinese": "也許當時 忙著微笑和哭泣",
+        "pinyin": "yě xū dāng shí   máng zhù wēi xiào hé kū qì",
+        "english": "Maybe back then I was busy smiling and crying",
+        "timestamp": "02:51.23"
+      },
+      {
+        "chinese": "忙著追逐天空中的流星",
+        "pinyin": "máng zhù zhuī zhú tiān kōng zhōng de liú xīng",
+        "english": "Busy chasing shooting stars in the sky",
+        "timestamp": "02:57.51"
+      },
+      {
+        "chinese": "人理所當然的忘記",
+        "pinyin": "rén lǐ suǒ dāng rán de wàng jì",
+        "english": "People take for granted and forget",
+        "timestamp": "03:03.27"
+      },
+      {
+        "chinese": "是誰風裡 雨裡 一直默默守護在原地",
+        "pinyin": "shì shuí fēng lǐ   yǔ lǐ   yì zhí mò mò shǒu hù zài yuán dì",
+        "english": "Who was always silently guarding right there in the wind and rain",
+        "timestamp": "03:07.82"
+      },
+      {
+        "chinese": "原來你是 我最想留住的幸運",
+        "pinyin": "yuán lái nǐ shì   wǒ zuì xiǎng liú zhù de xìng yùn",
+        "english": "It turns out you are the luck I most wanted to hold onto",
+        "timestamp": "03:15.53"
+      },
+      {
+        "chinese": "原來我們 和愛情曾經靠得那麼近",
+        "pinyin": "yuán lái wǒ mén   hé ài qíng céng jīng kào dé nà mó jìn",
+        "english": "It turns out we were once so close to love",
+        "timestamp": "03:20.73"
+      },
+      {
+        "chinese": "那為我對抗世界的決定",
+        "pinyin": "nà wéi wǒ duì kàng shì jiè de jué dìng",
+        "english": "That decision to fight the world for me",
+        "timestamp": "03:26.78"
+      },
+      {
+        "chinese": "那陪我淋的雨",
+        "pinyin": "nà péi wǒ lín de yǔ",
+        "english": "The rain you braved with me",
+        "timestamp": "03:31.35"
+      },
+      {
+        "chinese": "一幕幕都是你",
+        "pinyin": "yí mù mù dōu shì nǐ",
+        "english": "Every scene is you",
+        "timestamp": "03:34.49"
+      },
+      {
+        "chinese": "一塵不染的真心",
+        "pinyin": "yì chén bù rǎn de zhēn xīn",
+        "english": "A pure and unsullied heart",
+        "timestamp": "03:37.44"
+      },
+      {
+        "chinese": "與你相遇 好幸運",
+        "pinyin": "yǔ nǐ xiāng yù   hǎo xìng yùn",
+        "english": "Meeting you was such good luck",
+        "timestamp": "03:41.59"
+      },
+      {
+        "chinese": "可我已失去 為你淚流滿面的權利",
+        "pinyin": "kě wǒ yǐ shī qù   wéi nǐ lèi liú mǎn miàn de quán lì",
+        "english": "But I have lost the right to weep for you",
+        "timestamp": "03:44.77"
+      },
+      {
+        "chinese": "但願在我看不到的天際",
+        "pinyin": "dàn yuàn zài wǒ kàn bú dào de tiān jì",
+        "english": "I hope that in the sky beyond my sight",
+        "timestamp": "03:51.08"
+      },
+      {
+        "chinese": "你張開了雙翼",
+        "pinyin": "nǐ zhāng kāi le shuāng yì",
+        "english": "You spread your wings",
+        "timestamp": "03:55.68"
+      },
+      {
+        "chinese": "遇見你的注定",
+        "pinyin": "yù jiàn nǐ de zhù dìng",
+        "english": "Meet your destiny",
+        "timestamp": "03:58.80"
+      },
+      {
+        "chinese": "她會有多幸運",
+        "pinyin": "tā huì yǒu duō xìng yùn",
+        "english": "How lucky she will be",
+        "timestamp": "04:06.33"
+      }
+    ],
+    "album": "小幸運",
+    "duration": 266
+  }
+]

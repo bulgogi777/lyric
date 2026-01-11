@@ -1,0 +1,54 @@
+---
+interface LyricLine {
+  timestamp?: string;
+  chinese: string;
+  pinyin: string;
+  english: string;
+}
+
+interface Props {
+  lyrics: LyricLine[];
+}
+
+const { lyrics } = Astro.props;
+
+// Convert timestamp to seconds
+function timestampToSeconds(timestamp: string): number {
+  const parts = timestamp.split(':');
+  const minutes = parseInt(parts[0], 10);
+  const seconds = parseFloat(parts[1]);
+  return minutes * 60 + seconds;
+}
+---
+
+<div class="space-y-6">
+  {lyrics.map((line, index) => (
+    <div class="lyric-block border-l-2 border-slate-700 hover:border-primary pl-4 py-2 transition-colors">
+      {line.timestamp && (
+        <button
+          class="timestamp mb-1 block"
+          onclick={`seekToTime(${timestampToSeconds(line.timestamp)})`}
+        >
+          [{line.timestamp}]
+        </button>
+      )}
+      <div class="chinese">{line.chinese}</div>
+      <div class="pinyin">{line.pinyin}</div>
+      <div class="english">{line.english}</div>
+    </div>
+  ))}
+</div>
+
+<style>
+  .lyric-block:hover {
+    background: linear-gradient(to right, rgba(59, 130, 246, 0.1), transparent);
+  }
+
+  @media print {
+    .lyric-block {
+      border-left-color: #ccc;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+  }
+</style>

@@ -1,0 +1,65 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import YouTubePlayer from '../../components/YouTubePlayer.astro';
+import LyricsDisplay from '../../components/LyricsDisplay.astro';
+import songs from '../../../data/songs.json';
+
+export function getStaticPaths() {
+  return songs.map((song) => ({
+    params: { id: song.id },
+    props: { song },
+  }));
+}
+
+const { song } = Astro.props;
+---
+
+<Layout title={`${song.title} - ${song.artist} · 歌词学习`}>
+  <div class="space-y-6">
+    <!-- Back link -->
+    <a href="/" class="text-primary hover:text-primary-dark inline-flex items-center gap-2 no-print">
+      ← 返回列表
+    </a>
+
+    <!-- Song header -->
+    <div class="text-center">
+      <h1 class="text-3xl font-bold mb-2">{song.title}</h1>
+      <p class="text-text-muted text-lg">{song.artist}</p>
+      {song.album && <p class="text-text-muted text-sm">专辑: {song.album}</p>}
+    </div>
+
+    <!-- Main content: Player + Lyrics -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- YouTube Player (sticky on desktop) -->
+      <div class="lg:col-span-1">
+        <YouTubePlayer videoId={song.id} />
+
+        <!-- Print button -->
+        <button
+          onclick="window.print()"
+          class="w-full mt-4 bg-slate-600 hover:bg-slate-500 px-4 py-2 rounded no-print transition-colors"
+        >
+          🖨️ 打印歌词
+        </button>
+      </div>
+
+      <!-- Lyrics -->
+      <div class="lg:col-span-2">
+        {song.hasLyrics && song.lyrics ? (
+          <LyricsDisplay lyrics={song.lyrics} />
+        ) : (
+          <div class="bg-surface rounded-lg p-8 text-center">
+            <p class="text-xl mb-4">歌词未找到</p>
+            <p class="text-text-muted mb-4">此歌曲需要手动添加歌词</p>
+            <a
+              href={`/admin/${song.id}`}
+              class="inline-block bg-primary hover:bg-primary-dark px-6 py-3 rounded transition-colors"
+            >
+              添加歌词
+            </a>
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,73 @@
+---
+interface Props {
+  videoId: string;
+}
+
+const { videoId } = Astro.props;
+---
+
+<div class="sticky top-4 bg-surface rounded-lg overflow-hidden no-print">
+  <div class="aspect-video">
+    <div id="youtube-player" data-video-id={videoId}></div>
+  </div>
+  <div class="p-4 text-center">
+    <button
+      id="play-btn"
+      class="bg-primary hover:bg-primary-dark px-4 py-2 rounded mr-2 transition-colors"
+    >
+      ▶ 播放
+    </button>
+    <button
+      id="pause-btn"
+      class="bg-slate-600 hover:bg-slate-500 px-4 py-2 rounded transition-colors"
+    >
+      ⏸ 暂停
+    </button>
+  </div>
+</div>
+
+<script>
+  // YouTube IFrame API
+  let player: YT.Player | null = null;
+
+  // Load the API
+  const tag = document.createElement('script');
+  tag.src = 'https://www.youtube.com/iframe_api';
+  const firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
+
+  // Initialize player when API is ready
+  (window as any).onYouTubeIframeAPIReady = function() {
+    const container = document.getElementById('youtube-player');
+    const videoId = container?.dataset.videoId;
+
+    if (container && videoId) {
+      player = new YT.Player('youtube-player', {
+        height: '100%',
+        width: '100%',
+        videoId: videoId,
+        playerVars: {
+          playsinline: 1,
+          autoplay: 0,
+        },
+      });
+    }
+  };
+
+  // Expose seekTo function globally for timestamp clicks
+  (window as any).seekToTime = function(seconds: number) {
+    if (player && player.seekTo) {
+      player.seekTo(seconds, true);
+      player.playVideo();
+    }
+  };
+
+  // Play/Pause buttons
+  document.getElementById('play-btn')?.addEventListener('click', () => {
+    player?.playVideo();
+  });
+
+  document.getElementById('pause-btn')?.addEventListener('click', () => {
+    player?.pauseVideo();
+  });
+</script>

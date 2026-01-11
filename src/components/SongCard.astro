@@ -1,0 +1,43 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  artist: string;
+  hasLyrics: boolean;
+}
+
+const { id, title, artist, hasLyrics } = Astro.props;
+const thumbnailUrl = `https://img.youtube.com/vi/${id}/mqdefault.jpg`;
+---
+
+<a
+  href={`/song/${id}`}
+  class="block bg-surface rounded-lg overflow-hidden hover:ring-2 hover:ring-primary transition-all group"
+>
+  <div class="relative">
+    <img
+      src={thumbnailUrl}
+      alt={title}
+      class="w-full h-36 object-cover group-hover:opacity-80 transition-opacity"
+      loading="lazy"
+    />
+    {!hasLyrics && (
+      <div class="absolute top-2 right-2 bg-yellow-600 text-xs px-2 py-1 rounded">
+        需要歌词
+      </div>
+    )}
+    {hasLyrics && (
+      <div class="absolute top-2 right-2 bg-green-600 text-xs px-2 py-1 rounded">
+        ✓ 有歌词
+      </div>
+    )}
+  </div>
+  <div class="p-4">
+    <h3 class="font-medium text-lg truncate group-hover:text-primary transition-colors">
+      {title}
+    </h3>
+    <p class="text-text-muted text-sm truncate">
+      {artist}
+    </p>
+  </div>
+</a>

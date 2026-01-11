@@ -1,92 +1,46 @@
-# Lyric
+# Astro Starter Kit: Basics
 
-Chinese lyrics study tool that generates markdown files with:
-- Original Chinese lyrics
-- Pinyin romanization
-- English translation
-
-Perfect for learning Chinese through music.
-
-## Features
-
-- **Playlist processing**: Process entire YouTube/YouTube Music playlists
-- **Lyrics from LRCLIB**: Free, community-maintained lyrics database
-- **Pinyin conversion**: Using pinyin-pro with tone marks (ā á ǎ à)
-- **Translation**: Via Gemini CLI (free)
-- **Synced lyrics**: Preserves timestamps when available
-
-## Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/bulgogi777/lyric.git
-cd lyric
-
-# Install dependencies
-bun install
-
-# Ensure yt-dlp is available (for playlist extraction)
-curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /tmp/yt-dlp
-chmod +x /tmp/yt-dlp
+```sh
+bun create astro@latest -- --template basics
 ```
 
-## Requirements
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-- [Bun](https://bun.sh) runtime
-- [Gemini CLI](https://github.com/google-gemini/gemini-cli) for translation
-- yt-dlp for playlist extraction
+## 🚀 Project Structure
 
-## Usage
+Inside of your Astro project, you'll see the following folders and files:
 
-### Process a playlist
-
-```bash
-bun run src/cli.ts playlist "https://music.youtube.com/playlist?list=PLO52moo..." --output ./songs
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src
+│   ├── assets
+│   │   └── astro.svg
+│   ├── components
+│   │   └── Welcome.astro
+│   ├── layouts
+│   │   └── Layout.astro
+│   └── pages
+│       └── index.astro
+└── package.json
 ```
 
-### Process a single song
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-```bash
-bun run src/cli.ts song "Eric Chou" "What's Wrong"
-```
+## 🧞 Commands
 
-### Test the tool
+All commands are run from the root of the project, from a terminal:
 
-```bash
-bun run test
-```
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `bun install`             | Installs dependencies                            |
+| `bun dev`             | Starts local dev server at `localhost:4321`      |
+| `bun build`           | Build your production site to `./dist/`          |
+| `bun preview`         | Preview your build locally, before deploying     |
+| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `bun astro -- --help` | Get help using the Astro CLI                     |
 
-## Output Format
+## 👀 Want to learn more?
 
-Each song generates a markdown file like:
-
-```markdown
-# What's Wrong
-
-**Artist:** Eric Chou
-**Album:** Freedom
-**Duration:** 5:21
-**YouTube:** https://www.youtube.com/watch?v=KFxO-Mj3q0c
-
----
-
-*[00:15.00]*
-**你說藍色是你最愛的顏色**
-*nǐ shuō lán sè shì nǐ zuì ài de yán sè*
-You said blue is your favorite color
-
-*[00:19.50]*
-**你說如果沒有愛那又如何**
-*nǐ shuō rú guǒ méi yǒu ài nà yòu rú hé*
-You said so what if there is no love
-```
-
-## Data Sources
-
-- **Lyrics**: [LRCLIB](https://lrclib.net) - Free, no API key required
-- **Translation**: Gemini CLI - Free tier
-- **Playlist data**: yt-dlp - Free, open source
-
-## License
-
-MIT
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
