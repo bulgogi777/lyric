@@ -7,7 +7,7 @@ const { title = 'Chinese Lyrics Study' } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,23 +23,23 @@ const { title = 'Chinese Lyrics Study' } = Astro.props;
   </head>
   <body class="min-h-screen">
     <header class="bg-surface border-b border-slate-700 no-print">
-      <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <a href="/" class="text-xl font-bold text-primary hover:text-primary-dark">
-          🎵 歌词学习
+          Chinese Lyrics Study
         </a>
         <nav class="text-sm text-text-muted">
-          Chinese Lyrics Study
+          Learn Chinese through music
         </nav>
       </div>
     </header>
 
-    <main class="max-w-4xl mx-auto px-4 py-8">
+    <main class="max-w-6xl mx-auto px-4 py-8">
       <slot />
     </main>
 
     <footer class="bg-surface border-t border-slate-700 mt-auto no-print">
-      <div class="max-w-4xl mx-auto px-4 py-4 text-center text-sm text-text-muted">
-        学习中文 · Learning Chinese through Music
+      <div class="max-w-6xl mx-auto px-4 py-4 text-center text-sm text-text-muted">
+        Learning Chinese through Music
       </div>
     </footer>
   </body>

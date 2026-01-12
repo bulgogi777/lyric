@@ -19,39 +19,43 @@ body {
   @apply bg-bg text-text font-sans antialiased;
 }
 
-/* Lyric line container */
-.lyric-line {
-  @apply py-4 space-y-1;
-}
-
 /* Chinese character styling - LARGE for learning */
 .chinese {
   font-size: 1.75rem;
   line-height: 1.4;
   font-weight: 500;
   letter-spacing: 0.05em;
+  white-space: nowrap;
 }
 
-/* Pinyin styling - sized to match Chinese characters */
+/* Pinyin and English - same size for alignment */
 .pinyin {
-  font-size: 1.1rem;
-  line-height: 1.3;
-  color: var(--color-text-muted);
-  font-style: italic;
-  letter-spacing: 0.02em;
-}
-
-/* English translation styling */
-.english {
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.4;
   color: var(--color-text-muted);
-  opacity: 0.8;
+  font-style: italic;
+  white-space: nowrap;
 }
 
-/* Timestamp styling */
+.english {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--color-text-muted);
+  opacity: 0.85;
+  white-space: nowrap;
+}
+
+/* Timestamp styling - larger and bold */
 .timestamp {
-  @apply text-xs text-primary cursor-pointer hover:text-primary-dark font-mono;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.timestamp:hover {
+  color: var(--color-primary-dark);
 }
 
 /* Print styles */
@@ -68,6 +72,7 @@ body {
   .chinese {
     font-size: 1.5rem;
     color: black;
+    white-space: normal;
   }
 
   .timestamp {
@@ -77,10 +82,11 @@ body {
 
   .pinyin {
     color: #333;
-    font-size: 1rem;
+    white-space: normal;
   }
 
   .english {
     color: #555;
+    white-space: normal;
   }
 }
