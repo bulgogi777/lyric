@@ -559,7 +559,145 @@
     "id": "dI77xEZeDnI",
     "title": "Heaven.zip",
     "artist": "LÜCY",
-    "hasLyrics": false
+    "hasLyrics": true,
+    "lyricsSource": "jspinyin",
+    "lyrics": [
+      {
+        "chinese": "我等著你來",
+        "pinyin": "wǒ děng zhe nǐ lái",
+        "english": "I'm waiting for you to come"
+      },
+      {
+        "chinese": "等著有天，時間學會等待",
+        "pinyin": "děng zhe yǒu tiān, shíjiān xuéhuì děngdài",
+        "english": "Waiting for the day when time learns to wait"
+      },
+      {
+        "chinese": "HEY 別藏起來",
+        "pinyin": "HEY bié cáng qǐlái",
+        "english": "Hey, don't hide"
+      },
+      {
+        "chinese": "這一瞬間，你有沒有賣",
+        "pinyin": "zhè yī shùnjiān, nǐ yǒu méiyǒu mài",
+        "english": "In this moment, are you buying in?"
+      },
+      {
+        "chinese": "Hey 行李該準備多少才好",
+        "pinyin": "Hey xínglǐ gāi zhǔnbèi duōshǎo cái hǎo",
+        "english": "Hey, how much luggage should I prepare?"
+      },
+      {
+        "chinese": "Yo 也許天亮我們就離開",
+        "pinyin": "Yo yěxǔ tiānliàng wǒmen jiù líkāi",
+        "english": "Yo, maybe at dawn we'll leave"
+      },
+      {
+        "chinese": "喂 來不來",
+        "pinyin": "wèi lái bù lái",
+        "english": "Hey, are you coming or not?"
+      },
+      {
+        "chinese": "比誰跑得兒快",
+        "pinyin": "bǐ shuí pǎo de ér kuài",
+        "english": "Racing to see who runs faster"
+      },
+      {
+        "chinese": "Heaven",
+        "pinyin": "Heaven",
+        "english": "Heaven"
+      },
+      {
+        "chinese": "Teach me how to lost",
+        "pinyin": "Teach me how to lost",
+        "english": "Teach me how to lose"
+      },
+      {
+        "chinese": "跟自己談戀愛",
+        "pinyin": "gēn zìjǐ tán liàn'ài",
+        "english": "Fall in love with yourself"
+      },
+      {
+        "chinese": "Heaven",
+        "pinyin": "Heaven",
+        "english": "Heaven"
+      },
+      {
+        "chinese": "Teach me how to love",
+        "pinyin": "Teach me how to love",
+        "english": "Teach me how to love"
+      },
+      {
+        "chinese": "我等著你來",
+        "pinyin": "wǒ děng zhe nǐ lái",
+        "english": "I'm waiting for you to come"
+      },
+      {
+        "chinese": "等著有天，時間學會等待",
+        "pinyin": "děng zhe yǒu tiān, shíjiān xuéhuì děngdài",
+        "english": "Waiting for the day when time learns to wait"
+      },
+      {
+        "chinese": "等著世界，不需要再比賽",
+        "pinyin": "děng zhe shìjiè, bù xūyào zài bǐsài",
+        "english": "Waiting for the world to stop competing"
+      },
+      {
+        "chinese": "HEY 別藏起來",
+        "pinyin": "HEY bié cáng qǐlái",
+        "english": "Hey, don't hide"
+      },
+      {
+        "chinese": "那一瞬間，就成了永遠",
+        "pinyin": "nà yī shùnjiān, jiù chéngle yǒngyuǎn",
+        "english": "That moment became forever"
+      },
+      {
+        "chinese": "Hey 行李該準備多少才好",
+        "pinyin": "Hey xínglǐ gāi zhǔnbèi duōshǎo cái hǎo",
+        "english": "Hey, how much luggage should I prepare?"
+      },
+      {
+        "chinese": "Yo 也許今晚我們就離開",
+        "pinyin": "Yo yěxǔ jīnwǎn wǒmen jiù líkāi",
+        "english": "Yo, maybe tonight we'll leave"
+      },
+      {
+        "chinese": "喂 來不來",
+        "pinyin": "wèi lái bù lái",
+        "english": "Hey, are you coming or not?"
+      },
+      {
+        "chinese": "比誰跑得兒快",
+        "pinyin": "bǐ shuí pǎo de ér kuài",
+        "english": "Racing to see who runs faster"
+      },
+      {
+        "chinese": "Heaven",
+        "pinyin": "Heaven",
+        "english": "Heaven"
+      },
+      {
+        "chinese": "Teach me how to lost",
+        "pinyin": "Teach me how to lost",
+        "english": "Teach me how to lose"
+      },
+      {
+        "chinese": "跟自己談戀愛",
+        "pinyin": "gēn zìjǐ tán liàn'ài",
+        "english": "Fall in love with yourself"
+      },
+      {
+        "chinese": "Heaven",
+        "pinyin": "Heaven",
+        "english": "Heaven"
+      },
+      {
+        "chinese": "Teach me how to love",
+        "pinyin": "Teach me how to love",
+        "english": "Teach me how to love"
+      }
+    ]
   },
   {
     "id": "KFxO-Mj3q0c",
@@ -840,7 +978,255 @@
     "id": "t3CrQQeM2EU",
     "title": "CHANGE",
     "artist": "瘦子E.SO",
-    "hasLyrics": false
+    "hasLyrics": true,
+    "lyricsSource": "jspinyin",
+    "lyrics": [
+      {
+        "chinese": "I don't wanna change you baby",
+        "pinyin": "I don't wanna change you baby",
+        "english": "I don't wanna change you baby"
+      },
+      {
+        "chinese": "Please don't try to change me baby",
+        "pinyin": "Please don't try to change me baby",
+        "english": "Please don't try to change me baby"
+      },
+      {
+        "chinese": "We loved each other in the first place",
+        "pinyin": "We loved each other in the first place",
+        "english": "We loved each other in the first place"
+      },
+      {
+        "chinese": "現在我們要的是誰",
+        "pinyin": "xiànzài wǒmen yào de shì shuí",
+        "english": "Who do we want now?"
+      },
+      {
+        "chinese": "See I don't wanna change you baby",
+        "pinyin": "See I don't wanna change you baby",
+        "english": "See I don't wanna change you baby"
+      },
+      {
+        "chinese": "Please don't try to change me baby",
+        "pinyin": "Please don't try to change me baby",
+        "english": "Please don't try to change me baby"
+      },
+      {
+        "chinese": "繞了一圈回到原點",
+        "pinyin": "ràole yī quān huí dào yuán diǎn",
+        "english": "Going around in circles back to where we started"
+      },
+      {
+        "chinese": "要不乾脆換另一位",
+        "pinyin": "yào bù gāncuì huàn lìng yī wèi",
+        "english": "Or should we just switch to someone else?"
+      },
+      {
+        "chinese": "妳沒有說話總是低著頭",
+        "pinyin": "nǎi méiyǒu shuōhuà zǒng shì dīzhe tóu",
+        "english": "You don't speak, always with your head down"
+      },
+      {
+        "chinese": "形同陌路卻還是牽著手",
+        "pinyin": "xíngtóng mòlù què háishi qiānzhe shǒu",
+        "english": "We're like strangers but still holding hands"
+      },
+      {
+        "chinese": "一朵浮雲我卻想要抓的攏",
+        "pinyin": "yī duǒ fúyún wǒ què xiǎng yào zhuā de lǒng",
+        "english": "A floating cloud I want to grasp"
+      },
+      {
+        "chinese": "空氣凝結身邊的路人都變成兵馬俑",
+        "pinyin": "kōngqì níngjié shēnbiān de lùrén dōu biànchéng bīngmǎyǒng",
+        "english": "The air freezes, passersby become terracotta warriors"
+      },
+      {
+        "chinese": "妳曾經問我 怎樣才算perfect match",
+        "pinyin": "nǎi céngjīng wèn wǒ zěnyàng cái suàn perfect match",
+        "english": "You once asked me what counts as a perfect match"
+      },
+      {
+        "chinese": "我沒有跟妳說過在我見妳第一面",
+        "pinyin": "wǒ méiyǒu gēn nǎi shuōguò zài wǒ jiàn nǎi dì yī miàn",
+        "english": "I never told you, since the first time I saw you"
+      },
+      {
+        "chinese": "如今我更不確定 妳想要的改變",
+        "pinyin": "rújīn wǒ gèng bù quèdìng nǎi xiǎng yào de gǎibiàn",
+        "english": "Now I'm even more unsure about the changes you want"
+      },
+      {
+        "chinese": "我能不能不當妳家人想要的圖片",
+        "pinyin": "wǒ néng bù néng bù dāng nǎi jiārén xiǎng yào de túpiàn",
+        "english": "Can I not be the picture your family wants?"
+      },
+      {
+        "chinese": "我每天對著鏡子練習",
+        "pinyin": "wǒ měitiān duìzhe jìngzi liànxí",
+        "english": "Every day I practice in front of the mirror"
+      },
+      {
+        "chinese": "襯衫的扣子需要扣到哪裡 才算得體",
+        "pinyin": "chènshān de kòuzi xūyào kòu dào nǎlǐ cái suàn détǐ",
+        "english": "Where should I button my shirt to be proper?"
+      },
+      {
+        "chinese": "車裡的音樂清單換掉了 再會了陷阱",
+        "pinyin": "chē lǐ de yīnyuè qīngdān huàn diàole zài huìle xiànjǐng",
+        "english": "Changed the playlist in the car, goodbye to trap music"
+      },
+      {
+        "chinese": "我只有國中畢業證書是否不夠配妳",
+        "pinyin": "wǒ zhǐyǒu guózhōng bìyè zhèngshū shìfǒu bùgòu pèi nǎi",
+        "english": "With only a middle school diploma, am I not good enough for you?"
+      },
+      {
+        "chinese": "我不需要妳的任何改變我深愛著妳是誰",
+        "pinyin": "wǒ bù xūyào nǎi de rènhé gǎibiàn wǒ shēn àizhe nǎi shì shuí",
+        "english": "I don't need you to change, I deeply love who you are"
+      },
+      {
+        "chinese": "I'm sorry I was panic以為這樣才是對",
+        "pinyin": "I'm sorry I was panic yǐwéi zhèyàng cái shì duì",
+        "english": "I'm sorry I was panicked, I thought this was the right way"
+      },
+      {
+        "chinese": "忘記什麼讓我們能快樂但自私在作祟",
+        "pinyin": "wàngjì shénme ràng wǒmen néng kuàilè dàn zìsī zài zuòsuì",
+        "english": "Forgot what makes us happy, selfishness is at work"
+      },
+      {
+        "chinese": "I don't wanna change you baby",
+        "pinyin": "I don't wanna change you baby",
+        "english": "I don't wanna change you baby"
+      },
+      {
+        "chinese": "Please don't try to change me baby",
+        "pinyin": "Please don't try to change me baby",
+        "english": "Please don't try to change me baby"
+      },
+      {
+        "chinese": "We loved each other in the first place",
+        "pinyin": "We loved each other in the first place",
+        "english": "We loved each other in the first place"
+      },
+      {
+        "chinese": "現在我們要的是誰",
+        "pinyin": "xiànzài wǒmen yào de shì shuí",
+        "english": "Who do we want now?"
+      },
+      {
+        "chinese": "See I don't wanna change you baby",
+        "pinyin": "See I don't wanna change you baby",
+        "english": "See I don't wanna change you baby"
+      },
+      {
+        "chinese": "Please don't try to change me baby",
+        "pinyin": "Please don't try to change me baby",
+        "english": "Please don't try to change me baby"
+      },
+      {
+        "chinese": "繞了一圈回到原點",
+        "pinyin": "ràole yī quān huí dào yuán diǎn",
+        "english": "Going around in circles back to where we started"
+      },
+      {
+        "chinese": "要不乾脆換另一位",
+        "pinyin": "yào bù gāncuì huàn lìng yī wèi",
+        "english": "Or should we just switch to someone else?"
+      },
+      {
+        "chinese": "改我的態度",
+        "pinyin": "gǎi wǒ de tàidù",
+        "english": "Change my attitude"
+      },
+      {
+        "chinese": "因為妳只想要當妳",
+        "pinyin": "yīnwèi nǎi zhǐ xiǎng yào dāng nǎi",
+        "english": "Because you just want to be you"
+      },
+      {
+        "chinese": "會讓妳哭",
+        "pinyin": "huì ràng nǎi kū",
+        "english": "It will make you cry"
+      },
+      {
+        "chinese": "如果我只做我自己",
+        "pinyin": "rúguǒ wǒ zhǐ zuò wǒ zìjǐ",
+        "english": "If I only be myself"
+      },
+      {
+        "chinese": "兩個人只保護自己",
+        "pinyin": "liǎng gè rén zhǐ bǎohù zìjǐ",
+        "english": "Two people only protecting themselves"
+      },
+      {
+        "chinese": "I can't save you I can't blame you",
+        "pinyin": "I can't save you I can't blame you",
+        "english": "I can't save you I can't blame you"
+      },
+      {
+        "chinese": "把脖子掐的太緊",
+        "pinyin": "bǎ bózi qiā de tài jǐn",
+        "english": "Choking the neck too tight"
+      },
+      {
+        "chinese": "Wanna run away",
+        "pinyin": "Wanna run away",
+        "english": "Wanna run away"
+      },
+      {
+        "chinese": "妳的問題像猜燈謎",
+        "pinyin": "nǎi de wèntí xiàng cāi dēngmí",
+        "english": "Your problems are like riddles"
+      },
+      {
+        "chinese": "不敢隨便回",
+        "pinyin": "bù gǎn suíbiàn huí",
+        "english": "I don't dare answer casually"
+      },
+      {
+        "chinese": "You say you hate me but you love me",
+        "pinyin": "You say you hate me but you love me",
+        "english": "You say you hate me but you love me"
+      },
+      {
+        "chinese": "getting complex",
+        "pinyin": "getting complex",
+        "english": "Getting complex"
+      },
+      {
+        "chinese": "You say you hate me but you love me",
+        "pinyin": "You say you hate me but you love me",
+        "english": "You say you hate me but you love me"
+      },
+      {
+        "chinese": "哩勒公蝦毀",
+        "pinyin": "lǐ lè gōng xiā huǐ",
+        "english": "What are you talking about? (Taiwanese)"
+      },
+      {
+        "chinese": "燒好的菜 卻食之無味",
+        "pinyin": "shāo hǎo de cài què shí zhī wúwèi",
+        "english": "The cooked dishes taste bland"
+      },
+      {
+        "chinese": "話題不再 幽默當消遣",
+        "pinyin": "huàtí bù zài yōumò dāng xiāoqiǎn",
+        "english": "No more topics, humor as a pastime"
+      },
+      {
+        "chinese": "Baby it's fine",
+        "pinyin": "Baby it's fine",
+        "english": "Baby it's fine"
+      },
+      {
+        "chinese": "不算太壞 感覺能找回來",
+        "pinyin": "bù suàn tài huài gǎnjué néng zhǎo huílái",
+        "english": "Not too bad, the feeling can come back"
+      }
+    ]
   },
   {
     "id": "762rm2HAOGY",
