@@ -1,0 +1,245 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import songs from '../../../data/songs.json';
+
+export function getStaticPaths() {
+  return songs.map((song) => ({
+    params: { id: song.id },
+    props: { song },
+  }));
+}
+
+const { song } = Astro.props;
+---
+
+<Layout title={`Edit: ${song.title} · Admin`}>
+  <div class="space-y-6">
+    <!-- Back link -->
+    <a href={`/song/${song.id}`} class="text-primary hover:text-primary-dark inline-flex items-center gap-2">
+      ← Back to song
+    </a>
+
+    <!-- Song header -->
+    <div class="text-center">
+      <h1 class="text-2xl font-bold mb-1">Edit Lyrics</h1>
+      <p class="text-text-muted">{song.title} - {song.artist}</p>
+    </div>
+
+    <!-- Editor -->
+    <div class="bg-surface rounded-lg p-6">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-lg font-semibold">Lyrics Editor</h2>
+        <div class="flex gap-2">
+          <button
+            id="copy-btn"
+            class="bg-primary hover:bg-primary-dark px-4 py-2 rounded transition-colors text-sm"
+          >
+            📋 Copy JSON
+          </button>
+          <button
+            id="add-line-btn"
+            class="bg-green-600 hover:bg-green-500 px-4 py-2 rounded transition-colors text-sm"
+          >
+            + Add Line
+          </button>
+        </div>
+      </div>
+
+      <!-- Instructions -->
+      <div class="bg-slate-800 rounded p-4 mb-6 text-sm text-text-muted">
+        <p><strong>How to use:</strong></p>
+        <ol class="list-decimal list-inside mt-2 space-y-1">
+          <li>Edit the lyrics below (Chinese, Pinyin, English)</li>
+          <li>Click "Copy JSON" to copy the updated lyrics</li>
+          <li>Paste into <code class="text-primary">data/songs.json</code> and rebuild</li>
+        </ol>
+      </div>
+
+      <!-- Lyrics list -->
+      <div id="lyrics-editor" class="space-y-4" data-lyrics={JSON.stringify(song.lyrics || [])}>
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<script>
+  interface LyricLine {
+    timestamp?: string;
+    chinese: string;
+    pinyin: string;
+    english: string;
+  }
+
+  const editorContainer = document.getElementById('lyrics-editor');
+  const copyBtn = document.getElementById('copy-btn');
+  const addLineBtn = document.getElementById('add-line-btn');
+
+  let lyrics: LyricLine[] = [];
+
+  // Initialize
+  if (editorContainer) {
+    const data = editorContainer.dataset.lyrics;
+    lyrics = data ? JSON.parse(data) : [];
+    renderLyrics();
+  }
+
+  function renderLyrics() {
+    if (!editorContainer) return;
+
+    editorContainer.innerHTML = lyrics.map((line, index) => `
+      <div class="lyric-edit-block bg-slate-800 rounded-lg p-4" data-index="${index}">
+        <div class="flex justify-between items-start mb-3">
+          <span class="text-xs text-text-muted font-mono">Line ${index + 1}</span>
+          <div class="flex gap-2">
+            <button class="move-up-btn text-xs text-text-muted hover:text-white" ${index === 0 ? 'disabled' : ''}>↑</button>
+            <button class="move-down-btn text-xs text-text-muted hover:text-white" ${index === lyrics.length - 1 ? 'disabled' : ''}>↓</button>
+            <button class="delete-btn text-xs text-red-400 hover:text-red-300">✕</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-3">
+          <div>
+            <label class="block text-xs text-text-muted mb-1">Timestamp</label>
+            <input
+              type="text"
+              class="timestamp-input w-full bg-slate-700 rounded px-3 py-2 text-sm font-mono"
+              value="${line.timestamp || ''}"
+              placeholder="00:00.00"
+            />
+          </div>
+          <div class="md:col-span-3">
+            <label class="block text-xs text-text-muted mb-1">Chinese</label>
+            <input
+              type="text"
+              class="chinese-input w-full bg-slate-700 rounded px-3 py-2 text-lg"
+              value="${escapeHtml(line.chinese)}"
+              placeholder="中文歌词"
+            />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
+          <div>
+            <label class="block text-xs text-text-muted mb-1">Pinyin</label>
+            <input
+              type="text"
+              class="pinyin-input w-full bg-slate-700 rounded px-3 py-2 text-sm italic"
+              value="${escapeHtml(line.pinyin)}"
+              placeholder="pīn yīn"
+            />
+          </div>
+          <div>
+            <label class="block text-xs text-text-muted mb-1">English</label>
+            <input
+              type="text"
+              class="english-input w-full bg-slate-700 rounded px-3 py-2 text-sm"
+              value="${escapeHtml(line.english)}"
+              placeholder="English translation"
+            />
+          </div>
+        </div>
+      </div>
+    `).join('');
+
+    // Attach event listeners
+    attachEventListeners();
+  }
+
+  function escapeHtml(text: string): string {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML.replace(/"/g, '&quot;');
+  }
+
+  function attachEventListeners() {
+    // Input changes
+    document.querySelectorAll('.lyric-edit-block').forEach((block) => {
+      const index = parseInt(block.getAttribute('data-index') || '0');
+
+      block.querySelector('.timestamp-input')?.addEventListener('input', (e) => {
+        lyrics[index].timestamp = (e.target as HTMLInputElement).value || undefined;
+      });
+
+      block.querySelector('.chinese-input')?.addEventListener('input', (e) => {
+        lyrics[index].chinese = (e.target as HTMLInputElement).value;
+      });
+
+      block.querySelector('.pinyin-input')?.addEventListener('input', (e) => {
+        lyrics[index].pinyin = (e.target as HTMLInputElement).value;
+      });
+
+      block.querySelector('.english-input')?.addEventListener('input', (e) => {
+        lyrics[index].english = (e.target as HTMLInputElement).value;
+      });
+
+      // Delete button
+      block.querySelector('.delete-btn')?.addEventListener('click', () => {
+        if (confirm('Delete this line?')) {
+          lyrics.splice(index, 1);
+          renderLyrics();
+        }
+      });
+
+      // Move up
+      block.querySelector('.move-up-btn')?.addEventListener('click', () => {
+        if (index > 0) {
+          [lyrics[index - 1], lyrics[index]] = [lyrics[index], lyrics[index - 1]];
+          renderLyrics();
+        }
+      });
+
+      // Move down
+      block.querySelector('.move-down-btn')?.addEventListener('click', () => {
+        if (index < lyrics.length - 1) {
+          [lyrics[index], lyrics[index + 1]] = [lyrics[index + 1], lyrics[index]];
+          renderLyrics();
+        }
+      });
+    });
+  }
+
+  // Copy JSON button
+  copyBtn?.addEventListener('click', async () => {
+    const json = JSON.stringify(lyrics, null, 2);
+    try {
+      await navigator.clipboard.writeText(json);
+      copyBtn.textContent = '✓ Copied!';
+      setTimeout(() => {
+        copyBtn.textContent = '📋 Copy JSON';
+      }, 2000);
+    } catch (err) {
+      // Fallback: show in modal
+      alert('Copy failed. JSON:\n\n' + json);
+    }
+  });
+
+  // Add line button
+  addLineBtn?.addEventListener('click', () => {
+    lyrics.push({
+      chinese: '',
+      pinyin: '',
+      english: '',
+    });
+    renderLyrics();
+
+    // Scroll to bottom
+    setTimeout(() => {
+      editorContainer?.lastElementChild?.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  });
+</script>
+
+<style>
+  input:focus {
+    outline: none;
+    ring: 2px;
+    ring-color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+
+  button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+</style>
