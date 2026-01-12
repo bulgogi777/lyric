@@ -13,12 +13,12 @@ const sortedSongs = [...songs].sort((a, b) => {
 const withLyrics = songs.filter(s => s.hasLyrics).length;
 ---
 
-<Layout title="歌词学习 · Chinese Lyrics Study">
+<Layout title="Chinese Lyrics Study">
   <div class="space-y-6">
     <div class="text-center">
-      <h1 class="text-3xl font-bold mb-2">中文歌词学习</h1>
+      <h1 class="text-3xl font-bold mb-2">Chinese Lyrics Study</h1>
       <p class="text-text-muted">
-        {songs.length} 首歌曲 · {withLyrics} 有歌词
+        {songs.length} songs · {withLyrics} with lyrics
       </p>
     </div>
 

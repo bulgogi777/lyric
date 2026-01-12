@@ -36,9 +36,13 @@ function isValidTranslation(text: string): boolean {
 }
 ---
 
-<div class="lyrics-container">
+<div class="lyrics-container" id="lyrics-container">
   {lyrics.map((line, index) => (
-    <div class="lyric-block">
+    <div
+      class="lyric-block"
+      id={`lyric-${index}`}
+      data-timestamp={line.timestamp ? timestampToSeconds(line.timestamp) : undefined}
+    >
       {line.timestamp && (
         <button
           class="timestamp"
@@ -58,6 +62,50 @@ function isValidTranslation(text: string): boolean {
   ))}
 </div>
 
+<script>
+  // Auto-scroll to current lyric based on player time
+  let currentHighlightedIndex = -1;
+
+  window.addEventListener('playerTimeUpdate', (event: Event) => {
+    const customEvent = event as CustomEvent<{ time: number }>;
+    const currentTime = customEvent.detail.time;
+
+    // Find all lyric blocks with timestamps
+    const blocks = document.querySelectorAll('.lyric-block[data-timestamp]');
+    let targetIndex = -1;
+
+    // Find the current lyric (last one whose timestamp is <= current time)
+    blocks.forEach((block, index) => {
+      const timestamp = parseFloat(block.getAttribute('data-timestamp') || '0');
+      if (timestamp <= currentTime) {
+        targetIndex = index;
+      }
+    });
+
+    // Only update if we found a new line
+    if (targetIndex !== currentHighlightedIndex && targetIndex >= 0) {
+      // Remove highlight from previous
+      if (currentHighlightedIndex >= 0) {
+        blocks[currentHighlightedIndex]?.classList.remove('active');
+      }
+
+      // Add highlight to current
+      const currentBlock = blocks[targetIndex] as HTMLElement;
+      if (currentBlock) {
+        currentBlock.classList.add('active');
+
+        // Scroll to the current block with smooth behavior
+        currentBlock.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center',
+        });
+      }
+
+      currentHighlightedIndex = targetIndex;
+    }
+  });
+</script>
+
 <style>
   .lyrics-container {
     display: flex;
@@ -68,12 +116,17 @@ function isValidTranslation(text: string): boolean {
   .lyric-block {
     border-left: 3px solid #334155;
     padding: 1rem 0 1rem 1.25rem;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
   }
 
   .lyric-block:hover {
     border-left-color: #3b82f6;
     background: linear-gradient(to right, rgba(59, 130, 246, 0.08), transparent);
+  }
+
+  .lyric-block.active {
+    border-left-color: #22c55e;
+    background: linear-gradient(to right, rgba(34, 197, 94, 0.15), transparent);
   }
 
   .lyric-content {
@@ -93,6 +146,11 @@ function isValidTranslation(text: string): boolean {
       break-inside: avoid;
       page-break-inside: avoid;
       padding: 0.75rem 0 0.75rem 1rem;
+    }
+
+    .lyric-block.active {
+      border-left-color: #ccc;
+      background: none;
     }
 
     .lyrics-container {

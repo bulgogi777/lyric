@@ -14,18 +14,18 @@ export function getStaticPaths() {
 const { song } = Astro.props;
 ---
 
-<Layout title={`${song.title} - ${song.artist} · 歌词学习`}>
+<Layout title={`${song.title} - ${song.artist} · Chinese Lyrics Study`}>
   <div class="space-y-6">
     <!-- Back link -->
     <a href="/" class="text-primary hover:text-primary-dark inline-flex items-center gap-2 no-print">
-      ← 返回列表
+      ← Back to playlist
     </a>
 
     <!-- Song header -->
     <div class="text-center">
       <h1 class="text-3xl font-bold mb-2">{song.title}</h1>
       <p class="text-text-muted text-lg">{song.artist}</p>
-      {song.album && <p class="text-text-muted text-sm">专辑: {song.album}</p>}
+      {song.album && <p class="text-text-muted text-sm">Album: {song.album}</p>}
     </div>
 
     <!-- Main content: Player + Lyrics -->
@@ -39,7 +39,7 @@ const { song } = Astro.props;
           onclick="window.print()"
           class="w-full mt-4 bg-slate-600 hover:bg-slate-500 px-4 py-2 rounded no-print transition-colors"
         >
-          🖨️ 打印歌词
+          Print Lyrics
         </button>
       </div>
 
@@ -49,13 +49,13 @@ const { song } = Astro.props;
           <LyricsDisplay lyrics={song.lyrics} />
         ) : (
           <div class="bg-surface rounded-lg p-8 text-center">
-            <p class="text-xl mb-4">歌词未找到</p>
-            <p class="text-text-muted mb-4">此歌曲需要手动添加歌词</p>
+            <p class="text-xl mb-4">Lyrics not found</p>
+            <p class="text-text-muted mb-4">This song needs lyrics added manually</p>
             <a
               href={`/admin/${song.id}`}
               class="inline-block bg-primary hover:bg-primary-dark px-6 py-3 rounded transition-colors"
             >
-              添加歌词
+              Add Lyrics
             </a>
           </div>
         )}
