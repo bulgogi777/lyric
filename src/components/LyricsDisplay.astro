@@ -23,12 +23,15 @@ function timestampToSeconds(timestamp: string): number {
 // Check if translation looks like LLM error (contains code/file references)
 function isValidTranslation(text: string): boolean {
   const errorPatterns = [
-    /I will/i,
-    /I'll/i,
+    /^I will check/i,
+    /^I will read/i,
+    /^I will need/i,
+    /^I'll check/i,
+    /^I'll read/i,
     /\.md`/,
     /`.*`/,
     /directory/i,
-    /file/i,
+    /existing translation/i,
     /check.*translation/i,
     /read.*to understand/i,
   ];
