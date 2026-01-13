@@ -87,28 +87,46 @@ This:
 2. Processes lyrics with Gemini CLI for pinyin/translation
 3. Updates `data/songs.json`
 
-### 2. Adding Lyrics Manually (via jspinyin.net)
+### 2. Adding Lyrics with Claude (Preferred for Manual Entry)
 
-For songs not in LRCLIB:
+When LRCLIB doesn't have a song:
 
-1. **Find lyrics** on https://jspinyin.net (search for song title)
-2. **Extract** Chinese characters and pinyin from the page
-3. **Translate** Chinese to English (Claude can do this)
-4. **Update songs.json** with the lyrics array
+1. **Find Chinese lyrics** from any source (copy/paste raw text)
+2. **Provide to Claude** - Claude will:
+   - Add pinyin romanization (using pinyin-pro patterns)
+   - Translate to English
+   - Format as JSON for songs.json
+3. **Check LRCLIB for timestamps** (song may have been added since):
+   ```bash
+   curl -s "https://lrclib.net/api/search?artist_name=ARTIST&track_name=TITLE" | jq '.[0].syncedLyrics'
+   ```
+4. **If timestamps exist**, merge them with Claude's translations
 5. **Build and push:**
    ```bash
    bun run build
    git add -A && git commit -m "Add lyrics for [song]" && git push
    ```
 
-### 3. Using the Admin Editor
+**Note:** Manual entry will NOT have timestamps unless LRCLIB has them. Timestamps enable lyric sync with video playback.
+
+### 3. Adding Lyrics via jspinyin.net
+
+Alternative source when you need pinyin:
+
+1. **Find lyrics** on https://jspinyin.net (search for song title)
+2. **Extract** Chinese characters and pinyin from the page
+3. **Translate** Chinese to English (Claude can do this)
+4. **Update songs.json** with the lyrics array
+5. **Build and push**
+
+### 4. Using the Admin Editor
 
 1. Navigate to `/admin/[youtube-id]`
 2. Edit lyrics directly in the UI
 3. Click "Copy JSON" to get the lyrics array
 4. Paste into `data/songs.json` and rebuild
 
-### 4. Fixing Translation Issues
+### 5. Fixing Translation Issues
 
 The `LyricsDisplay.astro` component has a filter to hide LLM-generated noise:
 
@@ -179,8 +197,10 @@ Changes appear at lyric.bwe4.net within ~1 minute.
 
 ### LRCLIB Quirks
 - Not all Chinese songs are available
-- Some songs have timestamps, some don't
+- **LRCLIB is the ONLY source for timestamps** - manual entry won't have sync
 - Search by artist + title in romanized form often works better
+- Try Chinese artist names (鄧紫棋) if English names fail
+- Always check LRCLIB after manual entry - songs get added over time
 
 ### Gemini Translation
 - Sometimes produces noise like "I will check the translation..."
