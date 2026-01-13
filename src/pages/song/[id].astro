@@ -38,17 +38,7 @@ const { song } = Astro.props;
       <!-- Lyrics -->
       <div class="lg:col-span-2">
         {song.hasLyrics && song.lyrics ? (
-          <div>
-            <div class="flex justify-end mb-4 no-print">
-              <a
-                href={`/admin/${song.id}`}
-                class="text-sm text-text-muted hover:text-primary transition-colors"
-              >
-                ✏️ Edit Lyrics
-              </a>
-            </div>
-            <LyricsDisplay lyrics={song.lyrics} />
-          </div>
+          <LyricsDisplay lyrics={song.lyrics} />
         ) : (
           <div class="bg-surface rounded-lg p-8 text-center">
             <p class="text-xl mb-4">Lyrics not found</p>
