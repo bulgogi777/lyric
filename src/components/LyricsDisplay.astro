@@ -20,6 +20,14 @@ function timestampToSeconds(timestamp: string): number {
   return minutes * 60 + seconds;
 }
 
+// Format timestamp for display as [MM:SS]
+function formatTimestamp(timestamp: string): string {
+  const totalSeconds = timestampToSeconds(timestamp);
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = Math.floor(totalSeconds % 60);
+  return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+}
+
 // Check if translation looks like LLM error (contains code/file references)
 function isValidTranslation(text: string): boolean {
   const errorPatterns = [
@@ -51,7 +59,7 @@ function isValidTranslation(text: string): boolean {
           class="timestamp"
           onclick={`seekToTime(${timestampToSeconds(line.timestamp)})`}
         >
-          [{line.timestamp}]
+          [{formatTimestamp(line.timestamp)}]
         </button>
       )}
       <div class="lyric-content">
