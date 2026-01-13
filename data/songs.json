@@ -3577,139 +3577,166 @@
     "title": "The Unknown Me",
     "artist": "A-Lin",
     "hasLyrics": true,
-    "lyricsSource": "manual",
+    "lyricsSource": "lrclib",
     "lyrics": [
       {
+        "timestamp": "00:14.45",
         "chinese": "有些話不知道要怎麼說",
         "pinyin": "yǒu xiē huà bù zhī dào yào zěn me shuō",
         "english": "Some words I don't know how to say"
       },
       {
+        "timestamp": "00:19.58",
         "chinese": "那些欲言又止一笑帶過",
         "pinyin": "nà xiē yù yán yòu zhǐ yī xiào dài guò",
         "english": "Those things I wanted to say but held back, brushed off with a smile"
       },
       {
+        "timestamp": "00:25.57",
         "chinese": "明明渴求溫柔 偏偏覆水難收",
         "pinyin": "míng míng kě qiú wēn róu piān piān fù shuǐ nán shōu",
         "english": "Clearly craving tenderness, yet spilled water can't be retrieved"
       },
       {
+        "timestamp": "00:31.74",
         "chinese": "沙沙風吹心湖 陣陣不平攪和",
         "pinyin": "shā shā fēng chuī xīn hú zhèn zhèn bù píng jiǎo huo",
         "english": "The rustling wind blows across my heart's lake, waves of unrest stirring"
       },
       {
+        "timestamp": "00:38.37",
         "chinese": "無人知曉的我 固執的自轉陀螺",
         "pinyin": "wú rén zhī xiǎo de wǒ gù zhí de zì zhuàn tuó luó",
         "english": "The me that no one knows, a stubborn spinning top"
       },
       {
+        "timestamp": "00:50.37",
         "chinese": "無眠的黎明是夜的血痕",
         "pinyin": "wú mián de lí míng shì yè de xuè hén",
         "english": "Sleepless dawn is the bloodstain of night"
       },
       {
+        "timestamp": "00:58.38",
         "chinese": "走多遠還是在原地的人",
         "pinyin": "zǒu duō yuǎn hái shì zài yuán dì de rén",
         "english": "No matter how far I walk, I'm still the person standing in place"
       },
       {
+        "timestamp": "01:04.63",
         "chinese": "時光的列車開不回昨天",
         "pinyin": "shí guāng de liè chē kāi bù huí zuó tiān",
         "english": "Time's train can't drive back to yesterday"
       },
       {
+        "timestamp": "01:10.83",
         "chinese": "再也無法去愛像那些年",
         "pinyin": "zài yě wú fǎ qù ài xiàng nà xiē nián",
         "english": "Can never love again like those years"
       },
       {
+        "timestamp": "01:16.88",
         "chinese": "無人知曉的我 喔",
         "pinyin": "wú rén zhī xiǎo de wǒ ō",
         "english": "The me that no one knows, oh"
       },
       {
+        "timestamp": "01:23.06",
         "chinese": "沒一個人可訴說 喔",
         "pinyin": "méi yī gè rén kě sù shuō ō",
         "english": "Not a single person to confide in, oh"
       },
       {
+        "timestamp": "01:29.42",
         "chinese": "有些話不知道要怎麼說",
         "pinyin": "yǒu xiē huà bù zhī dào yào zěn me shuō",
         "english": "Some words I don't know how to say"
       },
       {
+        "timestamp": "01:36.37",
         "chinese": "那些欲言又止 低頭沉默",
         "pinyin": "nà xiē yù yán yòu zhǐ dī tóu chén mò",
         "english": "Those things I wanted to say but held back, head bowed in silence"
       },
       {
+        "timestamp": "01:42.32",
         "chinese": "明明以為是對 偏偏統統是錯",
         "pinyin": "míng míng yǐ wéi shì duì piān piān tǒng tǒng shì cuò",
         "english": "Clearly thought it was right, yet everything was wrong"
       },
       {
+        "timestamp": "01:48.76",
         "chinese": "沙沙風吹心湖 陣陣不平攪和",
         "pinyin": "shā shā fēng chuī xīn hú zhèn zhèn bù píng jiǎo huo",
         "english": "The rustling wind blows across my heart's lake, waves of unrest stirring"
       },
       {
+        "timestamp": "01:55.10",
         "chinese": "無人知曉的我 固執的自轉陀螺",
         "pinyin": "wú rén zhī xiǎo de wǒ gù zhí de zì zhuàn tuó luó",
         "english": "The me that no one knows, a stubborn spinning top"
       },
       {
+        "timestamp": "02:08.68",
         "chinese": "那城市的高樓是土地的瘤",
         "pinyin": "nà chéng shì de gāo lóu shì tǔ dì de liú",
         "english": "Those city skyscrapers are tumors on the land"
       },
       {
+        "timestamp": "02:15.03",
         "chinese": "霓虹的喧鬧是無聲尖叫",
         "pinyin": "ní hóng de xuān nào shì wú shēng jiān jiào",
         "english": "The neon's clamor is a silent scream"
       },
       {
+        "timestamp": "02:21.66",
         "chinese": "時光的列車開不回昨天",
         "pinyin": "shí guāng de liè chē kāi bù huí zuó tiān",
         "english": "Time's train can't drive back to yesterday"
       },
       {
+        "timestamp": "02:27.97",
         "chinese": "再也無法直接向那些年",
         "pinyin": "zài yě wú fǎ zhí jiē xiàng nà xiē nián",
         "english": "Can never directly face those years again"
       },
       {
+        "timestamp": "02:33.61",
         "chinese": "無人知曉的我 喔",
         "pinyin": "wú rén zhī xiǎo de wǒ ō",
         "english": "The me that no one knows, oh"
       },
       {
+        "timestamp": "02:40.00",
         "chinese": "沒一個人可訴說 喔",
         "pinyin": "méi yī gè rén kě sù shuō ō",
         "english": "Not a single person to confide in, oh"
       },
       {
+        "timestamp": "02:46.43",
         "chinese": "有些話不知道要怎麼說",
         "pinyin": "yǒu xiē huà bù zhī dào yào zěn me shuō",
         "english": "Some words I don't know how to say"
       },
       {
+        "timestamp": "02:53.52",
         "chinese": "那些欲言又止 終被淹沒",
         "pinyin": "nà xiē yù yán yòu zhǐ zhōng bèi yān mò",
         "english": "Those things I wanted to say but held back, finally drowned"
       },
       {
+        "timestamp": "02:59.27",
         "chinese": "明明渴求快樂 偏偏只有寂寞",
         "pinyin": "míng míng kě qiú kuài lè piān piān zhǐ yǒu jì mò",
         "english": "Clearly craving happiness, yet there's only loneliness"
       },
       {
+        "timestamp": "03:05.62",
         "chinese": "沙沙風吹心湖 陣陣不平攪和",
         "pinyin": "shā shā fēng chuī xīn hú zhèn zhèn bù píng jiǎo huo",
         "english": "The rustling wind blows across my heart's lake, waves of unrest stirring"
       },
       {
+        "timestamp": "03:12.03",
         "chinese": "無人知曉的我 我和我失去聯絡",
         "pinyin": "wú rén zhī xiǎo de wǒ wǒ hé wǒ shī qù lián luò",
         "english": "The me that no one knows, I've lost touch with myself"
