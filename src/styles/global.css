@@ -84,10 +84,10 @@ body {
 }
 
 .ruby-pinyin {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   font-style: normal;
   color: #b8c5d6;
-  letter-spacing: normal;
+  letter-spacing: 0.04em;
   text-align: center;
   margin-top: 0.15rem;
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
