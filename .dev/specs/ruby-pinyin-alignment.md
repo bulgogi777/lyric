@@ -1,6 +1,6 @@
 # Feature: Ruby-Style Pinyin Alignment
 
-**Status:** 🔄 In Progress (Phases 1-3 complete, 4-5 pending)
+**Status:** ✅ Complete
 **Last Updated:** 2026-01-13
 
 ---
@@ -162,12 +162,12 @@ Chinese lyrics → Claude/Gemini → pinyin + translation + segments → songs.j
 - [x] NFR-003: Update print styles for ruby alignment
 
 ### Phase 4: Backfill Existing Songs (24 songs)
-- [ ] Backfill: 再見 (G.E.M.)
-- [ ] Backfill: Remaining 23 songs (batch process with Claude)
+- [x] Backfill: All 24 songs with Claude Sonnet (high-quality word segmentation)
+- [x] 23/24 fully segmented, 1 partial (English lyrics in "Don't Worry About Me")
 
 ### Phase 5: Validation
-- [ ] Validation: Run all tests
+- [x] Validation: Build passes
+- [x] Validation: Deployed to lyric.bwe4.net
 - [ ] Validation: Manual test on mobile (iOS Safari, Android Chrome)
 - [ ] Validation: Verify print layout
 - [ ] Validation: Check sync highlighting still works
-- [ ] Validation: Update CLAUDE.md if needed

@@ -45,7 +45,9 @@ lyric/
 │   └── styles/
 │       └── global.css            # Tailwind + print styles
 ├── scripts/
-│   └── build-data.ts             # LRCLIB fetch + Gemini translation
+│   ├── build-data.ts             # LRCLIB fetch + Gemini translation
+│   ├── add-segments-sonnet.ts    # Word segmentation via Claude Sonnet
+│   └── add-segments-groq.ts      # Word segmentation via Groq (fast/lower quality)
 └── .dev/specs/
     └── lyric-web-app.md          # Full PRD and task breakdown
 ```
@@ -300,6 +302,39 @@ Changes appear at lyric.bwe4.net within ~1 minute.
 - Best source for Chinese songs with pinyin
 - Use Steel browser MCP for extraction (handles dynamic content)
 - Format: Chinese line, then pinyin line, alternating
+
+### Word Segmentation (Ruby Alignment)
+
+**Best Model: Claude Sonnet** - Use for all Chinese word segmentation tasks.
+
+| Model | Quality | Notes |
+|-------|---------|-------|
+| **Claude Sonnet** | ✅ Excellent | Proper word grouping, preserves idioms |
+| Llama 70B (Groq) | ❌ Poor | Char-by-char (愛\|情 instead of 愛情) |
+| GPT OSS 120B (Groq) | ❌ Unusable | JSON truncation issues (~60% fail) |
+| Qwen 32B (Groq) | ⚠️ Inconsistent | Good then bad on same task |
+| Gemini 3 Flash | ❌ Poor | "Agentic" thinking breaks JSON output |
+
+**Key findings:**
+- Chinese word segmentation requires linguistic understanding, not just speed
+- Groq models are fast but produce character-by-character splits
+- Gemini's "agentic" behavior outputs thinking text instead of JSON
+- Sonnet properly groups: 愛情, 再見, 刻骨銘心 (idioms stay together)
+
+**Segmentation scripts:**
+```bash
+bun run scripts/add-segments-sonnet.ts  # Best quality (recommended)
+bun run scripts/add-segments-groq.ts    # Fast but poor quality
+```
+
+### Pinyin Font Rendering
+Chinese fonts (Noto Sans SC) render Latin diacritics poorly - macrons (ō) shift right. Solution: use system fonts for pinyin.
+
+```css
+.ruby-pinyin {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+```
 
 ## Checking for Issues
 
