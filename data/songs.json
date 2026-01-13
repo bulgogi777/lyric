@@ -4082,137 +4082,163 @@
     "title": "Yi Hou Bie Zuo Peng You",
     "artist": "周興哲 Eric Chou",
     "hasLyrics": true,
-    "lyricsSource": "manual",
+    "lyricsSource": "whisper",
     "lyrics": [
       {
         "chinese": "习惯听你分享生活细节",
         "pinyin": "xí guàn tīng nǐ fēn xiǎng shēng huó xì jié",
-        "english": "Used to hearing you share the details of your life"
+        "english": "Used to hearing you share the details of your life",
+        "timestamp": "00:16.00"
       },
       {
         "chinese": "害怕破坏完美的平衡点",
         "pinyin": "hài pà pò huài wán měi de píng héng diǎn",
-        "english": "Afraid of ruining our perfect balance"
+        "english": "Afraid of ruining our perfect balance",
+        "timestamp": "00:24.00"
       },
       {
         "chinese": "保持着距离一颗心的遥远",
         "pinyin": "bǎo chí zhe jù lí yī kē xīn de yáo yuǎn",
-        "english": "Keeping a distance of one heart away"
+        "english": "Keeping a distance of one heart away",
+        "timestamp": "00:31.00"
       },
       {
         "chinese": "我的寂寞你就听不见",
         "pinyin": "wǒ de jì mò nǐ jiù tīng bù jiàn",
-        "english": "You can't hear my loneliness"
+        "english": "You can't hear my loneliness",
+        "timestamp": "00:37.00"
       },
       {
         "chinese": "我走回从前你往未来飞",
         "pinyin": "wǒ zǒu huí cóng qián nǐ wǎng wèi lái fēi",
-        "english": "I walk back to the past while you fly toward the future"
+        "english": "I walk back to the past while you fly toward the future",
+        "timestamp": "00:46.00"
       },
       {
         "chinese": "遇见对的人错过交叉点",
         "pinyin": "yù jiàn duì de rén cuò guò jiāo chā diǎn",
-        "english": "Meeting the right person but missing the intersection"
+        "english": "Meeting the right person but missing the intersection",
+        "timestamp": "00:53.00"
       },
       {
         "chinese": "明明你就已经站在我面前",
         "pinyin": "míng míng nǐ jiù yǐ jīng zhàn zài wǒ miàn qián",
-        "english": "You're clearly standing right in front of me"
+        "english": "You're clearly standing right in front of me",
+        "timestamp": "01:00.00"
       },
       {
         "chinese": "我却不断挥手说再见",
         "pinyin": "wǒ què bù duàn huī shǒu shuō zài jiàn",
-        "english": "Yet I keep waving goodbye"
+        "english": "Yet I keep waving goodbye",
+        "timestamp": "01:06.00"
       },
       {
         "chinese": "以後别做朋友 朋友不能牵手",
         "pinyin": "yǐ hòu bié zuò péng yǒu péng yǒu bù néng qiān shǒu",
-        "english": "Let's not be friends anymore, friends can't hold hands"
+        "english": "Let's not be friends anymore, friends can't hold hands",
+        "timestamp": "01:13.00"
       },
       {
         "chinese": "想爱你的冲动 我只能笑着带过",
         "pinyin": "xiǎng ài nǐ de chōng dòng wǒ zhǐ néng xiào zhe dài guò",
-        "english": "The urge to love you, I can only laugh it off"
+        "english": "The urge to love you, I can only laugh it off",
+        "timestamp": "01:20.00"
       },
       {
         "chinese": "最好的朋友 有些梦 不能说出口",
         "pinyin": "zuì hǎo de péng yǒu yǒu xiē mèng bù néng shuō chū kǒu",
-        "english": "Best friends, some dreams can't be spoken aloud"
+        "english": "Best friends, some dreams can't be spoken aloud",
+        "timestamp": "01:28.00"
       },
       {
         "chinese": "就不用承担 会失去你的心痛",
         "pinyin": "jiù bù yòng chéng dān huì shī qù nǐ de xīn tòng",
-        "english": "Then I won't have to bear the heartache of losing you"
+        "english": "Then I won't have to bear the heartache of losing you",
+        "timestamp": "01:37.00"
       },
       {
         "chinese": "划一个安全的天空界线",
         "pinyin": "huà yī gè ān quán de tiān kōng jiè xiàn",
-        "english": "Drawing a safe boundary in the sky"
+        "english": "Drawing a safe boundary in the sky",
+        "timestamp": "02:03.00"
       },
       {
         "chinese": "谁都不准为我们掉眼泪",
         "pinyin": "shéi dōu bù zhǔn wèi wǒ men diào yǎn lèi",
-        "english": "No one is allowed to shed tears for us"
+        "english": "No one is allowed to shed tears for us",
+        "timestamp": "02:10.00"
       },
       {
         "chinese": "放弃好好爱一个人的机会",
         "pinyin": "fàng qì hǎo hǎo ài yī gè rén de jī huì",
-        "english": "Giving up the chance to truly love someone"
+        "english": "Giving up the chance to truly love someone",
+        "timestamp": "02:18.00"
       },
       {
         "chinese": "要看着你幸福到永远",
         "pinyin": "yào kàn zhe nǐ xìng fú dào yǒng yuǎn",
-        "english": "To watch you be happy forever"
+        "english": "To watch you be happy forever",
+        "timestamp": "02:24.00"
       },
       {
         "chinese": "以後别做朋友 朋友不能牵手",
         "pinyin": "yǐ hòu bié zuò péng yǒu péng yǒu bù néng qiān shǒu",
-        "english": "Let's not be friends anymore, friends can't hold hands"
+        "english": "Let's not be friends anymore, friends can't hold hands",
+        "timestamp": "02:31.00"
       },
       {
         "chinese": "想爱你的冲动 我只能笑着带过",
         "pinyin": "xiǎng ài nǐ de chōng dòng wǒ zhǐ néng xiào zhe dài guò",
-        "english": "The urge to love you, I can only laugh it off"
+        "english": "The urge to love you, I can only laugh it off",
+        "timestamp": "02:38.00"
       },
       {
         "chinese": "最好的朋友 有些梦 不能说出口",
         "pinyin": "zuì hǎo de péng yǒu yǒu xiē mèng bù néng shuō chū kǒu",
-        "english": "Best friends, some dreams can't be spoken aloud"
+        "english": "Best friends, some dreams can't be spoken aloud",
+        "timestamp": "02:46.00"
       },
       {
         "chinese": "就不用承担 会失去你的心痛",
         "pinyin": "jiù bù yòng chéng dān huì shī qù nǐ de xīn tòng",
-        "english": "Then I won't have to bear the heartache of losing you"
+        "english": "Then I won't have to bear the heartache of losing you",
+        "timestamp": "02:56.00"
       },
       {
         "chinese": "忍住失控 太折磨 我自作自受",
         "pinyin": "rěn zhù shī kòng tài zhé mó wǒ zì zuò zì shòu",
-        "english": "Holding back from losing control, it's torture, I brought this on myself"
+        "english": "Holding back from losing control, it's torture, I brought this on myself",
+        "timestamp": "03:03.00"
       },
       {
         "chinese": "回忆都是我 好不了的伤口",
         "pinyin": "huí yì dōu shì wǒ hǎo bù liǎo de shāng kǒu",
-        "english": "Memories are all wounds of mine that won't heal"
+        "english": "Memories are all wounds of mine that won't heal",
+        "timestamp": "03:10.00"
       },
       {
         "chinese": "以後还是朋友 还是你最懂我",
         "pinyin": "yǐ hòu hái shì péng yǒu hái shì nǐ zuì dǒng wǒ",
-        "english": "We'll still be friends, you still understand me best"
+        "english": "We'll still be friends, you still understand me best",
+        "timestamp": "03:20.00"
       },
       {
         "chinese": "我们有始有终 就走到世界尽头",
         "pinyin": "wǒ men yǒu shǐ yǒu zhōng jiù zǒu dào shì jiè jìn tóu",
-        "english": "We'll see it through to the end, walk to the edge of the world"
+        "english": "We'll see it through to the end, walk to the edge of the world",
+        "timestamp": "03:28.00"
       },
       {
         "chinese": "永远的朋友 祝福我 遇见爱以後",
         "pinyin": "yǒng yuǎn de péng yǒu zhù fú wǒ yù jiàn ài yǐ hòu",
-        "english": "Forever friends, wish me well when I find love"
+        "english": "Forever friends, wish me well when I find love",
+        "timestamp": "03:35.00"
       },
       {
         "chinese": "不会再懦弱 紧紧握住那双手",
         "pinyin": "bù huì zài nuò ruò jǐn jǐn wò zhù nà shuāng shǒu",
-        "english": "I won't be cowardly again, I'll hold tight to those hands"
+        "english": "I won't be cowardly again, I'll hold tight to those hands",
+        "timestamp": "03:46.00"
       }
     ]
   },

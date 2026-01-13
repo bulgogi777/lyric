@@ -126,7 +126,61 @@ Alternative source when you need pinyin:
 3. Click "Copy JSON" to get the lyrics array
 4. Paste into `data/songs.json` and rebuild
 
-### 5. Fixing Translation Issues
+### 5. Generating Timestamps via Whisper (When LRCLIB Unavailable)
+
+When LRCLIB doesn't have timestamps for a song, use Whisper ASR to generate them:
+
+**Prerequisites:**
+- Whisper ASR service running on Tower (`http://tower:9000/asr`)
+- yt-dlp installed on Tower (`~/.local/bin/yt-dlp`)
+
+**Process:**
+
+1. **Download audio on Tower** (YouTube blocks datacenter IPs, Tower has residential):
+   ```bash
+   ssh tower "~/.local/bin/yt-dlp -x -o '/tmp/VIDEOID.%(ext)s' 'https://youtube.com/watch?v=VIDEOID'"
+   ```
+
+2. **Transcribe with Whisper** (Chinese language, SRT output):
+   ```bash
+   ssh tower "curl -s -X POST 'http://localhost:9000/asr?language=zh&output=srt' \
+     -F 'audio_file=@/tmp/VIDEOID.webm'" > .dev/srt-timestamps/VIDEOID.srt
+   ```
+
+3. **Manual alignment** - Compare SRT timestamps to existing lyrics:
+   - SRT format: `00:00:13,600 --> 00:00:15,800` (start --> end)
+   - Our format: `00:13.60` (just start time, MM:SS.ss)
+   - Match Whisper's Chinese (imperfect) to our lyrics and grab timestamps
+   - Update `data/songs.json` with aligned timestamps
+
+4. **Clean up Tower:**
+   ```bash
+   ssh tower "rm /tmp/VIDEOID.webm"
+   ```
+
+**Batch processing (multiple songs):**
+```bash
+# Download all
+ssh tower 'for id in ID1 ID2 ID3; do
+  ~/.local/bin/yt-dlp -x -o "/tmp/lyrics/${id}.%(ext)s" "https://youtube.com/watch?v=${id}"
+done'
+
+# Transcribe all
+ssh tower 'for f in /tmp/lyrics/*.webm; do
+  id=$(basename "$f" .webm)
+  curl -s -X POST "http://localhost:9000/asr?language=zh&output=srt" -F "audio_file=@${f}" > "/tmp/lyrics/${id}.srt"
+done'
+
+# Copy locally and clean up
+scp tower:/tmp/lyrics/*.srt .dev/srt-timestamps/
+ssh tower "rm -rf /tmp/lyrics"
+```
+
+**SRT files location:** `.dev/srt-timestamps/` (gitignored, temporary working files)
+
+**Note:** Whisper transcription won't be perfect, but timestamps are usually accurate. Manual review is required to match Whisper segments to your lyric lines.
+
+### 6. Fixing Translation Issues
 
 The `LyricsDisplay.astro` component has a filter to hide LLM-generated noise:
 
@@ -197,7 +251,7 @@ Changes appear at lyric.bwe4.net within ~1 minute.
 
 ### LRCLIB Quirks
 - Not all Chinese songs are available
-- **LRCLIB is the ONLY source for timestamps** - manual entry won't have sync
+- LRCLIB is the preferred source for timestamps, but **Whisper ASR can generate them** (see workflow 5)
 - Search by artist + title in romanized form often works better
 - Try Chinese artist names (鄧紫棋) if English names fail
 - Always check LRCLIB after manual entry - songs get added over time
