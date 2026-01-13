@@ -69,6 +69,12 @@ interface LyricLine {
   chinese: string;
   pinyin: string;
   english: string;
+  segments?: Segment[];          // Word-segmented data for ruby alignment
+}
+
+interface Segment {
+  hanzi: string;                 // Chinese character(s) for this word
+  pinyin: string;                // Pinyin for this word (no spaces)
 }
 ```
 
@@ -95,6 +101,7 @@ When LRCLIB doesn't have a song:
 2. **Provide to Claude** - Claude will:
    - Add pinyin romanization (using pinyin-pro patterns)
    - Translate to English
+   - **Generate word segments** for ruby alignment (see below)
    - Format as JSON for songs.json
 3. **Check LRCLIB for timestamps** (song may have been added since):
    ```bash
@@ -106,6 +113,34 @@ When LRCLIB doesn't have a song:
    bun run build
    git add -A && git commit -m "Add lyrics for [song]" && git push
    ```
+
+**Word Segmentation for Ruby Alignment:**
+
+Each lyric line should include a `segments` array that breaks the line into word units:
+
+```json
+{
+  "chinese": "愛情的起點 都是最美的瞬間",
+  "pinyin": "ài qíng de qǐ diǎn dōu shì zuì měi de shùn jiān",
+  "english": "The beginning of love is always the most beautiful moment",
+  "segments": [
+    { "hanzi": "愛情", "pinyin": "àiqíng" },
+    { "hanzi": "的", "pinyin": "de" },
+    { "hanzi": "起點", "pinyin": "qǐdiǎn" },
+    { "hanzi": " ", "pinyin": "" },
+    { "hanzi": "都是", "pinyin": "dōushì" },
+    { "hanzi": "最美", "pinyin": "zuìměi" },
+    { "hanzi": "的", "pinyin": "de" },
+    { "hanzi": "瞬間", "pinyin": "shùnjiān" }
+  ]
+}
+```
+
+**Segmentation rules:**
+- Multi-character words stay together (愛情, 瞬間, 起點)
+- Single-character grammatical words are separate (的, 是, 我)
+- Spaces in the original text become `{ "hanzi": " ", "pinyin": "" }`
+- Punctuation becomes `{ "hanzi": "，", "pinyin": "" }`
 
 **Note:** Manual entry will NOT have timestamps unless LRCLIB has them. Timestamps enable lyric sync with video playback.
 

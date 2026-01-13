@@ -6064,19 +6064,113 @@
         "chinese": "愛情的起點 都是最美的瞬間",
         "pinyin": "ài qíng de qǐ diǎn dōu shì zuì měi de shùn jiān",
         "english": "The beginning of love is always the most beautiful moment",
-        "timestamp": "00:00.00"
+        "timestamp": "00:00.00",
+        "segments": [
+          {
+            "hanzi": "愛情",
+            "pinyin": "àiqíng"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "起點",
+            "pinyin": "qǐdiǎn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "都是",
+            "pinyin": "dōushì"
+          },
+          {
+            "hanzi": "最美",
+            "pinyin": "zuìměi"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "瞬間",
+            "pinyin": "shùnjiān"
+          }
+        ]
       },
       {
         "chinese": "什麼鐵達尼的經典 羅密歐跟茱麗葉",
         "pinyin": "shén me tiě dá ní de jīng diǎn luó mì ōu gēn zhū lì yè",
         "english": "Like the classic Titanic, Romeo and Juliet",
-        "timestamp": "00:10.00"
+        "timestamp": "00:10.00",
+        "segments": [
+          {
+            "hanzi": "什麼",
+            "pinyin": "shénme"
+          },
+          {
+            "hanzi": "鐵達尼",
+            "pinyin": "tiědání"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "經典",
+            "pinyin": "jīngdiǎn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "羅密歐",
+            "pinyin": "luómìōu"
+          },
+          {
+            "hanzi": "跟",
+            "pinyin": "gēn"
+          },
+          {
+            "hanzi": "茱麗葉",
+            "pinyin": "zhūlìyè"
+          }
+        ]
       },
       {
         "chinese": "那些最煽情的電影情節",
         "pinyin": "nà xiē zuì shān qíng de diàn yǐng qíng jié",
         "english": "Those most touching movie plots",
-        "timestamp": "00:18.00"
+        "timestamp": "00:18.00",
+        "segments": [
+          {
+            "hanzi": "那些",
+            "pinyin": "nàxiē"
+          },
+          {
+            "hanzi": "最",
+            "pinyin": "zuì"
+          },
+          {
+            "hanzi": "煽情",
+            "pinyin": "shānqíng"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "電影",
+            "pinyin": "diànyǐng"
+          },
+          {
+            "hanzi": "情節",
+            "pinyin": "qíngjié"
+          }
+        ]
       },
       {
         "chinese": "都說愛能超越生死離別",

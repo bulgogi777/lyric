@@ -59,6 +59,72 @@ body {
   color: var(--color-primary-dark);
 }
 
+/* Ruby-aligned lyrics (word-segmented display) */
+.ruby-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.5rem 0.75rem;
+  line-height: 1.2;
+}
+
+.ruby-word {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  ruby-align: center;
+}
+
+.ruby-hanzi {
+  font-size: 1.75rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+.ruby-pinyin {
+  font-size: 0.95rem;
+  font-style: normal;
+  color: #b8c5d6;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-top: 0.15rem;
+}
+
+.ruby-space {
+  width: 1rem;
+}
+
+.ruby-punct {
+  font-size: 1.75rem;
+  color: var(--color-text-muted);
+  align-self: flex-end;
+  margin-bottom: 0.1rem;
+}
+
+/* Ruby responsive - slightly smaller on mobile */
+@media (max-width: 480px) {
+  .ruby-line {
+    gap: 0.35rem 0.5rem;
+  }
+
+  .ruby-hanzi {
+    font-size: 1.5rem;
+  }
+
+  .ruby-pinyin {
+    font-size: 0.85rem;
+  }
+
+  .ruby-space {
+    width: 0.5rem;
+  }
+
+  .ruby-punct {
+    font-size: 1.5rem;
+  }
+}
+
 /* Print styles */
 @media print {
   body {
@@ -89,5 +155,26 @@ body {
   .english {
     color: #555;
     white-space: normal;
+  }
+
+  /* Ruby print styles */
+  .ruby-line {
+    flex-wrap: wrap;
+    gap: 0.3rem 0.5rem;
+  }
+
+  .ruby-hanzi {
+    font-size: 1.5rem;
+    color: black;
+  }
+
+  .ruby-pinyin {
+    font-size: 0.8rem;
+    color: #333;
+  }
+
+  .ruby-punct {
+    font-size: 1.5rem;
+    color: #666;
   }
 }

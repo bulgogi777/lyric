@@ -1,9 +1,15 @@
 ---
+interface Segment {
+  hanzi: string;
+  pinyin: string;
+}
+
 interface LyricLine {
   timestamp?: string;
   chinese: string;
   pinyin: string;
   english: string;
+  segments?: Segment[];
 }
 
 interface Props {
@@ -11,6 +17,11 @@ interface Props {
 }
 
 const { lyrics } = Astro.props;
+
+// Check if line has valid segments for ruby display
+function hasSegments(line: LyricLine): boolean {
+  return Array.isArray(line.segments) && line.segments.length > 0;
+}
 
 // Convert timestamp to seconds
 function timestampToSeconds(timestamp: string): number {
@@ -63,8 +74,34 @@ function isValidTranslation(text: string): boolean {
         </button>
       )}
       <div class="lyric-content">
-        <div class="chinese">{line.chinese}</div>
-        <div class="pinyin">{line.pinyin}</div>
+        {hasSegments(line) ? (
+          /* Ruby-aligned display for segmented data */
+          <div class="ruby-line">
+            {line.segments!.map((seg) => (
+              seg.hanzi.trim() === '' ? (
+                /* Space between word groups */
+                <span class="ruby-space">&nbsp;</span>
+              ) : seg.pinyin === '' ? (
+                /* Punctuation - no ruby */
+                <span class="ruby-punct">{seg.hanzi}</span>
+              ) : (
+                /* Word unit with ruby annotation */
+                <ruby class="ruby-word">
+                  <span class="ruby-hanzi">{seg.hanzi}</span>
+                  <rp>(</rp>
+                  <rt class="ruby-pinyin">{seg.pinyin}</rt>
+                  <rp>)</rp>
+                </ruby>
+              )
+            ))}
+          </div>
+        ) : (
+          /* Linear fallback for legacy data */
+          <>
+            <div class="chinese">{line.chinese}</div>
+            <div class="pinyin">{line.pinyin}</div>
+          </>
+        )}
         {isValidTranslation(line.english) && (
           <div class="english">{line.english}</div>
         )}
