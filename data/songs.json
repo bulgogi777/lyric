@@ -3571,5 +3571,1189 @@
     ],
     "album": "小幸運",
     "duration": 266
+  },
+  {
+    "id": "Oa620MHNyx0",
+    "title": "The Unknown Me",
+    "artist": "A-Lin官方專屬頻道",
+    "hasLyrics": false
+  },
+  {
+    "id": "O29mg2nbi7M",
+    "title": "Those Bygone Years",
+    "artist": "HuXia胡夏",
+    "hasLyrics": false
+  },
+  {
+    "id": "vhp4i3odinY",
+    "title": "Yi Hou Bie Zuo Peng You",
+    "artist": "周興哲 Eric Chou",
+    "hasLyrics": false
+  },
+  {
+    "id": "0gTGHajEhKQ",
+    "title": "擱淺",
+    "artist": "周杰倫 Jay Chou",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "久未放晴的天空",
+        "pinyin": "jiǔ wèi fàng qíng de tiān kōng",
+        "english": "The sky that hasn't cleared for a long time",
+        "timestamp": "00:16.13"
+      },
+      {
+        "chinese": "依舊留著妳的笑容",
+        "pinyin": "yī jiù liú zhù nǎi de xiào róng",
+        "english": "Still retains your smile",
+        "timestamp": "00:20.16"
+      },
+      {
+        "chinese": "哭過 卻無法掩埋歉疚",
+        "pinyin": "kū guò   què wú fǎ yǎn mái qiàn jiù",
+        "english": "Having cried, yet unable to bury the guilt",
+        "timestamp": "00:24.46"
+      },
+      {
+        "chinese": "風箏在陰天擱淺",
+        "pinyin": "fēng zhēng zài yīn tiān gē qiǎn",
+        "english": "The kite is stranded on a cloudy day",
+        "timestamp": "00:31.81"
+      },
+      {
+        "chinese": "想念還在等待救援",
+        "pinyin": "xiǎng niàn huán zài děng dài jiù yuán",
+        "english": "Longing is still waiting for rescue",
+        "timestamp": "00:35.69"
+      },
+      {
+        "chinese": "我拉著線 複習妳給的溫柔",
+        "pinyin": "wǒ lā zhù xiàn   fù xí nǎi gěi de wēn róu",
+        "english": "I pull the string, reviewing the tenderness you gave",
+        "timestamp": "00:40.03"
+      },
+      {
+        "chinese": "曝曬在一旁的寂寞",
+        "pinyin": "pù shài zài yì páng de jì mò",
+        "english": "Loneliness exposed on the side",
+        "timestamp": "00:46.32"
+      },
+      {
+        "chinese": "笑我給不起承諾",
+        "pinyin": "xiào wǒ gěi bù qǐ chéng nuò",
+        "english": "Laughs at me for being unable to promise",
+        "timestamp": "00:50.57"
+      },
+      {
+        "chinese": "怎麼會怎麼會",
+        "pinyin": "zěn mó huì zěn mó huì",
+        "english": "How could it be, how could it be",
+        "timestamp": "00:53.92"
+      },
+      {
+        "chinese": "妳竟原諒了我",
+        "pinyin": "nǎi jìng yuán liàng le wǒ",
+        "english": "That you actually forgave me",
+        "timestamp": "00:56.44"
+      },
+      {
+        "chinese": "我只能永遠讀著對白",
+        "pinyin": "wǒ zhǐ néng yǒng yuǎn dú zhù duì bái",
+        "english": "I can only read the dialogue forever",
+        "timestamp": "01:01.14"
+      },
+      {
+        "chinese": "讀著我給妳的傷害",
+        "pinyin": "dú zhù wǒ gěi nǎi de shāng hài",
+        "english": "Reading the hurt I caused you",
+        "timestamp": "01:05.53"
+      },
+      {
+        "chinese": "我原諒不了我",
+        "pinyin": "wǒ yuán liàng bù liǎo wǒ",
+        "english": "I cannot forgive myself",
+        "timestamp": "01:09.50"
+      },
+      {
+        "chinese": "就請妳當作我已不在",
+        "pinyin": "jiù qǐng nǎi dāng zuò wǒ yǐ bú zài",
+        "english": "So please just pretend I am no longer here",
+        "timestamp": "01:12.40"
+      },
+      {
+        "chinese": "我睜開雙眼 看著空白",
+        "pinyin": "wǒ zhēng kāi shuāng yǎn   kàn zhù kòng bái",
+        "english": "I open my eyes and look at the void",
+        "timestamp": "01:16.89"
+      },
+      {
+        "chinese": "忘記妳對我的期待",
+        "pinyin": "wàng jì nǎi duì wǒ de qī dài",
+        "english": "Forgetting the expectations you had for me",
+        "timestamp": "01:21.06"
+      },
+      {
+        "chinese": "讀完了依賴 我很快就離開",
+        "pinyin": "dú wán le yī lài   wǒ hěn kuài jiù lí kāi",
+        "english": "Having read through the dependence, I will leave soon",
+        "timestamp": "01:25.06"
+      },
+      {
+        "chinese": "久未放晴的天空",
+        "pinyin": "jiǔ wèi fàng qíng de tiān kōng",
+        "english": "The sky that hasn't cleared for a long time",
+        "timestamp": "01:53.93"
+      },
+      {
+        "chinese": "依舊留著妳的笑容",
+        "pinyin": "yī jiù liú zhù nǎi de xiào róng",
+        "english": "Still retains your smile",
+        "timestamp": "01:57.94"
+      },
+      {
+        "chinese": "哭過 卻無法掩埋歉疚",
+        "pinyin": "kū guò   què wú fǎ yǎn mái qiàn jiù",
+        "english": "Having cried, yet unable to bury the guilt",
+        "timestamp": "02:02.24"
+      },
+      {
+        "chinese": "風箏在陰天擱淺",
+        "pinyin": "fēng zhēng zài yīn tiān gē qiǎn",
+        "english": "The kite is stranded on a cloudy day",
+        "timestamp": "02:09.52"
+      },
+      {
+        "chinese": "想念還在等待救援",
+        "pinyin": "xiǎng niàn huán zài děng dài jiù yuán",
+        "english": "Missing you is still waiting for rescue",
+        "timestamp": "02:13.47"
+      },
+      {
+        "chinese": "我拉著線 複習妳給的溫柔",
+        "pinyin": "wǒ lā zhù xiàn   fù xí nǎi gěi de wēn róu",
+        "english": "I pull the string, reviewing the tenderness you gave",
+        "timestamp": "02:18.08"
+      },
+      {
+        "chinese": "曝曬在一旁的寂寞",
+        "pinyin": "pù shài zài yì páng de jì mò",
+        "english": "Loneliness exposed on the side",
+        "timestamp": "02:24.10"
+      },
+      {
+        "chinese": "笑我給不起承諾",
+        "pinyin": "xiào wǒ gěi bù qǐ chéng nuò",
+        "english": "Laughing at me for being unable to promise",
+        "timestamp": "02:28.44"
+      },
+      {
+        "chinese": "怎麼會怎麼會",
+        "pinyin": "zěn mó huì zěn mó huì",
+        "english": "How could it be, how could it be",
+        "timestamp": "02:31.50"
+      },
+      {
+        "chinese": "妳竟原諒了我",
+        "pinyin": "nǎi jìng yuán liàng le wǒ",
+        "english": "That you actually forgave me",
+        "timestamp": "02:34.17"
+      },
+      {
+        "chinese": "我只能永遠讀著對白",
+        "pinyin": "wǒ zhǐ néng yǒng yuǎn dú zhù duì bái",
+        "english": "I can only read the dialogue forever",
+        "timestamp": "02:38.96"
+      },
+      {
+        "chinese": "讀著我給妳的傷害",
+        "pinyin": "dú zhù wǒ gěi nǎi de shāng hài",
+        "english": "Reading the pain I caused you",
+        "timestamp": "02:43.28"
+      },
+      {
+        "chinese": "我原諒不了我",
+        "pinyin": "wǒ yuán liàng bù liǎo wǒ",
+        "english": "I cannot forgive myself",
+        "timestamp": "02:47.27"
+      },
+      {
+        "chinese": "就請妳當作我已不在",
+        "pinyin": "jiù qǐng nǎi dāng zuò wǒ yǐ bú zài",
+        "english": "Please just treat it as if I'm already gone",
+        "timestamp": "02:50.03"
+      },
+      {
+        "chinese": "我睜開雙眼 看著空白",
+        "pinyin": "wǒ zhēng kāi shuāng yǎn   kàn zhù kòng bái",
+        "english": "I open my eyes and look at the void",
+        "timestamp": "02:54.30"
+      },
+      {
+        "chinese": "忘記妳對我的期待",
+        "pinyin": "wàng jì nǎi duì wǒ de qī dài",
+        "english": "Forgetting your expectations of me",
+        "timestamp": "02:58.93"
+      },
+      {
+        "chinese": "讀完了依賴 我很快就",
+        "pinyin": "dú wán le yī lài   wǒ hěn kuài jiù",
+        "english": "Finished reading the dependence, I'll soon",
+        "timestamp": "03:02.90"
+      },
+      {
+        "chinese": "我只能永遠讀著對白",
+        "pinyin": "wǒ zhǐ néng yǒng yuǎn dú zhù duì bái",
+        "english": "I can only read the dialogue forever",
+        "timestamp": "03:08.82"
+      },
+      {
+        "chinese": "讀著我給妳的傷害",
+        "pinyin": "dú zhù wǒ gěi nǎi de shāng hài",
+        "english": "Reading the pain I caused you",
+        "timestamp": "03:14.53"
+      },
+      {
+        "chinese": "我原諒不了我",
+        "pinyin": "wǒ yuán liàng bù liǎo wǒ",
+        "english": "I cannot forgive myself",
+        "timestamp": "03:18.54"
+      },
+      {
+        "chinese": "就請妳當作我已不在",
+        "pinyin": "jiù qǐng nǎi dāng zuò wǒ yǐ bú zài",
+        "english": "Please just treat it as if I'm already gone",
+        "timestamp": "03:21.34"
+      },
+      {
+        "chinese": "我睜開雙眼 看著空白",
+        "pinyin": "wǒ zhēng kāi shuāng yǎn   kàn zhù kòng bái",
+        "english": "I open my eyes and look at the void",
+        "timestamp": "03:25.81"
+      },
+      {
+        "chinese": "忘記妳對我的期待",
+        "pinyin": "wàng jì nǎi duì wǒ de qī dài",
+        "english": "Forgetting your expectations of me",
+        "timestamp": "03:30.26"
+      },
+      {
+        "chinese": "讀完了依賴 我很快就離開",
+        "pinyin": "dú wán le yī lài   wǒ hěn kuài jiù lí kāi",
+        "english": "After finishing the dependence, I will leave very soon.",
+        "timestamp": "03:34.18"
+      }
+    ],
+    "album": "Common Jasmine Orange (七里香)",
+    "duration": 238.133333
+  },
+  {
+    "id": "ow1fXRb077c",
+    "title": "Malaysia Chabor",
+    "artist": "Joyce Chu 四葉草",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "別再說Anyong Anyong Hasayyo(你好)",
+        "pinyin": "bié zài shuō A n y o n g   A n y o n g   H a s a y y o ( nǐ hǎo )",
+        "english": "Don't say Anyong Anyong Haseyo anymore",
+        "timestamp": "00:06.71"
+      },
+      {
+        "chinese": "我來自JB靠近Singapore(新加坡)",
+        "pinyin": "wǒ lái zì J B kào jìn S i n g a p o r e ( xīn jiā pō )",
+        "english": "I come from JB near Singapore",
+        "timestamp": "00:10.97"
+      },
+      {
+        "chinese": "別再說Kamsa Hami ta什麼?",
+        "pinyin": "bié zài shuō K a m s a   H a m i   t a shén mó ?",
+        "english": "Don't say Kamsa Hamida or whatever",
+        "timestamp": "00:14.41"
+      },
+      {
+        "chinese": "我是Malaysia的查某",
+        "pinyin": "wǒ shì M a l a y s i a de chá mǒu",
+        "english": "I am a Malaysian girl",
+        "timestamp": "00:18.22"
+      },
+      {
+        "chinese": "我明白Kimchi kimchi好吃唷",
+        "pinyin": "wǒ míng bái K i m c h i   k i m c h i hǎo chī yō",
+        "english": "I understand that Kimchi is delicious",
+        "timestamp": "00:22.14"
+      },
+      {
+        "chinese": "但我比較愛Cendol, Keropok",
+        "pinyin": "dàn wǒ bǐ jiào ài C e n d o l ,   K e r o p o k",
+        "english": "But I love Cendol and Keropok more",
+        "timestamp": "00:24.84"
+      },
+      {
+        "chinese": "我只會Angmo華語Melayu",
+        "pinyin": "wǒ zhī huì A n g m o huá yǔ M e l a y u",
+        "english": "I only know English, Chinese, and Malay",
+        "timestamp": "00:28.61"
+      },
+      {
+        "chinese": "請別再說me from韓國",
+        "pinyin": "qǐng bié zài shuō m e   f r o m hán guó",
+        "english": "Please stop saying I am from Korea",
+        "timestamp": "00:32.05"
+      },
+      {
+        "chinese": "我是Malaysia的查某",
+        "pinyin": "wǒ shì M a l a y s i a de chá mǒu",
+        "english": "I am a Malaysian girl",
+        "timestamp": "00:35.28"
+      },
+      {
+        "chinese": "感謝你每天每天沒天沒夜地follow",
+        "pinyin": "gǎn xiè nǐ měi tiān měi tiān méi tiān méi yè dì f o l l o w",
+        "english": "Thank you for following me day and night",
+        "timestamp": "00:39.23"
+      },
+      {
+        "chinese": "雖然你每天每天沒天沒夜在說我",
+        "pinyin": "suī rán nǐ měi tiān měi tiān méi tiān méi yè zài shuō wǒ",
+        "english": "Even though you talk about me day and night",
+        "timestamp": "00:42.56"
+      },
+      {
+        "chinese": "我的臉我的鼻子下巴眼睛我的酒窩",
+        "pinyin": "wǒ de liǎn wǒ de bí zi xià bā yǎn jīng wǒ de jiǔ wō",
+        "english": "My face, my nose, chin, eyes, and my dimples",
+        "timestamp": "00:46.15"
+      },
+      {
+        "chinese": "全都是假的假的包括耳朵",
+        "pinyin": "quán dōu shì jiǎ de jiǎ de bāo kuò ěr duo",
+        "english": "Are all fake, fake, including my ears",
+        "timestamp": "00:49.29"
+      },
+      {
+        "chinese": "求求你Oppa oppa oppa oppa別煩我",
+        "pinyin": "qiú qiú nǐ O p p a   o p p a   o p p a   o p p a bié fán wǒ",
+        "english": "I beg you Oppa oppa oppa oppa don't bother me",
+        "timestamp": "00:53.42"
+      },
+      {
+        "chinese": "都已經說了說了說了不能再聯絡",
+        "pinyin": "dōu yǐ jīng shuō le shuō le shuō le bù néng zài lián luò",
+        "english": "I've already told you we cannot contact each other anymore",
+        "timestamp": "00:56.56"
+      },
+      {
+        "chinese": "你問我爸爸媽媽哥哥姐姐別再問我",
+        "pinyin": "nǐ wèn wǒ bà ba mā mā gē ge jiě jie bié zài wèn wǒ",
+        "english": "You ask my dad, mom, brother, sister, stop asking me",
+        "timestamp": "00:59.77"
+      },
+      {
+        "chinese": "韓劇裡都是假的別看太多",
+        "pinyin": "hán jù lǐ dōu shì jiǎ de bié kàn tài duō",
+        "english": "What's in Korean dramas is fake, don't watch too much",
+        "timestamp": "01:02.95"
+      },
+      {
+        "chinese": "別再說Anyong Anyong Hasayyo",
+        "pinyin": "bié zài shuō A n y o n g   A n y o n g   H a s a y y o",
+        "english": "Don't say Anyong Anyong Haseyo anymore",
+        "timestamp": "01:09.06"
+      },
+      {
+        "chinese": "我來自JB靠近Singapore",
+        "pinyin": "wǒ lái zì J B kào jìn S i n g a p o r e",
+        "english": "I come from JB near Singapore",
+        "timestamp": "01:12.30"
+      },
+      {
+        "chinese": "別再說Kamsa Hami ta什麼?",
+        "pinyin": "bié zài shuō K a m s a   H a m i   t a shén mó ?",
+        "english": "Don't say Kamsa Hamida or whatever",
+        "timestamp": "01:15.77"
+      },
+      {
+        "chinese": "我是Malaysia的查某",
+        "pinyin": "wǒ shì M a l a y s i a de chá mǒu",
+        "english": "I am a Malaysian girl",
+        "timestamp": "01:19.43"
+      },
+      {
+        "chinese": "Arirang Arirang Arariyo",
+        "pinyin": "A r i r a n g   A r i r a n g   A r a r i y o",
+        "english": "Arirang Arirang Arariyo",
+        "timestamp": "01:23.10"
+      },
+      {
+        "chinese": "Arirang Gogaero Neomeoganda",
+        "pinyin": "A r i r a n g   G o g a e r o   N e o m e o g a n d a",
+        "english": "Crossing over the Arirang Hill",
+        "timestamp": "01:30.57"
+      },
+      {
+        "chinese": "感謝你每天每天沒天沒夜地follow",
+        "pinyin": "gǎn xiè nǐ měi tiān měi tiān méi tiān méi yè dì f o l l o w",
+        "english": "Thank you for following me day and night every day",
+        "timestamp": "01:38.55"
+      },
+      {
+        "chinese": "雖然你每天每天沒天沒夜在說我",
+        "pinyin": "suī rán nǐ měi tiān měi tiān méi tiān méi yè zài shuō wǒ",
+        "english": "Although you talk about me day and night every day",
+        "timestamp": "01:42.22"
+      },
+      {
+        "chinese": "我的臉我的鼻子下巴眼睛我的酒窩",
+        "pinyin": "wǒ de liǎn wǒ de bí zi xià bā yǎn jīng wǒ de jiǔ wō",
+        "english": "My face, my nose, chin, eyes, and my dimples",
+        "timestamp": "01:45.80"
+      },
+      {
+        "chinese": "全都是假的假的包括耳朵",
+        "pinyin": "quán dōu shì jiǎ de jiǎ de bāo kuò ěr duo",
+        "english": "Are all fake, fake, including my ears",
+        "timestamp": "01:49.25"
+      },
+      {
+        "chinese": "求求你Oppa oppa oppa oppa別煩我",
+        "pinyin": "qiú qiú nǐ O p p a   o p p a   o p p a   o p p a bié fán wǒ",
+        "english": "I beg you Oppa oppa oppa oppa stop bothering me",
+        "timestamp": "01:53.11"
+      },
+      {
+        "chinese": "都已經說了說了說了不能再聯絡",
+        "pinyin": "dōu yǐ jīng shuō le shuō le shuō le bù néng zài lián luò",
+        "english": "I have already said said said we cannot be in contact",
+        "timestamp": "01:56.17"
+      },
+      {
+        "chinese": "你問我爸爸媽媽哥哥姐姐別再問我",
+        "pinyin": "nǐ wèn wǒ bà ba mā mā gē ge jiě jie bié zài wèn wǒ",
+        "english": "You ask my dad, mom, brother, sister, stop asking me",
+        "timestamp": "01:59.21"
+      },
+      {
+        "chinese": "韓劇裡都是假的別看太多",
+        "pinyin": "hán jù lǐ dōu shì jiǎ de bié kàn tài duō",
+        "english": "K-dramas are all fake, don't watch too many",
+        "timestamp": "02:03.06"
+      },
+      {
+        "chinese": "我明白Kimchi kimchi好吃呦",
+        "pinyin": "wǒ míng bái K i m c h i   k i m c h i hǎo chī yōu",
+        "english": "I know Kimchi kimchi is delicious",
+        "timestamp": "02:08.58"
+      },
+      {
+        "chinese": "但我比較愛Cendol, Keropok",
+        "pinyin": "dàn wǒ bǐ jiào ài C e n d o l ,   K e r o p o k",
+        "english": "But I love Cendol and Keropok more",
+        "timestamp": "02:12.29"
+      },
+      {
+        "chinese": "我只會Angmo華語Melayu",
+        "pinyin": "wǒ zhī huì A n g m o huá yǔ M e l a y u",
+        "english": "I only know English, Mandarin, and Malay",
+        "timestamp": "02:15.37"
+      },
+      {
+        "chinese": "請別再說me from韓國",
+        "pinyin": "qǐng bié zài shuō m e   f r o m hán guó",
+        "english": "Please stop saying I am from Korea",
+        "timestamp": "02:18.80"
+      },
+      {
+        "chinese": "我是Malaysia的查某",
+        "pinyin": "wǒ shì M a l a y s i a de chá mǒu",
+        "english": "I am a Malaysian girl",
+        "timestamp": "02:22.33"
+      },
+      {
+        "chinese": "我的名字叫... 四葉草",
+        "pinyin": "wǒ de míng zì jiào . . .   sì yè cǎo",
+        "english": "My name is... Four Leaf Clover",
+        "timestamp": "02:26.01"
+      },
+      {
+        "chinese": "Anyong Hasayyo",
+        "pinyin": "A n y o n g   H a s a y y o",
+        "english": "Hello",
+        "timestamp": "02:29.41"
+      }
+    ],
+    "album": "Joyce Chu",
+    "duration": 165
+  },
+  {
+    "id": "jJuwD56M9h8",
+    "title": "漂向北方",
+    "artist": "Namewee",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "漂向北方别问我家乡",
+        "pinyin": "piāo xiàng běi fāng bié wèn wǒ jiā xiāng",
+        "english": "Drifting to the north, don't ask about my hometown",
+        "timestamp": "00:07.42"
+      },
+      {
+        "chinese": "高耸古老的城墙挡不住忧伤",
+        "pinyin": "gāo sǒng gǔ lǎo de chéng qiáng dǎng bú zhù yōu shāng",
+        "english": "The towering ancient city walls cannot block the sorrow",
+        "timestamp": "00:12.42"
+      },
+      {
+        "chinese": "我漂向北方家人是否无恙",
+        "pinyin": "wǒ piāo xiàng běi fāng jiā rén shì fǒu wú yàng",
+        "english": "I drift to the north, are my family members safe and sound?",
+        "timestamp": "00:17.85"
+      },
+      {
+        "chinese": "肩上沉重的行囊盛满了惆怅",
+        "pinyin": "jiān shàng chén zhòng de xíng náng shèng mǎn le chóu chàng",
+        "english": "The heavy luggage on my shoulders is filled with melancholy",
+        "timestamp": "00:23.32"
+      },
+      {
+        "chinese": "有人说他在老家欠了一堆钱需要避避风头",
+        "pinyin": "yǒu rén shuō tā zài lǎo jiā qiàn le yì duī qián xū yào bì bì fēng tou",
+        "english": "Some say he owes a pile of money back home and needs to lay low",
+        "timestamp": "00:29.95"
+      },
+      {
+        "chinese": "有人说他练就了一身武艺却没机会崭露",
+        "pinyin": "yǒu rén shuō tā liàn jiù le yì shēn wǔ yì què méi jī huì zhǎn lù",
+        "english": "Some say he has mastered martial arts but has no chance to show it",
+        "timestamp": "00:33.09"
+      },
+      {
+        "chinese": "有人失去了自我手足无措四处漂流",
+        "pinyin": "yǒu rén shī qù le zì wǒ shǒu zú wú cuò sì chù piāo liú",
+        "english": "Some have lost themselves, helpless and drifting everywhere",
+        "timestamp": "00:36.11"
+      },
+      {
+        "chinese": "有人为了梦想为了三餐为养家糊口",
+        "pinyin": "yǒu rén wéi le mèng xiǎng wèi le sān cān wèi yǎng jiā hú kǒu",
+        "english": "Some for dreams, some for three meals, to support their families",
+        "timestamp": "00:39.00"
+      },
+      {
+        "chinese": "他住在燕郊区残破的求职公寓",
+        "pinyin": "tā zhù zài yàn jiāo qū cán pò de qiú zhí gōng yù",
+        "english": "He lives in a dilapidated job-hunting apartment in Yanjiao district",
+        "timestamp": "00:41.60"
+      },
+      {
+        "chinese": "拥挤的大楼里堆满陌生人都来自外地",
+        "pinyin": "yōng jǐ de dà lóu lǐ duī mǎn mò shēng rén dōu lái zì wài dì",
+        "english": "The crowded building is piled with strangers all from out of town",
+        "timestamp": "00:44.17"
+      },
+      {
+        "chinese": "他埋头写着履历怀抱着多少憧憬",
+        "pinyin": "tā mái tóu xiě zhe lǚ lì huái bào zhe duō shǎo chōng jǐng",
+        "english": "He buries his head writing his resume, embracing so many longings",
+        "timestamp": "00:46.96"
+      },
+      {
+        "chinese": "往返在九三零号公路内心盼着奇迹",
+        "pinyin": "wǎng fǎn zài jiǔ sān líng hào gōng lù nèi xīn pàn zhe qí jì",
+        "english": "Commuting back and forth on Highway 930, hoping for a miracle in his heart",
+        "timestamp": "00:49.79"
+      },
+      {
+        "chinese": "忍着泪(不听也不想不敢回头望的遗憾)",
+        "pinyin": "rěn zhe lèi ( bù tīng yě bù xiǎng bù gǎn huí tóu wàng de yí hàn )",
+        "english": "Holding back tears (Regrets that I don't listen, don't think about, and dare not look back on)",
+        "timestamp": "00:52.39"
+      },
+      {
+        "chinese": "掩着伤(扛下了梦想要毅然决然去流浪)",
+        "pinyin": "yǎn zhe shāng ( káng xià le mèng xiǎng yào yì rán jué rán qù liú làng )",
+        "english": "Hiding the wounds (Shouldering the dream, determined to wander)",
+        "timestamp": "00:54.55"
+      },
+      {
+        "chinese": "抬头看(卸下了自尊光环过去多风光)",
+        "pinyin": "tái tóu kàn ( xiè xià le zì zūn guāng huán guò qù duō fēng guāng )",
+        "english": "Look up (Shedding the halo of self-esteem, however glorious the past was)",
+        "timestamp": "00:57.37"
+      },
+      {
+        "chinese": "这斜阳(就算再不堪败仗也不能投降)",
+        "pinyin": "zhè xié yáng ( jiù suàn zài bù kān bài zhàng yě bù néng tóu xiáng )",
+        "english": "This setting sun (Even if the defeat is unbearable, I cannot surrender)",
+        "timestamp": "01:00.14"
+      },
+      {
+        "chinese": "亲爱的(再见了南方眺望最美丽的家乡)",
+        "pinyin": "qīn ài de ( zài jiàn le nán fāng tiào wàng zuì měi lì de jiā xiāng )",
+        "english": "My dear (Goodbye South, gazing at the most beautiful hometown)",
+        "timestamp": "01:02.81"
+      },
+      {
+        "chinese": "在远方(椰子树摇晃梦境倒映着的幻象)",
+        "pinyin": "zài yuǎn fāng ( yē zǐ shù yáo huàng mèng jìng dǎo yìng zhe de huàn xiàng )",
+        "english": "In the distance (Coconut trees swaying, illusions reflected in dreams)",
+        "timestamp": "01:05.51"
+      },
+      {
+        "chinese": "这城市(雾霾太猖狂不散都看不清前方)",
+        "pinyin": "zhè chéng shì ( wù mái tài chāng kuáng bú sàn dōu kàn bù qīng qián fāng )",
+        "english": "This city (The smog is too rampant, refusing to disperse, I can't see the road ahead)",
+        "timestamp": "01:08.15"
+      },
+      {
+        "chinese": "太迷惘",
+        "pinyin": "tài mí wǎng",
+        "english": "Too lost",
+        "timestamp": "01:10.90"
+      },
+      {
+        "chinese": "我漂向北方别问我家乡",
+        "pinyin": "wǒ piāo xiàng běi fāng bié wèn wǒ jiā xiāng",
+        "english": "I drift towards the north, don't ask about my home",
+        "timestamp": "01:13.41"
+      },
+      {
+        "chinese": "高耸古老的城墙挡不住忧伤",
+        "pinyin": "gāo sǒng gǔ lǎo de chéng qiáng dǎng bú zhù yōu shāng",
+        "english": "High ancient walls cannot hold back the sorrow",
+        "timestamp": "01:18.94"
+      },
+      {
+        "chinese": "我漂向北方家人是否无恙",
+        "pinyin": "wǒ piāo xiàng běi fāng jiā rén shì fǒu wú yàng",
+        "english": "I drift towards the north, is my family safe?",
+        "timestamp": "01:24.46"
+      },
+      {
+        "chinese": "肩上沉重的行囊盛满了惆怅",
+        "pinyin": "jiān shàng chén zhòng de xíng náng shèng mǎn le chóu chàng",
+        "english": "The heavy pack on my shoulders is full of melancholy",
+        "timestamp": "01:29.79"
+      },
+      {
+        "chinese": "也是最后寄望",
+        "pinyin": "yě shì zuì hòu jì wàng",
+        "english": "It is also the last hope",
+        "timestamp": "01:35.38"
+      },
+      {
+        "chinese": "回不去的远方噢",
+        "pinyin": "huí bú qù de yuǎn fāng ō",
+        "english": "The distance I can never return to, oh",
+        "timestamp": "01:40.98"
+      },
+      {
+        "chinese": "空气太脏太混浊他说不喜欢",
+        "pinyin": "kōng qì tài zāng tài hùn zhuó tā shuō bù xǐ huan",
+        "english": "The air is too dirty and murky, he says he doesn't like it",
+        "timestamp": "01:47.72"
+      },
+      {
+        "chinese": "车太混乱太匆忙他还不习惯",
+        "pinyin": "chē tài hùn luàn tài cōng máng tā hái bù xí guàn",
+        "english": "The traffic is too chaotic and hurried, he's not used to it yet",
+        "timestamp": "01:50.41"
+      },
+      {
+        "chinese": "人行道一双又一双斜视冷漠的眼光",
+        "pinyin": "rén xíng dào yì shuāng yòu yì shuāng xié shì lěng mò de yǎn guāng",
+        "english": "Pairs of cold and squinting eyes on the sidewalk",
+        "timestamp": "01:53.13"
+      },
+      {
+        "chinese": "他经常将自己灌醉强迫融入这大染缸",
+        "pinyin": "tā jīng cháng jiāng zì jǐ guàn zuì qiǎng pò róng rù zhè dà rǎn gāng",
+        "english": "He often gets drunk to force himself into this melting pot",
+        "timestamp": "01:56.11"
+      },
+      {
+        "chinese": "走着脚步蹒跚二锅头在摇晃",
+        "pinyin": "zǒu zhe jiǎo bù pán shān èr guō tóu zài yáo huàng",
+        "english": "Staggering steps, the liquor bottle swaying",
+        "timestamp": "01:58.84"
+      },
+      {
+        "chinese": "失意的人啊偶尔醉倒在那胡同陋巷",
+        "pinyin": "shī yì de rén a ǒu ěr zuì dǎo zài nà hú tòng lòu xiàng",
+        "english": "The disappointed occasionally collapse drunk in narrow alleys",
+        "timestamp": "02:01.49"
+      },
+      {
+        "chinese": "咀嚼爆肚涮羊手中盛着一碗热汤",
+        "pinyin": "jǔ jué bào dù shuàn yáng shǒu zhōng shèng zhe yì wǎn rè tāng",
+        "english": "Chewing tripe and mutton, holding a bowl of hot soup",
+        "timestamp": "02:04.52"
+      },
+      {
+        "chinese": "用力地温暖着内心里的不安",
+        "pinyin": "yòng lì dì wēn nuǎn zhe nèi xīn lǐ de bù ān",
+        "english": "Warming the unease in his heart with all his might",
+        "timestamp": "02:07.20"
+      },
+      {
+        "chinese": "忍着泪(不听也不想不敢回头望的遗憾)",
+        "pinyin": "rěn zhe lèi ( bù tīng yě bù xiǎng bù gǎn huí tóu wàng de yí hàn )",
+        "english": "Enduring tears (regrets I won't hear, think of, or look back on)",
+        "timestamp": "02:09.32"
+      },
+      {
+        "chinese": "掩着伤(扛下了梦想要毅然决然去流浪)",
+        "pinyin": "yǎn zhe shāng ( káng xià le mèng xiǎng yào yì rán jué rán qù liú làng )",
+        "english": "Hiding wounds (shouldering dreams to wander with determination)",
+        "timestamp": "02:11.85"
+      },
+      {
+        "chinese": "抬头看(卸下了自尊光环过去多风光)",
+        "pinyin": "tái tóu kàn ( xiè xià le zì zūn guāng huán guò qù duō fēng guāng )",
+        "english": "Looking up (stripping away pride, how glorious the past was)",
+        "timestamp": "02:14.53"
+      },
+      {
+        "chinese": "这斜阳(就算再不堪败仗也不能投降)",
+        "pinyin": "zhè xié yáng ( jiù suàn zài bù kān bài zhàng yě bù néng tóu xiáng )",
+        "english": "This setting sun (even if defeated, I will not surrender)",
+        "timestamp": "02:17.27"
+      },
+      {
+        "chinese": "亲爱的(再见了南方眺望最美丽的家乡)",
+        "pinyin": "qīn ài de ( zài jiàn le nán fāng tiào wàng zuì měi lì de jiā xiāng )",
+        "english": "My dear (goodbye to the south, gazing at the most beautiful home)",
+        "timestamp": "02:19.72"
+      },
+      {
+        "chinese": "在远方(椰子树摇晃梦境倒映着的幻象)",
+        "pinyin": "zài yuǎn fāng ( yē zǐ shù yáo huàng mèng jìng dǎo yìng zhe de huàn xiàng )",
+        "english": "In the distance (swaying coconut trees, illusions reflected in dreams)",
+        "timestamp": "02:22.76"
+      },
+      {
+        "chinese": "这城市(雾霾太猖狂不散都看不清前方)",
+        "pinyin": "zhè chéng shì ( wù mái tài chāng kuáng bú sàn dōu kàn bù qīng qián fāng )",
+        "english": "This city (the smog is too rampant, never clearing, I can't see the way forward)",
+        "timestamp": "02:25.81"
+      },
+      {
+        "chinese": "太迷惘",
+        "pinyin": "tài mí wǎng",
+        "english": "Too lost",
+        "timestamp": "02:28.29"
+      },
+      {
+        "chinese": "我漂向北方别问我家乡",
+        "pinyin": "wǒ piāo xiàng běi fāng bié wèn wǒ jiā xiāng",
+        "english": "I drift to the north, don't ask me about my hometown",
+        "timestamp": "02:30.44"
+      },
+      {
+        "chinese": "高耸古老的城墙挡不住忧伤",
+        "pinyin": "gāo sǒng gǔ lǎo de chéng qiáng dǎng bú zhù yōu shāng",
+        "english": "The towering ancient walls cannot block out the sorrow",
+        "timestamp": "02:36.05"
+      },
+      {
+        "chinese": "我漂向北方家人是否无恙",
+        "pinyin": "wǒ piāo xiàng běi fāng jiā rén shì fǒu wú yàng",
+        "english": "I drift to the north, is my family safe and sound?",
+        "timestamp": "02:41.63"
+      },
+      {
+        "chinese": "肩上沉重的行囊盛满了惆怅",
+        "pinyin": "jiān shàng chén zhòng de xíng náng shèng mǎn le chóu chàng",
+        "english": "The heavy knapsack on my shoulder is filled with melancholy",
+        "timestamp": "02:47.20"
+      },
+      {
+        "chinese": "就像那尘土飘散随着风向",
+        "pinyin": "jiù xiàng nà chén tǔ piāo sàn suí zhe fēng xiàng",
+        "english": "Just like the dust that scatters with the wind",
+        "timestamp": "02:53.04"
+      },
+      {
+        "chinese": "谁又能带领着我一起飞翔",
+        "pinyin": "shuí yòu néng dài lǐng zhe wǒ yì qǐ fēi xiáng",
+        "english": "Who can take the lead and fly away with me?",
+        "timestamp": "02:58.72"
+      },
+      {
+        "chinese": "我站在天坛中央闭着眼",
+        "pinyin": "wǒ zhàn zài tiān tán zhōng yāng bì zhuó yǎn",
+        "english": "I stand in the center of the Temple of Heaven with my eyes closed",
+        "timestamp": "03:04.41"
+      },
+      {
+        "chinese": "祈求一家人都平安",
+        "pinyin": "qí qiú yì jiā rén dōu píng ān",
+        "english": "Praying for the safety of my entire family",
+        "timestamp": "03:07.57"
+      },
+      {
+        "chinese": "漂向北方别问我家乡",
+        "pinyin": "piāo xiàng běi fāng bié wèn wǒ jiā xiāng",
+        "english": "Drifting to the north, don't ask me about my hometown",
+        "timestamp": "03:15.07"
+      },
+      {
+        "chinese": "高耸古老的城墙挡不住忧伤",
+        "pinyin": "gāo sǒng gǔ lǎo de chéng qiáng dǎng bú zhù yōu shāng",
+        "english": "The towering ancient walls cannot block out the sorrow",
+        "timestamp": "03:19.91"
+      },
+      {
+        "chinese": "我漂向北方家人是否无恙",
+        "pinyin": "wǒ piāo xiàng běi fāng jiā rén shì fǒu wú yàng",
+        "english": "I drift to the north, is my family safe and sound?",
+        "timestamp": "03:25.54"
+      },
+      {
+        "chinese": "肩上沉重的行囊盛满了惆怅",
+        "pinyin": "jiān shàng chén zhòng de xíng náng shèng mǎn le chóu chàng",
+        "english": "The heavy knapsack on my shoulder is filled with melancholy",
+        "timestamp": "03:30.84"
+      },
+      {
+        "chinese": "漂向北方(我站在天子脚下被踩得喘不过气)",
+        "pinyin": "piāo xiàng běi fāng ( wǒ zhàn zài tiān zǐ jiǎo xià bèi cǎi dé chuǎn bú guò qì )",
+        "english": "Drifting to the north (I stand at the Emperor's feet, crushed until I can't breathe)",
+        "timestamp": "03:37.10"
+      },
+      {
+        "chinese": "别问我家乡(走在前门大街跟人潮总会分歧)",
+        "pinyin": "bié wèn wǒ jiā xiāng ( zǒu zài qián mén dà jiē gēn rén cháo zǒng huì fēn qí )",
+        "english": "Don't ask me about my hometown (Walking on Qianmen Street, always out of step with the crowd)",
+        "timestamp": "03:39.31"
+      },
+      {
+        "chinese": "高耸古老的城墙(或许我根本不属于这里早就该离去)",
+        "pinyin": "gāo sǒng gǔ lǎo de chéng qiáng ( huò xǔ wǒ gēn běn bù shǔ yú zhè lǐ zǎo jiù gāi lí qù )",
+        "english": "The towering ancient walls (Perhaps I don't belong here at all and should have left long ago)",
+        "timestamp": "03:42.21"
+      },
+      {
+        "chinese": "挡不住忧伤(谁能给我致命的一击请用力到彻底)",
+        "pinyin": "dǎng bú zhù yōu shāng ( shuí néng gěi wǒ zhì mìng de yì jī qǐng yòng lì dào chè dǐ )",
+        "english": "Cannot block out the sorrow (Who can deal me a fatal blow? Please make it thorough)",
+        "timestamp": "03:44.76"
+      },
+      {
+        "chinese": "我漂向北方(这里是梦想的中心但梦想都遥不可及)",
+        "pinyin": "wǒ piāo xiàng běi fāng ( zhè lǐ shì mèng xiǎng de zhōng xīn dàn mèng xiǎng dōu yáo bù kě jí )",
+        "english": "I drift to the north (This is the center of dreams, yet dreams are far beyond reach)",
+        "timestamp": "03:48.01"
+      },
+      {
+        "chinese": "家人是否无恙(这里是圆梦的圣地但却总是扑朔迷离)",
+        "pinyin": "jiā rén shì fǒu wú yàng ( zhè lǐ shì yuán mèng de shèng dì dàn què zǒng shì pū shuò mí lí )",
+        "english": "Is my family safe and sound? (This is the holy land for realizing dreams, yet it is always bewildering)",
+        "timestamp": "03:50.31"
+      },
+      {
+        "chinese": "肩上沉重的行囊(多少人敌不过残酷的现实从此销声匿迹)",
+        "pinyin": "jiān shàng chén zhòng de xíng náng ( duō shǎo rén dí bú guò cán kù de xiàn shí cóng cǐ xiāo shēng nì jì )",
+        "english": "Heavy luggage on my shoulders (so many vanished, unable to withstand the cruel reality)",
+        "timestamp": "03:53.07"
+      },
+      {
+        "chinese": "盛满了惆怅(多少人陷入了昏迷剩下一具空壳尸体)",
+        "pinyin": "shèng mǎn le chóu chàng ( duō shǎo rén xiàn rù le hūn mí shèng xià yí jù kōng ké shī tǐ )",
+        "english": "Filled with melancholy (so many fell into a stupor, leaving behind only empty shells)",
+        "timestamp": "03:55.95"
+      },
+      {
+        "chinese": "也是最后寄望(Rest ini peace)",
+        "pinyin": "yě shì zuì hòu jì wàng ( R e s t   i n i   p e a c e )",
+        "english": "It is also the final hope (Rest in peace)",
+        "timestamp": "03:58.49"
+      },
+      {
+        "chinese": "回不去的远方噢",
+        "pinyin": "huí bú qù de yuǎn fāng ō",
+        "english": "The distant place I can never return to",
+        "timestamp": "04:03.96"
+      },
+      {
+        "chinese": "别问我家乡",
+        "pinyin": "bié wèn wǒ jiā xiāng",
+        "english": "Don't ask about my hometown",
+        "timestamp": "04:12.39"
+      }
+    ],
+    "album": "漂向北方",
+    "duration": 265
+  },
+  {
+    "id": "oVZ5DjqLR_w",
+    "title": "I Miss You",
+    "artist": "Joyce Chu 四葉草",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "想要传送一封简讯给你",
+        "pinyin": "xiǎng yào chuán sòng yì fēng jiǎn xùn gěi nǐ",
+        "english": "I want to send a text message to you",
+        "timestamp": "00:01.01"
+      },
+      {
+        "chinese": "我好想好想你",
+        "pinyin": "wǒ hǎo xiǎng hǎo xiǎng nǐ",
+        "english": "I miss you so so much",
+        "timestamp": "00:04.33"
+      },
+      {
+        "chinese": "想要立刻打通电话给你",
+        "pinyin": "xiǎng yào lì kè dǎ tōng diàn huà gěi nǐ",
+        "english": "I want to call you up right away",
+        "timestamp": "00:06.82"
+      },
+      {
+        "chinese": "我好想好想你",
+        "pinyin": "wǒ hǎo xiǎng hǎo xiǎng nǐ",
+        "english": "I miss you so so much",
+        "timestamp": "00:09.33"
+      },
+      {
+        "chinese": "每天起床的第一件事情",
+        "pinyin": "měi tiān qǐ chuáng de dì yī jiàn shì qíng",
+        "english": "The first thing I do when I wake up every day",
+        "timestamp": "00:11.84"
+      },
+      {
+        "chinese": "就是好想好想你",
+        "pinyin": "jiù shì hǎo xiǎng hǎo xiǎng nǐ",
+        "english": "Is missing you so so much",
+        "timestamp": "00:14.23"
+      },
+      {
+        "chinese": "无论晴天还是下雨",
+        "pinyin": "wú lùn qíng tiān hái shì xià yǔ",
+        "english": "No matter if it's sunny or raining",
+        "timestamp": "00:16.99"
+      },
+      {
+        "chinese": "都好想好想你",
+        "pinyin": "dōu hǎo xiǎng hǎo xiǎng nǐ",
+        "english": "I miss you so so much",
+        "timestamp": "00:19.69"
+      },
+      {
+        "chinese": "每次当我一说我好想你",
+        "pinyin": "měi cì dāng wǒ yì shuō wǒ hǎo xiǎng nǐ",
+        "english": "Every time I say I miss you",
+        "timestamp": "00:21.84"
+      },
+      {
+        "chinese": "你都不相信",
+        "pinyin": "nǐ dōu bù xiāng xìn",
+        "english": "You never believe it",
+        "timestamp": "00:24.45"
+      },
+      {
+        "chinese": "但却总爱问我有没有想你",
+        "pinyin": "dàn què zǒng ài wèn wǒ yǒu méi yǒu xiǎng nǐ",
+        "english": "But you always love to ask if I miss you",
+        "timestamp": "00:26.76"
+      },
+      {
+        "chinese": "我不懂的甜言蜜语所以只说好想你",
+        "pinyin": "wǒ bù dǒng de tián yán mì yǔ suǒ yǐ zhī shuō hǎo xiǎng nǐ",
+        "english": "I don't know sweet talk so I only say I miss you",
+        "timestamp": "00:31.68"
+      },
+      {
+        "chinese": "反正说来说去都只想让你开心",
+        "pinyin": "fǎn zhèng shuō lái shuō qù dōu zhī xiǎng ràng nǐ kāi xīn",
+        "english": "Anyway, everything I say is just to make you happy",
+        "timestamp": "00:36.78"
+      },
+      {
+        "chinese": "好想你 好想你 好想你 好想你",
+        "pinyin": "hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ",
+        "english": "Miss you, miss you, miss you, miss you",
+        "timestamp": "00:41.16"
+      },
+      {
+        "chinese": "是真的真的好想你",
+        "pinyin": "shì zhēn de zhēn de hǎo xiǎng nǐ",
+        "english": "I really, really miss you",
+        "timestamp": "00:46.51"
+      },
+      {
+        "chinese": "不是假的假的好想你",
+        "pinyin": "bú shì jiǎ de jiǎ de hǎo xiǎng nǐ",
+        "english": "It's not fake, fake missing you",
+        "timestamp": "00:48.59"
+      },
+      {
+        "chinese": "好想你 好想你 好想你 好想你",
+        "pinyin": "hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ",
+        "english": "Miss you, miss you, miss you, miss you",
+        "timestamp": "00:51.11"
+      },
+      {
+        "chinese": "是够力够力好想你",
+        "pinyin": "shì gòu lì gòu lì hǎo xiǎng nǐ",
+        "english": "I miss you so intensely much",
+        "timestamp": "00:56.36"
+      },
+      {
+        "chinese": "真的西北西北好想你",
+        "pinyin": "zhēn de xī běi xī běi hǎo xiǎng nǐ",
+        "english": "I really, extremely miss you",
+        "timestamp": "00:58.67"
+      },
+      {
+        "chinese": "好想你",
+        "pinyin": "hǎo xiǎng nǐ",
+        "english": "Miss you",
+        "timestamp": "01:01.14"
+      },
+      {
+        "chinese": "每次当我一说我好想你 你都不相信",
+        "pinyin": "měi cì dāng wǒ yì shuō wǒ hǎo xiǎng nǐ   nǐ dōu bù xiāng xìn",
+        "english": "Every time I say I miss you, you don't believe me",
+        "timestamp": "01:21.19"
+      },
+      {
+        "chinese": "但却总爱问我有没有想你",
+        "pinyin": "dàn què zǒng ài wèn wǒ yǒu méi yǒu xiǎng nǐ",
+        "english": "But you always love to ask if I miss you",
+        "timestamp": "01:25.77"
+      },
+      {
+        "chinese": "我不懂的甜言蜜语所以只说好想你",
+        "pinyin": "wǒ bù dǒng de tián yán mì yǔ suǒ yǐ zhī shuō hǎo xiǎng nǐ",
+        "english": "I don't understand sweet talk so I just say I miss you",
+        "timestamp": "01:31.08"
+      },
+      {
+        "chinese": "反正说来说去都只想让你开心",
+        "pinyin": "fǎn zhèng shuō lái shuō qù dōu zhī xiǎng ràng nǐ kāi xīn",
+        "english": "Anyway, saying it back and forth is just to make you happy",
+        "timestamp": "01:36.03"
+      },
+      {
+        "chinese": "好想你 好想你 好想你 好想你",
+        "pinyin": "hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ",
+        "english": "I miss you, I miss you, I miss you, I miss you",
+        "timestamp": "01:40.52"
+      },
+      {
+        "chinese": "是真的真的好想你",
+        "pinyin": "shì zhēn de zhēn de hǎo xiǎng nǐ",
+        "english": "I really, really miss you",
+        "timestamp": "01:45.70"
+      },
+      {
+        "chinese": "不是假的假的好想你",
+        "pinyin": "bú shì jiǎ de jiǎ de hǎo xiǎng nǐ",
+        "english": "I'm not faking, not faking that I miss you",
+        "timestamp": "01:48.01"
+      },
+      {
+        "chinese": "好想你 好想你 好想你 好想你",
+        "pinyin": "hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ",
+        "english": "I miss you, I miss you, I miss you, I miss you",
+        "timestamp": "01:50.68"
+      },
+      {
+        "chinese": "是够力够力好想你",
+        "pinyin": "shì gòu lì gòu lì hǎo xiǎng nǐ",
+        "english": "I miss you so much, so much",
+        "timestamp": "01:55.45"
+      },
+      {
+        "chinese": "真的西北西北好想你",
+        "pinyin": "zhēn de xī běi xī běi hǎo xiǎng nǐ",
+        "english": "I really, super, super miss you",
+        "timestamp": "01:57.98"
+      },
+      {
+        "chinese": "好想你 好想你 好想你 好想你",
+        "pinyin": "hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ",
+        "english": "I miss you, I miss you, I miss you, I miss you",
+        "timestamp": "02:00.60"
+      },
+      {
+        "chinese": "是真的真的好想你",
+        "pinyin": "shì zhēn de zhēn de hǎo xiǎng nǐ",
+        "english": "I really, really miss you",
+        "timestamp": "02:05.53"
+      },
+      {
+        "chinese": "不是假的假的好想你",
+        "pinyin": "bú shì jiǎ de jiǎ de hǎo xiǎng nǐ",
+        "english": "I'm not faking, not faking that I miss you",
+        "timestamp": "02:07.70"
+      },
+      {
+        "chinese": "好想你 好想你 好想你 好想你",
+        "pinyin": "hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ   hǎo xiǎng nǐ",
+        "english": "I miss you, I miss you, I miss you, I miss you",
+        "timestamp": "02:10.50"
+      },
+      {
+        "chinese": "是够力够力好想你",
+        "pinyin": "shì gòu lì gòu lì hǎo xiǎng nǐ",
+        "english": "I miss you so much, so much",
+        "timestamp": "02:15.33"
+      },
+      {
+        "chinese": "真的西北西北好想你",
+        "pinyin": "zhēn de xī běi xī běi hǎo xiǎng nǐ",
+        "english": "I really, super, super miss you",
+        "timestamp": "02:17.51"
+      },
+      {
+        "chinese": "好想你",
+        "pinyin": "hǎo xiǎng nǐ",
+        "english": "I miss you",
+        "timestamp": "02:20.33"
+      },
+      {
+        "chinese": "好想你",
+        "pinyin": "hǎo xiǎng nǐ",
+        "english": "I miss you",
+        "timestamp": "02:22.98"
+      },
+      {
+        "chinese": "好想你",
+        "pinyin": "hǎo xiǎng nǐ",
+        "english": "I miss you",
+        "timestamp": "02:25.34"
+      }
+    ],
+    "album": "Joyce Chu",
+    "duration": 158
+  },
+  {
+    "id": "f8IqVtY_4jo",
+    "title": "光年之外 (電影 《Passengers》 中文主題曲)",
+    "artist": "GEM鄧紫棋",
+    "hasLyrics": false
+  },
+  {
+    "id": "tt-xRHsNh6s",
+    "title": "於是",
+    "artist": "GEM鄧紫棋",
+    "hasLyrics": false
+  },
+  {
+    "id": "tfP7lfOo5UY",
+    "title": "再見",
+    "artist": "GEM鄧紫棋",
+    "hasLyrics": false
+  },
+  {
+    "id": "hfAoRcut0f8",
+    "title": "My New Swag (feat. Ty. & Nina Wang)",
+    "artist": "파워볼 조명이",
+    "hasLyrics": false
   }
 ]

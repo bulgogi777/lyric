@@ -8,7 +8,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "data": "bun run scripts/build-data.ts"
+    "data": "bun run scripts/build-data.ts",
+    "add": "bun run scripts/add-song.ts",
+    "sync": "bun run scripts/sync-playlist.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
