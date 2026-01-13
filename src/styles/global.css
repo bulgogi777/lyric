@@ -28,12 +28,13 @@ body {
   white-space: nowrap;
 }
 
-/* Pinyin and English - same size for alignment */
+/* Pinyin - upright for clear tone mark visibility */
 .pinyin {
-  font-size: 1rem;
-  line-height: 1.4;
-  color: var(--color-text-muted);
-  font-style: italic;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #b8c5d6;
+  font-style: normal;
+  letter-spacing: 0.03em;
   white-space: nowrap;
 }
 
