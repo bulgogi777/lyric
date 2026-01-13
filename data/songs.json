@@ -2924,187 +2924,1221 @@
         "chinese": "我喜欢你的眼睛，你的睫毛，你的冷傲",
         "pinyin": "wǒ xǐ huan nǐ de yǎn jīng ， nǐ de jié máo ， nǐ de lěng ào",
         "english": "I like your eyes, your eyelashes, and your aloofness",
-        "timestamp": "00:11.35"
+        "timestamp": "00:11.35",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "眼睛",
+            "pinyin": "yǎnjīng"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "睫毛",
+            "pinyin": "jiémáo"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "冷傲",
+            "pinyin": "lěngào"
+          }
+        ]
       },
       {
         "chinese": "我喜欢你的你的酒窝，你的嘴角，你的微笑",
         "pinyin": "wǒ xǐ huan nǐ de nǐ de jiǔ wō ， nǐ de zuǐ jiǎo ， nǐ de wēi xiào",
         "english": "I like your dimples, the corners of your mouth, and your smile",
-        "timestamp": "00:20.25"
+        "timestamp": "00:20.25",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "酒窝",
+            "pinyin": "jiǔwō"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "嘴角",
+            "pinyin": "zuǐjiǎo"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "微笑",
+            "pinyin": "wēixiào"
+          }
+        ]
       },
       {
         "chinese": "我喜欢你全世界都知道，嘲笑别闹",
         "pinyin": "wǒ xǐ huan nǐ quán shì jiè dōu zhī dào ， cháo xiào bié nào",
         "english": "Everyone knows I like you, so don't tease me",
-        "timestamp": "00:25.00"
+        "timestamp": "00:25.00",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "全世界",
+            "pinyin": "quánshìjiè"
+          },
+          {
+            "hanzi": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "hanzi": "知道",
+            "pinyin": "zhīdào"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "嘲笑",
+            "pinyin": "cháoxiào"
+          },
+          {
+            "hanzi": "别",
+            "pinyin": "bié"
+          },
+          {
+            "hanzi": "闹",
+            "pinyin": "nào"
+          }
+        ]
       },
       {
         "chinese": "我会继续，请你准备好",
         "pinyin": "wǒ huì jì xù ， qǐng nǐ zhǔn bèi hǎo",
         "english": "I will continue, please get ready",
-        "timestamp": "00:30.06"
+        "timestamp": "00:30.06",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "会",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "继续",
+            "pinyin": "jìxù"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "请",
+            "pinyin": "qǐng"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "准备好",
+            "pinyin": "zhǔnbèihǎo"
+          }
+        ]
       },
       {
         "chinese": "我喜欢你的衬衫，你的手指，你的味道",
         "pinyin": "wǒ xǐ huan nǐ de chèn shān ， nǐ de shǒu zhǐ ， nǐ de wèi dào",
         "english": "I like your shirt, your fingers, and your scent",
-        "timestamp": "00:34.20"
+        "timestamp": "00:34.20",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "衬衫",
+            "pinyin": "chènshān"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "手指",
+            "pinyin": "shǒuzhǐ"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "味道",
+            "pinyin": "wèidào"
+          }
+        ]
       },
       {
         "chinese": "我想做你的棉袄，你的手套，你的心跳",
         "pinyin": "wǒ xiǎng zuò nǐ de mián ǎo ， nǐ de shǒu tào ， nǐ de xīn tiào",
         "english": "I want to be your padded jacket, your gloves, your heartbeat",
-        "timestamp": "00:38.49"
+        "timestamp": "00:38.49",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": "做",
+            "pinyin": "zuò"
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "棉袄",
+            "pinyin": "miánǎo"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "手套",
+            "pinyin": "shǒutào"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "心跳",
+            "pinyin": "xīntiào"
+          }
+        ]
       },
       {
         "chinese": "我喜欢你全世界都明了，煎熬别气恼",
         "pinyin": "wǒ xǐ huan nǐ quán shì jiè dōu míng le ， jiān áo bié qì nǎo",
         "english": "The whole world knows I like you; don't be upset by the torment",
-        "timestamp": "00:43.06"
+        "timestamp": "00:43.06",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "全世界",
+            "pinyin": "quánshìjiè"
+          },
+          {
+            "hanzi": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "hanzi": "明了",
+            "pinyin": "míngliǎo"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "煎熬",
+            "pinyin": "jiānáo"
+          },
+          {
+            "hanzi": "别",
+            "pinyin": "bié"
+          },
+          {
+            "hanzi": "气恼",
+            "pinyin": "qìnǎo"
+          }
+        ]
       },
       {
         "chinese": "我多耐心，请你等着瞧",
         "pinyin": "wǒ duō nài xīn ， qǐng nǐ děng zhe qiáo",
         "english": "I am very patient, just wait and see",
-        "timestamp": "00:48.28"
+        "timestamp": "00:48.28",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "多",
+            "pinyin": "duō"
+          },
+          {
+            "hanzi": "耐心",
+            "pinyin": "nàixīn"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "请",
+            "pinyin": "qǐng"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "等着",
+            "pinyin": "děngzhe"
+          },
+          {
+            "hanzi": "瞧",
+            "pinyin": "qiáo"
+          }
+        ]
       },
       {
         "chinese": "喜欢你在每一刻，每一秒",
         "pinyin": "xǐ huan nǐ zài měi yí kè ， měi yì miǎo",
         "english": "I like you every moment, every second",
-        "timestamp": "00:52.17"
+        "timestamp": "00:52.17",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "每一刻",
+            "pinyin": "měiyīkè"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "每一秒",
+            "pinyin": "měiyīmiǎo"
+          }
+        ]
       },
       {
         "chinese": "喜欢你在每一处，每一角",
         "pinyin": "xǐ huan nǐ zài měi yí chù ， měi yì jiǎo",
         "english": "I like you in every place, every corner",
-        "timestamp": "00:56.52"
+        "timestamp": "00:56.52",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "每一处",
+            "pinyin": "měiyīchù"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "每一角",
+            "pinyin": "měiyījiǎo"
+          }
+        ]
       },
       {
         "chinese": "喜欢你已变成习惯难以戒掉",
         "pinyin": "xǐ huan nǐ yǐ biàn chéng xí guàn nán yǐ jiè diào",
         "english": "Liking you has become a habit hard to break",
-        "timestamp": "01:01.62"
+        "timestamp": "01:01.62",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "已",
+            "pinyin": "yǐ"
+          },
+          {
+            "hanzi": "变成",
+            "pinyin": "biànchéng"
+          },
+          {
+            "hanzi": "习惯",
+            "pinyin": "xíguàn"
+          },
+          {
+            "hanzi": "难以",
+            "pinyin": "nányǐ"
+          },
+          {
+            "hanzi": "戒掉",
+            "pinyin": "jièdiào"
+          }
+        ]
       },
       {
         "chinese": "我多喜欢你，我不知道",
         "pinyin": "wǒ duō xǐ huan nǐ ， wǒ bù zhī dào",
         "english": "I don't even know how much I like you",
-        "timestamp": "01:05.57"
+        "timestamp": "01:05.57",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "多",
+            "pinyin": "duō"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "不",
+            "pinyin": "bù"
+          },
+          {
+            "hanzi": "知道",
+            "pinyin": "zhīdào"
+          }
+        ]
       },
       {
         "chinese": "喜欢你让下雨天放晴了",
         "pinyin": "xǐ huan nǐ ràng xià yǔ tiān fàng qíng le",
         "english": "Liking you makes the rainy days turn sunny",
-        "timestamp": "01:09.66"
+        "timestamp": "01:09.66",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "让",
+            "pinyin": "ràng"
+          },
+          {
+            "hanzi": "下雨天",
+            "pinyin": "xiàyǔtiān"
+          },
+          {
+            "hanzi": "放晴了",
+            "pinyin": "fàngqíngle"
+          }
+        ]
       },
       {
         "chinese": "喜欢你的下雪天温暖了",
         "pinyin": "xǐ huan nǐ de xià xuě tiān wēn nuǎn le",
         "english": "Liking you makes the snowy days warm",
-        "timestamp": "01:15.24"
+        "timestamp": "01:15.24",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "下雪天",
+            "pinyin": "xiàxuětiān"
+          },
+          {
+            "hanzi": "温暖了",
+            "pinyin": "wēnnuǎnle"
+          }
+        ]
       },
       {
         "chinese": "喜欢你已变成信仰难以戒掉",
         "pinyin": "xǐ huan nǐ yǐ biàn chéng xìn yǎng nán yǐ jiè diào",
         "english": "Liking you has become a faith hard to break",
-        "timestamp": "01:19.27"
+        "timestamp": "01:19.27",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "已",
+            "pinyin": "yǐ"
+          },
+          {
+            "hanzi": "变成",
+            "pinyin": "biànchéng"
+          },
+          {
+            "hanzi": "信仰",
+            "pinyin": "xìnyǎng"
+          },
+          {
+            "hanzi": "难以",
+            "pinyin": "nányǐ"
+          },
+          {
+            "hanzi": "戒掉",
+            "pinyin": "jièdiào"
+          }
+        ]
       },
       {
         "chinese": "我多喜欢你你会知道",
         "pinyin": "wǒ duō xǐ huan nǐ nǐ huì zhī dào",
         "english": "You will know how much I like you",
-        "timestamp": "01:24.41"
+        "timestamp": "01:24.41",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "多",
+            "pinyin": "duō"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "会",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "知道",
+            "pinyin": "zhīdào"
+          }
+        ]
       },
       {
         "chinese": "我喜欢你打篮球，每个瞬间都很闪耀",
         "pinyin": "wǒ xǐ huan nǐ dǎ lán qiú ， měi gè shùn jiān dōu hěn shǎn yào",
         "english": "I like watching you play basketball, every moment shines so bright",
-        "timestamp": "01:39.06"
+        "timestamp": "01:39.06",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "打篮球",
+            "pinyin": "dǎlánqiú"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "每个",
+            "pinyin": "měigè"
+          },
+          {
+            "hanzi": "瞬间",
+            "pinyin": "shùnjiān"
+          },
+          {
+            "hanzi": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "hanzi": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "hanzi": "闪耀",
+            "pinyin": "shǎnyào"
+          }
+        ]
       },
       {
         "chinese": "我喜欢你弹钢琴，每个音符都很美妙",
         "pinyin": "wǒ xǐ huan nǐ tán gāng qín ， měi gè yīn fú dōu hěn měi miào",
         "english": "I like listening to you play piano, every note is so wonderful",
-        "timestamp": "01:49.28"
+        "timestamp": "01:49.28",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "弹钢琴",
+            "pinyin": "tángāngqín"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "每个",
+            "pinyin": "měigè"
+          },
+          {
+            "hanzi": "音符",
+            "pinyin": "yīnfú"
+          },
+          {
+            "hanzi": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "hanzi": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "hanzi": "美妙",
+            "pinyin": "měimiào"
+          }
+        ]
       },
       {
         "chinese": "我喜欢你陪我看书，分心看我偷笑",
         "pinyin": "wǒ xǐ huan nǐ péi wǒ kàn shū ， fēn xīn kàn wǒ tōu xiào",
         "english": "I like you reading with me, distracted as you watch me giggle",
-        "timestamp": "01:54.86"
+        "timestamp": "01:54.86",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "陪",
+            "pinyin": "péi"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "看书",
+            "pinyin": "kànshū"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "分心",
+            "pinyin": "fēnxīn"
+          },
+          {
+            "hanzi": "看",
+            "pinyin": "kàn"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "偷笑",
+            "pinyin": "tōuxiào"
+          }
+        ]
       },
       {
         "chinese": "翻页游戏，我配合你导",
         "pinyin": "fān yè yóu xì ， wǒ pèi hé nǐ dǎo",
         "english": "In the page-turning game, I'll follow your lead",
-        "timestamp": "01:59.05"
+        "timestamp": "01:59.05",
+        "segments": [
+          {
+            "hanzi": "翻页",
+            "pinyin": "fānyè"
+          },
+          {
+            "hanzi": "游戏",
+            "pinyin": "yóuxì"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "配合",
+            "pinyin": "pèihé"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "导",
+            "pinyin": "dǎo"
+          }
+        ]
       },
       {
         "chinese": "偶尔心情，感冒发烧，你是甜的药",
         "pinyin": "ǒu ěr xīn qíng ， gǎn mào fā shāo ， nǐ shì tián de yào",
         "english": "When my mood catches a cold, when I have a fever, you are my sweet medicine",
-        "timestamp": "02:03.63"
+        "timestamp": "02:03.63",
+        "segments": [
+          {
+            "hanzi": "偶尔",
+            "pinyin": "ǒuěr"
+          },
+          {
+            "hanzi": "心情",
+            "pinyin": "xīnqíng"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "感冒",
+            "pinyin": "gǎnmào"
+          },
+          {
+            "hanzi": "发烧",
+            "pinyin": "fāshāo"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": "甜的",
+            "pinyin": "tiánde"
+          },
+          {
+            "hanzi": "药",
+            "pinyin": "yào"
+          }
+        ]
       },
       {
         "chinese": "就算DOWN到爆，有你烦恼全消",
         "pinyin": "jiù suàn D O W N dào bào ， yǒu nǐ fán nǎo quán xiāo",
         "english": "Even when I'm feeling really down, having you makes all my worries disappear",
-        "timestamp": "02:11.84"
+        "timestamp": "02:11.84",
+        "segments": [
+          {
+            "hanzi": "就算",
+            "pinyin": "jiùsuàn"
+          },
+          {
+            "hanzi": "DOWN",
+            "pinyin": "DOWN"
+          },
+          {
+            "hanzi": "到",
+            "pinyin": "dào"
+          },
+          {
+            "hanzi": "爆",
+            "pinyin": "bào"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "烦恼",
+            "pinyin": "fánnǎo"
+          },
+          {
+            "hanzi": "全",
+            "pinyin": "quán"
+          },
+          {
+            "hanzi": "消",
+            "pinyin": "xiāo"
+          }
+        ]
       },
       {
         "chinese": "喜欢你在每一刻，每一秒",
         "pinyin": "xǐ huan nǐ zài měi yí kè ， měi yì miǎo",
         "english": "I like you every moment, every second",
-        "timestamp": "02:20.80"
+        "timestamp": "02:20.80",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "每一刻",
+            "pinyin": "měiyīkè"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "每一秒",
+            "pinyin": "měiyīmiǎo"
+          }
+        ]
       },
       {
         "chinese": "喜欢你在每一处，每一角",
         "pinyin": "xǐ huan nǐ zài měi yí chù ， měi yì jiǎo",
         "english": "I like you in every place, every corner",
-        "timestamp": "02:25.68"
+        "timestamp": "02:25.68",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "每一处",
+            "pinyin": "měiyīchù"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "每一角",
+            "pinyin": "měiyījiǎo"
+          }
+        ]
       },
       {
         "chinese": "喜欢你已变成习惯难以戒掉",
         "pinyin": "xǐ huan nǐ yǐ biàn chéng xí guàn nán yǐ jiè diào",
         "english": "Liking you has become a habit that is hard to break",
-        "timestamp": "02:30.35"
+        "timestamp": "02:30.35",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "已",
+            "pinyin": "yǐ"
+          },
+          {
+            "hanzi": "变成",
+            "pinyin": "biànchéng"
+          },
+          {
+            "hanzi": "习惯",
+            "pinyin": "xíguàn"
+          },
+          {
+            "hanzi": "难以",
+            "pinyin": "nányǐ"
+          },
+          {
+            "hanzi": "戒掉",
+            "pinyin": "jièdiào"
+          }
+        ]
       },
       {
         "chinese": "我多喜欢你，我不知道",
         "pinyin": "wǒ duō xǐ huan nǐ ， wǒ bù zhī dào",
         "english": "I do not know how much I like you",
-        "timestamp": "02:35.50"
+        "timestamp": "02:35.50",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "多",
+            "pinyin": "duō"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "，",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "不",
+            "pinyin": "bù"
+          },
+          {
+            "hanzi": "知道",
+            "pinyin": "zhīdào"
+          }
+        ]
       },
       {
         "chinese": "喜欢你让英文书有趣了",
         "pinyin": "xǐ huan nǐ ràng yīng wén shū yǒu qù le",
         "english": "Liking you makes English books interesting",
-        "timestamp": "02:39.13"
+        "timestamp": "02:39.13",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "让",
+            "pinyin": "ràng"
+          },
+          {
+            "hanzi": "英文书",
+            "pinyin": "yīngwénshū"
+          },
+          {
+            "hanzi": "有趣了",
+            "pinyin": "yǒuqùle"
+          }
+        ]
       },
       {
         "chinese": "喜欢你让数学题简单了",
         "pinyin": "xǐ huan nǐ ràng shù xué tí jiǎn dān le",
         "english": "Liking you makes math problems simple",
-        "timestamp": "02:43.68"
+        "timestamp": "02:43.68",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "让",
+            "pinyin": "ràng"
+          },
+          {
+            "hanzi": "数学题",
+            "pinyin": "shùxuétí"
+          },
+          {
+            "hanzi": "简单了",
+            "pinyin": "jiǎndānle"
+          }
+        ]
       },
       {
         "chinese": "喜欢你已变成信仰难以放掉",
         "pinyin": "xǐ huan nǐ yǐ biàn chéng xìn yǎng nán yǐ fàng diào",
         "english": "Liking you has become a faith that is hard to let go",
-        "timestamp": "02:48.01"
+        "timestamp": "02:48.01",
+        "segments": [
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "已",
+            "pinyin": "yǐ"
+          },
+          {
+            "hanzi": "变成",
+            "pinyin": "biànchéng"
+          },
+          {
+            "hanzi": "信仰",
+            "pinyin": "xìnyǎng"
+          },
+          {
+            "hanzi": "难以",
+            "pinyin": "nányǐ"
+          },
+          {
+            "hanzi": "放掉",
+            "pinyin": "fàngdiào"
+          }
+        ]
       },
       {
         "chinese": "我多喜欢你你会知道",
         "pinyin": "wǒ duō xǐ huan nǐ nǐ huì zhī dào",
         "english": "You will know how much I like you",
-        "timestamp": "02:52.66"
+        "timestamp": "02:52.66",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "多",
+            "pinyin": "duō"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "会",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "知道",
+            "pinyin": "zhīdào"
+          }
+        ]
       },
       {
         "chinese": "我多喜欢你你会知道",
         "pinyin": "wǒ duō xǐ huan nǐ nǐ huì zhī dào",
         "english": "You will know how much I like you",
-        "timestamp": "03:00.05"
+        "timestamp": "03:00.05",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "多",
+            "pinyin": "duō"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "会",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "知道",
+            "pinyin": "zhīdào"
+          }
+        ]
       }
     ],
     "album": "我多喜歡你，你會知道 (網劇 致我們單純的小美好 推廣曲)",
@@ -3384,265 +4418,1353 @@
         "chinese": "我聽見雨滴 落在青青草地",
         "pinyin": "wǒ tīng jiàn yǔ dī   luò zài qīng qīng cǎo dì",
         "english": "I hear the raindrops falling on the green grass",
-        "timestamp": "00:15.48"
+        "timestamp": "00:15.48",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "聽見",
+            "pinyin": "tīngjiàn"
+          },
+          {
+            "hanzi": "雨滴",
+            "pinyin": "yǔdī"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "落在",
+            "pinyin": "luòzài"
+          },
+          {
+            "hanzi": "青青",
+            "pinyin": "qīngqīng"
+          },
+          {
+            "hanzi": "草地",
+            "pinyin": "cǎodì"
+          }
+        ]
       },
       {
         "chinese": "我聽見遠方 下課鐘聲響起",
         "pinyin": "wǒ tīng jiàn yuǎn fāng   xià kè zhōng shēng xiǎng qǐ",
         "english": "I hear the school bell ringing in the distance",
-        "timestamp": "00:21.42"
+        "timestamp": "00:21.42",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "聽見",
+            "pinyin": "tīngjiàn"
+          },
+          {
+            "hanzi": "遠方",
+            "pinyin": "yuǎnfāng"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "下課",
+            "pinyin": "xiàkè"
+          },
+          {
+            "hanzi": "鐘聲",
+            "pinyin": "zhōngshēng"
+          },
+          {
+            "hanzi": "響起",
+            "pinyin": "xiǎngqǐ"
+          }
+        ]
       },
       {
         "chinese": "可是我沒有聽見你的聲音",
         "pinyin": "kě shì wǒ méi yǒu tīng jiàn nǐ de shēng yīn",
         "english": "But I did not hear your voice",
-        "timestamp": "00:27.55"
+        "timestamp": "00:27.55",
+        "segments": [
+          {
+            "hanzi": "可是",
+            "pinyin": "kěshì"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "沒有",
+            "pinyin": "méiyǒu"
+          },
+          {
+            "hanzi": "聽見",
+            "pinyin": "tīngjiàn"
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "聲音",
+            "pinyin": "shēngyīn"
+          }
+        ]
       },
       {
         "chinese": "認真呼喚我姓名",
         "pinyin": "rèn zhēn hū huàn wǒ xìng míng",
         "english": "Calling out my name with such sincerity",
-        "timestamp": "00:32.56"
+        "timestamp": "00:32.56",
+        "segments": [
+          {
+            "hanzi": "認真",
+            "pinyin": "rènzhēn"
+          },
+          {
+            "hanzi": "呼喚",
+            "pinyin": "hūhuàn"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "姓名",
+            "pinyin": "xìngmíng"
+          }
+        ]
       },
       {
         "chinese": "愛上你的時候 還不懂感情",
         "pinyin": "ài shàng nǐ de shí hòu   huán bù dǒng gǎn qíng",
         "english": "I didn't understand love when I fell for you",
-        "timestamp": "00:39.61"
+        "timestamp": "00:39.61",
+        "segments": [
+          {
+            "hanzi": "愛上",
+            "pinyin": "àishàng"
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "時候",
+            "pinyin": "shíhòu"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "還",
+            "pinyin": "hái"
+          },
+          {
+            "hanzi": "不",
+            "pinyin": "bù"
+          },
+          {
+            "hanzi": "懂",
+            "pinyin": "dǒng"
+          },
+          {
+            "hanzi": "感情",
+            "pinyin": "gǎnqíng"
+          }
+        ]
       },
       {
         "chinese": "離別了 才覺得刻骨銘心",
         "pinyin": "lí bié le   cái jué dé kè gǔ míng xīn",
         "english": "Only after parting did it feel so deep",
-        "timestamp": "00:45.75"
+        "timestamp": "00:45.75",
+        "segments": [
+          {
+            "hanzi": "離別了",
+            "pinyin": "líbiéle"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "才",
+            "pinyin": "cái"
+          },
+          {
+            "hanzi": "覺得",
+            "pinyin": "juéde"
+          },
+          {
+            "hanzi": "刻骨銘心",
+            "pinyin": "kègǔmíngxīn"
+          }
+        ]
       },
       {
         "chinese": "為什麼沒有發現 遇見了你",
         "pinyin": "wéi shén mó méi yǒu fā xiàn   yù jiàn le nǐ",
         "english": "Why didn't I realize that meeting you",
-        "timestamp": "00:51.75"
+        "timestamp": "00:51.75",
+        "segments": [
+          {
+            "hanzi": "為什麼",
+            "pinyin": "wèishénme"
+          },
+          {
+            "hanzi": "沒有",
+            "pinyin": "méiyǒu"
+          },
+          {
+            "hanzi": "發現",
+            "pinyin": "fāxiàn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "遇見了",
+            "pinyin": "yùjiànle"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          }
+        ]
       },
       {
         "chinese": "是生命最好的事情",
         "pinyin": "shì shēng mìng zuì hǎo de shì qíng",
         "english": "Was the best thing in my life",
-        "timestamp": "00:56.33"
+        "timestamp": "00:56.33",
+        "segments": [
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": "生命",
+            "pinyin": "shēngmìng"
+          },
+          {
+            "hanzi": "最好的",
+            "pinyin": "zuìhǎode"
+          },
+          {
+            "hanzi": "事情",
+            "pinyin": "shìqíng"
+          }
+        ]
       },
       {
         "chinese": "也許當時忙著微笑和哭泣",
         "pinyin": "yě xū dāng shí máng zhù wēi xiào hé kū qì",
         "english": "Perhaps I was busy smiling and crying then",
-        "timestamp": "01:02.18"
+        "timestamp": "01:02.18",
+        "segments": [
+          {
+            "hanzi": "也許",
+            "pinyin": "yěxǔ"
+          },
+          {
+            "hanzi": "當時",
+            "pinyin": "dāngshí"
+          },
+          {
+            "hanzi": "忙著",
+            "pinyin": "mángzhe"
+          },
+          {
+            "hanzi": "微笑",
+            "pinyin": "wēixiào"
+          },
+          {
+            "hanzi": "和",
+            "pinyin": "hé"
+          },
+          {
+            "hanzi": "哭泣",
+            "pinyin": "kūqì"
+          }
+        ]
       },
       {
         "chinese": "忙著追逐天空中的流星",
         "pinyin": "máng zhù zhuī zhú tiān kōng zhōng de liú xīng",
         "english": "Busy chasing shooting stars across the sky",
-        "timestamp": "01:08.04"
+        "timestamp": "01:08.04",
+        "segments": [
+          {
+            "hanzi": "忙著",
+            "pinyin": "mángzhe"
+          },
+          {
+            "hanzi": "追逐",
+            "pinyin": "zhuīzhú"
+          },
+          {
+            "hanzi": "天空",
+            "pinyin": "tiānkōng"
+          },
+          {
+            "hanzi": "中的",
+            "pinyin": "zhōngde"
+          },
+          {
+            "hanzi": "流星",
+            "pinyin": "liúxīng"
+          }
+        ]
       },
       {
         "chinese": "人理所當然的忘記",
         "pinyin": "rén lǐ suǒ dāng rán de wàng jì",
         "english": "It is only natural for people to forget",
-        "timestamp": "01:13.99"
+        "timestamp": "01:13.99",
+        "segments": [
+          {
+            "hanzi": "人",
+            "pinyin": "rén"
+          },
+          {
+            "hanzi": "理所當然的",
+            "pinyin": "lǐsuǒdāngrándē"
+          },
+          {
+            "hanzi": "忘記",
+            "pinyin": "wàngjì"
+          }
+        ]
       },
       {
         "chinese": "是誰風裡 雨裡 一直默默守護在原地",
         "pinyin": "shì shuí fēng lǐ   yǔ lǐ   yì zhí mò mò shǒu hù zài yuán dì",
         "english": "Who stayed in the wind and rain to guard me",
-        "timestamp": "01:18.42"
+        "timestamp": "01:18.42",
+        "segments": [
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": "誰",
+            "pinyin": "shéi"
+          },
+          {
+            "hanzi": "風裡",
+            "pinyin": "fēnglǐ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "雨裡",
+            "pinyin": "yǔlǐ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "一直",
+            "pinyin": "yīzhí"
+          },
+          {
+            "hanzi": "默默",
+            "pinyin": "mòmò"
+          },
+          {
+            "hanzi": "守護",
+            "pinyin": "shǒuhù"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "原地",
+            "pinyin": "yuándì"
+          }
+        ]
       },
       {
         "chinese": "原來你是 我最想留住的幸運",
         "pinyin": "yuán lái nǐ shì   wǒ zuì xiǎng liú zhù de xìng yùn",
         "english": "You were the luck I most wanted to keep",
-        "timestamp": "01:26.14"
+        "timestamp": "01:26.14",
+        "segments": [
+          {
+            "hanzi": "原來",
+            "pinyin": "yuánlái"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "最",
+            "pinyin": "zuì"
+          },
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": "留住的",
+            "pinyin": "liúzhùde"
+          },
+          {
+            "hanzi": "幸運",
+            "pinyin": "xìngyùn"
+          }
+        ]
       },
       {
         "chinese": "原來我們 和愛情曾經靠得那麼近",
         "pinyin": "yuán lái wǒ mén   hé ài qíng céng jīng kào dé nà mó jìn",
         "english": "We were once so close to love",
-        "timestamp": "01:31.38"
+        "timestamp": "01:31.38",
+        "segments": [
+          {
+            "hanzi": "原來",
+            "pinyin": "yuánlái"
+          },
+          {
+            "hanzi": "我們",
+            "pinyin": "wǒmen"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "和",
+            "pinyin": "hé"
+          },
+          {
+            "hanzi": "愛情",
+            "pinyin": "àiqíng"
+          },
+          {
+            "hanzi": "曾經",
+            "pinyin": "céngjīng"
+          },
+          {
+            "hanzi": "靠得",
+            "pinyin": "kàode"
+          },
+          {
+            "hanzi": "那麼",
+            "pinyin": "nàme"
+          },
+          {
+            "hanzi": "近",
+            "pinyin": "jìn"
+          }
+        ]
       },
       {
         "chinese": "那為我對抗世界的決定",
         "pinyin": "nà wéi wǒ duì kàng shì jiè de jué dìng",
         "english": "That decision to face the world for me",
-        "timestamp": "01:37.35"
+        "timestamp": "01:37.35",
+        "segments": [
+          {
+            "hanzi": "那",
+            "pinyin": "nà"
+          },
+          {
+            "hanzi": "為",
+            "pinyin": "wèi"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "對抗",
+            "pinyin": "duìkàng"
+          },
+          {
+            "hanzi": "世界的",
+            "pinyin": "shìjièdē"
+          },
+          {
+            "hanzi": "決定",
+            "pinyin": "juédìng"
+          }
+        ]
       },
       {
         "chinese": "那陪我淋的雨",
         "pinyin": "nà péi wǒ lín de yǔ",
         "english": "That rain you stood in by my side",
-        "timestamp": "01:41.83"
+        "timestamp": "01:41.83",
+        "segments": [
+          {
+            "hanzi": "那",
+            "pinyin": "nà"
+          },
+          {
+            "hanzi": "陪",
+            "pinyin": "péi"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "淋的",
+            "pinyin": "línde"
+          },
+          {
+            "hanzi": "雨",
+            "pinyin": "yǔ"
+          }
+        ]
       },
       {
         "chinese": "一幕幕都是你",
         "pinyin": "yí mù mù dōu shì nǐ",
         "english": "Every single scene is of you",
-        "timestamp": "01:45.13"
+        "timestamp": "01:45.13",
+        "segments": [
+          {
+            "hanzi": "一幕幕",
+            "pinyin": "yīmùmù"
+          },
+          {
+            "hanzi": "都是",
+            "pinyin": "dōushì"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          }
+        ]
       },
       {
         "chinese": "一塵不染的真心",
         "pinyin": "yì chén bù rǎn de zhēn xīn",
         "english": "A pure and spotless heart",
-        "timestamp": "01:48.08"
+        "timestamp": "01:48.08",
+        "segments": [
+          {
+            "hanzi": "一塵不染的",
+            "pinyin": "yīchénbùrǎndē"
+          },
+          {
+            "hanzi": "真心",
+            "pinyin": "zhēnxīn"
+          }
+        ]
       },
       {
         "chinese": "與你相遇 好幸運",
         "pinyin": "yǔ nǐ xiāng yù   hǎo xìng yùn",
         "english": "Meeting you was such good fortune",
-        "timestamp": "01:52.15"
+        "timestamp": "01:52.15",
+        "segments": [
+          {
+            "hanzi": "與",
+            "pinyin": "yǔ"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "相遇",
+            "pinyin": "xiāngyù"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "hanzi": "幸運",
+            "pinyin": "xìngyùn"
+          }
+        ]
       },
       {
         "chinese": "可我已失去 為你淚流滿面的權利",
         "pinyin": "kě wǒ yǐ shī qù   wéi nǐ lèi liú mǎn miàn de quán lì",
         "english": "But I have lost the right to weep for you",
-        "timestamp": "01:55.55"
+        "timestamp": "01:55.55",
+        "segments": [
+          {
+            "hanzi": "可",
+            "pinyin": "kě"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "已",
+            "pinyin": "yǐ"
+          },
+          {
+            "hanzi": "失去",
+            "pinyin": "shīqù"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "為",
+            "pinyin": "wèi"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "淚流滿面的",
+            "pinyin": "lèiliúmǎnmiàndē"
+          },
+          {
+            "hanzi": "權利",
+            "pinyin": "quánlì"
+          }
+        ]
       },
       {
         "chinese": "但願在我看不到的天際",
         "pinyin": "dàn yuàn zài wǒ kàn bú dào de tiān jì",
         "english": "I wish that in the sky beyond my view",
-        "timestamp": "02:01.67"
+        "timestamp": "02:01.67",
+        "segments": [
+          {
+            "hanzi": "但願",
+            "pinyin": "dànyuàn"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "看不到的",
+            "pinyin": "kànbùdàode"
+          },
+          {
+            "hanzi": "天際",
+            "pinyin": "tiānjì"
+          }
+        ]
       },
       {
         "chinese": "你張開了雙翼",
         "pinyin": "nǐ zhāng kāi le shuāng yì",
         "english": "You have spread your wings",
-        "timestamp": "02:06.32"
+        "timestamp": "02:06.32",
+        "segments": [
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "張開了",
+            "pinyin": "zhāngkāile"
+          },
+          {
+            "hanzi": "雙翼",
+            "pinyin": "shuāngyì"
+          }
+        ]
       },
       {
         "chinese": "遇見你的注定",
         "pinyin": "yù jiàn nǐ de zhù dìng",
         "english": "To meet your destiny",
-        "timestamp": "02:09.31"
+        "timestamp": "02:09.31",
+        "segments": [
+          {
+            "hanzi": "遇見",
+            "pinyin": "yùjiàn"
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "注定",
+            "pinyin": "zhùdìng"
+          }
+        ]
       },
       {
         "chinese": "她會有多幸運",
         "pinyin": "tā huì yǒu duō xìng yùn",
         "english": "How lucky she must be",
-        "timestamp": "02:13.92"
+        "timestamp": "02:13.92",
+        "segments": [
+          {
+            "hanzi": "她",
+            "pinyin": "tā"
+          },
+          {
+            "hanzi": "會",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "hanzi": "多",
+            "pinyin": "duō"
+          },
+          {
+            "hanzi": "幸運",
+            "pinyin": "xìngyùn"
+          }
+        ]
       },
       {
         "chinese": "青春是段跌跌撞撞的旅行",
         "pinyin": "qīng chūn shì duàn diē diē zhuàng zhuàng de lǚ xíng",
         "english": "Youth is a stumbling journey",
-        "timestamp": "02:29.04"
+        "timestamp": "02:29.04",
+        "segments": [
+          {
+            "hanzi": "青春",
+            "pinyin": "qīngchūn"
+          },
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": "段",
+            "pinyin": "duàn"
+          },
+          {
+            "hanzi": "跌跌撞撞的",
+            "pinyin": "diēdiēzhuàngzhuàngdē"
+          },
+          {
+            "hanzi": "旅行",
+            "pinyin": "lǚxíng"
+          }
+        ]
       },
       {
         "chinese": "擁有著後知後覺的美麗",
         "pinyin": "yōng yǒu zhù hòu zhī hòu jué de měi lí",
         "english": "Holding a beauty realized only in hindsight",
-        "timestamp": "02:35.16"
+        "timestamp": "02:35.16",
+        "segments": [
+          {
+            "hanzi": "擁有著",
+            "pinyin": "yōngyǒuzhe"
+          },
+          {
+            "hanzi": "後知後覺的",
+            "pinyin": "hòuzhīhòujuédē"
+          },
+          {
+            "hanzi": "美麗",
+            "pinyin": "měilì"
+          }
+        ]
       },
       {
         "chinese": "來不及感謝 是你給我勇氣",
         "pinyin": "lái bù jí gǎn xiè   shì nǐ gěi wǒ yǒng qì",
         "english": "Too late to thank you for giving me the courage",
-        "timestamp": "02:41.12"
+        "timestamp": "02:41.12",
+        "segments": [
+          {
+            "hanzi": "來不及",
+            "pinyin": "láibùjí"
+          },
+          {
+            "hanzi": "感謝",
+            "pinyin": "gǎnxiè"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "給",
+            "pinyin": "gěi"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "勇氣",
+            "pinyin": "yǒngqì"
+          }
+        ]
       },
       {
         "chinese": "讓我能做回我自己",
         "pinyin": "ràng wǒ néng zuò huí wǒ zì jǐ",
         "english": "To let me be myself again",
-        "timestamp": "02:45.82"
+        "timestamp": "02:45.82",
+        "segments": [
+          {
+            "hanzi": "讓",
+            "pinyin": "ràng"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "能",
+            "pinyin": "néng"
+          },
+          {
+            "hanzi": "做回",
+            "pinyin": "zuòhuí"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "自己",
+            "pinyin": "zìjǐ"
+          }
+        ]
       },
       {
         "chinese": "也許當時 忙著微笑和哭泣",
         "pinyin": "yě xū dāng shí   máng zhù wēi xiào hé kū qì",
         "english": "Maybe back then I was busy smiling and crying",
-        "timestamp": "02:51.23"
+        "timestamp": "02:51.23",
+        "segments": [
+          {
+            "hanzi": "也許",
+            "pinyin": "yěxǔ"
+          },
+          {
+            "hanzi": "當時",
+            "pinyin": "dāngshí"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "忙著",
+            "pinyin": "mángzhe"
+          },
+          {
+            "hanzi": "微笑",
+            "pinyin": "wēixiào"
+          },
+          {
+            "hanzi": "和",
+            "pinyin": "hé"
+          },
+          {
+            "hanzi": "哭泣",
+            "pinyin": "kūqì"
+          }
+        ]
       },
       {
         "chinese": "忙著追逐天空中的流星",
         "pinyin": "máng zhù zhuī zhú tiān kōng zhōng de liú xīng",
         "english": "Busy chasing meteors in the sky",
-        "timestamp": "02:57.51"
+        "timestamp": "02:57.51",
+        "segments": [
+          {
+            "hanzi": "忙著",
+            "pinyin": "mángzhe"
+          },
+          {
+            "hanzi": "追逐",
+            "pinyin": "zhuīzhú"
+          },
+          {
+            "hanzi": "天空",
+            "pinyin": "tiānkōng"
+          },
+          {
+            "hanzi": "中的",
+            "pinyin": "zhōngde"
+          },
+          {
+            "hanzi": "流星",
+            "pinyin": "liúxīng"
+          }
+        ]
       },
       {
         "chinese": "人理所當然的忘記",
         "pinyin": "rén lǐ suǒ dāng rán de wàng jì",
         "english": "People naturally forget",
-        "timestamp": "03:03.27"
+        "timestamp": "03:03.27",
+        "segments": [
+          {
+            "hanzi": "人",
+            "pinyin": "rén"
+          },
+          {
+            "hanzi": "理所當然的",
+            "pinyin": "lǐsuǒdāngrándē"
+          },
+          {
+            "hanzi": "忘記",
+            "pinyin": "wàngjì"
+          }
+        ]
       },
       {
         "chinese": "是誰風裡 雨裡 一直默默守護在原地",
         "pinyin": "shì shuí fēng lǐ   yǔ lǐ   yì zhí mò mò shǒu hù zài yuán dì",
         "english": "Who was silently standing guard in the wind and rain",
-        "timestamp": "03:07.82"
+        "timestamp": "03:07.82",
+        "segments": [
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": "誰",
+            "pinyin": "shéi"
+          },
+          {
+            "hanzi": "風裡",
+            "pinyin": "fēnglǐ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "雨裡",
+            "pinyin": "yǔlǐ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "一直",
+            "pinyin": "yīzhí"
+          },
+          {
+            "hanzi": "默默",
+            "pinyin": "mòmò"
+          },
+          {
+            "hanzi": "守護",
+            "pinyin": "shǒuhù"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "原地",
+            "pinyin": "yuándì"
+          }
+        ]
       },
       {
         "chinese": "原來你是 我最想留住的幸運",
         "pinyin": "yuán lái nǐ shì   wǒ zuì xiǎng liú zhù de xìng yùn",
         "english": "It turns out you were the luck I most wanted to keep",
-        "timestamp": "03:15.53"
+        "timestamp": "03:15.53",
+        "segments": [
+          {
+            "hanzi": "原來",
+            "pinyin": "yuánlái"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "最",
+            "pinyin": "zuì"
+          },
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": "留住的",
+            "pinyin": "liúzhùde"
+          },
+          {
+            "hanzi": "幸運",
+            "pinyin": "xìngyùn"
+          }
+        ]
       },
       {
         "chinese": "原來我們 和愛情曾經靠得那麼近",
         "pinyin": "yuán lái wǒ mén   hé ài qíng céng jīng kào dé nà mó jìn",
         "english": "It turns out we were once so close to love",
-        "timestamp": "03:20.73"
+        "timestamp": "03:20.73",
+        "segments": [
+          {
+            "hanzi": "原來",
+            "pinyin": "yuánlái"
+          },
+          {
+            "hanzi": "我們",
+            "pinyin": "wǒmen"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "和",
+            "pinyin": "hé"
+          },
+          {
+            "hanzi": "愛情",
+            "pinyin": "àiqíng"
+          },
+          {
+            "hanzi": "曾經",
+            "pinyin": "céngjīng"
+          },
+          {
+            "hanzi": "靠得",
+            "pinyin": "kàode"
+          },
+          {
+            "hanzi": "那麼",
+            "pinyin": "nàme"
+          },
+          {
+            "hanzi": "近",
+            "pinyin": "jìn"
+          }
+        ]
       },
       {
         "chinese": "那為我對抗世界的決定",
         "pinyin": "nà wéi wǒ duì kàng shì jiè de jué dìng",
         "english": "That decision to stand against the world for me",
-        "timestamp": "03:26.78"
+        "timestamp": "03:26.78",
+        "segments": [
+          {
+            "hanzi": "那",
+            "pinyin": "nà"
+          },
+          {
+            "hanzi": "為",
+            "pinyin": "wèi"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "對抗",
+            "pinyin": "duìkàng"
+          },
+          {
+            "hanzi": "世界的",
+            "pinyin": "shìjièdē"
+          },
+          {
+            "hanzi": "決定",
+            "pinyin": "juédìng"
+          }
+        ]
       },
       {
         "chinese": "那陪我淋的雨",
         "pinyin": "nà péi wǒ lín de yǔ",
         "english": "That rain we braved together",
-        "timestamp": "03:31.35"
+        "timestamp": "03:31.35",
+        "segments": [
+          {
+            "hanzi": "那",
+            "pinyin": "nà"
+          },
+          {
+            "hanzi": "陪",
+            "pinyin": "péi"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "淋的",
+            "pinyin": "línde"
+          },
+          {
+            "hanzi": "雨",
+            "pinyin": "yǔ"
+          }
+        ]
       },
       {
         "chinese": "一幕幕都是你",
         "pinyin": "yí mù mù dōu shì nǐ",
         "english": "Every scene is filled with you",
-        "timestamp": "03:34.49"
+        "timestamp": "03:34.49",
+        "segments": [
+          {
+            "hanzi": "一幕幕",
+            "pinyin": "yīmùmù"
+          },
+          {
+            "hanzi": "都是",
+            "pinyin": "dōushì"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          }
+        ]
       },
       {
         "chinese": "一塵不染的真心",
         "pinyin": "yì chén bù rǎn de zhēn xīn",
         "english": "A heart so pure and sincere",
-        "timestamp": "03:37.44"
+        "timestamp": "03:37.44",
+        "segments": [
+          {
+            "hanzi": "一塵不染的",
+            "pinyin": "yīchénbùrǎndē"
+          },
+          {
+            "hanzi": "真心",
+            "pinyin": "zhēnxīn"
+          }
+        ]
       },
       {
         "chinese": "與你相遇 好幸運",
         "pinyin": "yǔ nǐ xiāng yù   hǎo xìng yùn",
         "english": "It was such good luck to meet you",
-        "timestamp": "03:41.59"
+        "timestamp": "03:41.59",
+        "segments": [
+          {
+            "hanzi": "與",
+            "pinyin": "yǔ"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "相遇",
+            "pinyin": "xiāngyù"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "好",
+            "pinyin": "hǎo"
+          },
+          {
+            "hanzi": "幸運",
+            "pinyin": "xìngyùn"
+          }
+        ]
       },
       {
         "chinese": "可我已失去 為你淚流滿面的權利",
         "pinyin": "kě wǒ yǐ shī qù   wéi nǐ lèi liú mǎn miàn de quán lì",
         "english": "But I have lost the right to weep for you",
-        "timestamp": "03:44.77"
+        "timestamp": "03:44.77",
+        "segments": [
+          {
+            "hanzi": "可",
+            "pinyin": "kě"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "已",
+            "pinyin": "yǐ"
+          },
+          {
+            "hanzi": "失去",
+            "pinyin": "shīqù"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "為",
+            "pinyin": "wèi"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "淚流滿面的",
+            "pinyin": "lèiliúmǎnmiàndē"
+          },
+          {
+            "hanzi": "權利",
+            "pinyin": "quánlì"
+          }
+        ]
       },
       {
         "chinese": "但願在我看不到的天際",
         "pinyin": "dàn yuàn zài wǒ kàn bú dào de tiān jì",
         "english": "I hope in the horizon beyond my sight",
-        "timestamp": "03:51.08"
+        "timestamp": "03:51.08",
+        "segments": [
+          {
+            "hanzi": "但願",
+            "pinyin": "dànyuàn"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "看不到的",
+            "pinyin": "kànbùdàode"
+          },
+          {
+            "hanzi": "天際",
+            "pinyin": "tiānjì"
+          }
+        ]
       },
       {
         "chinese": "你張開了雙翼",
         "pinyin": "nǐ zhāng kāi le shuāng yì",
         "english": "You have spread your wings",
-        "timestamp": "03:55.68"
+        "timestamp": "03:55.68",
+        "segments": [
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "張開了",
+            "pinyin": "zhāngkāile"
+          },
+          {
+            "hanzi": "雙翼",
+            "pinyin": "shuāngyì"
+          }
+        ]
       },
       {
         "chinese": "遇見你的注定",
         "pinyin": "yù jiàn nǐ de zhù dìng",
         "english": "Meeting your destiny",
-        "timestamp": "03:58.80"
+        "timestamp": "03:58.80",
+        "segments": [
+          {
+            "hanzi": "遇見",
+            "pinyin": "yùjiàn"
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "注定",
+            "pinyin": "zhùdìng"
+          }
+        ]
       },
       {
         "chinese": "她會有多幸運",
         "pinyin": "tā huì yǒu duō xìng yùn",
         "english": "How lucky she will be",
-        "timestamp": "04:06.33"
+        "timestamp": "04:06.33",
+        "segments": [
+          {
+            "hanzi": "她",
+            "pinyin": "tā"
+          },
+          {
+            "hanzi": "會",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "有",
+            "pinyin": "yǒu"
+          },
+          {
+            "hanzi": "多",
+            "pinyin": "duō"
+          },
+          {
+            "hanzi": "幸運",
+            "pinyin": "xìngyùn"
+          }
+        ]
       }
     ],
     "album": "小幸運",
@@ -6176,217 +8298,1161 @@
         "chinese": "都說愛能超越生死離別",
         "pinyin": "dōu shuō ài néng chāo yuè shēng sǐ lí bié",
         "english": "All say love can transcend life, death, and parting",
-        "timestamp": "00:23.00"
+        "timestamp": "00:23.00",
+        "segments": [
+          {
+            "hanzi": "都說",
+            "pinyin": "dōushuō"
+          },
+          {
+            "hanzi": "愛",
+            "pinyin": "ài"
+          },
+          {
+            "hanzi": "能",
+            "pinyin": "néng"
+          },
+          {
+            "hanzi": "超越",
+            "pinyin": "chāoyuè"
+          },
+          {
+            "hanzi": "生死",
+            "pinyin": "shēngsǐ"
+          },
+          {
+            "hanzi": "離別",
+            "pinyin": "líbié"
+          }
+        ]
       },
       {
         "chinese": "曾經 我們都很堅決 愛了就不改變",
         "pinyin": "céng jīng wǒ men dōu hěn jiān jué ài le jiù bù gǎi biàn",
         "english": "Once, we were so resolute, once in love we'd never change",
-        "timestamp": "00:27.00"
+        "timestamp": "00:27.00",
+        "segments": [
+          {
+            "hanzi": "曾經",
+            "pinyin": "céngjīng"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我們",
+            "pinyin": "wǒmen"
+          },
+          {
+            "hanzi": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "hanzi": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "hanzi": "堅決",
+            "pinyin": "jiānjué"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "愛了",
+            "pinyin": "àile"
+          },
+          {
+            "hanzi": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "hanzi": "不",
+            "pinyin": "bù"
+          },
+          {
+            "hanzi": "改變",
+            "pinyin": "gǎibiàn"
+          }
+        ]
       },
       {
         "chinese": "不要對我說再見 一句再見",
         "pinyin": "bù yào duì wǒ shuō zài jiàn yī jù zài jiàn",
         "english": "Don't say goodbye to me, one goodbye",
-        "timestamp": "00:33.00"
+        "timestamp": "00:33.00",
+        "segments": [
+          {
+            "hanzi": "不要",
+            "pinyin": "bùyào"
+          },
+          {
+            "hanzi": "對",
+            "pinyin": "duì"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "說",
+            "pinyin": "shuō"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "一句",
+            "pinyin": "yījù"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          }
+        ]
       },
       {
         "chinese": "就結束這一切",
         "pinyin": "jiù jié shù zhè yī qiè",
         "english": "And it ends everything",
-        "timestamp": "00:38.00"
+        "timestamp": "00:38.00",
+        "segments": [
+          {
+            "hanzi": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "hanzi": "結束",
+            "pinyin": "jiéshù"
+          },
+          {
+            "hanzi": "這",
+            "pinyin": "zhè"
+          },
+          {
+            "hanzi": "一切",
+            "pinyin": "yīqiè"
+          }
+        ]
       },
       {
         "chinese": "能否不要說再見 你的再見",
         "pinyin": "néng fǒu bù yào shuō zài jiàn nǐ de zài jiàn",
         "english": "Can you not say goodbye, your goodbye",
-        "timestamp": "00:41.00"
+        "timestamp": "00:41.00",
+        "segments": [
+          {
+            "hanzi": "能否",
+            "pinyin": "néngfǒu"
+          },
+          {
+            "hanzi": "不要",
+            "pinyin": "bùyào"
+          },
+          {
+            "hanzi": "說",
+            "pinyin": "shuō"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你的",
+            "pinyin": "nǐde"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          }
+        ]
       },
       {
         "chinese": "說得那麼明確",
         "pinyin": "shuō de nà me míng què",
         "english": "Said so clearly",
-        "timestamp": "00:45.00"
+        "timestamp": "00:45.00",
+        "segments": [
+          {
+            "hanzi": "說得",
+            "pinyin": "shuōde"
+          },
+          {
+            "hanzi": "那麼",
+            "pinyin": "nàme"
+          },
+          {
+            "hanzi": "明確",
+            "pinyin": "míngquè"
+          }
+        ]
       },
       {
         "chinese": "怎麼我和你之間 兩個世界",
         "pinyin": "zěn me wǒ hé nǐ zhī jiān liǎng gè shì jiè",
         "english": "How is it between you and me, two worlds",
-        "timestamp": "00:48.00"
+        "timestamp": "00:48.00",
+        "segments": [
+          {
+            "hanzi": "怎麼",
+            "pinyin": "zěnme"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "和",
+            "pinyin": "hé"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "之間",
+            "pinyin": "zhījiān"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "兩個",
+            "pinyin": "liǎnggè"
+          },
+          {
+            "hanzi": "世界",
+            "pinyin": "shìjiè"
+          }
+        ]
       },
       {
         "chinese": "再也沒有交接",
         "pinyin": "zài yě méi yǒu jiāo jiē",
         "english": "No longer intersecting",
-        "timestamp": "00:52.00"
+        "timestamp": "00:52.00",
+        "segments": [
+          {
+            "hanzi": "再也",
+            "pinyin": "zàiyě"
+          },
+          {
+            "hanzi": "沒有",
+            "pinyin": "méiyǒu"
+          },
+          {
+            "hanzi": "交接",
+            "pinyin": "jiāojiē"
+          }
+        ]
       },
       {
         "chinese": "如果告別 能不能再見",
         "pinyin": "rú guǒ gào bié néng bù néng zài jiàn",
         "english": "If we say farewell, can we meet again",
-        "timestamp": "00:56.00"
+        "timestamp": "00:56.00",
+        "segments": [
+          {
+            "hanzi": "如果",
+            "pinyin": "rúguǒ"
+          },
+          {
+            "hanzi": "告別",
+            "pinyin": "gàobié"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "能不能",
+            "pinyin": "néngbùnéng"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          }
+        ]
       },
       {
         "chinese": "我們的照片 紀錄幸福到永遠",
         "pinyin": "wǒ men de zhào piàn jì lù xìng fú dào yǒng yuǎn",
         "english": "Our photos, recording happiness forever",
-        "timestamp": "01:03.00"
+        "timestamp": "01:03.00",
+        "segments": [
+          {
+            "hanzi": "我們的",
+            "pinyin": "wǒmende"
+          },
+          {
+            "hanzi": "照片",
+            "pinyin": "zhàopiàn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "紀錄",
+            "pinyin": "jìlù"
+          },
+          {
+            "hanzi": "幸福",
+            "pinyin": "xìngfú"
+          },
+          {
+            "hanzi": "到",
+            "pinyin": "dào"
+          },
+          {
+            "hanzi": "永遠",
+            "pinyin": "yǒngyuǎn"
+          }
+        ]
       },
       {
         "chinese": "只是再幸福的畫面 只定格在一瞬間",
         "pinyin": "zhǐ shì zài xìng fú de huà miàn zhǐ dìng gé zài yī shùn jiān",
         "english": "But even the happiest scenes are frozen in just a moment",
-        "timestamp": "01:09.00"
+        "timestamp": "01:09.00",
+        "segments": [
+          {
+            "hanzi": "只是",
+            "pinyin": "zhǐshì"
+          },
+          {
+            "hanzi": "再",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "幸福的",
+            "pinyin": "xìngfúde"
+          },
+          {
+            "hanzi": "畫面",
+            "pinyin": "huàmiàn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "只",
+            "pinyin": "zhǐ"
+          },
+          {
+            "hanzi": "定格",
+            "pinyin": "dìnggé"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "一瞬間",
+            "pinyin": "yīshùnjiān"
+          }
+        ]
       },
       {
         "chinese": "那些慢吞吞悲情的音樂",
         "pinyin": "nà xiē màn tūn tūn bēi qíng de yīn yuè",
         "english": "Those slow, sorrowful songs",
-        "timestamp": "01:16.00"
+        "timestamp": "01:16.00",
+        "segments": [
+          {
+            "hanzi": "那些",
+            "pinyin": "nàxiē"
+          },
+          {
+            "hanzi": "慢吞吞",
+            "pinyin": "màntūntūn"
+          },
+          {
+            "hanzi": "悲情的",
+            "pinyin": "bēiqíngde"
+          },
+          {
+            "hanzi": "音樂",
+            "pinyin": "yīnyuè"
+          }
+        ]
       },
       {
         "chinese": "早說過愛過之後就是離別",
         "pinyin": "zǎo shuō guò ài guò zhī hòu jiù shì lí bié",
         "english": "Always said that after love comes parting",
-        "timestamp": "01:20.00"
+        "timestamp": "01:20.00",
+        "segments": [
+          {
+            "hanzi": "早",
+            "pinyin": "zǎo"
+          },
+          {
+            "hanzi": "說過",
+            "pinyin": "shuōguò"
+          },
+          {
+            "hanzi": "愛過",
+            "pinyin": "àiguò"
+          },
+          {
+            "hanzi": "之後",
+            "pinyin": "zhīhòu"
+          },
+          {
+            "hanzi": "就是",
+            "pinyin": "jiùshì"
+          },
+          {
+            "hanzi": "離別",
+            "pinyin": "líbié"
+          }
+        ]
       },
       {
         "chinese": "早該相信那些預言 我們也沒有多特別",
         "pinyin": "zǎo gāi xiāng xìn nà xiē yù yán wǒ men yě méi yǒu duō tè bié",
         "english": "Should have believed those prophecies, we're not that special",
-        "timestamp": "01:24.00"
+        "timestamp": "01:24.00",
+        "segments": [
+          {
+            "hanzi": "早",
+            "pinyin": "zǎo"
+          },
+          {
+            "hanzi": "該",
+            "pinyin": "gāi"
+          },
+          {
+            "hanzi": "相信",
+            "pinyin": "xiāngxìn"
+          },
+          {
+            "hanzi": "那些",
+            "pinyin": "nàxiē"
+          },
+          {
+            "hanzi": "預言",
+            "pinyin": "yùyán"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我們",
+            "pinyin": "wǒmen"
+          },
+          {
+            "hanzi": "也",
+            "pinyin": "yě"
+          },
+          {
+            "hanzi": "沒有",
+            "pinyin": "méiyǒu"
+          },
+          {
+            "hanzi": "多",
+            "pinyin": "duō"
+          },
+          {
+            "hanzi": "特別",
+            "pinyin": "tèbié"
+          }
+        ]
       },
       {
         "chinese": "不要對我說再見 一句再見",
         "pinyin": "bù yào duì wǒ shuō zài jiàn yī jù zài jiàn",
         "english": "Don't say goodbye to me, one goodbye",
-        "timestamp": "01:31.00"
+        "timestamp": "01:31.00",
+        "segments": [
+          {
+            "hanzi": "不要",
+            "pinyin": "bùyào"
+          },
+          {
+            "hanzi": "對",
+            "pinyin": "duì"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "說",
+            "pinyin": "shuō"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "一句",
+            "pinyin": "yījù"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          }
+        ]
       },
       {
         "chinese": "讓愛變得表面",
         "pinyin": "ràng ài biàn de biǎo miàn",
         "english": "Makes love become superficial",
-        "timestamp": "01:35.00"
+        "timestamp": "01:35.00",
+        "segments": [
+          {
+            "hanzi": "讓",
+            "pinyin": "ràng"
+          },
+          {
+            "hanzi": "愛",
+            "pinyin": "ài"
+          },
+          {
+            "hanzi": "變得",
+            "pinyin": "biànde"
+          },
+          {
+            "hanzi": "表面",
+            "pinyin": "biǎomiàn"
+          }
+        ]
       },
       {
         "chinese": "真的不用說再見 就算再見",
         "pinyin": "zhēn de bù yòng shuō zài jiàn jiù suàn zài jiàn",
         "english": "Really no need to say goodbye, even if we part",
-        "timestamp": "01:38.00"
+        "timestamp": "01:38.00",
+        "segments": [
+          {
+            "hanzi": "真的",
+            "pinyin": "zhēnde"
+          },
+          {
+            "hanzi": "不用",
+            "pinyin": "bùyòng"
+          },
+          {
+            "hanzi": "說",
+            "pinyin": "shuō"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "就算",
+            "pinyin": "jiùsuàn"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          }
+        ]
       },
       {
         "chinese": "結局不能改變",
         "pinyin": "jié jú bù néng gǎi biàn",
         "english": "The ending can't be changed",
-        "timestamp": "01:42.00"
+        "timestamp": "01:42.00",
+        "segments": [
+          {
+            "hanzi": "結局",
+            "pinyin": "jiéjú"
+          },
+          {
+            "hanzi": "不能",
+            "pinyin": "bùnéng"
+          },
+          {
+            "hanzi": "改變",
+            "pinyin": "gǎibiàn"
+          }
+        ]
       },
       {
         "chinese": "就算我和你之間 兩個世界",
         "pinyin": "jiù suàn wǒ hé nǐ zhī jiān liǎng gè shì jiè",
         "english": "Even if between you and me, two worlds",
-        "timestamp": "01:45.00"
+        "timestamp": "01:45.00",
+        "segments": [
+          {
+            "hanzi": "就算",
+            "pinyin": "jiùsuàn"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "和",
+            "pinyin": "hé"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "之間",
+            "pinyin": "zhījiān"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "兩個",
+            "pinyin": "liǎnggè"
+          },
+          {
+            "hanzi": "世界",
+            "pinyin": "shìjiè"
+          }
+        ]
       },
       {
         "chinese": "再也沒有交接",
         "pinyin": "zài yě méi yǒu jiāo jiē",
         "english": "No longer intersecting",
-        "timestamp": "01:49.00"
+        "timestamp": "01:49.00",
+        "segments": [
+          {
+            "hanzi": "再也",
+            "pinyin": "zàiyě"
+          },
+          {
+            "hanzi": "沒有",
+            "pinyin": "méiyǒu"
+          },
+          {
+            "hanzi": "交接",
+            "pinyin": "jiāojiē"
+          }
+        ]
       },
       {
         "chinese": "不用抱歉 就真的再見",
         "pinyin": "bù yòng bào qiàn jiù zhēn de zài jiàn",
         "english": "No need to apologize, just really goodbye",
-        "timestamp": "01:52.00"
+        "timestamp": "01:52.00",
+        "segments": [
+          {
+            "hanzi": "不用",
+            "pinyin": "bùyòng"
+          },
+          {
+            "hanzi": "抱歉",
+            "pinyin": "bàoqiàn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "hanzi": "真的",
+            "pinyin": "zhēnde"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          }
+        ]
       },
       {
         "chinese": "如果有緣 我們會再遇見",
         "pinyin": "rú guǒ yǒu yuán wǒ men huì zài yù jiàn",
         "english": "If fate allows, we'll meet again",
-        "timestamp": "01:58.00"
+        "timestamp": "01:58.00",
+        "segments": [
+          {
+            "hanzi": "如果",
+            "pinyin": "rúguǒ"
+          },
+          {
+            "hanzi": "有緣",
+            "pinyin": "yǒuyuán"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我們",
+            "pinyin": "wǒmen"
+          },
+          {
+            "hanzi": "會",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "再",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "遇見",
+            "pinyin": "yùjiàn"
+          }
+        ]
       },
       {
         "chinese": "反正地球本來就很圓",
         "pinyin": "fǎn zhèng dì qiú běn lái jiù hěn yuán",
         "english": "After all, the Earth is round",
-        "timestamp": "02:02.00"
+        "timestamp": "02:02.00",
+        "segments": [
+          {
+            "hanzi": "反正",
+            "pinyin": "fǎnzhèng"
+          },
+          {
+            "hanzi": "地球",
+            "pinyin": "dìqiú"
+          },
+          {
+            "hanzi": "本來",
+            "pinyin": "běnlái"
+          },
+          {
+            "hanzi": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "hanzi": "很",
+            "pinyin": "hěn"
+          },
+          {
+            "hanzi": "圓",
+            "pinyin": "yuán"
+          }
+        ]
       },
       {
         "chinese": "就算今天 你要走得多遠",
         "pinyin": "jiù suàn jīn tiān nǐ yào zǒu de duō yuǎn",
         "english": "Even if today you walk far away",
-        "timestamp": "02:06.00"
+        "timestamp": "02:06.00",
+        "segments": [
+          {
+            "hanzi": "就算",
+            "pinyin": "jiùsuàn"
+          },
+          {
+            "hanzi": "今天",
+            "pinyin": "jīntiān"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "要",
+            "pinyin": "yào"
+          },
+          {
+            "hanzi": "走得",
+            "pinyin": "zǒude"
+          },
+          {
+            "hanzi": "多",
+            "pinyin": "duō"
+          },
+          {
+            "hanzi": "遠",
+            "pinyin": "yuǎn"
+          }
+        ]
       },
       {
         "chinese": "反正就是一條地平線",
         "pinyin": "fǎn zhèng jiù shì yī tiáo dì píng xiàn",
         "english": "It's just one horizon line anyway",
-        "timestamp": "02:09.00"
+        "timestamp": "02:09.00",
+        "segments": [
+          {
+            "hanzi": "反正",
+            "pinyin": "fǎnzhèng"
+          },
+          {
+            "hanzi": "就是",
+            "pinyin": "jiùshì"
+          },
+          {
+            "hanzi": "一條",
+            "pinyin": "yītiáo"
+          },
+          {
+            "hanzi": "地平線",
+            "pinyin": "dìpíngxiàn"
+          }
+        ]
       },
       {
         "chinese": "反正願望不一定會實現",
         "pinyin": "fǎn zhèng yuàn wàng bù yī dìng huì shí xiàn",
         "english": "Wishes don't always come true anyway",
-        "timestamp": "02:13.00"
+        "timestamp": "02:13.00",
+        "segments": [
+          {
+            "hanzi": "反正",
+            "pinyin": "fǎnzhèng"
+          },
+          {
+            "hanzi": "願望",
+            "pinyin": "yuànwàng"
+          },
+          {
+            "hanzi": "不一定",
+            "pinyin": "bùyīdìng"
+          },
+          {
+            "hanzi": "會",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "實現",
+            "pinyin": "shíxiàn"
+          }
+        ]
       },
       {
         "chinese": "反正承諾不一定要兌現",
         "pinyin": "fǎn zhèng chéng nuò bù yī dìng yào duì xiàn",
         "english": "Promises don't have to be kept anyway",
-        "timestamp": "02:16.00"
+        "timestamp": "02:16.00",
+        "segments": [
+          {
+            "hanzi": "反正",
+            "pinyin": "fǎnzhèng"
+          },
+          {
+            "hanzi": "承諾",
+            "pinyin": "chéngnuò"
+          },
+          {
+            "hanzi": "不一定",
+            "pinyin": "bùyīdìng"
+          },
+          {
+            "hanzi": "要",
+            "pinyin": "yào"
+          },
+          {
+            "hanzi": "兌現",
+            "pinyin": "duìxiàn"
+          }
+        ]
       },
       {
         "chinese": "反正睡醒是新的一天",
         "pinyin": "fǎn zhèng shuì xǐng shì xīn de yī tiān",
         "english": "Waking up is a new day anyway",
-        "timestamp": "02:20.00"
+        "timestamp": "02:20.00",
+        "segments": [
+          {
+            "hanzi": "反正",
+            "pinyin": "fǎnzhèng"
+          },
+          {
+            "hanzi": "睡醒",
+            "pinyin": "shuìxǐng"
+          },
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": "新的",
+            "pinyin": "xīnde"
+          },
+          {
+            "hanzi": "一天",
+            "pinyin": "yītiān"
+          }
+        ]
       },
       {
         "chinese": "別對我說再見 一句再見",
         "pinyin": "bié duì wǒ shuō zài jiàn yī jù zài jiàn",
         "english": "Don't say goodbye to me, one goodbye",
-        "timestamp": "02:41.00"
+        "timestamp": "02:41.00",
+        "segments": [
+          {
+            "hanzi": "別",
+            "pinyin": "bié"
+          },
+          {
+            "hanzi": "對",
+            "pinyin": "duì"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "說",
+            "pinyin": "shuō"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "一句",
+            "pinyin": "yījù"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          }
+        ]
       },
       {
         "chinese": "讓愛變得表面",
         "pinyin": "ràng ài biàn de biǎo miàn",
         "english": "Makes love become superficial",
-        "timestamp": "02:45.00"
+        "timestamp": "02:45.00",
+        "segments": [
+          {
+            "hanzi": "讓",
+            "pinyin": "ràng"
+          },
+          {
+            "hanzi": "愛",
+            "pinyin": "ài"
+          },
+          {
+            "hanzi": "變得",
+            "pinyin": "biànde"
+          },
+          {
+            "hanzi": "表面",
+            "pinyin": "biǎomiàn"
+          }
+        ]
       },
       {
         "chinese": "真的不用說再見 就算再見",
         "pinyin": "zhēn de bù yòng shuō zài jiàn jiù suàn zài jiàn",
         "english": "Really no need to say goodbye, even if we part",
-        "timestamp": "02:48.00"
+        "timestamp": "02:48.00",
+        "segments": [
+          {
+            "hanzi": "真的",
+            "pinyin": "zhēnde"
+          },
+          {
+            "hanzi": "不用",
+            "pinyin": "bùyòng"
+          },
+          {
+            "hanzi": "說",
+            "pinyin": "shuō"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "就算",
+            "pinyin": "jiùsuàn"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          }
+        ]
       },
       {
         "chinese": "結局不能改變",
         "pinyin": "jié jú bù néng gǎi biàn",
         "english": "The ending can't be changed",
-        "timestamp": "02:52.00"
+        "timestamp": "02:52.00",
+        "segments": [
+          {
+            "hanzi": "結局",
+            "pinyin": "jiéjú"
+          },
+          {
+            "hanzi": "不能",
+            "pinyin": "bùnéng"
+          },
+          {
+            "hanzi": "改變",
+            "pinyin": "gǎibiàn"
+          }
+        ]
       },
       {
         "chinese": "就算我和你之間 兩個世界",
         "pinyin": "jiù suàn wǒ hé nǐ zhī jiān liǎng gè shì jiè",
         "english": "Even if between you and me, two worlds",
-        "timestamp": "02:55.00"
+        "timestamp": "02:55.00",
+        "segments": [
+          {
+            "hanzi": "就算",
+            "pinyin": "jiùsuàn"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "和",
+            "pinyin": "hé"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "之間",
+            "pinyin": "zhījiān"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "兩個",
+            "pinyin": "liǎnggè"
+          },
+          {
+            "hanzi": "世界",
+            "pinyin": "shìjiè"
+          }
+        ]
       },
       {
         "chinese": "再也沒有交接",
         "pinyin": "zài yě méi yǒu jiāo jiē",
         "english": "No longer intersecting",
-        "timestamp": "02:59.00"
+        "timestamp": "02:59.00",
+        "segments": [
+          {
+            "hanzi": "再也",
+            "pinyin": "zàiyě"
+          },
+          {
+            "hanzi": "沒有",
+            "pinyin": "méiyǒu"
+          },
+          {
+            "hanzi": "交接",
+            "pinyin": "jiāojiē"
+          }
+        ]
       },
       {
         "chinese": "不用抱歉 就真的再見",
         "pinyin": "bù yòng bào qiàn jiù zhēn de zài jiàn",
         "english": "No need to apologize, just really goodbye",
-        "timestamp": "03:02.00"
+        "timestamp": "03:02.00",
+        "segments": [
+          {
+            "hanzi": "不用",
+            "pinyin": "bùyòng"
+          },
+          {
+            "hanzi": "抱歉",
+            "pinyin": "bàoqiàn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "hanzi": "真的",
+            "pinyin": "zhēnde"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          }
+        ]
       },
       {
         "chinese": "愛情到終點 我們只能說再見",
         "pinyin": "ài qíng dào zhōng diǎn wǒ men zhǐ néng shuō zài jiàn",
         "english": "When love reaches the end, we can only say goodbye",
-        "timestamp": "03:10.00"
+        "timestamp": "03:10.00",
+        "segments": [
+          {
+            "hanzi": "愛情",
+            "pinyin": "àiqíng"
+          },
+          {
+            "hanzi": "到",
+            "pinyin": "dào"
+          },
+          {
+            "hanzi": "終點",
+            "pinyin": "zhōngdiǎn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我們",
+            "pinyin": "wǒmen"
+          },
+          {
+            "hanzi": "只能",
+            "pinyin": "zhǐnéng"
+          },
+          {
+            "hanzi": "說",
+            "pinyin": "shuō"
+          },
+          {
+            "hanzi": "再見",
+            "pinyin": "zàijiàn"
+          }
+        ]
       }
     ]
   },
