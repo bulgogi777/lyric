@@ -3575,20 +3575,619 @@
   {
     "id": "Oa620MHNyx0",
     "title": "The Unknown Me",
-    "artist": "A-Lin官方專屬頻道",
-    "hasLyrics": false
+    "artist": "A-Lin",
+    "hasLyrics": true,
+    "lyricsSource": "manual",
+    "lyrics": [
+      {
+        "chinese": "有些話不知道要怎麼說",
+        "pinyin": "yǒu xiē huà bù zhī dào yào zěn me shuō",
+        "english": "Some words I don't know how to say"
+      },
+      {
+        "chinese": "那些欲言又止一笑帶過",
+        "pinyin": "nà xiē yù yán yòu zhǐ yī xiào dài guò",
+        "english": "Those things I wanted to say but held back, brushed off with a smile"
+      },
+      {
+        "chinese": "明明渴求溫柔 偏偏覆水難收",
+        "pinyin": "míng míng kě qiú wēn róu piān piān fù shuǐ nán shōu",
+        "english": "Clearly craving tenderness, yet spilled water can't be retrieved"
+      },
+      {
+        "chinese": "沙沙風吹心湖 陣陣不平攪和",
+        "pinyin": "shā shā fēng chuī xīn hú zhèn zhèn bù píng jiǎo huo",
+        "english": "The rustling wind blows across my heart's lake, waves of unrest stirring"
+      },
+      {
+        "chinese": "無人知曉的我 固執的自轉陀螺",
+        "pinyin": "wú rén zhī xiǎo de wǒ gù zhí de zì zhuàn tuó luó",
+        "english": "The me that no one knows, a stubborn spinning top"
+      },
+      {
+        "chinese": "無眠的黎明是夜的血痕",
+        "pinyin": "wú mián de lí míng shì yè de xuè hén",
+        "english": "Sleepless dawn is the bloodstain of night"
+      },
+      {
+        "chinese": "走多遠還是在原地的人",
+        "pinyin": "zǒu duō yuǎn hái shì zài yuán dì de rén",
+        "english": "No matter how far I walk, I'm still the person standing in place"
+      },
+      {
+        "chinese": "時光的列車開不回昨天",
+        "pinyin": "shí guāng de liè chē kāi bù huí zuó tiān",
+        "english": "Time's train can't drive back to yesterday"
+      },
+      {
+        "chinese": "再也無法去愛像那些年",
+        "pinyin": "zài yě wú fǎ qù ài xiàng nà xiē nián",
+        "english": "Can never love again like those years"
+      },
+      {
+        "chinese": "無人知曉的我 喔",
+        "pinyin": "wú rén zhī xiǎo de wǒ ō",
+        "english": "The me that no one knows, oh"
+      },
+      {
+        "chinese": "沒一個人可訴說 喔",
+        "pinyin": "méi yī gè rén kě sù shuō ō",
+        "english": "Not a single person to confide in, oh"
+      },
+      {
+        "chinese": "有些話不知道要怎麼說",
+        "pinyin": "yǒu xiē huà bù zhī dào yào zěn me shuō",
+        "english": "Some words I don't know how to say"
+      },
+      {
+        "chinese": "那些欲言又止 低頭沉默",
+        "pinyin": "nà xiē yù yán yòu zhǐ dī tóu chén mò",
+        "english": "Those things I wanted to say but held back, head bowed in silence"
+      },
+      {
+        "chinese": "明明以為是對 偏偏統統是錯",
+        "pinyin": "míng míng yǐ wéi shì duì piān piān tǒng tǒng shì cuò",
+        "english": "Clearly thought it was right, yet everything was wrong"
+      },
+      {
+        "chinese": "沙沙風吹心湖 陣陣不平攪和",
+        "pinyin": "shā shā fēng chuī xīn hú zhèn zhèn bù píng jiǎo huo",
+        "english": "The rustling wind blows across my heart's lake, waves of unrest stirring"
+      },
+      {
+        "chinese": "無人知曉的我 固執的自轉陀螺",
+        "pinyin": "wú rén zhī xiǎo de wǒ gù zhí de zì zhuàn tuó luó",
+        "english": "The me that no one knows, a stubborn spinning top"
+      },
+      {
+        "chinese": "那城市的高樓是土地的瘤",
+        "pinyin": "nà chéng shì de gāo lóu shì tǔ dì de liú",
+        "english": "Those city skyscrapers are tumors on the land"
+      },
+      {
+        "chinese": "霓虹的喧鬧是無聲尖叫",
+        "pinyin": "ní hóng de xuān nào shì wú shēng jiān jiào",
+        "english": "The neon's clamor is a silent scream"
+      },
+      {
+        "chinese": "時光的列車開不回昨天",
+        "pinyin": "shí guāng de liè chē kāi bù huí zuó tiān",
+        "english": "Time's train can't drive back to yesterday"
+      },
+      {
+        "chinese": "再也無法直接向那些年",
+        "pinyin": "zài yě wú fǎ zhí jiē xiàng nà xiē nián",
+        "english": "Can never directly face those years again"
+      },
+      {
+        "chinese": "無人知曉的我 喔",
+        "pinyin": "wú rén zhī xiǎo de wǒ ō",
+        "english": "The me that no one knows, oh"
+      },
+      {
+        "chinese": "沒一個人可訴說 喔",
+        "pinyin": "méi yī gè rén kě sù shuō ō",
+        "english": "Not a single person to confide in, oh"
+      },
+      {
+        "chinese": "有些話不知道要怎麼說",
+        "pinyin": "yǒu xiē huà bù zhī dào yào zěn me shuō",
+        "english": "Some words I don't know how to say"
+      },
+      {
+        "chinese": "那些欲言又止 終被淹沒",
+        "pinyin": "nà xiē yù yán yòu zhǐ zhōng bèi yān mò",
+        "english": "Those things I wanted to say but held back, finally drowned"
+      },
+      {
+        "chinese": "明明渴求快樂 偏偏只有寂寞",
+        "pinyin": "míng míng kě qiú kuài lè piān piān zhǐ yǒu jì mò",
+        "english": "Clearly craving happiness, yet there's only loneliness"
+      },
+      {
+        "chinese": "沙沙風吹心湖 陣陣不平攪和",
+        "pinyin": "shā shā fēng chuī xīn hú zhèn zhèn bù píng jiǎo huo",
+        "english": "The rustling wind blows across my heart's lake, waves of unrest stirring"
+      },
+      {
+        "chinese": "無人知曉的我 我和我失去聯絡",
+        "pinyin": "wú rén zhī xiǎo de wǒ wǒ hé wǒ shī qù lián luò",
+        "english": "The me that no one knows, I've lost touch with myself"
+      }
+    ]
   },
   {
     "id": "O29mg2nbi7M",
     "title": "Those Bygone Years",
-    "artist": "HuXia胡夏",
-    "hasLyrics": false
+    "artist": "胡夏 Hu Xia",
+    "hasLyrics": true,
+    "lyricsSource": "manual",
+    "lyrics": [
+      {
+        "chinese": "又回到最初的起点",
+        "pinyin": "yòu huí dào zuì chū de qǐ diǎn",
+        "english": "Back again to where it all began"
+      },
+      {
+        "chinese": "记忆中妳青涩的脸",
+        "pinyin": "jì yì zhōng nǐ qīng sè de liǎn",
+        "english": "Your innocent face in my memory"
+      },
+      {
+        "chinese": "我们终于来到了这一天",
+        "pinyin": "wǒ men zhōng yú lái dào le zhè yī tiān",
+        "english": "We've finally arrived at this day"
+      },
+      {
+        "chinese": "桌垫下的老照片",
+        "pinyin": "zhuō diàn xià de lǎo zhào piàn",
+        "english": "Old photos under the desk mat"
+      },
+      {
+        "chinese": "无数回忆连结",
+        "pinyin": "wú shù huí yì lián jié",
+        "english": "Countless memories intertwined"
+      },
+      {
+        "chinese": "今天男孩要赴女孩最后的约",
+        "pinyin": "jīn tiān nán hái yào fù nǚ hái zuì hòu de yuē",
+        "english": "Today the boy goes to his final date with the girl"
+      },
+      {
+        "chinese": "又回到最初的起点",
+        "pinyin": "yòu huí dào zuì chū de qǐ diǎn",
+        "english": "Back again to where it all began"
+      },
+      {
+        "chinese": "呆呆地站在镜子前",
+        "pinyin": "dāi dāi de zhàn zài jìng zi qián",
+        "english": "Standing blankly before the mirror"
+      },
+      {
+        "chinese": "笨拙系上红色领带的结",
+        "pinyin": "bèn zhuō jì shàng hóng sè lǐng dài de jié",
+        "english": "Clumsily tying the knot of a red tie"
+      },
+      {
+        "chinese": "将头发梳成大人模样",
+        "pinyin": "jiāng tóu fa shū chéng dà rén mú yàng",
+        "english": "Combing my hair like a grown-up"
+      },
+      {
+        "chinese": "穿上一身帅气西装",
+        "pinyin": "chuān shàng yī shēn shuài qì xī zhuāng",
+        "english": "Putting on a handsome suit"
+      },
+      {
+        "chinese": "等会儿见妳一定比想象美",
+        "pinyin": "děng huǐr jiàn nǐ yī dìng bǐ xiǎng xiàng měi",
+        "english": "When I see you later, you'll surely be more beautiful than I imagined"
+      },
+      {
+        "chinese": "好想再回到那些年的时光",
+        "pinyin": "hǎo xiǎng zài huí dào nà xiē nián de shí guāng",
+        "english": "I so want to go back to those bygone years"
+      },
+      {
+        "chinese": "回到教室座位前后 故意讨妳温柔的骂",
+        "pinyin": "huí dào jiào shì zuò wèi qián hòu gù yì tǎo nǐ wēn róu de mà",
+        "english": "Back to classroom seats, deliberately provoking your gentle scolding"
+      },
+      {
+        "chinese": "黑板上排列组合 妳舍得解开吗",
+        "pinyin": "hēi bǎn shàng pái liè zǔ hé nǐ shě de jiě kāi ma",
+        "english": "The permutations on the blackboard, can you bear to solve them?"
+      },
+      {
+        "chinese": "谁与谁坐他又爱着她",
+        "pinyin": "shéi yǔ shéi zuò tā yòu ài zhe tā",
+        "english": "Who sits with whom, and who loves whom"
+      },
+      {
+        "chinese": "那些年错过的大雨",
+        "pinyin": "nà xiē nián cuò guò de dà yǔ",
+        "english": "The heavy rains we missed in those years"
+      },
+      {
+        "chinese": "那些年错过的爱情",
+        "pinyin": "nà xiē nián cuò guò de ài qíng",
+        "english": "The love we missed in those years"
+      },
+      {
+        "chinese": "好想拥抱妳 拥抱错过的勇气",
+        "pinyin": "hǎo xiǎng yōng bào nǐ yōng bào cuò guò de yǒng qì",
+        "english": "I so want to hold you, to embrace the courage I missed"
+      },
+      {
+        "chinese": "曾经想征服全世界",
+        "pinyin": "céng jīng xiǎng zhēng fú quán shì jiè",
+        "english": "Once I wanted to conquer the whole world"
+      },
+      {
+        "chinese": "到最后回首才发现",
+        "pinyin": "dào zuì hòu huí shǒu cái fā xiàn",
+        "english": "Only when I finally look back do I realize"
+      },
+      {
+        "chinese": "这世界滴滴点点全部都是妳",
+        "pinyin": "zhè shì jiè dī dī diǎn diǎn quán bù dōu shì nǐ",
+        "english": "Every little bit of this world is all about you"
+      },
+      {
+        "chinese": "那些年错过的大雨",
+        "pinyin": "nà xiē nián cuò guò de dà yǔ",
+        "english": "The heavy rains we missed in those years"
+      },
+      {
+        "chinese": "那些年错过的爱情",
+        "pinyin": "nà xiē nián cuò guò de ài qíng",
+        "english": "The love we missed in those years"
+      },
+      {
+        "chinese": "好想告诉妳 告诉妳我没有忘记",
+        "pinyin": "hǎo xiǎng gào sù nǐ gào sù nǐ wǒ méi yǒu wàng jì",
+        "english": "I so want to tell you, tell you I haven't forgotten"
+      },
+      {
+        "chinese": "那天晚上满天星星",
+        "pinyin": "nà tiān wǎn shàng mǎn tiān xīng xīng",
+        "english": "That night the sky was full of stars"
+      },
+      {
+        "chinese": "平行时空下的约定",
+        "pinyin": "píng xíng shí kōng xià de yuē dìng",
+        "english": "A promise made in parallel universes"
+      },
+      {
+        "chinese": "再一次相遇我会紧紧抱着妳",
+        "pinyin": "zài yī cì xiāng yù wǒ huì jǐn jǐn bào zhe nǐ",
+        "english": "If we meet again, I'll hold you tight"
+      },
+      {
+        "chinese": "紧紧抱着你",
+        "pinyin": "jǐn jǐn bào zhe nǐ",
+        "english": "Hold you tight"
+      },
+      {
+        "chinese": "又回到最初的起点",
+        "pinyin": "yòu huí dào zuì chū de qǐ diǎn",
+        "english": "Back again to where it all began"
+      },
+      {
+        "chinese": "呆呆地站在镜子前",
+        "pinyin": "dāi dāi de zhàn zài jìng zi qián",
+        "english": "Standing blankly before the mirror"
+      },
+      {
+        "chinese": "笨拙系上红色领带的结",
+        "pinyin": "bèn zhuō jì shàng hóng sè lǐng dài de jié",
+        "english": "Clumsily tying the knot of a red tie"
+      },
+      {
+        "chinese": "将头发梳成大人模样",
+        "pinyin": "jiāng tóu fa shū chéng dà rén mú yàng",
+        "english": "Combing my hair like a grown-up"
+      },
+      {
+        "chinese": "穿上一身帅气西装",
+        "pinyin": "chuān shàng yī shēn shuài qì xī zhuāng",
+        "english": "Putting on a handsome suit"
+      },
+      {
+        "chinese": "等会儿见妳一定比想象美",
+        "pinyin": "děng huǐr jiàn nǐ yī dìng bǐ xiǎng xiàng měi",
+        "english": "When I see you later, you'll surely be more beautiful than I imagined"
+      },
+      {
+        "chinese": "好想再回到那些年的时光",
+        "pinyin": "hǎo xiǎng zài huí dào nà xiē nián de shí guāng",
+        "english": "I so want to go back to those bygone years"
+      },
+      {
+        "chinese": "回到教室座位前后 故意讨妳温柔的骂",
+        "pinyin": "huí dào jiào shì zuò wèi qián hòu gù yì tǎo nǐ wēn róu de mà",
+        "english": "Back to classroom seats, deliberately provoking your gentle scolding"
+      },
+      {
+        "chinese": "黑板上排列组合 妳舍得解开吗",
+        "pinyin": "hēi bǎn shàng pái liè zǔ hé nǐ shě de jiě kāi ma",
+        "english": "The permutations on the blackboard, can you bear to solve them?"
+      },
+      {
+        "chinese": "谁与谁坐他又爱着她",
+        "pinyin": "shéi yǔ shéi zuò tā yòu ài zhe tā",
+        "english": "Who sits with whom, and who loves whom"
+      },
+      {
+        "chinese": "那些年错过的大雨",
+        "pinyin": "nà xiē nián cuò guò de dà yǔ",
+        "english": "The heavy rains we missed in those years"
+      },
+      {
+        "chinese": "那些年错过的爱情",
+        "pinyin": "nà xiē nián cuò guò de ài qíng",
+        "english": "The love we missed in those years"
+      },
+      {
+        "chinese": "好想拥抱妳 拥抱错过的勇气",
+        "pinyin": "hǎo xiǎng yōng bào nǐ yōng bào cuò guò de yǒng qì",
+        "english": "I so want to hold you, to embrace the courage I missed"
+      },
+      {
+        "chinese": "曾经想征服全世界",
+        "pinyin": "céng jīng xiǎng zhēng fú quán shì jiè",
+        "english": "Once I wanted to conquer the whole world"
+      },
+      {
+        "chinese": "到最后回首才发现",
+        "pinyin": "dào zuì hòu huí shǒu cái fā xiàn",
+        "english": "Only when I finally look back do I realize"
+      },
+      {
+        "chinese": "这世界滴滴点点全部都是妳",
+        "pinyin": "zhè shì jiè dī dī diǎn diǎn quán bù dōu shì nǐ",
+        "english": "Every little bit of this world is all about you"
+      },
+      {
+        "chinese": "那些年错过的大雨",
+        "pinyin": "nà xiē nián cuò guò de dà yǔ",
+        "english": "The heavy rains we missed in those years"
+      },
+      {
+        "chinese": "那些年错过的爱情",
+        "pinyin": "nà xiē nián cuò guò de ài qíng",
+        "english": "The love we missed in those years"
+      },
+      {
+        "chinese": "好想告诉妳 告诉妳我没有忘记",
+        "pinyin": "hǎo xiǎng gào sù nǐ gào sù nǐ wǒ méi yǒu wàng jì",
+        "english": "I so want to tell you, tell you I haven't forgotten"
+      },
+      {
+        "chinese": "那天晚上满天星星",
+        "pinyin": "nà tiān wǎn shàng mǎn tiān xīng xīng",
+        "english": "That night the sky was full of stars"
+      },
+      {
+        "chinese": "平行时空下的约定",
+        "pinyin": "píng xíng shí kōng xià de yuē dìng",
+        "english": "A promise made in parallel universes"
+      },
+      {
+        "chinese": "再一次相遇我会紧紧抱着妳",
+        "pinyin": "zài yī cì xiāng yù wǒ huì jǐn jǐn bào zhe nǐ",
+        "english": "If we meet again, I'll hold you tight"
+      },
+      {
+        "chinese": "紧紧抱着你",
+        "pinyin": "jǐn jǐn bào zhe nǐ",
+        "english": "Hold you tight"
+      },
+      {
+        "chinese": "那些年错过的大雨",
+        "pinyin": "nà xiē nián cuò guò de dà yǔ",
+        "english": "The heavy rains we missed in those years"
+      },
+      {
+        "chinese": "那些年错过的爱情",
+        "pinyin": "nà xiē nián cuò guò de ài qíng",
+        "english": "The love we missed in those years"
+      },
+      {
+        "chinese": "好想拥抱妳 拥抱错过的勇气",
+        "pinyin": "hǎo xiǎng yōng bào nǐ yōng bào cuò guò de yǒng qì",
+        "english": "I so want to hold you, to embrace the courage I missed"
+      },
+      {
+        "chinese": "曾经想征服全世界",
+        "pinyin": "céng jīng xiǎng zhēng fú quán shì jiè",
+        "english": "Once I wanted to conquer the whole world"
+      },
+      {
+        "chinese": "到最后回首才发现",
+        "pinyin": "dào zuì hòu huí shǒu cái fā xiàn",
+        "english": "Only when I finally look back do I realize"
+      },
+      {
+        "chinese": "这世界滴滴点点全部都是妳",
+        "pinyin": "zhè shì jiè dī dī diǎn diǎn quán bù dōu shì nǐ",
+        "english": "Every little bit of this world is all about you"
+      },
+      {
+        "chinese": "那些年错过的大雨",
+        "pinyin": "nà xiē nián cuò guò de dà yǔ",
+        "english": "The heavy rains we missed in those years"
+      },
+      {
+        "chinese": "那些年错过的爱情",
+        "pinyin": "nà xiē nián cuò guò de ài qíng",
+        "english": "The love we missed in those years"
+      },
+      {
+        "chinese": "好想告诉妳 告诉妳我没有忘记",
+        "pinyin": "hǎo xiǎng gào sù nǐ gào sù nǐ wǒ méi yǒu wàng jì",
+        "english": "I so want to tell you, tell you I haven't forgotten"
+      },
+      {
+        "chinese": "那天晚上满天星星",
+        "pinyin": "nà tiān wǎn shàng mǎn tiān xīng xīng",
+        "english": "That night the sky was full of stars"
+      },
+      {
+        "chinese": "平行时空下的约定",
+        "pinyin": "píng xíng shí kōng xià de yuē dìng",
+        "english": "A promise made in parallel universes"
+      },
+      {
+        "chinese": "再一次相遇我会紧紧抱着妳",
+        "pinyin": "zài yī cì xiāng yù wǒ huì jǐn jǐn bào zhe nǐ",
+        "english": "If we meet again, I'll hold you tight"
+      },
+      {
+        "chinese": "紧紧抱着你",
+        "pinyin": "jǐn jǐn bào zhe nǐ",
+        "english": "Hold you tight"
+      }
+    ]
   },
   {
     "id": "vhp4i3odinY",
     "title": "Yi Hou Bie Zuo Peng You",
     "artist": "周興哲 Eric Chou",
-    "hasLyrics": false
+    "hasLyrics": true,
+    "lyricsSource": "manual",
+    "lyrics": [
+      {
+        "chinese": "习惯听你分享生活细节",
+        "pinyin": "xí guàn tīng nǐ fēn xiǎng shēng huó xì jié",
+        "english": "Used to hearing you share the details of your life"
+      },
+      {
+        "chinese": "害怕破坏完美的平衡点",
+        "pinyin": "hài pà pò huài wán měi de píng héng diǎn",
+        "english": "Afraid of ruining our perfect balance"
+      },
+      {
+        "chinese": "保持着距离一颗心的遥远",
+        "pinyin": "bǎo chí zhe jù lí yī kē xīn de yáo yuǎn",
+        "english": "Keeping a distance of one heart away"
+      },
+      {
+        "chinese": "我的寂寞你就听不见",
+        "pinyin": "wǒ de jì mò nǐ jiù tīng bù jiàn",
+        "english": "You can't hear my loneliness"
+      },
+      {
+        "chinese": "我走回从前你往未来飞",
+        "pinyin": "wǒ zǒu huí cóng qián nǐ wǎng wèi lái fēi",
+        "english": "I walk back to the past while you fly toward the future"
+      },
+      {
+        "chinese": "遇见对的人错过交叉点",
+        "pinyin": "yù jiàn duì de rén cuò guò jiāo chā diǎn",
+        "english": "Meeting the right person but missing the intersection"
+      },
+      {
+        "chinese": "明明你就已经站在我面前",
+        "pinyin": "míng míng nǐ jiù yǐ jīng zhàn zài wǒ miàn qián",
+        "english": "You're clearly standing right in front of me"
+      },
+      {
+        "chinese": "我却不断挥手说再见",
+        "pinyin": "wǒ què bù duàn huī shǒu shuō zài jiàn",
+        "english": "Yet I keep waving goodbye"
+      },
+      {
+        "chinese": "以後别做朋友 朋友不能牵手",
+        "pinyin": "yǐ hòu bié zuò péng yǒu péng yǒu bù néng qiān shǒu",
+        "english": "Let's not be friends anymore, friends can't hold hands"
+      },
+      {
+        "chinese": "想爱你的冲动 我只能笑着带过",
+        "pinyin": "xiǎng ài nǐ de chōng dòng wǒ zhǐ néng xiào zhe dài guò",
+        "english": "The urge to love you, I can only laugh it off"
+      },
+      {
+        "chinese": "最好的朋友 有些梦 不能说出口",
+        "pinyin": "zuì hǎo de péng yǒu yǒu xiē mèng bù néng shuō chū kǒu",
+        "english": "Best friends, some dreams can't be spoken aloud"
+      },
+      {
+        "chinese": "就不用承担 会失去你的心痛",
+        "pinyin": "jiù bù yòng chéng dān huì shī qù nǐ de xīn tòng",
+        "english": "Then I won't have to bear the heartache of losing you"
+      },
+      {
+        "chinese": "划一个安全的天空界线",
+        "pinyin": "huà yī gè ān quán de tiān kōng jiè xiàn",
+        "english": "Drawing a safe boundary in the sky"
+      },
+      {
+        "chinese": "谁都不准为我们掉眼泪",
+        "pinyin": "shéi dōu bù zhǔn wèi wǒ men diào yǎn lèi",
+        "english": "No one is allowed to shed tears for us"
+      },
+      {
+        "chinese": "放弃好好爱一个人的机会",
+        "pinyin": "fàng qì hǎo hǎo ài yī gè rén de jī huì",
+        "english": "Giving up the chance to truly love someone"
+      },
+      {
+        "chinese": "要看着你幸福到永远",
+        "pinyin": "yào kàn zhe nǐ xìng fú dào yǒng yuǎn",
+        "english": "To watch you be happy forever"
+      },
+      {
+        "chinese": "以後别做朋友 朋友不能牵手",
+        "pinyin": "yǐ hòu bié zuò péng yǒu péng yǒu bù néng qiān shǒu",
+        "english": "Let's not be friends anymore, friends can't hold hands"
+      },
+      {
+        "chinese": "想爱你的冲动 我只能笑着带过",
+        "pinyin": "xiǎng ài nǐ de chōng dòng wǒ zhǐ néng xiào zhe dài guò",
+        "english": "The urge to love you, I can only laugh it off"
+      },
+      {
+        "chinese": "最好的朋友 有些梦 不能说出口",
+        "pinyin": "zuì hǎo de péng yǒu yǒu xiē mèng bù néng shuō chū kǒu",
+        "english": "Best friends, some dreams can't be spoken aloud"
+      },
+      {
+        "chinese": "就不用承担 会失去你的心痛",
+        "pinyin": "jiù bù yòng chéng dān huì shī qù nǐ de xīn tòng",
+        "english": "Then I won't have to bear the heartache of losing you"
+      },
+      {
+        "chinese": "忍住失控 太折磨 我自作自受",
+        "pinyin": "rěn zhù shī kòng tài zhé mó wǒ zì zuò zì shòu",
+        "english": "Holding back from losing control, it's torture, I brought this on myself"
+      },
+      {
+        "chinese": "回忆都是我 好不了的伤口",
+        "pinyin": "huí yì dōu shì wǒ hǎo bù liǎo de shāng kǒu",
+        "english": "Memories are all wounds of mine that won't heal"
+      },
+      {
+        "chinese": "以後还是朋友 还是你最懂我",
+        "pinyin": "yǐ hòu hái shì péng yǒu hái shì nǐ zuì dǒng wǒ",
+        "english": "We'll still be friends, you still understand me best"
+      },
+      {
+        "chinese": "我们有始有终 就走到世界尽头",
+        "pinyin": "wǒ men yǒu shǐ yǒu zhōng jiù zǒu dào shì jiè jìn tóu",
+        "english": "We'll see it through to the end, walk to the edge of the world"
+      },
+      {
+        "chinese": "永远的朋友 祝福我 遇见爱以後",
+        "pinyin": "yǒng yuǎn de péng yǒu zhù fú wǒ yù jiàn ài yǐ hòu",
+        "english": "Forever friends, wish me well when I find love"
+      },
+      {
+        "chinese": "不会再懦弱 紧紧握住那双手",
+        "pinyin": "bù huì zài nuò ruò jǐn jǐn wò zhù nà shuāng shǒu",
+        "english": "I won't be cowardly again, I'll hold tight to those hands"
+      }
+    ]
   },
   {
     "id": "0gTGHajEhKQ",
@@ -4735,25 +5334,772 @@
   {
     "id": "f8IqVtY_4jo",
     "title": "光年之外 (電影 《Passengers》 中文主題曲)",
-    "artist": "GEM鄧紫棋",
-    "hasLyrics": false
+    "artist": "G.E.M. 鄧紫棋",
+    "hasLyrics": true,
+    "lyricsSource": "manual",
+    "lyrics": [
+      {
+        "chinese": "感受停在我髮端的指尖",
+        "pinyin": "gǎn shòu tíng zài wǒ fà duān de zhǐ jiān",
+        "english": "Feeling the fingertips resting on the ends of my hair"
+      },
+      {
+        "chinese": "如何瞬間 凍結時間",
+        "pinyin": "rú hé shùn jiān dòng jié shí jiān",
+        "english": "How in an instant, time freezes"
+      },
+      {
+        "chinese": "記住望著我堅定的雙眼",
+        "pinyin": "jì zhù wàng zhe wǒ jiān dìng de shuāng yǎn",
+        "english": "Remember the determined eyes gazing at me"
+      },
+      {
+        "chinese": "也許已經 沒有明天",
+        "pinyin": "yě xǔ yǐ jīng méi yǒu míng tiān",
+        "english": "Perhaps there's already no tomorrow"
+      },
+      {
+        "chinese": "面對浩瀚的星海",
+        "pinyin": "miàn duì hào hàn de xīng hǎi",
+        "english": "Facing the vast sea of stars"
+      },
+      {
+        "chinese": "我們微小得像塵埃",
+        "pinyin": "wǒ men wēi xiǎo de xiàng chén āi",
+        "english": "We are as small as specks of dust"
+      },
+      {
+        "chinese": "漂浮在 一片無奈",
+        "pinyin": "piāo fú zài yī piàn wú nài",
+        "english": "Drifting in a sea of helplessness"
+      },
+      {
+        "chinese": "緣份讓我們相遇亂世以外",
+        "pinyin": "yuán fèn ràng wǒ men xiāng yù luàn shì yǐ wài",
+        "english": "Fate let us meet beyond the chaos"
+      },
+      {
+        "chinese": "命運卻要我們危難中相愛",
+        "pinyin": "mìng yùn què yào wǒ men wēi nàn zhōng xiāng ài",
+        "english": "Yet destiny has us fall in love amid danger"
+      },
+      {
+        "chinese": "也許未來遙遠在光年之外",
+        "pinyin": "yě xǔ wèi lái yáo yuǎn zài guāng nián zhī wài",
+        "english": "Perhaps the future is distant, light years away"
+      },
+      {
+        "chinese": "我願守候未知裡為你等待",
+        "pinyin": "wǒ yuàn shǒu hòu wèi zhī lǐ wèi nǐ děng dài",
+        "english": "I'm willing to wait for you in the unknown"
+      },
+      {
+        "chinese": "我沒想到為了你 我能瘋狂到",
+        "pinyin": "wǒ méi xiǎng dào wèi le nǐ wǒ néng fēng kuáng dào",
+        "english": "I never thought that for you, I could go so crazy"
+      },
+      {
+        "chinese": "山崩海嘯",
+        "pinyin": "shān bēng hǎi xiào",
+        "english": "Mountains collapse and tsunamis rise"
+      },
+      {
+        "chinese": "沒有你 根本不想逃",
+        "pinyin": "méi yǒu nǐ gēn běn bù xiǎng táo",
+        "english": "Without you, I don't even want to escape"
+      },
+      {
+        "chinese": "我的大腦",
+        "pinyin": "wǒ de dà nǎo",
+        "english": "My mind"
+      },
+      {
+        "chinese": "為了你 已經瘋狂到",
+        "pinyin": "wèi le nǐ yǐ jīng fēng kuáng dào",
+        "english": "Has already gone so crazy for you"
+      },
+      {
+        "chinese": "脈搏心跳",
+        "pinyin": "mài bó xīn tiào",
+        "english": "Pulse and heartbeat"
+      },
+      {
+        "chinese": "沒有你根本不重要",
+        "pinyin": "méi yǒu nǐ gēn běn bù zhòng yào",
+        "english": "Without you, they don't matter at all"
+      },
+      {
+        "chinese": "一雙圍在我胸口的臂彎",
+        "pinyin": "yī shuāng wéi zài wǒ xiōng kǒu de bì wān",
+        "english": "A pair of arms wrapped around my chest"
+      },
+      {
+        "chinese": "足夠抵擋 天旋地轉",
+        "pinyin": "zú gòu dǐ dǎng tiān xuán dì zhuǎn",
+        "english": "Enough to withstand the world spinning"
+      },
+      {
+        "chinese": "一種執迷不放手的倔強",
+        "pinyin": "yī zhǒng zhí mí bù fàng shǒu de jué jiàng",
+        "english": "A kind of stubborn obsession that won't let go"
+      },
+      {
+        "chinese": "足以點燃 所有希望",
+        "pinyin": "zú yǐ diǎn rán suǒ yǒu xī wàng",
+        "english": "Enough to ignite all hope"
+      },
+      {
+        "chinese": "宇宙磅礡而冷漠",
+        "pinyin": "yǔ zhòu páng bó ér lěng mò",
+        "english": "The universe is vast and indifferent"
+      },
+      {
+        "chinese": "我們的愛微小卻閃爍",
+        "pinyin": "wǒ men de ài wēi xiǎo què shǎn shuò",
+        "english": "Our love is small yet shimmering"
+      },
+      {
+        "chinese": "顛簸 卻如此忘我",
+        "pinyin": "diān bǒ què rú cǐ wàng wǒ",
+        "english": "Turbulent, yet so self-forgetting"
+      },
+      {
+        "chinese": "緣份讓我們相遇亂世以外",
+        "pinyin": "yuán fèn ràng wǒ men xiāng yù luàn shì yǐ wài",
+        "english": "Fate let us meet beyond the chaos"
+      },
+      {
+        "chinese": "命運卻要我們危難中相愛",
+        "pinyin": "mìng yùn què yào wǒ men wēi nàn zhōng xiāng ài",
+        "english": "Yet destiny has us fall in love amid danger"
+      },
+      {
+        "chinese": "也許未來遙遠在光年之外",
+        "pinyin": "yě xǔ wèi lái yáo yuǎn zài guāng nián zhī wài",
+        "english": "Perhaps the future is distant, light years away"
+      },
+      {
+        "chinese": "我願守候未知裡為你等待",
+        "pinyin": "wǒ yuàn shǒu hòu wèi zhī lǐ wèi nǐ děng dài",
+        "english": "I'm willing to wait for you in the unknown"
+      },
+      {
+        "chinese": "我沒想到",
+        "pinyin": "wǒ méi xiǎng dào",
+        "english": "I never thought"
+      },
+      {
+        "chinese": "為了你 我能瘋狂到",
+        "pinyin": "wèi le nǐ wǒ néng fēng kuáng dào",
+        "english": "That for you, I could go so crazy"
+      },
+      {
+        "chinese": "山崩海嘯",
+        "pinyin": "shān bēng hǎi xiào",
+        "english": "Mountains collapse and tsunamis rise"
+      },
+      {
+        "chinese": "沒有你 根本不想逃",
+        "pinyin": "méi yǒu nǐ gēn běn bù xiǎng táo",
+        "english": "Without you, I don't even want to escape"
+      },
+      {
+        "chinese": "我的大腦",
+        "pinyin": "wǒ de dà nǎo",
+        "english": "My mind"
+      },
+      {
+        "chinese": "為了你 已經瘋狂到",
+        "pinyin": "wèi le nǐ yǐ jīng fēng kuáng dào",
+        "english": "Has already gone so crazy for you"
+      },
+      {
+        "chinese": "脈搏心跳",
+        "pinyin": "mài bó xīn tiào",
+        "english": "Pulse and heartbeat"
+      },
+      {
+        "chinese": "沒有你 根本不重要",
+        "pinyin": "méi yǒu nǐ gēn běn bù zhòng yào",
+        "english": "Without you, they don't matter at all"
+      },
+      {
+        "chinese": "也許航道以外",
+        "pinyin": "yě xǔ háng dào yǐ wài",
+        "english": "Perhaps beyond the flight path"
+      },
+      {
+        "chinese": "是醒不來的夢",
+        "pinyin": "shì xǐng bù lái de mèng",
+        "english": "Is a dream we can't wake from"
+      },
+      {
+        "chinese": "亂世以外 是純粹的相擁",
+        "pinyin": "luàn shì yǐ wài shì chún cuì de xiāng yōng",
+        "english": "Beyond the chaos is a pure embrace"
+      },
+      {
+        "chinese": "我沒想到",
+        "pinyin": "wǒ méi xiǎng dào",
+        "english": "I never thought"
+      },
+      {
+        "chinese": "為了你 我能瘋狂到",
+        "pinyin": "wèi le nǐ wǒ néng fēng kuáng dào",
+        "english": "That for you, I could go so crazy"
+      },
+      {
+        "chinese": "山崩海嘯",
+        "pinyin": "shān bēng hǎi xiào",
+        "english": "Mountains collapse and tsunamis rise"
+      },
+      {
+        "chinese": "沒有你 根本不想逃",
+        "pinyin": "méi yǒu nǐ gēn běn bù xiǎng táo",
+        "english": "Without you, I don't even want to escape"
+      },
+      {
+        "chinese": "我的大腦",
+        "pinyin": "wǒ de dà nǎo",
+        "english": "My mind"
+      },
+      {
+        "chinese": "為了你 已經瘋狂到",
+        "pinyin": "wèi le nǐ yǐ jīng fēng kuáng dào",
+        "english": "Has already gone so crazy for you"
+      },
+      {
+        "chinese": "脈搏心跳",
+        "pinyin": "mài bó xīn tiào",
+        "english": "Pulse and heartbeat"
+      },
+      {
+        "chinese": "沒有你 根本不重要",
+        "pinyin": "méi yǒu nǐ gēn běn bù zhòng yào",
+        "english": "Without you, they don't matter at all"
+      },
+      {
+        "chinese": "相遇亂世以外危難中相愛",
+        "pinyin": "xiāng yù luàn shì yǐ wài wēi nàn zhōng xiāng ài",
+        "english": "Meeting beyond chaos, falling in love amid danger"
+      },
+      {
+        "chinese": "相遇亂世以外危難中相愛",
+        "pinyin": "xiāng yù luàn shì yǐ wài wēi nàn zhōng xiāng ài",
+        "english": "Meeting beyond chaos, falling in love amid danger"
+      },
+      {
+        "chinese": "我沒想到",
+        "pinyin": "wǒ méi xiǎng dào",
+        "english": "I never thought"
+      }
+    ]
   },
   {
     "id": "tt-xRHsNh6s",
     "title": "於是",
-    "artist": "GEM鄧紫棋",
-    "hasLyrics": false
+    "artist": "G.E.M. 鄧紫棋",
+    "hasLyrics": true,
+    "lyricsSource": "manual",
+    "lyrics": [
+      {
+        "chinese": "於是茶就這樣冷了",
+        "pinyin": "yú shì chá jiù zhè yàng lěng le",
+        "english": "And so the tea grew cold like this"
+      },
+      {
+        "chinese": "於是天就這樣亮了",
+        "pinyin": "yú shì tiān jiù zhè yàng liàng le",
+        "english": "And so the sky grew bright like this"
+      },
+      {
+        "chinese": "於是你就這樣離開了",
+        "pinyin": "yú shì nǐ jiù zhè yàng lí kāi le",
+        "english": "And so you left just like this"
+      },
+      {
+        "chinese": "於是我終於醒了",
+        "pinyin": "yú shì wǒ zhōng yú xǐng le",
+        "english": "And so I finally woke up"
+      },
+      {
+        "chinese": "於是你我從此遠了",
+        "pinyin": "yú shì nǐ wǒ cóng cǐ yuǎn le",
+        "english": "And so you and I grew distant from then on"
+      },
+      {
+        "chinese": "於是路從此分岔了",
+        "pinyin": "yú shì lù cóng cǐ fēn chà le",
+        "english": "And so our paths diverged from then on"
+      },
+      {
+        "chinese": "你的臉從此就陌生了",
+        "pinyin": "nǐ de liǎn cóng cǐ jiù mò shēng le",
+        "english": "Your face became unfamiliar from then on"
+      },
+      {
+        "chinese": "雖然我有一點不捨",
+        "pinyin": "suī rán wǒ yǒu yī diǎn bù shě",
+        "english": "Although I'm a little reluctant to let go"
+      },
+      {
+        "chinese": "可是時間不可能停下 不能停下 不會停下",
+        "pinyin": "kě shì shí jiān bù kě néng tíng xià bù néng tíng xià bù huì tíng xià",
+        "english": "But time can't stop, won't stop, will never stop"
+      },
+      {
+        "chinese": "世界一直在變幻著 你也變了 我也變了",
+        "pinyin": "shì jiè yī zhí zài biàn huàn zhe nǐ yě biàn le wǒ yě biàn le",
+        "english": "The world keeps changing, you've changed, I've changed too"
+      },
+      {
+        "chinese": "過去都已經過去了 既然回不去了 我還在煩惱什麼",
+        "pinyin": "guò qù dōu yǐ jīng guò qù le jì rán huí bù qù le wǒ hái zài fán nǎo shén me",
+        "english": "The past is already past, since I can't go back, what am I still worrying about"
+      },
+      {
+        "chinese": "於是告訴自己不要哭 我不要哭 我不能哭",
+        "pinyin": "yú shì gào sù zì jǐ bù yào kū wǒ bù yào kū wǒ bù néng kū",
+        "english": "So I tell myself don't cry, I won't cry, I can't cry"
+      },
+      {
+        "chinese": "往前方的路走一步 再走一步 就會幸福",
+        "pinyin": "wǎng qián fāng de lù zǒu yī bù zài zǒu yī bù jiù huì xìng fú",
+        "english": "Take one step forward on the road, one more step, and there'll be happiness"
+      },
+      {
+        "chinese": "成長要學會獨處 雖然有一點孤獨",
+        "pinyin": "chéng zhǎng yào xué huì dú chǔ suī rán yǒu yī diǎn gū dú",
+        "english": "Growing up means learning to be alone, though it's a bit lonely"
+      },
+      {
+        "chinese": "(Baby you've gone far away)",
+        "pinyin": "(Baby you've gone far away)",
+        "english": "(Baby you've gone far away)"
+      },
+      {
+        "chinese": "Therefore I think I should follow, boy",
+        "pinyin": "Therefore I think I should follow, boy",
+        "english": "Therefore I think I should follow, boy"
+      },
+      {
+        "chinese": "(When you've gone far away)",
+        "pinyin": "(When you've gone far away)",
+        "english": "(When you've gone far away)"
+      },
+      {
+        "chinese": "Therefore maybe I'm about to go, yeah, because",
+        "pinyin": "Therefore maybe I'm about to go, yeah, because",
+        "english": "Therefore maybe I'm about to go, yeah, because"
+      },
+      {
+        "chinese": "(Baby you've gone far away)",
+        "pinyin": "(Baby you've gone far away)",
+        "english": "(Baby you've gone far away)"
+      },
+      {
+        "chinese": "I don't know boy, I don't really know why, why",
+        "pinyin": "I don't know boy, I don't really know why, why",
+        "english": "I don't know boy, I don't really know why, why"
+      },
+      {
+        "chinese": "(that you've gone far away)",
+        "pinyin": "(that you've gone far away)",
+        "english": "(that you've gone far away)"
+      },
+      {
+        "chinese": "Therefore, therefore I'm now so alone",
+        "pinyin": "Therefore, therefore I'm now so alone",
+        "english": "Therefore, therefore I'm now so alone"
+      },
+      {
+        "chinese": "於是花一個人種了",
+        "pinyin": "yú shì huā yī gè rén zhòng le",
+        "english": "And so I plant flowers alone"
+      },
+      {
+        "chinese": "於是夢一個人做了",
+        "pinyin": "yú shì mèng yī gè rén zuò le",
+        "english": "And so I dream alone"
+      },
+      {
+        "chinese": "於是痛一個人扛下了",
+        "pinyin": "yú shì tòng yī gè rén káng xià le",
+        "english": "And so I bear the pain alone"
+      },
+      {
+        "chinese": "快樂一個人笑著",
+        "pinyin": "kuài lè yī gè rén xiào zhe",
+        "english": "Happiness, I laugh alone"
+      },
+      {
+        "chinese": "可是時間不可能停下 不能停下 不會停下",
+        "pinyin": "kě shì shí jiān bù kě néng tíng xià bù néng tíng xià bù huì tíng xià",
+        "english": "But time can't stop, won't stop, will never stop"
+      },
+      {
+        "chinese": "世界一直在變幻著 你也變了 我也變了",
+        "pinyin": "shì jiè yī zhí zài biàn huàn zhe nǐ yě biàn le wǒ yě biàn le",
+        "english": "The world keeps changing, you've changed, I've changed too"
+      },
+      {
+        "chinese": "過去都已經過去了 既然回不去了 我還在煩惱什麼",
+        "pinyin": "guò qù dōu yǐ jīng guò qù le jì rán huí bù qù le wǒ hái zài fán nǎo shén me",
+        "english": "The past is already past, since I can't go back, what am I still worrying about"
+      },
+      {
+        "chinese": "於是告訴自己不要哭 我不要哭 我不能哭",
+        "pinyin": "yú shì gào sù zì jǐ bù yào kū wǒ bù yào kū wǒ bù néng kū",
+        "english": "So I tell myself don't cry, I won't cry, I can't cry"
+      },
+      {
+        "chinese": "往前方的路走一步 再走一步 就會幸福",
+        "pinyin": "wǎng qián fāng de lù zǒu yī bù zài zǒu yī bù jiù huì xìng fú",
+        "english": "Take one step forward on the road, one more step, and there'll be happiness"
+      },
+      {
+        "chinese": "成長要學會獨處 雖然有一點孤獨",
+        "pinyin": "chéng zhǎng yào xué huì dú chǔ suī rán yǒu yī diǎn gū dú",
+        "english": "Growing up means learning to be alone, though it's a bit lonely"
+      },
+      {
+        "chinese": "Baby you've gone, you've gone far away",
+        "pinyin": "Baby you've gone, you've gone far away",
+        "english": "Baby you've gone, you've gone far away"
+      },
+      {
+        "chinese": "Baby you've gone far away",
+        "pinyin": "Baby you've gone far away",
+        "english": "Baby you've gone far away"
+      }
+    ]
   },
   {
     "id": "tfP7lfOo5UY",
     "title": "再見",
-    "artist": "GEM鄧紫棋",
-    "hasLyrics": false
+    "artist": "G.E.M. 鄧紫棋",
+    "hasLyrics": true,
+    "lyricsSource": "manual",
+    "lyrics": [
+      {
+        "chinese": "愛情的起點 都是最美的瞬間",
+        "pinyin": "ài qíng de qǐ diǎn dōu shì zuì měi de shùn jiān",
+        "english": "The beginning of love is always the most beautiful moment"
+      },
+      {
+        "chinese": "什麼鐵達尼的經典 羅密歐跟茱麗葉",
+        "pinyin": "shén me tiě dá ní de jīng diǎn luó mì ōu gēn zhū lì yè",
+        "english": "Like the classic Titanic, Romeo and Juliet"
+      },
+      {
+        "chinese": "那些最煽情的電影情節",
+        "pinyin": "nà xiē zuì shān qíng de diàn yǐng qíng jié",
+        "english": "Those most touching movie plots"
+      },
+      {
+        "chinese": "都說愛能超越生死離別",
+        "pinyin": "dōu shuō ài néng chāo yuè shēng sǐ lí bié",
+        "english": "All say love can transcend life, death, and parting"
+      },
+      {
+        "chinese": "曾經 我們都很堅決 愛了就不改變",
+        "pinyin": "céng jīng wǒ men dōu hěn jiān jué ài le jiù bù gǎi biàn",
+        "english": "Once, we were so resolute, once in love we'd never change"
+      },
+      {
+        "chinese": "不要對我說再見 一句再見",
+        "pinyin": "bù yào duì wǒ shuō zài jiàn yī jù zài jiàn",
+        "english": "Don't say goodbye to me, one goodbye"
+      },
+      {
+        "chinese": "就結束這一切",
+        "pinyin": "jiù jié shù zhè yī qiè",
+        "english": "And it ends everything"
+      },
+      {
+        "chinese": "能否不要說再見 你的再見",
+        "pinyin": "néng fǒu bù yào shuō zài jiàn nǐ de zài jiàn",
+        "english": "Can you not say goodbye, your goodbye"
+      },
+      {
+        "chinese": "說得那麼明確",
+        "pinyin": "shuō de nà me míng què",
+        "english": "Said so clearly"
+      },
+      {
+        "chinese": "怎麼我和你之間 兩個世界",
+        "pinyin": "zěn me wǒ hé nǐ zhī jiān liǎng gè shì jiè",
+        "english": "How is it between you and me, two worlds"
+      },
+      {
+        "chinese": "再也沒有交接",
+        "pinyin": "zài yě méi yǒu jiāo jiē",
+        "english": "No longer intersecting"
+      },
+      {
+        "chinese": "如果告別 能不能再見",
+        "pinyin": "rú guǒ gào bié néng bù néng zài jiàn",
+        "english": "If we say farewell, can we meet again"
+      },
+      {
+        "chinese": "我們的照片 紀錄幸福到永遠",
+        "pinyin": "wǒ men de zhào piàn jì lù xìng fú dào yǒng yuǎn",
+        "english": "Our photos, recording happiness forever"
+      },
+      {
+        "chinese": "只是再幸福的畫面 只定格在一瞬間",
+        "pinyin": "zhǐ shì zài xìng fú de huà miàn zhǐ dìng gé zài yī shùn jiān",
+        "english": "But even the happiest scenes are frozen in just a moment"
+      },
+      {
+        "chinese": "那些慢吞吞悲情的音樂",
+        "pinyin": "nà xiē màn tūn tūn bēi qíng de yīn yuè",
+        "english": "Those slow, sorrowful songs"
+      },
+      {
+        "chinese": "早說過愛過之後就是離別",
+        "pinyin": "zǎo shuō guò ài guò zhī hòu jiù shì lí bié",
+        "english": "Always said that after love comes parting"
+      },
+      {
+        "chinese": "早該相信那些預言 我們也沒有多特別",
+        "pinyin": "zǎo gāi xiāng xìn nà xiē yù yán wǒ men yě méi yǒu duō tè bié",
+        "english": "Should have believed those prophecies, we're not that special"
+      },
+      {
+        "chinese": "不要對我說再見 一句再見",
+        "pinyin": "bù yào duì wǒ shuō zài jiàn yī jù zài jiàn",
+        "english": "Don't say goodbye to me, one goodbye"
+      },
+      {
+        "chinese": "讓愛變得表面",
+        "pinyin": "ràng ài biàn de biǎo miàn",
+        "english": "Makes love become superficial"
+      },
+      {
+        "chinese": "真的不用說再見 就算再見",
+        "pinyin": "zhēn de bù yòng shuō zài jiàn jiù suàn zài jiàn",
+        "english": "Really no need to say goodbye, even if we part"
+      },
+      {
+        "chinese": "結局不能改變",
+        "pinyin": "jié jú bù néng gǎi biàn",
+        "english": "The ending can't be changed"
+      },
+      {
+        "chinese": "就算我和你之間 兩個世界",
+        "pinyin": "jiù suàn wǒ hé nǐ zhī jiān liǎng gè shì jiè",
+        "english": "Even if between you and me, two worlds"
+      },
+      {
+        "chinese": "再也沒有交接",
+        "pinyin": "zài yě méi yǒu jiāo jiē",
+        "english": "No longer intersecting"
+      },
+      {
+        "chinese": "不用抱歉 就真的再見",
+        "pinyin": "bù yòng bào qiàn jiù zhēn de zài jiàn",
+        "english": "No need to apologize, just really goodbye"
+      },
+      {
+        "chinese": "如果有緣 我們會再遇見",
+        "pinyin": "rú guǒ yǒu yuán wǒ men huì zài yù jiàn",
+        "english": "If fate allows, we'll meet again"
+      },
+      {
+        "chinese": "反正地球本來就很圓",
+        "pinyin": "fǎn zhèng dì qiú běn lái jiù hěn yuán",
+        "english": "After all, the Earth is round"
+      },
+      {
+        "chinese": "就算今天 你要走得多遠",
+        "pinyin": "jiù suàn jīn tiān nǐ yào zǒu de duō yuǎn",
+        "english": "Even if today you walk far away"
+      },
+      {
+        "chinese": "反正就是一條地平線",
+        "pinyin": "fǎn zhèng jiù shì yī tiáo dì píng xiàn",
+        "english": "It's just one horizon line anyway"
+      },
+      {
+        "chinese": "反正願望不一定會實現",
+        "pinyin": "fǎn zhèng yuàn wàng bù yī dìng huì shí xiàn",
+        "english": "Wishes don't always come true anyway"
+      },
+      {
+        "chinese": "反正承諾不一定要兌現",
+        "pinyin": "fǎn zhèng chéng nuò bù yī dìng yào duì xiàn",
+        "english": "Promises don't have to be kept anyway"
+      },
+      {
+        "chinese": "反正睡醒是新的一天",
+        "pinyin": "fǎn zhèng shuì xǐng shì xīn de yī tiān",
+        "english": "Waking up is a new day anyway"
+      },
+      {
+        "chinese": "別對我說再見 一句再見",
+        "pinyin": "bié duì wǒ shuō zài jiàn yī jù zài jiàn",
+        "english": "Don't say goodbye to me, one goodbye"
+      },
+      {
+        "chinese": "讓愛變得表面",
+        "pinyin": "ràng ài biàn de biǎo miàn",
+        "english": "Makes love become superficial"
+      },
+      {
+        "chinese": "真的不用說再見 就算再見",
+        "pinyin": "zhēn de bù yòng shuō zài jiàn jiù suàn zài jiàn",
+        "english": "Really no need to say goodbye, even if we part"
+      },
+      {
+        "chinese": "結局不能改變",
+        "pinyin": "jié jú bù néng gǎi biàn",
+        "english": "The ending can't be changed"
+      },
+      {
+        "chinese": "就算我和你之間 兩個世界",
+        "pinyin": "jiù suàn wǒ hé nǐ zhī jiān liǎng gè shì jiè",
+        "english": "Even if between you and me, two worlds"
+      },
+      {
+        "chinese": "再也沒有交接",
+        "pinyin": "zài yě méi yǒu jiāo jiē",
+        "english": "No longer intersecting"
+      },
+      {
+        "chinese": "不用抱歉 就真的再見",
+        "pinyin": "bù yòng bào qiàn jiù zhēn de zài jiàn",
+        "english": "No need to apologize, just really goodbye"
+      },
+      {
+        "chinese": "愛情到終點 我們只能說再見",
+        "pinyin": "ài qíng dào zhōng diǎn wǒ men zhǐ néng shuō zài jiàn",
+        "english": "When love reaches the end, we can only say goodbye"
+      }
+    ]
   },
   {
     "id": "hfAoRcut0f8",
     "title": "My New Swag (feat. Ty. & Nina Wang)",
-    "artist": "파워볼 조명이",
-    "hasLyrics": false
+    "artist": "VAVA",
+    "hasLyrics": true,
+    "lyricsSource": "manual",
+    "lyrics": [
+      {
+        "chinese": "Look at me 從上到下",
+        "pinyin": "Look at me cóng shàng dào xià",
+        "english": "Look at me from top to bottom"
+      },
+      {
+        "chinese": "就哪怕小的細節也要美到爆炸",
+        "pinyin": "jiù nǎ pà xiǎo de xì jié yě yào měi dào bào zhà",
+        "english": "Even the smallest details gotta be explosively beautiful"
+      },
+      {
+        "chinese": "戴上gold chain J's踩在腳下",
+        "pinyin": "dài shàng gold chain J's cǎi zài jiǎo xià",
+        "english": "Put on my gold chain, J's on my feet"
+      },
+      {
+        "chinese": "嫉妒的也只能在網絡上叫罵",
+        "pinyin": "jí dù de yě zhǐ néng zài wǎng luò shàng jiào mà",
+        "english": "The jealous ones can only curse online"
+      },
+      {
+        "chinese": "新一代女王出現",
+        "pinyin": "xīn yī dài nǚ wáng chū xiàn",
+        "english": "A new generation queen has arrived"
+      },
+      {
+        "chinese": "快點都給我讓開",
+        "pinyin": "kuài diǎn dōu gěi wǒ ràng kāi",
+        "english": "Hurry up and make way for me"
+      },
+      {
+        "chinese": "我從來不搭眼看他們設下的障礙",
+        "pinyin": "wǒ cóng lái bù dā yǎn kàn tā men shè xià de zhàng ài",
+        "english": "I never even look at the obstacles they set up"
+      },
+      {
+        "chinese": "衣服換來換去怎麼辦已選擇頭疼",
+        "pinyin": "yī fu huàn lái huàn qù zěn me bàn yǐ xuǎn zé tóu téng",
+        "english": "Changing clothes back and forth, what to do, already got a headache choosing"
+      },
+      {
+        "chinese": "整理好心情再踩下油門",
+        "pinyin": "zhěng lǐ hǎo xīn qíng zài cǎi xià yóu mén",
+        "english": "Get my mood together then step on the gas"
+      },
+      {
+        "chinese": "女王的新衣耀眼的星星",
+        "pinyin": "nǚ wáng de xīn yī yào yǎn de xīng xīng",
+        "english": "The queen's new clothes, dazzling like stars"
+      },
+      {
+        "chinese": "時尚的精英搭配什麼看我的心情",
+        "pinyin": "shí shàng de jīng yīng dā pèi shén me kàn wǒ de xīn qíng",
+        "english": "Fashion elite, what I wear depends on my mood"
+      },
+      {
+        "chinese": "你可以親吻我的戒指",
+        "pinyin": "nǐ kě yǐ qīn wěn wǒ de jiè zhǐ",
+        "english": "You can kiss my ring"
+      },
+      {
+        "chinese": "但不能碰我皇冠",
+        "pinyin": "dàn bù néng pèng wǒ huáng guàn",
+        "english": "But can't touch my crown"
+      },
+      {
+        "chinese": "我一天當中",
+        "pinyin": "wǒ yī tiān dāng zhōng",
+        "english": "In my whole day"
+      },
+      {
+        "chinese": "只有梳妝打扮時才忙亂",
+        "pinyin": "zhǐ yǒu shū zhuāng dǎ bàn shí cái máng luàn",
+        "english": "Only when I'm getting dressed do I get busy"
+      },
+      {
+        "chinese": "穿我的穿我的新衣",
+        "pinyin": "chuān wǒ de chuān wǒ de xīn yī",
+        "english": "Wear my, wear my new swag"
+      },
+      {
+        "chinese": "希望每一天有不同的驚喜",
+        "pinyin": "xī wàng měi yī tiān yǒu bù tóng de jīng xǐ",
+        "english": "Hope every day has different surprises"
+      },
+      {
+        "chinese": "穿我的穿我的新衣",
+        "pinyin": "chuān wǒ de chuān wǒ de xīn yī",
+        "english": "Wear my, wear my new swag"
+      },
+      {
+        "chinese": "從來不敷衍打扮的精心",
+        "pinyin": "cóng lái bù fū yǎn dǎ bàn de jīng xīn",
+        "english": "Never half-ass my careful styling"
+      },
+      {
+        "chinese": "清早起來什麼鏡子照",
+        "pinyin": "qīng zǎo qǐ lái shén me jìng zi zhào",
+        "english": "Early morning, what mirror to look in"
+      },
+      {
+        "chinese": "梳一個油頭什麼花香",
+        "pinyin": "shū yī gè yóu tóu shén me huā xiāng",
+        "english": "Comb a slick hairstyle, what flower fragrance"
+      },
+      {
+        "chinese": "臉上擦的是什麼花粉",
+        "pinyin": "liǎn shàng cā de shì shén me huā fěn",
+        "english": "What flower powder on the face"
+      },
+      {
+        "chinese": "口點的胭脂是什麼花紅",
+        "pinyin": "kǒu diǎn de yān zhī shì shén me huā hóng",
+        "english": "What flower red lipstick on the lips"
+      }
+    ]
   }
 ]
