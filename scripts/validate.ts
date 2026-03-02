@@ -175,7 +175,7 @@ function validateSong(song: Song): Issue[] {
             });
           } else if (gap < MIN_LINE_GAP_S) {
             issues.push({
-              level: 'warn', line: i, check: 'timestamp-duplicate',
+              level: 'error', line: i, check: 'timestamp-duplicate',
               detail: `Near-duplicate: only ${gap.toFixed(2)}s after line ${prevTimestampLine} (${line.timestamp})`,
             });
           } else if (gap > MAX_LINE_GAP_S) {
