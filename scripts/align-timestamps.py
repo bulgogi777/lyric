@@ -42,6 +42,10 @@ LOCAL_LOOKAHEAD = 40
 LOCAL_MIN_SCORE_FRACTION  = 0.5
 GLOBAL_MIN_SCORE_FRACTION = 0.75
 
+# Segment-bounded global search: how many segments ahead to allow
+# Prevents jumping from seg 3 to seg 6 when a repeated phrase appears later
+MAX_SEGMENT_JUMP = 2
+
 # ─── Traditional/Simplified normalization map ──────────────────────────────────
 # Common pairs that appear in lyrics but differ between Whisper output and our data
 # Format: {traditional: simplified}
@@ -116,19 +120,49 @@ def format_timestamp(seconds: float) -> str:
     return f"{minutes:02d}:{secs:05.2f}"
 
 
-def build_char_timeline(word_segments: list[dict]) -> list[tuple[str, float]]:
+def build_char_timeline(
+    word_segments: list[dict],
+    segments: list[dict] | None = None,
+) -> tuple[list[tuple[str, float]], list[int]]:
     """
     Build flat list of (normalized_chinese_char, start_time).
     Skips non-Chinese entries.
+
+    Also builds segment_boundaries: list of char indices where the WhisperX
+    segment changes. Used to bound global search.
+
+    Returns (timeline, segment_boundaries).
     """
+    # Build segment end-time lookup for boundary detection
+    seg_ends: list[float] = []
+    if segments:
+        seg_ends = [s.get("end", 0.0) for s in segments]
+
     timeline: list[tuple[str, float]] = []
-    for seg in word_segments:
-        word  = seg.get("word", "")
-        start = seg.get("start", 0.0)
+    segment_boundaries: list[int] = [0]  # first boundary is always 0
+    current_seg_idx = 0
+
+    for ws in word_segments:
+        word  = ws.get("word", "")
+        start = ws.get("start", 0.0)
+
+        # Advance segment index if this word's start is past the current segment's end
+        if seg_ends:
+            while current_seg_idx < len(seg_ends) - 1 and start >= seg_ends[current_seg_idx]:
+                # Record boundary at current timeline length (next char starts a new segment)
+                if len(timeline) > 0 and (not segment_boundaries or segment_boundaries[-1] != len(timeline)):
+                    segment_boundaries.append(len(timeline))
+                current_seg_idx += 1
+
         for ch in word:
             if is_chinese(ch):
                 timeline.append((normalize_char(ch), start))
-    return timeline
+
+    # Final boundary at end of timeline
+    if len(timeline) > 0 and segment_boundaries[-1] != len(timeline):
+        segment_boundaries.append(len(timeline))
+
+    return timeline, segment_boundaries
 
 
 def score_at(probe: list[str], timeline: list[tuple[str, float]], pos: int) -> int:
@@ -174,9 +208,14 @@ def find_line_timestamp(
     lyric_chinese: str,
     timeline: list[tuple[str, float]],
     search_start: int,
+    segment_boundaries: list[int] | None = None,
 ) -> tuple[Optional[float], int]:
     """
     Find best timestamp for a lyric line, searching from search_start.
+
+    If segment_boundaries is provided, global search is bounded to the next
+    MAX_SEGMENT_JUMP segments from the current position (prevents jumping to
+    a distant repetition of the same phrase).
 
     Returns (timestamp_seconds or None, new_search_start).
     """
@@ -196,10 +235,24 @@ def find_line_timestamp(
 
     accepted_min = local_min  # threshold for accepting the result
 
-    # Phase 2: If local didn't find a good match, do global search from search_start
+    # Phase 2: If local didn't find a good match, do segment-bounded global search
     # Use stricter threshold for global to avoid false positives
     if best_score < local_min:
-        global_end = len(timeline)
+        # Compute global search boundary from segment boundaries
+        if segment_boundaries and len(segment_boundaries) > 1:
+            # Find which segment search_start falls in
+            current_seg = 0
+            for idx, boundary in enumerate(segment_boundaries):
+                if boundary > search_start:
+                    break
+                current_seg = idx
+            # Cap global search to MAX_SEGMENT_JUMP segments ahead
+            target_seg = min(current_seg + MAX_SEGMENT_JUMP + 1, len(segment_boundaries) - 1)
+            global_end = segment_boundaries[target_seg]
+        else:
+            # No segment info: fall back to full timeline (legacy behavior)
+            global_end = len(timeline)
+
         global_pos, global_score = find_best_match(probe, timeline, search_start, global_end)
         if global_score > best_score:
             best_pos   = global_pos
@@ -235,8 +288,11 @@ def align_song(song: dict) -> dict:
         print(f"  [SKIP] No word_segments in {json_path}")
         return {"song_id": song_id, "title": title, "matched": 0, "unmatched": 0, "skipped": 1}
 
-    timeline = build_char_timeline(word_segments)
+    segments = whisper_data.get("segments", [])
+    timeline, segment_boundaries = build_char_timeline(word_segments, segments)
     print(f"  Timeline chars: {len(timeline)}, time range: {timeline[0][1]:.2f}s – {timeline[-1][1]:.2f}s")
+    if segments:
+        print(f"  WhisperX segments: {len(segments)}, boundary positions: {len(segment_boundaries)}")
 
     lyrics   = song.get("lyrics", [])
     matched  = 0
@@ -258,7 +314,7 @@ def align_song(song: dict) -> dict:
             matched += 1
             continue
 
-        ts_secs, search_pos = find_line_timestamp(chinese, timeline, search_pos)
+        ts_secs, search_pos = find_line_timestamp(chinese, timeline, search_pos, segment_boundaries)
 
         if ts_secs is not None:
             line["timestamp"] = format_timestamp(ts_secs)

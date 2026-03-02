@@ -17,6 +17,7 @@ const DATA_PATH = join(ROOT, 'data/songs.json');
 // Thresholds
 const MIN_LINE_GAP_S = 1.0;       // Lines closer than this = near-duplicate
 const MAX_LINE_GAP_S = 20.0;      // Lines further apart than this = suspicious gap
+const SKIP_THRESHOLD_S = 30.0;    // Gap without separator above this = definite alignment bug
 const MAX_SONG_DURATION_S = 600;   // 10 min max sanity check
 
 interface Segment { hanzi: string; pinyin: string; }
@@ -88,17 +89,22 @@ function validateSong(song: Song): Issue[] {
 
   const lyrics = song.lyrics;
   const maxDuration = song.duration || MAX_SONG_DURATION_S;
+  const isLrclib = song.lyricsSource === 'lrclib';
 
   // Track timestamp state
   let prevTimestamp: number | null = null;
   let prevTimestampLine: number | null = null;
+  let hasEmptySeparator = false; // true if an empty line occurred since last timestamped content line
 
   for (let i = 0; i < lyrics.length; i++) {
     const line = lyrics[i];
     const chinese = line.chinese?.trim() || '';
 
-    // Skip empty/separator lines
-    if (!chinese) continue;
+    // Track empty separator lines between content lines
+    if (!chinese) {
+      hasEmptySeparator = true;
+      continue;
+    }
 
     // --- Missing fields ---
     if (!line.english || line.english === '[translation unavailable]') {
@@ -179,15 +185,37 @@ function validateSong(song: Song): Issue[] {
               detail: `Near-duplicate: only ${gap.toFixed(2)}s after line ${prevTimestampLine} (${line.timestamp})`,
             });
           } else if (gap > MAX_LINE_GAP_S) {
-            issues.push({
-              level: 'warn', line: i, check: 'timestamp-gap',
-              detail: `Large gap: ${gap.toFixed(1)}s since line ${prevTimestampLine} (${lyrics[prevTimestampLine!]?.timestamp} → ${line.timestamp})`,
-            });
+            if (hasEmptySeparator) {
+              // Gap with empty separator = likely instrumental break
+              issues.push({
+                level: 'warn', line: i, check: 'timestamp-gap',
+                detail: `Large gap: ${gap.toFixed(1)}s since line ${prevTimestampLine} (${lyrics[prevTimestampLine!]?.timestamp} → ${line.timestamp}) [has separator]`,
+              });
+            } else if (isLrclib) {
+              // LRCLIB songs don't have separator lines — trust their timestamps
+              issues.push({
+                level: 'warn', line: i, check: 'timestamp-gap',
+                detail: `Large gap: ${gap.toFixed(1)}s since line ${prevTimestampLine} (${lyrics[prevTimestampLine!]?.timestamp} → ${line.timestamp}) [lrclib]`,
+              });
+            } else if (gap > SKIP_THRESHOLD_S) {
+              // Gap >30s without separator in our aligned data = alignment skip bug
+              issues.push({
+                level: 'error', line: i, check: 'timestamp-skip',
+                detail: `Likely alignment skip: ${gap.toFixed(1)}s gap without separator since line ${prevTimestampLine} (${lyrics[prevTimestampLine!]?.timestamp} → ${line.timestamp})`,
+              });
+            } else {
+              // Gap 20-30s without separator = suspicious
+              issues.push({
+                level: 'warn', line: i, check: 'timestamp-gap-nosep',
+                detail: `Suspicious gap: ${gap.toFixed(1)}s without separator since line ${prevTimestampLine} (${lyrics[prevTimestampLine!]?.timestamp} → ${line.timestamp})`,
+              });
+            }
           }
         }
 
         prevTimestamp = ts;
         prevTimestampLine = i;
+        hasEmptySeparator = false; // Reset after processing a timestamped content line
       }
     }
   }

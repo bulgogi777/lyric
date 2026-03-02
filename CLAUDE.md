@@ -220,6 +220,7 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
    - Builds a character-level timeline from WhisperX word_segments
    - Fuzzy-matches each lyric line's first N characters against the timeline
    - Handles traditional/simplified character normalization
+   - **Segment-bounded global search**: when local matching fails, global search is capped to the next 2 WhisperX segments (prevents jumping to a distant repetition of the same phrase — the chorus-skip bug)
    - Assigns timestamps in `MM:SS.ss` format to `data/songs.json`
 
    **Edit `TARGET_IDS` in the script** to select which songs to process.
@@ -305,6 +306,7 @@ bun run validate --summary    # Summary only (no per-line details)
 - **Timestamp anomalies**:
   - Near-duplicates (< 1s gap between consecutive lines)
   - Large gaps (> 20s between consecutive lines)
+  - **Alignment skip detection**: gaps >30s without an empty separator line in non-LRCLIB songs = error (`timestamp-skip`). Gaps 20-30s without separator = warning (`timestamp-gap-nosep`). LRCLIB songs and gaps with separators stay as warnings.
   - Out-of-order timestamps
   - Exceeds song duration
 - **LLM noise**: patterns like "I will check", "directory", backtick code refs
@@ -316,8 +318,11 @@ bun run validate --summary    # Summary only (no per-line details)
 
 **Expected warnings (not bugs):**
 - Bilingual songs (E.SO, Joyce Chu) will flag non-Chinese lines — these are correct
-- Large timestamp gaps often indicate instrumental breaks — verify against the actual song
+- Large timestamp gaps with separators or in LRCLIB songs = instrumental breaks (warnings)
+- `timestamp-gap-nosep` (20-30s) may be legitimate — verify against audio
 - Near-duplicate timestamps can be valid for fast-delivery sections
+
+**Separator convention:** Use empty lines (`chinese: ""`) between song sections to mark instrumental breaks. The validator uses these to distinguish legitimate gaps from alignment bugs.
 
 ### 7. Fixing Translation Issues
 
