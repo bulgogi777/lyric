@@ -170,6 +170,7 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
 
 **Prerequisites:**
 - WhisperX ASR service on Tower (`http://tower:9000/asr`, engine=whisperx, large-v3, GPU)
+- Demucs vocal separator on Tower (`http://tower:7861/api/separate`, `paladini/voice-separator`, GPU)
 - yt-dlp on Tower (`/root/.local/bin/yt-dlp`)
 
 **Process:**
@@ -179,10 +180,30 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
    ssh tower "/root/.local/bin/yt-dlp -x -o '/tmp/VIDEOID.%(ext)s' 'https://youtube.com/watch?v=VIDEOID'"
    ```
 
-2. **Transcribe with WhisperX** (Chinese, JSON output for word-level timestamps):
+2. **Convert to WAV** (required for Demucs — only accepts mp3/wav/flac/aac/m4a):
+   ```bash
+   ssh tower "docker run --rm -v /tmp:/tmp jrottenberg/ffmpeg \
+     -i /tmp/VIDEOID.webm -vn -acodec pcm_s16le -ar 44100 -ac 2 /tmp/VIDEOID.wav"
+   ```
+
+3. **Separate vocals with Demucs** (removes instrumentals for much better transcription):
+   ```bash
+   # Start Demucs if not running
+   ssh tower "docker start demucs 2>/dev/null || docker run -d --gpus all -p 7861:7860 \
+     -v /mnt/user/appdata/demucs/output:/app/static/output \
+     -v /mnt/user/appdata/demucs/models:/root/.cache/torch \
+     --name demucs paladini/voice-separator"
+
+   # Separate vocals (returns URL to vocals file)
+   ssh tower "curl -s -X POST 'http://localhost:7861/api/separate' \
+     -F 'file=@/tmp/VIDEOID.wav' -F 'stems=vocals' -F 'model=mdx_extra_q'"
+   # Returns: {"files":{"vocals":{"url":"/static/output/vocals_HASH.mp3"}}}
+   ```
+
+4. **Transcribe with WhisperX** (use vocals file from Demucs, not raw audio):
    ```bash
    ssh tower "curl -s -X POST 'http://localhost:9000/asr?language=zh&output=json' \
-     -F 'audio_file=@/tmp/VIDEOID.webm'" > scripts/srt-timestamps/VIDEOID.json
+     -F 'audio_file=@/mnt/user/appdata/demucs/output/vocals_HASH.mp3'" > scripts/srt-timestamps/VIDEOID.json
    ```
 
    The JSON output includes `word_segments` with per-word start/end times:
@@ -190,7 +211,7 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
    {"word_segments": [{"word": "愛情", "start": 13.5, "end": 14.1}, ...]}
    ```
 
-3. **Automated alignment** via `align-timestamps.py`:
+5. **Automated alignment** via `align-timestamps.py`:
    ```bash
    python3 scripts/align-timestamps.py
    ```
@@ -203,30 +224,50 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
 
    **Edit `TARGET_IDS` in the script** to select which songs to process.
 
-4. **Review alignment quality** — Match rates vary by song type:
-   - Clean worship/ballads: ~85-90% match rate
-   - Fast rap/complex vocals: ~20-50% (needs manual timestamp review)
+6. **Review alignment quality** — Match rates vary by song type:
+   - **With Demucs:** 65-90% match rate (up from 20-50% without)
+   - Clean worship/ballads: ~85-90%
+   - Fast rap/complex vocals: ~50-65% (needs manual interpolation for chorus repeats)
    - Unmatched lines print `NO_MATCH` in output for manual attention
 
-5. **Clean up Tower:**
+7. **Manual interpolation for remaining gaps** (see "Fixing Chorus Repeats" below)
+
+8. **Clean up Tower:**
    ```bash
-   ssh tower "rm /tmp/VIDEOID.webm"
+   ssh tower "rm /tmp/VIDEOID.wav /tmp/VIDEOID.webm"
    ```
 
 **Batch processing (multiple songs):**
 ```bash
-# Download all
+# 1. Download all
 ssh tower 'for id in ID1 ID2 ID3; do
   /root/.local/bin/yt-dlp -x -o "/tmp/lyrics/${id}.%(ext)s" "https://youtube.com/watch?v=${id}"
 done'
 
-# Transcribe all (JSON output)
+# 2. Convert all to WAV
 ssh tower 'for f in /tmp/lyrics/*.webm; do
   id=$(basename "$f" .webm)
-  curl -s -X POST "http://localhost:9000/asr?language=zh&output=json" -F "audio_file=@${f}" > "/tmp/lyrics/${id}.json"
+  docker run --rm -v /tmp/lyrics:/tmp/lyrics jrottenberg/ffmpeg \
+    -i "/tmp/lyrics/${id}.webm" -vn -acodec pcm_s16le -ar 44100 -ac 2 "/tmp/lyrics/${id}.wav"
 done'
 
-# Copy locally and clean up
+# 3. Separate vocals with Demucs (start container first)
+ssh tower "docker start demucs"
+ssh tower 'for f in /tmp/lyrics/*.wav; do
+  id=$(basename "$f" .wav)
+  echo "Processing $id..."
+  curl -s -X POST "http://localhost:7861/api/separate" \
+    -F "file=@${f}" -F "stems=vocals" -F "model=mdx_extra_q" > "/tmp/lyrics/${id}_demucs.json"
+done'
+
+# 4. Transcribe vocals with WhisperX
+# Note: Extract vocals filenames from Demucs JSON output, then feed to WhisperX
+ssh tower 'for f in /mnt/user/appdata/demucs/output/vocals_*.mp3; do
+  curl -s -X POST "http://localhost:9000/asr?language=zh&output=json" \
+    -F "audio_file=@${f}" > "/tmp/lyrics/$(basename "$f" .mp3).json"
+done'
+
+# 5. Copy locally and clean up
 scp tower:/tmp/lyrics/*.json scripts/srt-timestamps/
 ssh tower "rm -rf /tmp/lyrics"
 ```
@@ -235,22 +276,17 @@ ssh tower "rm -rf /tmp/lyrics"
 
 **Why JSON over SRT:** Word-level timestamps enable character-by-character alignment via `align-timestamps.py`. SRT only gives sentence-level timing and requires manual matching.
 
-**When WhisperX coverage is partial (common for pop songs):**
+**Fixing chorus repeats (the main gap after Demucs + alignment):**
 
-WhisperX often captures only 50-60% of characters in songs with instrumental breaks or processed vocals. Use **anchor + interpolation**:
+Even with Demucs, `align-timestamps.py` processes lyrics sequentially (forward-only). For songs with repeated choruses, the first occurrence consumes the timeline chars, leaving later repeats unmatched. Fix with:
 
-1. Run WhisperX and `align-timestamps.py` to get anchor timestamps
-2. Identify the song structure (verse/chorus/bridge sections from the lyrics)
-3. Use verse 1 timing pattern (usually well-captured) as a template
-4. Apply the pattern offsets to each repeated section, starting at the anchor point
+1. Run the full pipeline (Demucs → WhisperX → `align-timestamps.py`) to get anchor timestamps
+2. Look at the WhisperX **segment-level** timestamps (not word-level) — these are reliable anchors for song structure
+3. For unmatched chorus repeats, find the corresponding segment start time and interpolate line positions by character count proportion within the segment
+4. For individual missing lines in rap sections, interpolate between surrounding timestamped lines
 5. Run `bun run validate SONG_ID` to catch near-duplicates, large gaps, or ordering issues
 
-**Audio conversion (required — yt-dlp on Tower lacks ffmpeg):**
-```bash
-# Use Docker ffmpeg to convert webm → WAV (16kHz mono, optimal for Whisper)
-ssh tower "docker run --rm -v /tmp:/tmp jrottenberg/ffmpeg \
-  -i /tmp/VIDEOID.webm -vn -acodec pcm_s16le -ar 16000 -ac 1 /tmp/VIDEOID.wav"
-```
+**Why segment-level, not word-level:** WhisperX word alignment compresses sung content into sub-second intervals (e.g., 10 chars in 0.2s). This is a fundamental limitation for singing. Segment boundaries (sentence-level) are accurate; use them as anchors and interpolate within.
 
 ### 6. Quality Validation (Before Commit)
 
@@ -430,6 +466,8 @@ grep -n "\[translation unavailable\]" data/songs.json   # Missing translations
 | LRCLIB | Synced lyrics | None |
 | YouTube IFrame | Video playback | None |
 | Gemini CLI | Translation | ~/.gemini (local) |
+| Demucs (Tower) | Vocal separation | None (local Docker) |
+| WhisperX (Tower) | Speech-to-text with timestamps | None (local Docker) |
 
 ## Known Constraints
 
@@ -442,10 +480,28 @@ Scripts that spawn `claude -p` (like `add-segments-sonnet.ts`) cannot run inside
 LRCLIB has ~60% hit rate for Chinese songs. Of those found, not all have synced (timestamped) lyrics. Always check, but expect to need manual lyrics + WhisperX timestamps for many songs.
 
 ### WhisperX Alignment Quality
-Timestamp alignment varies dramatically by song type:
-- Clean vocals, ballads, worship: 85-90%
-- Fast delivery, rap: 20-50%
-- Songs with non-Chinese sections: Alignment breaks on those sections
+Timestamp alignment varies dramatically by song type. **Always use Demucs first** — it dramatically improves results.
+
+**With Demucs vocal separation (recommended):**
+- Clean vocals, ballads, worship: 85-95%
+- Fast delivery, rap: 50-65% (chorus repeats need manual interpolation)
+- Example: 聽媽媽的話 went from 35% → 65% auto-aligned, then 100% with interpolation
+
+**Without Demucs (raw audio):**
+- Clean vocals: 50-60%
+- Rap/complex: 20-35%
+- Example: 聽媽媽的話 was only 19% before Demucs
+
+**WhisperX word-level timestamps are unreliable for singing.** The model compresses sung content into sub-second intervals (10 chars in 0.2s). Always use segment-level boundaries as anchors and interpolate line positions within segments.
+
+### Demucs on Tower
+Docker image: `paladini/voice-separator` with `--gpus all` (RTX 3090, 24GB VRAM)
+- **Port:** 7861 (API docs at `http://tower:7861/docs`)
+- **Model:** `mdx_extra_q` (default, works well). `htdemucs` has a shape error in the wrapper code — use default.
+- **Input formats:** mp3, wav, flac, aac, m4a (NOT webm — convert first)
+- **Container lifecycle:** Not persistent. Start with `docker start demucs` or full `docker run` command.
+- **Performance:** ~22 seconds per song on GPU
+- **Impact:** Character recognition jumps 2-3x (e.g., 224 → 632 chars for 聽媽媽的話)
 
 ### Script Session Spawning
 Several scripts spawn dozens of headless CLI sessions via `Bun.spawn()` loops:
@@ -460,11 +516,17 @@ Several scripts spawn dozens of headless CLI sessions via `Bun.spawn()` loops:
 The end-to-end pipeline for adding a new song:
 
 ```
-1. SYNC      → bun run sync (discovers new songs from YouTube Music playlist)
-2. LYRICS    → LRCLIB (auto) → manual sources if needed → Claude generates pinyin/translation/segments inline
-3. TIMESTAMPS → LRCLIB synced lyrics (best) → WhisperX on Tower + align-timestamps.py (fallback)
-4. VALIDATE  → Check: translations, segments, timestamp coverage, bilingual detection
-5. DEPLOY    → git push → Vercel auto-deploys
+1. SYNC       → bun run sync (discovers new songs from YouTube Music playlist)
+2. LYRICS     → LRCLIB (auto) → manual sources if needed → Claude generates pinyin/translation/segments inline
+3. TIMESTAMPS → LRCLIB synced lyrics (best) → Demucs + WhisperX on Tower + align-timestamps.py (fallback)
+4. INTERPOLATE → Fix chorus repeats and gaps using segment-level anchors
+5. VALIDATE   → bun run validate SONG_ID (translations, segments, timestamp coverage)
+6. DEPLOY     → git push → Vercel auto-deploys
+```
+
+**Timestamp sub-pipeline (step 3-4 detail):**
+```
+yt-dlp audio → ffmpeg webm→wav → Demucs vocal separation → WhisperX transcription → align-timestamps.py → manual interpolation for gaps → validate
 ```
 
 **Key principle:** Prefer inline work in Claude Code sessions over script automation. The scripts were built for batch processing but create problematic session spawning. For 1-5 songs at a time, inline is faster and higher quality.

@@ -41308,7 +41308,7 @@
             "pinyin": ""
           }
         ],
-        "timestamp": "00:09.99"
+        "timestamp": "00:09.87"
       },
       {
         "chinese": "為什麼別人在那看漫畫?",
@@ -41344,7 +41344,7 @@
             "pinyin": ""
           }
         ],
-        "timestamp": "00:14.58"
+        "timestamp": "00:12.73"
       },
       {
         "chinese": "我卻在學畫畫 對著鋼琴說話?",
@@ -41392,7 +41392,7 @@
             "pinyin": ""
           }
         ],
-        "timestamp": "00:16.20"
+        "timestamp": "00:15.18"
       },
       {
         "chinese": "別人在玩遊戲 我卻靠在牆壁背我的 ABC",
@@ -41468,7 +41468,7 @@
             "pinyin": "C"
           }
         ],
-        "timestamp": "00:20.27"
+        "timestamp": "00:18.42"
       },
       {
         "chinese": "我說 \"我要一台大大的飛機\"",
@@ -41520,7 +41520,7 @@
             "pinyin": ""
           }
         ],
-        "timestamp": "00:21.73"
+        "timestamp": "00:21.31"
       },
       {
         "chinese": "但卻得到一台舊舊錄音機",
@@ -41552,7 +41552,7 @@
             "pinyin": "lùyīnjī"
           }
         ],
-        "timestamp": "00:23.72"
+        "timestamp": "00:23.67"
       },
       {
         "chinese": "\"為什麼要聽媽媽的話?\"",
@@ -41596,7 +41596,7 @@
             "pinyin": ""
           }
         ],
-        "timestamp": "00:26.30"
+        "timestamp": "00:26.20"
       },
       {
         "chinese": "長大後 你就會開始懂了這段話",
@@ -41651,7 +41651,8 @@
             "hanzi": "話",
             "pinyin": "huà"
           }
-        ]
+        ],
+        "timestamp": "00:27.94"
       },
       {
         "chinese": "長大後 我開始明白",
@@ -41682,7 +41683,8 @@
             "hanzi": "明白",
             "pinyin": "míngbái"
           }
-        ]
+        ],
+        "timestamp": "00:31.27"
       },
       {
         "chinese": "為什麼我跑得比別人快 飛得比別人高",
@@ -41741,7 +41743,8 @@
             "hanzi": "高",
             "pinyin": "gāo"
           }
-        ]
+        ],
+        "timestamp": "00:33.97"
       },
       {
         "chinese": "將來大家看的都是我畫的漫畫",
@@ -41784,7 +41787,8 @@
             "hanzi": "漫畫",
             "pinyin": "mànhuà"
           }
-        ]
+        ],
+        "timestamp": "00:36.55"
       },
       {
         "chinese": "大家唱的都是我寫的歌",
@@ -41823,7 +41827,8 @@
             "hanzi": "歌",
             "pinyin": "gē"
           }
-        ]
+        ],
+        "timestamp": "00:38.89"
       },
       {
         "chinese": "媽媽的辛苦 不讓你看見",
@@ -41863,7 +41868,7 @@
             "pinyin": "kànjiàn"
           }
         ],
-        "timestamp": "01:38.68"
+        "timestamp": "00:42.00"
       },
       {
         "chinese": "溫暖的食譜在她心裡面",
@@ -41894,7 +41899,8 @@
             "hanzi": "心裡面",
             "pinyin": "xīnlǐmiàn"
           }
-        ]
+        ],
+        "timestamp": "00:46.00"
       },
       {
         "chinese": "有空就多多握握她的手",
@@ -41929,7 +41935,8 @@
             "hanzi": "手",
             "pinyin": "shǒu"
           }
-        ]
+        ],
+        "timestamp": "00:50.00"
       },
       {
         "chinese": "把手牽著一起夢遊",
@@ -41956,7 +41963,8 @@
             "hanzi": "夢遊",
             "pinyin": "mèngyóu"
           }
-        ]
+        ],
+        "timestamp": "00:54.00"
       },
       {
         "chinese": "聽媽媽的話 別讓她受傷",
@@ -42000,7 +42008,7 @@
             "pinyin": "shòushāng"
           }
         ],
-        "timestamp": "01:47.76"
+        "timestamp": "00:57.00"
       },
       {
         "chinese": "想快快長大 才能保護她",
@@ -42035,7 +42043,8 @@
             "hanzi": "她",
             "pinyin": "tā"
           }
-        ]
+        ],
+        "timestamp": "01:02.00"
       },
       {
         "chinese": "美麗的白髮 幸福中發芽",
@@ -42070,7 +42079,8 @@
             "hanzi": "發芽",
             "pinyin": "fāyá"
           }
-        ]
+        ],
+        "timestamp": "01:10.00"
       },
       {
         "chinese": "天使的魔法 溫暖中慈祥",
@@ -42105,193 +42115,548 @@
             "hanzi": "慈祥",
             "pinyin": "cíxiáng"
           }
-        ]
+        ],
+        "timestamp": "01:18.00"
       },
       {
         "chinese": "在你的未來 音樂是你的王牌",
         "pinyin": "zài nǐ de wèi lái   yīn lè shì nǐ de wáng pái",
         "english": "In your future, music will be your trump card",
         "segments": [
-          { "hanzi": "在", "pinyin": "zài" },
-          { "hanzi": "你", "pinyin": "nǐ" },
-          { "hanzi": "的", "pinyin": "de" },
-          { "hanzi": "未來", "pinyin": "wèilái" },
-          { "hanzi": " ", "pinyin": "" },
-          { "hanzi": "音樂", "pinyin": "yīnlè" },
-          { "hanzi": "是", "pinyin": "shì" },
-          { "hanzi": "你", "pinyin": "nǐ" },
-          { "hanzi": "的", "pinyin": "de" },
-          { "hanzi": "王牌", "pinyin": "wángpái" }
-        ]
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "未來",
+            "pinyin": "wèilái"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "音樂",
+            "pinyin": "yīnlè"
+          },
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "王牌",
+            "pinyin": "wángpái"
+          }
+        ],
+        "timestamp": "01:33.19"
       },
       {
         "chinese": "拿王牌談個戀愛 唉! 我不想把你教壞",
         "pinyin": "ná wáng pái tán gè liàn ài   ài !   wǒ bù xiǎng bǎ nǐ jiào huài",
         "english": "Use that trump card to fall in love, sigh, I don't want to teach you bad habits",
         "segments": [
-          { "hanzi": "拿", "pinyin": "ná" },
-          { "hanzi": "王牌", "pinyin": "wángpái" },
-          { "hanzi": "談", "pinyin": "tán" },
-          { "hanzi": "個", "pinyin": "gè" },
-          { "hanzi": "戀愛", "pinyin": "liànài" },
-          { "hanzi": " ", "pinyin": "" },
-          { "hanzi": "唉", "pinyin": "ài" },
-          { "hanzi": "!", "pinyin": "" },
-          { "hanzi": " ", "pinyin": "" },
-          { "hanzi": "我", "pinyin": "wǒ" },
-          { "hanzi": "不想", "pinyin": "bùxiǎng" },
-          { "hanzi": "把", "pinyin": "bǎ" },
-          { "hanzi": "你", "pinyin": "nǐ" },
-          { "hanzi": "教壞", "pinyin": "jiàohuài" }
-        ]
+          {
+            "hanzi": "拿",
+            "pinyin": "ná"
+          },
+          {
+            "hanzi": "王牌",
+            "pinyin": "wángpái"
+          },
+          {
+            "hanzi": "談",
+            "pinyin": "tán"
+          },
+          {
+            "hanzi": "個",
+            "pinyin": "gè"
+          },
+          {
+            "hanzi": "戀愛",
+            "pinyin": "liànài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "唉",
+            "pinyin": "ài"
+          },
+          {
+            "hanzi": "!",
+            "pinyin": ""
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "不想",
+            "pinyin": "bùxiǎng"
+          },
+          {
+            "hanzi": "把",
+            "pinyin": "bǎ"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "教壞",
+            "pinyin": "jiàohuài"
+          }
+        ],
+        "timestamp": "01:35.43"
       },
       {
         "chinese": "還是聽媽媽的話吧 晚點再戀愛吧",
         "pinyin": "huán shì tīng mā mā de huà ba   wǎn diǎn zài liàn ài ba",
         "english": "Just listen to your mother and fall in love later",
         "segments": [
-          { "hanzi": "還是", "pinyin": "huánshì" },
-          { "hanzi": "聽", "pinyin": "tīng" },
-          { "hanzi": "媽媽", "pinyin": "māmā" },
-          { "hanzi": "的", "pinyin": "de" },
-          { "hanzi": "話", "pinyin": "huà" },
-          { "hanzi": "吧", "pinyin": "ba" },
-          { "hanzi": " ", "pinyin": "" },
-          { "hanzi": "晚點", "pinyin": "wǎndiǎn" },
-          { "hanzi": "再", "pinyin": "zài" },
-          { "hanzi": "戀愛", "pinyin": "liànài" },
-          { "hanzi": "吧", "pinyin": "ba" }
-        ]
+          {
+            "hanzi": "還是",
+            "pinyin": "huánshì"
+          },
+          {
+            "hanzi": "聽",
+            "pinyin": "tīng"
+          },
+          {
+            "hanzi": "媽媽",
+            "pinyin": "māmā"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "話",
+            "pinyin": "huà"
+          },
+          {
+            "hanzi": "吧",
+            "pinyin": "ba"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "晚點",
+            "pinyin": "wǎndiǎn"
+          },
+          {
+            "hanzi": "再",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "戀愛",
+            "pinyin": "liànài"
+          },
+          {
+            "hanzi": "吧",
+            "pinyin": "ba"
+          }
+        ],
+        "timestamp": "01:38.00"
       },
       {
         "chinese": "我知道你未來的路 但媽比我更清楚",
         "pinyin": "wǒ zhī dào nǐ wèi lái de lù   dàn mā bǐ wǒ gèng qīng chǔ",
         "english": "I know your future path, but Mom knows it even better",
         "segments": [
-          { "hanzi": "我", "pinyin": "wǒ" },
-          { "hanzi": "知道", "pinyin": "zhīdào" },
-          { "hanzi": "你", "pinyin": "nǐ" },
-          { "hanzi": "未來", "pinyin": "wèilái" },
-          { "hanzi": "的", "pinyin": "de" },
-          { "hanzi": "路", "pinyin": "lù" },
-          { "hanzi": " ", "pinyin": "" },
-          { "hanzi": "但", "pinyin": "dàn" },
-          { "hanzi": "媽", "pinyin": "mā" },
-          { "hanzi": "比", "pinyin": "bǐ" },
-          { "hanzi": "我", "pinyin": "wǒ" },
-          { "hanzi": "更", "pinyin": "gèng" },
-          { "hanzi": "清楚", "pinyin": "qīngchǔ" }
-        ]
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "知道",
+            "pinyin": "zhīdào"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "未來",
+            "pinyin": "wèilái"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "路",
+            "pinyin": "lù"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "但",
+            "pinyin": "dàn"
+          },
+          {
+            "hanzi": "媽",
+            "pinyin": "mā"
+          },
+          {
+            "hanzi": "比",
+            "pinyin": "bǐ"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "更",
+            "pinyin": "gèng"
+          },
+          {
+            "hanzi": "清楚",
+            "pinyin": "qīngchǔ"
+          }
+        ],
+        "timestamp": "01:40.82"
       },
       {
         "chinese": "你會開始學其他同學在書包寫東寫西",
         "pinyin": "nǐ huì kāi shǐ xué qí tā tóng xué zài shū bāo xiě dōng xiě xī",
         "english": "You will start copying other students by scribbling on your backpack",
-        "timestamp": "02:12.08",
         "segments": [
-          { "hanzi": "你", "pinyin": "nǐ" },
-          { "hanzi": "會", "pinyin": "huì" },
-          { "hanzi": "開始", "pinyin": "kāishǐ" },
-          { "hanzi": "學", "pinyin": "xué" },
-          { "hanzi": "其他", "pinyin": "qítā" },
-          { "hanzi": "同學", "pinyin": "tóngxué" },
-          { "hanzi": "在", "pinyin": "zài" },
-          { "hanzi": "書包", "pinyin": "shūbāo" },
-          { "hanzi": "寫東寫西", "pinyin": "xiědōngxiěxī" }
-        ]
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "會",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "開始",
+            "pinyin": "kāishǐ"
+          },
+          {
+            "hanzi": "學",
+            "pinyin": "xué"
+          },
+          {
+            "hanzi": "其他",
+            "pinyin": "qítā"
+          },
+          {
+            "hanzi": "同學",
+            "pinyin": "tóngxué"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "書包",
+            "pinyin": "shūbāo"
+          },
+          {
+            "hanzi": "寫東寫西",
+            "pinyin": "xiědōngxiěxī"
+          }
+        ],
+        "timestamp": "01:43.91"
       },
       {
         "chinese": "但我建議最好寫 \"媽媽 我會用功讀書\"",
         "pinyin": "dàn wǒ jiàn yì zuì hǎo xiě   \" mā mā   wǒ huì yòng gōng dú shū \"",
         "english": "But I suggest you write \"Mom, I will study hard\"",
         "segments": [
-          { "hanzi": "但", "pinyin": "dàn" },
-          { "hanzi": "我", "pinyin": "wǒ" },
-          { "hanzi": "建議", "pinyin": "jiànyì" },
-          { "hanzi": "最好", "pinyin": "zuìhǎo" },
-          { "hanzi": "寫", "pinyin": "xiě" },
-          { "hanzi": " ", "pinyin": "" },
-          { "hanzi": "\"", "pinyin": "" },
-          { "hanzi": "媽媽", "pinyin": "māmā" },
-          { "hanzi": " ", "pinyin": "" },
-          { "hanzi": "我", "pinyin": "wǒ" },
-          { "hanzi": "會", "pinyin": "huì" },
-          { "hanzi": "用功", "pinyin": "yònggōng" },
-          { "hanzi": "讀書", "pinyin": "dúshū" },
-          { "hanzi": "\"", "pinyin": "" }
-        ]
+          {
+            "hanzi": "但",
+            "pinyin": "dàn"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "建議",
+            "pinyin": "jiànyì"
+          },
+          {
+            "hanzi": "最好",
+            "pinyin": "zuìhǎo"
+          },
+          {
+            "hanzi": "寫",
+            "pinyin": "xiě"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "\"",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "媽媽",
+            "pinyin": "māmā"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "會",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "用功",
+            "pinyin": "yònggōng"
+          },
+          {
+            "hanzi": "讀書",
+            "pinyin": "dúshū"
+          },
+          {
+            "hanzi": "\"",
+            "pinyin": ""
+          }
+        ],
+        "timestamp": "01:46.29"
       },
       {
         "chinese": "\"用功讀書\" 怎麼會從我嘴巴說出?",
         "pinyin": "\" yòng gōng dú shū \"   zěn mó huì cóng wǒ zuǐ ba shuō chū ?",
         "english": "\"Study hard\" — how did those words come out of my mouth?",
         "segments": [
-          { "hanzi": "\"", "pinyin": "" },
-          { "hanzi": "用功", "pinyin": "yònggōng" },
-          { "hanzi": "讀書", "pinyin": "dúshū" },
-          { "hanzi": "\"", "pinyin": "" },
-          { "hanzi": " ", "pinyin": "" },
-          { "hanzi": "怎麼", "pinyin": "zěnmó" },
-          { "hanzi": "會", "pinyin": "huì" },
-          { "hanzi": "從", "pinyin": "cóng" },
-          { "hanzi": "我", "pinyin": "wǒ" },
-          { "hanzi": "嘴巴", "pinyin": "zuǐba" },
-          { "hanzi": "說出", "pinyin": "shuōchū" },
-          { "hanzi": "?", "pinyin": "" }
-        ]
+          {
+            "hanzi": "\"",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "用功",
+            "pinyin": "yònggōng"
+          },
+          {
+            "hanzi": "讀書",
+            "pinyin": "dúshū"
+          },
+          {
+            "hanzi": "\"",
+            "pinyin": ""
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "怎麼",
+            "pinyin": "zěnmó"
+          },
+          {
+            "hanzi": "會",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "從",
+            "pinyin": "cóng"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "嘴巴",
+            "pinyin": "zuǐba"
+          },
+          {
+            "hanzi": "說出",
+            "pinyin": "shuōchū"
+          },
+          {
+            "hanzi": "?",
+            "pinyin": ""
+          }
+        ],
+        "timestamp": "01:51.08"
       },
       {
         "chinese": "不想你輸 所以要叫你用功讀書",
         "pinyin": "bù xiǎng nǐ shū   suǒ yǐ yào jiào nǐ yòng gōng dú shū",
         "english": "I don't want you to lose, so I have to tell you to study hard",
         "segments": [
-          { "hanzi": "不想", "pinyin": "bùxiǎng" },
-          { "hanzi": "你", "pinyin": "nǐ" },
-          { "hanzi": "輸", "pinyin": "shū" },
-          { "hanzi": " ", "pinyin": "" },
-          { "hanzi": "所以", "pinyin": "suǒyǐ" },
-          { "hanzi": "要", "pinyin": "yào" },
-          { "hanzi": "叫", "pinyin": "jiào" },
-          { "hanzi": "你", "pinyin": "nǐ" },
-          { "hanzi": "用功", "pinyin": "yònggōng" },
-          { "hanzi": "讀書", "pinyin": "dúshū" }
-        ]
+          {
+            "hanzi": "不想",
+            "pinyin": "bùxiǎng"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "輸",
+            "pinyin": "shū"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "所以",
+            "pinyin": "suǒyǐ"
+          },
+          {
+            "hanzi": "要",
+            "pinyin": "yào"
+          },
+          {
+            "hanzi": "叫",
+            "pinyin": "jiào"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "用功",
+            "pinyin": "yònggōng"
+          },
+          {
+            "hanzi": "讀書",
+            "pinyin": "dúshū"
+          }
+        ],
+        "timestamp": "01:52.30"
       },
       {
         "chinese": "媽媽織給你的毛衣 你要好好地收著",
         "pinyin": "mā mā zhī gěi nǐ de máo yī   nǐ yào hǎo hǎo dì shōu zhù",
         "english": "The sweater Mom knitted for you, you must keep it safe",
         "segments": [
-          { "hanzi": "媽媽", "pinyin": "māmā" },
-          { "hanzi": "織", "pinyin": "zhī" },
-          { "hanzi": "給", "pinyin": "gěi" },
-          { "hanzi": "你", "pinyin": "nǐ" },
-          { "hanzi": "的", "pinyin": "de" },
-          { "hanzi": "毛衣", "pinyin": "máoyī" },
-          { "hanzi": " ", "pinyin": "" },
-          { "hanzi": "你", "pinyin": "nǐ" },
-          { "hanzi": "要", "pinyin": "yào" },
-          { "hanzi": "好好地", "pinyin": "hǎohǎodì" },
-          { "hanzi": "收著", "pinyin": "shōuzhù" }
-        ]
+          {
+            "hanzi": "媽媽",
+            "pinyin": "māmā"
+          },
+          {
+            "hanzi": "織",
+            "pinyin": "zhī"
+          },
+          {
+            "hanzi": "給",
+            "pinyin": "gěi"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "毛衣",
+            "pinyin": "máoyī"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "要",
+            "pinyin": "yào"
+          },
+          {
+            "hanzi": "好好地",
+            "pinyin": "hǎohǎodì"
+          },
+          {
+            "hanzi": "收著",
+            "pinyin": "shōuzhù"
+          }
+        ],
+        "timestamp": "01:53.50"
       },
       {
         "chinese": "因為母親節到時 我要告訴她我還留著",
         "pinyin": "yīn wéi mǔ qīn jié dào shí   wǒ yào gào sù tā wǒ huán liú zhù",
         "english": "Because when Mother's Day comes, I want to tell her I still have it",
         "segments": [
-          { "hanzi": "因為", "pinyin": "yīnwéi" },
-          { "hanzi": "母親節", "pinyin": "mǔqīnjié" },
-          { "hanzi": "到時", "pinyin": "dàoshí" },
-          { "hanzi": " ", "pinyin": "" },
-          { "hanzi": "我", "pinyin": "wǒ" },
-          { "hanzi": "要", "pinyin": "yào" },
-          { "hanzi": "告訴", "pinyin": "gàosù" },
-          { "hanzi": "她", "pinyin": "tā" },
-          { "hanzi": "我", "pinyin": "wǒ" },
-          { "hanzi": "還", "pinyin": "huán" },
-          { "hanzi": "留著", "pinyin": "liúzhù" }
-        ]
+          {
+            "hanzi": "因為",
+            "pinyin": "yīnwéi"
+          },
+          {
+            "hanzi": "母親節",
+            "pinyin": "mǔqīnjié"
+          },
+          {
+            "hanzi": "到時",
+            "pinyin": "dàoshí"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "要",
+            "pinyin": "yào"
+          },
+          {
+            "hanzi": "告訴",
+            "pinyin": "gàosù"
+          },
+          {
+            "hanzi": "她",
+            "pinyin": "tā"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "還",
+            "pinyin": "huán"
+          },
+          {
+            "hanzi": "留著",
+            "pinyin": "liúzhù"
+          }
+        ],
+        "timestamp": "01:56.09"
       },
       {
         "chinese": "對了 我會遇到周潤發",
@@ -42326,7 +42691,8 @@
             "hanzi": "周潤發",
             "pinyin": "zhōurùnfā"
           }
-        ]
+        ],
+        "timestamp": "01:58.50"
       },
       {
         "chinese": "所以你可以跟同學炫耀賭神未來是你爸爸",
@@ -42377,7 +42743,8 @@
             "hanzi": "爸爸",
             "pinyin": "bàba"
           }
-        ]
+        ],
+        "timestamp": "02:01.17"
       },
       {
         "chinese": "我找不到童年寫的情書 你寫完不要送人",
@@ -42432,7 +42799,8 @@
             "hanzi": "人",
             "pinyin": "rén"
           }
-        ]
+        ],
+        "timestamp": "02:04.00"
       },
       {
         "chinese": "因為過兩天你會在操場上撿到",
@@ -42475,7 +42843,8 @@
             "hanzi": "撿到",
             "pinyin": "jiǎndào"
           }
-        ]
+        ],
+        "timestamp": "02:06.88"
       },
       {
         "chinese": "你會開始喜歡上流行歌",
@@ -42506,7 +42875,8 @@
             "hanzi": "流行歌",
             "pinyin": "liúxínggē"
           }
-        ]
+        ],
+        "timestamp": "02:12.21"
       },
       {
         "chinese": "因為張學友開始準備唱《吻別》",
@@ -42545,7 +42915,8 @@
             "hanzi": "》",
             "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "02:15.00"
       },
       {
         "chinese": "聽媽媽的話 別讓她受傷",
@@ -42588,7 +42959,8 @@
             "hanzi": "受傷",
             "pinyin": "shòushāng"
           }
-        ]
+        ],
+        "timestamp": "02:17.00"
       },
       {
         "chinese": "想快快長大 才能保護她",
@@ -42627,7 +42999,8 @@
             "hanzi": "她",
             "pinyin": "tā"
           }
-        ]
+        ],
+        "timestamp": "02:28.50"
       },
       {
         "chinese": "美麗的白髮 幸福中發芽",
@@ -42662,7 +43035,8 @@
             "hanzi": "發芽",
             "pinyin": "fāyá"
           }
-        ]
+        ],
+        "timestamp": "02:39.50"
       },
       {
         "chinese": "天使的魔法 溫暖中慈祥",
@@ -42697,7 +43071,8 @@
             "hanzi": "慈祥",
             "pinyin": "cíxiáng"
           }
-        ]
+        ],
+        "timestamp": "02:45.00"
       },
       {
         "chinese": "聽媽媽的話 別讓她受傷",
@@ -42740,7 +43115,8 @@
             "hanzi": "受傷",
             "pinyin": "shòushāng"
           }
-        ]
+        ],
+        "timestamp": "03:00.00"
       },
       {
         "chinese": "想快快長大 才能保護她",
@@ -42779,7 +43155,8 @@
             "hanzi": "她",
             "pinyin": "tā"
           }
-        ]
+        ],
+        "timestamp": "03:06.00"
       },
       {
         "chinese": "長大後 我開始明白",
@@ -42810,7 +43187,8 @@
             "hanzi": "明白",
             "pinyin": "míngbái"
           }
-        ]
+        ],
+        "timestamp": "03:18.00"
       },
       {
         "chinese": "為什麼我跑得比別人快 飛得比別人高",
@@ -42869,7 +43247,8 @@
             "hanzi": "高",
             "pinyin": "gāo"
           }
-        ]
+        ],
+        "timestamp": "03:19.00"
       },
       {
         "chinese": "將來大家看的都是我畫的漫畫",
@@ -42916,7 +43295,8 @@
             "hanzi": "漫畫",
             "pinyin": "mànhuà"
           }
-        ]
+        ],
+        "timestamp": "03:22.30"
       },
       {
         "chinese": "大家唱的都是我寫的歌",
@@ -42959,7 +43339,8 @@
             "hanzi": "歌",
             "pinyin": "gē"
           }
-        ]
+        ],
+        "timestamp": "03:24.50"
       },
       {
         "chinese": "媽媽的辛苦 不讓你看見",
@@ -42998,7 +43379,8 @@
             "hanzi": "看見",
             "pinyin": "kànjiàn"
           }
-        ]
+        ],
+        "timestamp": "03:27.00"
       },
       {
         "chinese": "溫暖的食譜在她心裡面",
@@ -43029,7 +43411,8 @@
             "hanzi": "心裡面",
             "pinyin": "xīnlǐmiàn"
           }
-        ]
+        ],
+        "timestamp": "03:30.00"
       },
       {
         "chinese": "有空就多多握握她的手",
@@ -43064,7 +43447,8 @@
             "hanzi": "手",
             "pinyin": "shǒu"
           }
-        ]
+        ],
+        "timestamp": "03:32.00"
       },
       {
         "chinese": "把手牽著一起夢遊",
@@ -43091,7 +43475,8 @@
             "hanzi": "夢遊",
             "pinyin": "mèngyóu"
           }
-        ]
+        ],
+        "timestamp": "03:35.00"
       },
       {
         "chinese": "聽媽媽的話 別讓她受傷",
@@ -43134,7 +43519,8 @@
             "hanzi": "受傷",
             "pinyin": "shòushāng"
           }
-        ]
+        ],
+        "timestamp": "03:36.50"
       },
       {
         "chinese": "想快快長大 才能保護她",
@@ -43173,7 +43559,8 @@
             "hanzi": "她",
             "pinyin": "tā"
           }
-        ]
+        ],
+        "timestamp": "03:50.00"
       },
       {
         "chinese": "美麗的白髮 幸福中發芽",
@@ -43208,7 +43595,8 @@
             "hanzi": "發芽",
             "pinyin": "fāyá"
           }
-        ]
+        ],
+        "timestamp": "03:57.00"
       },
       {
         "chinese": "天使的魔法 溫暖中慈祥",
@@ -43243,7 +43631,8 @@
             "hanzi": "慈祥",
             "pinyin": "cíxiáng"
           }
-        ]
+        ],
+        "timestamp": "04:13.00"
       }
     ],
     "album": "依然范特西",
