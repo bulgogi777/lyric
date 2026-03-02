@@ -36,4 +36,4 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .DS_Store
 
 # Whisper SRT timestamp working files
-.dev/srt-timestamps/
+scripts/srt-timestamps/

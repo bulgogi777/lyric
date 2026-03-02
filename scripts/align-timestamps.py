@@ -13,7 +13,7 @@ Strategy:
   - Process sequentially (never go backwards)
   - Handle simplified/traditional variance via character normalization
 
-Usage: python3 .dev/align-timestamps.py
+Usage: python3 scripts/align-timestamps.py
 """
 
 import json
@@ -24,7 +24,7 @@ from typing import Optional
 # ─── Config ────────────────────────────────────────────────────────────────────
 
 SONGS_JSON = Path("/home/debian/apex/x/code/lyric/data/songs.json")
-SRT_DIR    = Path("/home/debian/apex/x/code/lyric/.dev/srt-timestamps")
+SRT_DIR    = Path("/home/debian/apex/x/code/lyric/scripts/srt-timestamps")
 
 TARGET_IDS = [
     "x6Kgp734eZo",   # 我超喜欢你

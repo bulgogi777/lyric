@@ -49,13 +49,11 @@ lyric/
 ├── scripts/
 │   ├── build-data.ts             # LRCLIB fetch + Gemini translation
 │   ├── sync-playlist.ts          # YouTube Music playlist sync (via Tower)
-│   ├── add-segments-sonnet.ts    # Word segmentation via Claude CLI (⚠️ see Known Constraints)
-│   └── add-segments-groq.ts      # Word segmentation via Groq (poor quality, not recommended)
-├── .dev/
 │   ├── align-timestamps.py       # WhisperX timestamp alignment script
-│   ├── srt-timestamps/           # WhisperX JSON output files (gitignored)
-│   └── specs/
-│       └── lyric-web-app.md      # Full PRD and task breakdown
+│   ├── validate.ts               # Quality validation (bun run validate)
+│   ├── add-segments-sonnet.ts    # Word segmentation via Claude CLI (⚠️ see Known Constraints)
+│   ├── add-segments-groq.ts      # Word segmentation via Groq (poor quality, not recommended)
+│   └── srt-timestamps/           # WhisperX JSON output files (gitignored)
 ```
 
 ## Data Schema
@@ -184,7 +182,7 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
 2. **Transcribe with WhisperX** (Chinese, JSON output for word-level timestamps):
    ```bash
    ssh tower "curl -s -X POST 'http://localhost:9000/asr?language=zh&output=json' \
-     -F 'audio_file=@/tmp/VIDEOID.webm'" > .dev/srt-timestamps/VIDEOID.json
+     -F 'audio_file=@/tmp/VIDEOID.webm'" > scripts/srt-timestamps/VIDEOID.json
    ```
 
    The JSON output includes `word_segments` with per-word start/end times:
@@ -194,7 +192,7 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
 
 3. **Automated alignment** via `align-timestamps.py`:
    ```bash
-   python3 .dev/align-timestamps.py
+   python3 scripts/align-timestamps.py
    ```
 
    The script:
@@ -229,11 +227,11 @@ ssh tower 'for f in /tmp/lyrics/*.webm; do
 done'
 
 # Copy locally and clean up
-scp tower:/tmp/lyrics/*.json .dev/srt-timestamps/
+scp tower:/tmp/lyrics/*.json scripts/srt-timestamps/
 ssh tower "rm -rf /tmp/lyrics"
 ```
 
-**WhisperX files location:** `.dev/srt-timestamps/` (gitignored, temporary working files)
+**WhisperX files location:** `scripts/srt-timestamps/` (gitignored, temporary working files)
 
 **Why JSON over SRT:** Word-level timestamps enable character-by-character alignment via `align-timestamps.py`. SRT only gives sentence-level timing and requires manual matching.
 
@@ -473,4 +471,4 @@ The end-to-end pipeline for adding a new song:
 
 ---
 
-*See `.dev/specs/lyric-web-app.md` for full PRD and task breakdown.*
+*CLAUDE.md is the single source of truth for this project. No separate docs folder needed.*
