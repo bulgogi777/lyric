@@ -50,7 +50,8 @@ async function fetchPlaylist(): Promise<PlaylistEntry[]> {
   console.log('Fetching playlist from YouTube Music...');
 
   const proc = Bun.spawn([
-    'yt-dlp',
+    'ssh', 'tower',
+    '/root/.local/bin/yt-dlp',
     '--flat-playlist',
     '-J',
     PLAYLIST_URL,
