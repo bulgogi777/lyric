@@ -38705,8 +38705,8 @@
     "lyricsSource": "lrclib",
     "lyrics": [
       {
-        "chinese": "其实我超喜欢你ที่จริงฉันรักเธออีหลี（ti jing chan rak te yi li）",
-        "pinyin": "qí shí wǒ chāo xǐ huan nǐ ท ี ่ จ ร ิ ง ฉ ั น ร ั ก เ ธ อ อ ี ห ล ี （ t i   j i n g   c h a n   r a k   t e   y i   l i ）",
+        "chinese": "其实我超喜欢你",
+        "pinyin": "qí shí wǒ chāo xǐ huan nǐ",
         "english": "Actually, I really like you",
         "segments": [
           {
@@ -38728,36 +38728,13 @@
           {
             "hanzi": "你",
             "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "ที่จริง",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ฉัน",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "รัก",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "เธอ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "อีหลี",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（ti jing chan rak te yi li）",
-            "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "00:06.30"
       },
       {
-        "chinese": "超想和你在一起อยากจะอยู่กับเธออย่างนี้（yak za you gap te yang ni）",
-        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ อ ย า ก จ ะ อ ย ู ่ ก ั บ เ ธ อ อ ย ่ า ง น ี ้ （ y a k   z a   y o u   g a p   t e   y a n g   n i ）",
+        "chinese": "超想和你在一起",
+        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ",
         "english": "I really want to be with you",
         "segments": [
           {
@@ -38777,55 +38754,20 @@
             "pinyin": "nǐ"
           },
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yīqǐ"
-          },
-          {
-            "hanzi": "อยาก",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "จะ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "อยู่",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "กับ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "เธอ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "อย่างนี้",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（yak za you gap te yang ni）",
-            "pinyin": ""
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           }
-        ]
+        ],
+        "timestamp": "00:06.44"
       },
       {
-        "chinese": "在一起我们就比个心ไม่มีใครจะสำคัญกว่าเธออีก（mai mi krai za sangm kan gua te yik）",
-        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn ไ ม ่ ม ี ใ ค ร จ ะ ส ำ ค ั ญ ก ว ่ า เ ธ อ อ ี ก （ m a i   m i   k r a i   z a   s a n g m   k a n   g u a   t e   y i k ）",
+        "chinese": "在一起我们就比个心",
+        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn",
         "english": "Together, let's make a heart",
         "segments": [
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yīqǐ"
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           },
           {
             "hanzi": "我们",
@@ -38846,44 +38788,13 @@
           {
             "hanzi": "心",
             "pinyin": "xīn"
-          },
-          {
-            "hanzi": "ไม่มี",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ใคร",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "จะ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "สำคัญ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "กว่า",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "เธอ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "อีก",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（mai mi krai za sangm kan gua te yik）",
-            "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "00:08.03"
       },
       {
-        "chinese": "如果你对我满意หากว่าเธอก็ชอบคนนี้（hak wa te go cop kon ni）",
-        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì ห า ก ว ่ า เ ธ อ ก ็ ช อ บ ค น น ี ้ （ h a k   w a   t e   g o   c o p   k o n   n i ）",
+        "chinese": "如果你对我满意",
+        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì",
         "english": "If you're satisfied with me",
         "segments": [
           {
@@ -38905,36 +38816,13 @@
           {
             "hanzi": "满意",
             "pinyin": "mǎnyì"
-          },
-          {
-            "hanzi": "หากว่า",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "เธอ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ก็",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ชอบ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "คนนี้",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（hak wa te go cop kon ni）",
-            "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "00:11.49"
       },
       {
-        "chinese": "那就天天在一起เราก็ลองคบกันดูสิ（rao go long kop gan du si）",
-        "pinyin": "nà jiù tiān tiān zài yì qǐ เ ร า ก ็ ล อ ง ค บ ก ั น ด ู ส ิ （ r a o   g o   l o n g   k o p   g a n   d u   s i ）",
+        "chinese": "那就天天在一起",
+        "pinyin": "nà jiù tiān tiān zài yì qǐ",
         "english": "Then let's be together every day",
         "segments": [
           {
@@ -38950,46 +38838,15 @@
             "pinyin": "tiāntiān"
           },
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yīqǐ"
-          },
-          {
-            "hanzi": "เรา",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ก็",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ลอง",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "คบ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "กัน",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ดูสิ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（rao go long kop gan du si）",
-            "pinyin": ""
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           }
-        ]
+        ],
+        "timestamp": "00:13.53"
       },
       {
-        "chinese": "刮风下雨我都陪着你ลมพัดฝนตกฉันก็อยู่ตรงนี้（lom pat fon dok chan go you drong ni）",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ ล ม พ ั ด ฝ น ต ก ฉ ั น ก ็ อ ย ู ่ ต ร ง น ี ้ （ l o m   p a t   f o n   d o k   c h a n   g o   y o u   d r o n g   n i ）",
+        "chinese": "刮风下雨我都陪着你",
+        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
         "english": "Through wind and rain, I'll stay with you",
         "segments": [
           {
@@ -39019,40 +38876,13 @@
           {
             "hanzi": "你",
             "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "ลมพัด",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ฝนตก",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ฉัน",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ก็",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "อยู่",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ตรงนี้",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（lom pat fon dok chan go you drong ni）",
-            "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "00:16.04"
       },
       {
-        "chinese": "想和你看星星เธอเหมือนกับออกซิเจน（te meung gap ok si jean）",
-        "pinyin": "xiǎng hé nǐ kàn xīng xīng เ ธ อ เ ห ม ื อ น ก ั บ อ อ ก ซ ิ เ จ น （ t e   m e u n g   g a p   o k   s i   j e a n ）",
+        "chinese": "想和你看星星",
+        "pinyin": "xiǎng hé nǐ kàn xīng xīng",
         "english": "I want to watch the stars with you",
         "segments": [
           {
@@ -39073,29 +38903,14 @@
           },
           {
             "hanzi": "星星",
-            "pinyin": "xīngxīng"
-          },
-          {
-            "hanzi": "เธอ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "เหมือนกับ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ออกซิเจน",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（te meung gap ok si jean）",
-            "pinyin": ""
+            "pinyin": "xīngxing"
           }
-        ]
+        ],
+        "timestamp": "00:19.74"
       },
       {
-        "chinese": "想陪你去旅行ฉันขาดเธอไม่ได้เลย（chan kat te mai dai leyi）",
-        "pinyin": "xiǎng péi nǐ qù lǚ xíng ฉ ั น ข า ด เ ธ อ ไ ม ่ ไ ด ้ เ ล ย （ c h a n   k a t   t e   m a i   d a i   l e y i ）",
+        "chinese": "想陪你去旅行",
+        "pinyin": "xiǎng péi nǐ qù lǚ xíng",
         "english": "I want to travel with you",
         "segments": [
           {
@@ -39117,36 +38932,13 @@
           {
             "hanzi": "旅行",
             "pinyin": "lǚxíng"
-          },
-          {
-            "hanzi": "ฉัน",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ขาด",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "เธอ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ไม่ได้",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "เลย",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（chan kat te mai dai leyi）",
-            "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "00:21.73"
       },
       {
-        "chinese": "想对你许下我们的约定ฉันจะอยู่กับเธอจนวันสุดท้ายเลย（chan za you gap te zon wan sut tai leyi）",
-        "pinyin": "xiǎng duì nǐ xǔ xià wǒ men de yuē dìng ฉ ั น จ ะ อ ย ู ่ ก ั บ เ ธ อ จ น ว ั น ส ุ ด ท ้ า ย เ ล ย （ c h a n   z a   y o u   g a p   t e   z o n   w a n   s u t   t a i   l e y i ）",
+        "chinese": "想对你许下我们的约定",
+        "pinyin": "xiǎng duì nǐ xǔ xià wǒ men de yuē dìng",
         "english": "I want to make a promise with you",
         "segments": [
           {
@@ -39176,48 +38968,13 @@
           {
             "hanzi": "约定",
             "pinyin": "yuēdìng"
-          },
-          {
-            "hanzi": "ฉัน",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "จะ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "อยู่",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "กับ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "เธอ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "จนวัน",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "สุดท้าย",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "เลย",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（chan za you gap te zon wan sut tai leyi）",
-            "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "00:23.75"
       },
       {
-        "chinese": "想给你好心情อยากให้เธอบีแฮปปี（yak hai te be hab bi）",
-        "pinyin": "xiǎng gěi nǐ hǎo xīn qíng อ ย า ก ใ ห ้ เ ธ อ บ ี แ ฮ ป ป ี （ y a k   h a i   t e   b e   h a b   b i ）",
+        "chinese": "想给你好心情",
+        "pinyin": "xiǎng gěi nǐ hǎo xīn qíng",
         "english": "I want to give you a good mood",
         "segments": [
           {
@@ -39239,32 +38996,13 @@
           {
             "hanzi": "心情",
             "pinyin": "xīnqíng"
-          },
-          {
-            "hanzi": "อยาก",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "ให้",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "เธอ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "บีแฮปปี",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（yak hai te be hab bi）",
-            "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "01:34.52"
       },
       {
-        "chinese": "想唱歌给你听ร้องเพลงฟังนะเบบี（rong plein fang na be bi）",
-        "pinyin": "xiǎng chàng gē gěi nǐ tīng ร ้ อ ง เ พ ล ง ฟ ั ง น ะ เ บ บ ี （ r o n g   p l e i n   f a n g   n a   b e   b i ）",
+        "chinese": "想唱歌给你听",
+        "pinyin": "xiǎng chàng gē gěi nǐ tīng",
         "english": "I want to sing a song for you",
         "segments": [
           {
@@ -39286,14 +39024,6 @@
           {
             "hanzi": "听",
             "pinyin": "tīng"
-          },
-          {
-            "hanzi": "ร้องเพลงฟังนะเบบี",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（rong plein fang na be bi）",
-            "pinyin": ""
           }
         ]
       },
@@ -39303,14 +39033,38 @@
         "english": "One two three four five six seven",
         "segments": [
           {
-            "hanzi": "1234567",
-            "pinyin": ""
+            "hanzi": "1",
+            "pinyin": "1"
+          },
+          {
+            "hanzi": "2",
+            "pinyin": "2"
+          },
+          {
+            "hanzi": "3",
+            "pinyin": "3"
+          },
+          {
+            "hanzi": "4",
+            "pinyin": "4"
+          },
+          {
+            "hanzi": "5",
+            "pinyin": "5"
+          },
+          {
+            "hanzi": "6",
+            "pinyin": "6"
+          },
+          {
+            "hanzi": "7",
+            "pinyin": "7"
           }
         ]
       },
       {
-        "chinese": "其实我超喜欢你ที่จริงฉันรักเธออีหลี（ti jing chan rak te yi li）",
-        "pinyin": "qí shí wǒ chāo xǐ huan nǐ ท ี ่ จ ร ิ ง ฉ ั น ร ั ก เ ธ อ อ ี ห ล ี （ t i   j i n g   c h a n   r a k   t e   y i   l i ）",
+        "chinese": "其实我超喜欢你",
+        "pinyin": "qí shí wǒ chāo xǐ huan nǐ",
         "english": "Actually, I really like you",
         "segments": [
           {
@@ -39332,20 +39086,13 @@
           {
             "hanzi": "你",
             "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "ที่จริงฉันรักเธออีหลี",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（ti jing chan rak te yi li）",
-            "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "01:41.59"
       },
       {
-        "chinese": "超想和你在一起อยากจะอยู่กับเธออย่างนี้（yak za you gap te yang ni）",
-        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ อ ย า ก จ ะ อ ย ู ่ ก ั บ เ ธ อ อ ย ่ า ง น ี ้ （ y a k   z a   y o u   g a p   t e   y a n g   n i ）",
+        "chinese": "超想和你在一起",
+        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ",
         "english": "I really want to be with you",
         "segments": [
           {
@@ -39365,35 +39112,20 @@
             "pinyin": "nǐ"
           },
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yìqǐ"
-          },
-          {
-            "hanzi": "อยากจะอยู่กับเธออย่างนี้",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（yak za you gap te yang ni）",
-            "pinyin": ""
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           }
-        ]
+        ],
+        "timestamp": "01:41.73"
       },
       {
-        "chinese": "在一起我们就比个心ไม่มีใครจะสำคัญกว่าเธออีก（mai mi krai za sangm kan gua te yik）",
-        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn ไ ม ่ ม ี ใ ค ร จ ะ ส ำ ค ั ญ ก ว ่ า เ ธ อ อ ี ก （ m a i   m i   k r a i   z a   s a n g m   k a n   g u a   t e   y i k ）",
+        "chinese": "在一起我们就比个心",
+        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn",
         "english": "Together, let's make a heart",
         "segments": [
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yìqǐ"
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           },
           {
             "hanzi": "我们",
@@ -39414,20 +39146,13 @@
           {
             "hanzi": "心",
             "pinyin": "xīn"
-          },
-          {
-            "hanzi": "ไม่มีใครจะสำคัญกว่าเธออีก",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（mai mi krai za sangm kan gua te yik）",
-            "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "01:44.99"
       },
       {
-        "chinese": "如果你对我满意หากว่าเธอก็ชอบคนนี้（hak wa te go cop kon ni）",
-        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì ห า ก ว ่ า เ ธ อ ก ็ ช อ บ ค น น ี ้ （ h a k   w a   t e   g o   c o p   k o n   n i ）",
+        "chinese": "如果你对我满意",
+        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì",
         "english": "If you're satisfied with me",
         "segments": [
           {
@@ -39449,20 +39174,13 @@
           {
             "hanzi": "满意",
             "pinyin": "mǎnyì"
-          },
-          {
-            "hanzi": "หากว่าเธอก็ชอบคนนี้",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（hak wa te go cop kon ni）",
-            "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "01:49.62"
       },
       {
-        "chinese": "那就天天在一起เราก็ลองคบกันดูสิ（rao go long kop gan du si）",
-        "pinyin": "nà jiù tiān tiān zài yì qǐ เ ร า ก ็ ล อ ง ค บ ก ั น ด ู ส ิ （ r a o   g o   l o n g   k o p   g a n   d u   s i ）",
+        "chinese": "那就天天在一起",
+        "pinyin": "nà jiù tiān tiān zài yì qǐ",
         "english": "Then let's be together every day",
         "segments": [
           {
@@ -39478,26 +39196,15 @@
             "pinyin": "tiāntiān"
           },
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yìqǐ"
-          },
-          {
-            "hanzi": "เราก็ลองคบกันดูสิ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（rao go long kop gan du si）",
-            "pinyin": ""
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           }
-        ]
+        ],
+        "timestamp": "01:49.76"
       },
       {
-        "chinese": "刮风下雨我都陪着你ลมพัดฝนตกฉันก็อยู่ตรงนี้（lom pat fon dok chan go you drong ni）",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ ล ม พ ั ด ฝ น ต ก ฉ ั น ก ็ อ ย ู ่ ต ร ง น ี ้ （ l o m   p a t   f o n   d o k   c h a n   g o   y o u   d r o n g   n i ）",
+        "chinese": "刮风下雨我都陪着你",
+        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
         "english": "Through wind and rain, I'll stay with you",
         "segments": [
           {
@@ -39527,20 +39234,13 @@
           {
             "hanzi": "你",
             "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "ลมพัดฝนตกฉันก็อยู่ตรงนี้",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（lom pat fon dok chan go you drong ni）",
-            "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "02:22.96"
       },
       {
-        "chinese": "想和你看星星เธอเหมือนกับออกซิเจน（te meung gap ok si jean）",
-        "pinyin": "xiǎng hé nǐ kàn xīng xīng เ ธ อ เ ห ม ื อ น ก ั บ อ อ ก ซ ิ เ จ น （ t e   m e u n g   g a p   o k   s i   j e a n ）",
+        "chinese": "想和你看星星",
+        "pinyin": "xiǎng hé nǐ kàn xīng xīng",
         "english": "I want to watch the stars with you",
         "segments": [
           {
@@ -39561,21 +39261,13 @@
           },
           {
             "hanzi": "星星",
-            "pinyin": "xīngxīng"
-          },
-          {
-            "hanzi": "เธอเหมือนกับออกซิเจน",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（te meung gap ok si jean）",
-            "pinyin": ""
+            "pinyin": "xīngxing"
           }
         ]
       },
       {
-        "chinese": "想陪你去旅行ฉันขาดเธอไม่ได้เลย（chan kat te mai dai leyi）",
-        "pinyin": "xiǎng péi nǐ qù lǚ xíng ฉ ั น ข า ด เ ธ อ ไ ม ่ ไ ด ้ เ ล ย （ c h a n   k a t   t e   m a i   d a i   l e y i ）",
+        "chinese": "想陪你去旅行",
+        "pinyin": "xiǎng péi nǐ qù lǚ xíng",
         "english": "I want to travel with you",
         "segments": [
           {
@@ -39597,20 +39289,12 @@
           {
             "hanzi": "旅行",
             "pinyin": "lǚxíng"
-          },
-          {
-            "hanzi": "ฉันขาดเธอไม่ได้เลย",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（chan kat te mai dai leyi）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "想对你许下我们的约定ฉันจะอยู่กับเธอจนวันสุดท้ายเลย（chan za you gap te zon wan sut tai leyi）",
-        "pinyin": "xiǎng duì nǐ xǔ xià wǒ men de yuē dìng ฉ ั น จ ะ อ ย ู ่ ก ั บ เ ธ อ จ น ว ั น ส ุ ด ท ้ า ย เ ล ย （ c h a n   z a   y o u   g a p   t e   z o n   w a n   s u t   t a i   l e y i ）",
+        "chinese": "想对你许下我们的约定",
+        "pinyin": "xiǎng duì nǐ xǔ xià wǒ men de yuē dìng",
         "english": "I want to make our promise to you",
         "segments": [
           {
@@ -39640,20 +39324,12 @@
           {
             "hanzi": "约定",
             "pinyin": "yuēdìng"
-          },
-          {
-            "hanzi": "ฉันจะอยู่กับเธอจนวันสุดท้ายเลย",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（chan za you gap te zon wan sut tai leyi）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "想给你好心情อยากให้เธอบีแฮปปี（yak hai te be hab bi）",
-        "pinyin": "xiǎng gěi nǐ hǎo xīn qíng อ ย า ก ใ ห ้ เ ธ อ บ ี แ ฮ ป ป ี （ y a k   h a i   t e   b e   h a b   b i ）",
+        "chinese": "想给你好心情",
+        "pinyin": "xiǎng gěi nǐ hǎo xīn qíng",
         "english": "I want to give you a good mood",
         "segments": [
           {
@@ -39675,20 +39351,12 @@
           {
             "hanzi": "心情",
             "pinyin": "xīnqíng"
-          },
-          {
-            "hanzi": "อยากให้เธอบีแฮปปี",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（yak hai te be hab bi）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "想唱歌给你听ร้องเพลงฟังนะเบบี（rong plein fang na be bi）",
-        "pinyin": "xiǎng chàng gē gěi nǐ tīng ร ้ อ ง เ พ ล ง ฟ ั ง น ะ เ บ บ ี （ r o n g   p l e i n   f a n g   n a   b e   b i ）",
+        "chinese": "想唱歌给你听",
+        "pinyin": "xiǎng chàng gē gěi nǐ tīng",
         "english": "I want to sing a song for you to hear",
         "segments": [
           {
@@ -39710,14 +39378,6 @@
           {
             "hanzi": "听",
             "pinyin": "tīng"
-          },
-          {
-            "hanzi": "ร้องเพลงฟังนะเบบี",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（rong plein fang na be bi）",
-            "pinyin": ""
           }
         ]
       },
@@ -39727,14 +39387,38 @@
         "english": "One, two, three, four, five, six, seven",
         "segments": [
           {
-            "hanzi": "1234567",
-            "pinyin": ""
+            "hanzi": "1",
+            "pinyin": "1"
+          },
+          {
+            "hanzi": "2",
+            "pinyin": "2"
+          },
+          {
+            "hanzi": "3",
+            "pinyin": "3"
+          },
+          {
+            "hanzi": "4",
+            "pinyin": "4"
+          },
+          {
+            "hanzi": "5",
+            "pinyin": "5"
+          },
+          {
+            "hanzi": "6",
+            "pinyin": "6"
+          },
+          {
+            "hanzi": "7",
+            "pinyin": "7"
           }
         ]
       },
       {
-        "chinese": "其实我超喜欢你ที่จริงฉันรักเธออีหลี（ti jing chan rak te yi li）",
-        "pinyin": "qí shí wǒ chāo xǐ huan nǐ ท ี ่ จ ร ิ ง ฉ ั น ร ั ก เ ธ อ อ ี ห ล ี （ t i   j i n g   c h a n   r a k   t e   y i   l i ）",
+        "chinese": "其实我超喜欢你",
+        "pinyin": "qí shí wǒ chāo xǐ huan nǐ",
         "english": "In fact, I really like you",
         "segments": [
           {
@@ -39756,20 +39440,12 @@
           {
             "hanzi": "你",
             "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "ที่จริงฉันรักเธออีหลี",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（ti jing chan rak te yi li）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "超想和你在一起อยากจะอยู่กับเธออย่างนี้（yak za you gap te yang ni）",
-        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ อ ย า ก จ ะ อ ย ู ่ ก ั บ เ ธ อ อ ย ่ า ง น ี ้ （ y a k   z a   y o u   g a p   t e   y a n g   n i ）",
+        "chinese": "超想和你在一起",
+        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ",
         "english": "I really want to be with you",
         "segments": [
           {
@@ -39789,35 +39465,19 @@
             "pinyin": "nǐ"
           },
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yìqǐ"
-          },
-          {
-            "hanzi": "อยากจะอยู่กับเธออย่างนี้",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（yak za you gap te yang ni）",
-            "pinyin": ""
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           }
         ]
       },
       {
-        "chinese": "在一起我们就比个心ไม่มีใครจะสำคัญกว่าเธออีก（mai mi krai za sangm kan gua te yik）",
-        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn ไ ม ่ ม ี ใ ค ร จ ะ ส ำ ค ั ญ ก ว ่ า เ ธ อ อ ี ก （ m a i   m i   k r a i   z a   s a n g m   k a n   g u a   t e   y i k ）",
+        "chinese": "在一起我们就比个心",
+        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn",
         "english": "Being together, we make a heart shape",
         "segments": [
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yìqǐ"
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           },
           {
             "hanzi": "我们",
@@ -39838,20 +39498,12 @@
           {
             "hanzi": "心",
             "pinyin": "xīn"
-          },
-          {
-            "hanzi": "ไม่มีใครจะสำคัญกว่าเธออีก",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（mai mi krai za sangm kan gua te yik）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "如果你对我满意หากว่าเธอก็ชอบคนนี้（hak wa te go cop kon ni）",
-        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì ห า ก ว ่ า เ ธ อ ก ็ ช อ บ ค น น ี ้ （ h a k   w a   t e   g o   c o p   k o n   n i ）",
+        "chinese": "如果你对我满意",
+        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì",
         "english": "If you are satisfied with me",
         "segments": [
           {
@@ -39873,20 +39525,12 @@
           {
             "hanzi": "满意",
             "pinyin": "mǎnyì"
-          },
-          {
-            "hanzi": "หากว่าเธอก็ชอบคนนี้",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（hak wa te go cop kon ni）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "那就天天在一起เราก็ลองคบกันดูสิ（rao go long kop gan du si）",
-        "pinyin": "nà jiù tiān tiān zài yì qǐ เ ร า ก ็ ล อ ง ค บ ก ั น ด ู ส ิ （ r a o   g o   l o n g   k o p   g a n   d u   s i ）",
+        "chinese": "那就天天在一起",
+        "pinyin": "nà jiù tiān tiān zài yì qǐ",
         "english": "Then let's be together every day",
         "segments": [
           {
@@ -39902,26 +39546,14 @@
             "pinyin": "tiāntiān"
           },
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yìqǐ"
-          },
-          {
-            "hanzi": "เราก็ลองคบกันดูสิ",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（rao go long kop gan du si）",
-            "pinyin": ""
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           }
         ]
       },
       {
-        "chinese": "刮风下雨我都陪着你ลมพัดฝนตกฉันก็อยู่ตรงนี้（lom pat fon dok chan go you drong ni）",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ ล ม พ ั ด ฝ น ต ก ฉ ั น ก ็ อ ย ู ่ ต ร ง น ี ้ （ l o m   p a t   f o n   d o k   c h a n   g o   y o u   d r o n g   n i ）",
+        "chinese": "刮风下雨我都陪着你",
+        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
         "english": "In fact, I really like you",
         "segments": [
           {
@@ -39951,20 +39583,12 @@
           {
             "hanzi": "你",
             "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "ลมพัดฝนตกฉันก็อยู่ตรงนี้",
-            "pinyin": ""
-          },
-          {
-            "hanzi": "（lom pat fon dok chan go you drong ni）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "其实我超喜欢你ที่จริงฉันรักเธออีหลี（ti jing chan rak te yi li）",
-        "pinyin": "qí shí wǒ chāo xǐ huan nǐ ท ี ่ จ ร ิ ง ฉ ั น ร ั ก เ ธ อ อ ี ห ล ี （ t i   j i n g   c h a n   r a k   t e   y i   l i ）",
+        "chinese": "其实我超喜欢你",
+        "pinyin": "qí shí wǒ chāo xǐ huan nǐ",
         "english": "I really want to be with you",
         "segments": [
           {
@@ -39986,16 +39610,12 @@
           {
             "hanzi": "你",
             "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "ที่จริงฉันรักเธออีหลี（ti jing chan rak te yi li）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "超想和你在一起อยากจะอยู่กับเธออย่างนี้（yak za you gap te yang ni）",
-        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ อ ย า ก จ ะ อ ย ู ่ ก ั บ เ ธ อ อ ย ่ า ง น ี ้ （ y a k   z a   y o u   g a p   t e   y a n g   n i ）",
+        "chinese": "超想和你在一起",
+        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ",
         "english": "Being together, we make a heart shape",
         "segments": [
           {
@@ -40015,31 +39635,19 @@
             "pinyin": "nǐ"
           },
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yìqǐ"
-          },
-          {
-            "hanzi": "อยากจะอยู่กับเธออย่างนี้（yak za you gap te yang ni）",
-            "pinyin": ""
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           }
         ]
       },
       {
-        "chinese": "在一起我们就比个心ไม่มีใครจะสำคัญกว่าเธออีก（mai mi krai za sangm kan gua te yik）",
-        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn ไ ม ่ ม ี ใ ค ร จ ะ ส ำ ค ั ญ ก ว ่ า เ ธ อ อ ี ก （ m a i   m i   k r a i   z a   s a n g m   k a n   g u a   t e   y i k ）",
+        "chinese": "在一起我们就比个心",
+        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn",
         "english": "If you are satisfied with me",
         "segments": [
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yìqǐ"
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           },
           {
             "hanzi": "我们",
@@ -40060,16 +39668,12 @@
           {
             "hanzi": "心",
             "pinyin": "xīn"
-          },
-          {
-            "hanzi": "ไม่มีใครจะสำคัญกว่าเธออีก（mai mi krai za sangm kan gua te yik）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "如果你对我满意หากว่าเธอก็ชอบคนนี้（hak wa te go cop kon ni）",
-        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì ห า ก ว ่ า เ ธ อ ก ็ ช อ บ ค น น ี ้ （ h a k   w a   t e   g o   c o p   k o n   n i ）",
+        "chinese": "如果你对我满意",
+        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì",
         "english": "Then let's be together every day",
         "segments": [
           {
@@ -40091,16 +39695,12 @@
           {
             "hanzi": "满意",
             "pinyin": "mǎnyì"
-          },
-          {
-            "hanzi": "หากว่าเธอก็ชอบคนนี้（hak wa te go cop kon ni）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "那就天天在一起เราก็ลองคบกันดูสิ（rao go long kop gan du si）",
-        "pinyin": "nà jiù tiān tiān zài yì qǐ เ ร า ก ็ ล อ ง ค บ ก ั น ด ู ส ิ （ r a o   g o   l o n g   k o p   g a n   d u   s i ）",
+        "chinese": "那就天天在一起",
+        "pinyin": "nà jiù tiān tiān zài yì qǐ",
         "english": "[translation unavailable]",
         "segments": [
           {
@@ -40116,22 +39716,14 @@
             "pinyin": "tiāntiān"
           },
           {
-            "hanzi": "在",
-            "pinyin": "zài"
-          },
-          {
-            "hanzi": "一起",
-            "pinyin": "yìqǐ"
-          },
-          {
-            "hanzi": "เราก็ลองคบกันดูสิ（rao go long kop gan du si）",
-            "pinyin": ""
+            "hanzi": "在一起",
+            "pinyin": "zàiyìqǐ"
           }
         ]
       },
       {
-        "chinese": "刮风下雨我都陪着你ลมพัดฝนตกฉันก็อยู่ตรงนี้（lom pat fon dok chan go you drong ni）",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ ล ม พ ั ด ฝ น ต ก ฉ ั น ก ็ อ ย ู ่ ต ร ง น ี ้ （ l o m   p a t   f o n   d o k   c h a n   g o   y o u   d r o n g   n i ）",
+        "chinese": "刮风下雨我都陪着你",
+        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
         "english": "[translation unavailable]",
         "segments": [
           {
@@ -40161,16 +39753,12 @@
           {
             "hanzi": "你",
             "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "ลมพัดฝนตกฉันก็อยู่ตรงนี้（lom pat fon dok chan go you drong ni）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "刮风下雨我都陪着你ลมพัดฝนตกฉันก็อยู่ตรงนี้（lom pat fon dok chan go you drong ni）",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ ล ม พ ั ด ฝ น ต ก ฉ ั น ก ็ อ ย ู ่ ต ร ง น ี ้ （ l o m   p a t   f o n   d o k   c h a n   g o   y o u   d r o n g   n i ）",
+        "chinese": "刮风下雨我都陪着你",
+        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
         "english": "[translation unavailable]",
         "segments": [
           {
@@ -40200,16 +39788,12 @@
           {
             "hanzi": "你",
             "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "ลมพัดฝนตกฉันก็อยู่ตรงนี้（lom pat fon dok chan go you drong ni）",
-            "pinyin": ""
           }
         ]
       },
       {
-        "chinese": "刮风下雨我都陪着你ลมพัดฝนตกฉันก็อยู่ตรงนี้（lom pat fon dok chan go you drong ni）",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ ล ม พ ั ด ฝ น ต ก ฉ ั น ก ็ อ ย ู ่ ต ร ง น ี ้ （ l o m   p a t   f o n   d o k   c h a n   g o   y o u   d r o n g   n i ）",
+        "chinese": "刮风下雨我都陪着你",
+        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
         "english": "[translation unavailable]",
         "segments": [
           {
@@ -40239,10 +39823,6 @@
           {
             "hanzi": "你",
             "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "ลมพัดฝนตกฉันก็อยู่ตรงนี้（lom pat fon dok chan go you drong ni）",
-            "pinyin": ""
           }
         ]
       }
@@ -41705,7 +41285,8 @@
             "hanzi": "?",
             "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "00:09.99"
       },
       {
         "chinese": "為什麼別人在那看漫畫?",
@@ -41740,7 +41321,8 @@
             "hanzi": "?",
             "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "00:14.58"
       },
       {
         "chinese": "我卻在學畫畫 對著鋼琴說話?",
@@ -41787,7 +41369,8 @@
             "hanzi": "?",
             "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "00:16.20"
       },
       {
         "chinese": "別人在玩遊戲 我卻靠在牆壁背我的 ABC",
@@ -41862,7 +41445,8 @@
             "hanzi": "C",
             "pinyin": "C"
           }
-        ]
+        ],
+        "timestamp": "00:20.27"
       },
       {
         "chinese": "我說 \"我要一台大大的飛機\"",
@@ -41913,7 +41497,8 @@
             "hanzi": "”",
             "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "00:21.73"
       },
       {
         "chinese": "但卻得到一台舊舊錄音機",
@@ -41944,7 +41529,8 @@
             "hanzi": "錄音機",
             "pinyin": "lùyīnjī"
           }
-        ]
+        ],
+        "timestamp": "00:23.72"
       },
       {
         "chinese": "\"為什麼要聽媽媽的話?\"",
@@ -41987,7 +41573,8 @@
             "hanzi": "”",
             "pinyin": ""
           }
-        ]
+        ],
+        "timestamp": "00:26.30"
       },
       {
         "chinese": "長大後 你就會開始懂了這段話",
@@ -42253,7 +41840,8 @@
             "hanzi": "看見",
             "pinyin": "kànjiàn"
           }
-        ]
+        ],
+        "timestamp": "01:38.68"
       },
       {
         "chinese": "溫暖的食譜在她心裡面",
@@ -42389,7 +41977,8 @@
             "hanzi": "受傷",
             "pinyin": "shòushāng"
           }
-        ]
+        ],
+        "timestamp": "01:47.76"
       },
       {
         "chinese": "想快快長大 才能保護她",
@@ -42519,7 +42108,8 @@
       {
         "chinese": "你會開始學其他同學在書包寫東寫西",
         "pinyin": "nǐ huì kāi shǐ xué qí tā tóng xué zài shū bāo xiě dōng xiě xī",
-        "english": "You will start copying other students by scribbling on your backpack"
+        "english": "You will start copying other students by scribbling on your backpack",
+        "timestamp": "02:12.08"
       },
       {
         "chinese": "但我建議最好寫 \"媽媽 我會用功讀書\"",
@@ -43546,7 +43136,8 @@
             "hanzi": "之间",
             "pinyin": "zhījiān"
           }
-        ]
+        ],
+        "timestamp": "00:12.48"
       },
       {
         "chinese": "多高的山崖 无法攀爬",
@@ -43577,7 +43168,8 @@
             "hanzi": "攀爬",
             "pinyin": "pānapá"
           }
-        ]
+        ],
+        "timestamp": "00:19.84"
       },
       {
         "chinese": "在绝望之中 我抬头仰望",
@@ -43612,7 +43204,8 @@
             "hanzi": "仰望",
             "pinyin": "yǎngwàng"
           }
-        ]
+        ],
+        "timestamp": "00:26.29"
       },
       {
         "chinese": "宣告祢名 入黑夜里",
@@ -43643,7 +43236,8 @@
             "hanzi": "里",
             "pinyin": "lǐ"
           }
-        ]
+        ],
+        "timestamp": "00:33.14"
       },
       {
         "chinese": "穿越黑暗中 祢永存慈爱",
@@ -43678,7 +43272,8 @@
             "hanzi": "慈爱",
             "pinyin": "cí'ài"
           }
-        ]
+        ],
+        "timestamp": "00:39.55"
       },
       {
         "chinese": "掀开遮掩我灵的幕",
@@ -43709,7 +43304,8 @@
             "hanzi": "幕",
             "pinyin": "mù"
           }
-        ]
+        ],
+        "timestamp": "00:47.77"
       },
       {
         "chinese": "恩典已成就 结局已写下",
@@ -43744,7 +43340,8 @@
             "hanzi": "写下",
             "pinyin": "xiěxià"
           }
-        ]
+        ],
+        "timestamp": "00:57.06"
       },
       {
         "chinese": "主耶稣 我的盼望",
@@ -43775,7 +43372,8 @@
             "hanzi": "盼望",
             "pinyin": "pànwàng"
           }
-        ]
+        ],
+        "timestamp": "01:01.01"
       },
       {
         "chinese": "",
@@ -43816,7 +43414,8 @@
             "hanzi": "怜悯",
             "pinyin": "liánmǐn"
           }
-        ]
+        ],
+        "timestamp": "01:24.94"
       },
       {
         "chinese": "谁能够领略 无限恩典",
@@ -43952,7 +43551,8 @@
             "hanzi": "赦免",
             "pinyin": "shèmiǎn"
           }
-        ]
+        ],
+        "timestamp": "01:44.67"
       },
       {
         "chinese": "万王之王称我属祂",
@@ -43979,7 +43579,8 @@
             "hanzi": "祂",
             "pinyin": "tā"
           }
-        ]
+        ],
+        "timestamp": "01:52.83"
       },
       {
         "chinese": "荣美的救主 我永属于祢",
@@ -44018,7 +43619,8 @@
             "hanzi": "祢",
             "pinyin": "nǐ"
           }
-        ]
+        ],
+        "timestamp": "01:59.24"
       },
       {
         "chinese": "主耶稣 我的盼望",
@@ -44049,7 +43651,8 @@
             "hanzi": "盼望",
             "pinyin": "pànwàng"
           }
-        ]
+        ],
+        "timestamp": "02:06.17"
       },
       {
         "chinese": "",
@@ -44090,7 +43693,8 @@
             "hanzi": "心",
             "pinyin": "xīn"
           }
-        ]
+        ],
+        "timestamp": "02:22.70"
       },
       {
         "chinese": "哈利路亚 死亡失去了权柄",
@@ -44121,7 +43725,8 @@
             "hanzi": "权柄",
             "pinyin": "quánbǐng"
           }
-        ]
+        ],
+        "timestamp": "02:44.16"
       },
       {
         "chinese": "祢破碎所有枷锁",
@@ -44144,7 +43749,8 @@
             "hanzi": "枷锁",
             "pinyin": "jiāsuǒ"
           }
-        ]
+        ],
+        "timestamp": "02:54.50"
       },
       {
         "chinese": "救赎就在祢名中",
@@ -44175,7 +43781,8 @@
             "hanzi": "中",
             "pinyin": "zhōng"
           }
-        ]
+        ],
+        "timestamp": "02:57.53"
       },
       {
         "chinese": "主耶稣 我的盼望",
@@ -44206,7 +43813,8 @@
             "hanzi": "盼望",
             "pinyin": "pànwàng"
           }
-        ]
+        ],
+        "timestamp": "03:00.98"
       },
       {
         "chinese": "",
@@ -44247,7 +43855,8 @@
             "hanzi": "应许",
             "pinyin": "yīngxǔ"
           }
-        ]
+        ],
+        "timestamp": "03:17.64"
       },
       {
         "chinese": "祢被葬身体 有了气息",
@@ -44282,7 +43891,8 @@
             "hanzi": "气息",
             "pinyin": "qìxī"
           }
-        ]
+        ],
+        "timestamp": "03:24.97"
       },
       {
         "chinese": "在沉寂之中 咆哮的狮子",
@@ -44317,7 +43927,8 @@
             "hanzi": "狮子",
             "pinyin": "shīzi"
           }
-        ]
+        ],
+        "timestamp": "03:31.82"
       },
       {
         "chinese": "宣告坟墓不再辖制我",
@@ -44344,7 +43955,8 @@
             "hanzi": "我",
             "pinyin": "wǒ"
           }
-        ]
+        ],
+        "timestamp": "03:38.73"
       },
       {
         "chinese": "耶稣祢已全然得胜",
@@ -44371,7 +43983,8 @@
             "hanzi": "得胜",
             "pinyin": "déshèng"
           }
-        ]
+        ],
+        "timestamp": "04:13.41"
       }
     ]
   },
@@ -44411,7 +44024,8 @@
             "hanzi": "道",
             "pinyin": "dào"
           }
-        ]
+        ],
+        "timestamp": "00:05.08"
       },
       {
         "chinese": "至高主与神同在",
@@ -44438,7 +44052,8 @@
             "hanzi": "同在",
             "pinyin": "tóngzài"
           }
-        ]
+        ],
+        "timestamp": "00:10.82"
       },
       {
         "chinese": "在造物中隐藏祢荣耀",
@@ -44469,7 +44084,8 @@
             "hanzi": "荣耀",
             "pinyin": "róngyào"
           }
-        ]
+        ],
+        "timestamp": "00:18.98"
       },
       {
         "chinese": "今显明在基督里",
@@ -44533,7 +44149,8 @@
             "hanzi": "名",
             "pinyin": "míng"
           }
-        ]
+        ],
+        "timestamp": "00:30.49"
       },
       {
         "chinese": "这是何等荣美的名",
@@ -44564,7 +44181,8 @@
             "hanzi": "名",
             "pinyin": "míng"
           }
-        ]
+        ],
+        "timestamp": "00:33.66"
       },
       {
         "chinese": "我王耶稣基督圣名",
@@ -44591,7 +44209,8 @@
             "hanzi": "圣名",
             "pinyin": "shèngmíng"
           }
-        ]
+        ],
+        "timestamp": "00:37.31"
       },
       {
         "chinese": "这是何等荣美的名",
@@ -44622,7 +44241,8 @@
             "hanzi": "名",
             "pinyin": "míng"
           }
-        ]
+        ],
+        "timestamp": "00:44.36"
       },
       {
         "chinese": "无一事物相比",
@@ -44645,7 +44265,8 @@
             "hanzi": "相比",
             "pinyin": "xiāngbǐ"
           }
-        ]
+        ],
+        "timestamp": "00:51.29"
       },
       {
         "chinese": "这是何等荣美的名",
@@ -44676,7 +44297,8 @@
             "hanzi": "名",
             "pinyin": "míng"
           }
-        ]
+        ],
+        "timestamp": "00:51.41"
       },
       {
         "chinese": "耶稣的圣名",
@@ -44695,7 +44317,8 @@
             "hanzi": "圣名",
             "pinyin": "shèngmíng"
           }
-        ]
+        ],
+        "timestamp": "00:54.55"
       },
       {
         "chinese": "",
@@ -44728,7 +44351,8 @@
             "hanzi": "天堂",
             "pinyin": "tiāntáng"
           }
-        ]
+        ],
+        "timestamp": "01:04.85"
       },
       {
         "chinese": "祢带着天国降临",
@@ -44817,7 +44441,8 @@
             "hanzi": "分离",
             "pinyin": "fēnlí"
           }
-        ]
+        ],
+        "timestamp": "01:25.00"
       },
       {
         "chinese": "",
@@ -44854,7 +44479,8 @@
             "hanzi": "名",
             "pinyin": "míng"
           }
-        ]
+        ],
+        "timestamp": "01:30.47"
       },
       {
         "chinese": "这是何等荣美的名",
@@ -44885,7 +44511,8 @@
             "hanzi": "名",
             "pinyin": "míng"
           }
-        ]
+        ],
+        "timestamp": "01:44.32"
       },
       {
         "chinese": "我王耶稣基督圣名",
@@ -44912,7 +44539,8 @@
             "hanzi": "圣名",
             "pinyin": "shèngmíng"
           }
-        ]
+        ],
+        "timestamp": "01:53.23"
       },
       {
         "chinese": "这是何等荣美的名",
@@ -44943,7 +44571,8 @@
             "hanzi": "名",
             "pinyin": "míng"
           }
-        ]
+        ],
+        "timestamp": "03:58.67"
       },
       {
         "chinese": "无一事物相比",
@@ -44966,7 +44595,8 @@
             "hanzi": "相比",
             "pinyin": "xiāngbǐ"
           }
-        ]
+        ],
+        "timestamp": "04:05.62"
       },
       {
         "chinese": "这是何等荣美的名",
@@ -44997,7 +44627,8 @@
             "hanzi": "名",
             "pinyin": "míng"
           }
-        ]
+        ],
+        "timestamp": "04:05.74"
       },
       {
         "chinese": "耶稣的圣名",
@@ -45016,7 +44647,8 @@
             "hanzi": "圣名",
             "pinyin": "shèngmíng"
           }
-        ]
+        ],
+        "timestamp": "04:08.66"
       },
       {
         "chinese": "",
@@ -45215,7 +44847,8 @@
             "hanzi": "永远",
             "pinyin": "yǒngyuǎn"
           }
-        ]
+        ],
+        "timestamp": "04:16.51"
       },
       {
         "chinese": "国度属于祢 荣耀属于祢",
@@ -45314,7 +44947,8 @@
             "hanzi": "名",
             "pinyin": "míng"
           }
-        ]
+        ],
+        "timestamp": "04:33.83"
       },
       {
         "chinese": "这是何等大能的名",
@@ -45345,7 +44979,8 @@
             "hanzi": "名",
             "pinyin": "míng"
           }
-        ]
+        ],
+        "timestamp": "04:44.58"
       },
       {
         "chinese": "耶稣的圣名",
@@ -45364,7 +44999,8 @@
             "hanzi": "圣名",
             "pinyin": "shèngmíng"
           }
-        ]
+        ],
+        "timestamp": "04:55.07"
       },
       {
         "chinese": "这是何等大能的名",

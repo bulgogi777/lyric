@@ -3,8 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import SongCard from '../components/SongCard.astro';
 import songs from '../../data/songs.json';
 
-// Sort songs: with lyrics first, then without
-const sortedSongs = [...songs].sort((a, b) => {
+// Sort songs: newest first (reversed playlist order), with lyrics before without
+const sortedSongs = [...songs].reverse().sort((a, b) => {
   if (a.hasLyrics && !b.hasLyrics) return -1;
   if (!a.hasLyrics && b.hasLyrics) return 1;
   return 0;
