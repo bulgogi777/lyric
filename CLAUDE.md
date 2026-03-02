@@ -23,6 +23,8 @@ bun run dev      # Start dev server
 bun run build    # Build for production
 bun run preview  # Preview production build
 bun run data     # Rebuild data from LRCLIB (scripts/build-data.ts)
+bun run validate # Quality check all songs (exits 1 on errors)
+bun run sync     # Sync playlist from YouTube Music
 ```
 
 ## Project Structure
@@ -235,28 +237,53 @@ ssh tower "rm -rf /tmp/lyrics"
 
 **Why JSON over SRT:** Word-level timestamps enable character-by-character alignment via `align-timestamps.py`. SRT only gives sentence-level timing and requires manual matching.
 
-### 6. Quality Validation (Before Commit)
+**When WhisperX coverage is partial (common for pop songs):**
 
-Run these checks before committing new or updated lyrics:
+WhisperX often captures only 50-60% of characters in songs with instrumental breaks or processed vocals. Use **anchor + interpolation**:
 
+1. Run WhisperX and `align-timestamps.py` to get anchor timestamps
+2. Identify the song structure (verse/chorus/bridge sections from the lyrics)
+3. Use verse 1 timing pattern (usually well-captured) as a template
+4. Apply the pattern offsets to each repeated section, starting at the anchor point
+5. Run `bun run validate SONG_ID` to catch near-duplicates, large gaps, or ordering issues
+
+**Audio conversion (required — yt-dlp on Tower lacks ffmpeg):**
 ```bash
-# Songs without lyrics
-grep '"hasLyrics": false' data/songs.json
-
-# Missing translations
-grep -n "\[translation unavailable\]" data/songs.json
-
-# LLM noise in translations
-grep -E "I will|I'll check|directory" data/songs.json
-
-# Songs without segments (need segmentation)
-# Look for lyrics entries that have chinese but no segments array
+# Use Docker ffmpeg to convert webm → WAV (16kHz mono, optimal for Whisper)
+ssh tower "docker run --rm -v /tmp:/tmp jrottenberg/ffmpeg \
+  -i /tmp/VIDEOID.webm -vn -acodec pcm_s16le -ar 16000 -ac 1 /tmp/VIDEOID.wav"
 ```
 
-**Manual checks:**
-- **Timestamp coverage**: After WhisperX alignment, check the match rate. Songs below 70% need manual timestamp review.
-- **Segment consistency**: Verify segment hanzi concatenated equals the original chinese line.
-- **Bilingual detection**: Songs with Thai, Japanese, or English mixed in need those sections identified (non-Chinese text won't have valid pinyin).
+### 6. Quality Validation (Before Commit)
+
+Run the validation script:
+
+```bash
+bun run validate              # All songs (exits 1 if errors found)
+bun run validate SONG_ID      # Specific song by ID or title substring
+bun run validate --summary    # Summary only (no per-line details)
+```
+
+**Checks performed:**
+- **Missing fields**: translations, segments, timestamps
+- **Segment consistency**: reconstructed hanzi must match chinese (with quote/whitespace normalization)
+- **Malformed segments**: missing hanzi/pinyin keys
+- **Timestamp anomalies**:
+  - Near-duplicates (< 1s gap between consecutive lines)
+  - Large gaps (> 20s between consecutive lines)
+  - Out-of-order timestamps
+  - Exceeds song duration
+- **LLM noise**: patterns like "I will check", "directory", backtick code refs
+- **Bilingual detection**: non-Chinese content (English, Thai, Japanese)
+
+**Error vs Warning:**
+- Errors (✗): Data problems that should be fixed (missing segments, bad translations, segment mismatches)
+- Warnings (△): Things to be aware of (bilingual lines, large timestamp gaps from instrumental breaks, missing timestamps)
+
+**Expected warnings (not bugs):**
+- Bilingual songs (E.SO, Joyce Chu) will flag non-Chinese lines — these are correct
+- Large timestamp gaps often indicate instrumental breaks — verify against the actual song
+- Near-duplicate timestamps can be valid for fast-delivery sections
 
 ### 7. Fixing Translation Issues
 
@@ -382,12 +409,12 @@ Chinese fonts (Noto Sans SC) render Latin diacritics poorly - macrons (ō) shift
 
 ## Checking for Issues
 
-See **Workflow 6: Quality Validation** above for the full checklist. Quick commands:
+**Primary:** `bun run validate` — runs all checks, see Workflow 6.
 
+**Quick grep commands:**
 ```bash
 grep '"hasLyrics": false' data/songs.json              # Songs without lyrics
 grep -n "\[translation unavailable\]" data/songs.json   # Missing translations
-grep -E "I will|I'll check|directory" data/songs.json   # LLM noise
 ```
 
 ## Files to Watch
