@@ -38998,7 +38998,7 @@
             "pinyin": "xīnqíng"
           }
         ],
-        "timestamp": "01:34.52"
+        "timestamp": "01:31.60"
       },
       {
         "chinese": "想唱歌给你听",
@@ -39025,7 +39025,8 @@
             "hanzi": "听",
             "pinyin": "tīng"
           }
-        ]
+        ],
+        "timestamp": "01:33.70"
       },
       {
         "chinese": "1234567",
@@ -39060,7 +39061,8 @@
             "hanzi": "7",
             "pinyin": "7"
           }
-        ]
+        ],
+        "timestamp": "01:36.00"
       },
       {
         "chinese": "其实我超喜欢你",
@@ -39236,7 +39238,7 @@
             "pinyin": "nǐ"
           }
         ],
-        "timestamp": "02:22.96"
+        "timestamp": "01:52.00"
       },
       {
         "chinese": "想和你看星星",
@@ -39263,7 +39265,8 @@
             "hanzi": "星星",
             "pinyin": "xīngxing"
           }
-        ]
+        ],
+        "timestamp": "01:54.80"
       },
       {
         "chinese": "想陪你去旅行",
@@ -39290,7 +39293,8 @@
             "hanzi": "旅行",
             "pinyin": "lǚxíng"
           }
-        ]
+        ],
+        "timestamp": "01:57.60"
       },
       {
         "chinese": "想对你许下我们的约定",
@@ -39325,7 +39329,8 @@
             "hanzi": "约定",
             "pinyin": "yuēdìng"
           }
-        ]
+        ],
+        "timestamp": "02:00.40"
       },
       {
         "chinese": "想给你好心情",
@@ -39352,7 +39357,8 @@
             "hanzi": "心情",
             "pinyin": "xīnqíng"
           }
-        ]
+        ],
+        "timestamp": "02:03.20"
       },
       {
         "chinese": "想唱歌给你听",
@@ -39379,7 +39385,8 @@
             "hanzi": "听",
             "pinyin": "tīng"
           }
-        ]
+        ],
+        "timestamp": "02:06.00"
       },
       {
         "chinese": "1234567",
@@ -39414,7 +39421,8 @@
             "hanzi": "7",
             "pinyin": "7"
           }
-        ]
+        ],
+        "timestamp": "02:08.80"
       },
       {
         "chinese": "其实我超喜欢你",
@@ -39441,7 +39449,8 @@
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ]
+        ],
+        "timestamp": "02:12.60"
       },
       {
         "chinese": "超想和你在一起",
@@ -39468,7 +39477,8 @@
             "hanzi": "在一起",
             "pinyin": "zàiyìqǐ"
           }
-        ]
+        ],
+        "timestamp": "02:12.74"
       },
       {
         "chinese": "在一起我们就比个心",
@@ -39499,7 +39509,8 @@
             "hanzi": "心",
             "pinyin": "xīn"
           }
-        ]
+        ],
+        "timestamp": "02:16.00"
       },
       {
         "chinese": "如果你对我满意",
@@ -39526,7 +39537,8 @@
             "hanzi": "满意",
             "pinyin": "mǎnyì"
           }
-        ]
+        ],
+        "timestamp": "02:20.63"
       },
       {
         "chinese": "那就天天在一起",
@@ -39549,7 +39561,8 @@
             "hanzi": "在一起",
             "pinyin": "zàiyìqǐ"
           }
-        ]
+        ],
+        "timestamp": "02:20.77"
       },
       {
         "chinese": "刮风下雨我都陪着你",
@@ -39584,7 +39597,8 @@
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ]
+        ],
+        "timestamp": "02:23.27"
       },
       {
         "chinese": "其实我超喜欢你",
@@ -39611,7 +39625,8 @@
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ]
+        ],
+        "timestamp": "02:30.00"
       },
       {
         "chinese": "超想和你在一起",
@@ -39638,7 +39653,8 @@
             "hanzi": "在一起",
             "pinyin": "zàiyìqǐ"
           }
-        ]
+        ],
+        "timestamp": "02:30.14"
       },
       {
         "chinese": "在一起我们就比个心",
@@ -39669,7 +39685,8 @@
             "hanzi": "心",
             "pinyin": "xīn"
           }
-        ]
+        ],
+        "timestamp": "02:33.40"
       },
       {
         "chinese": "如果你对我满意",
@@ -39696,12 +39713,13 @@
             "hanzi": "满意",
             "pinyin": "mǎnyì"
           }
-        ]
+        ],
+        "timestamp": "02:38.03"
       },
       {
         "chinese": "那就天天在一起",
         "pinyin": "nà jiù tiān tiān zài yì qǐ",
-        "english": "[translation unavailable]",
+        "english": "Then let's be together every day",
         "segments": [
           {
             "hanzi": "那",
@@ -39719,12 +39737,13 @@
             "hanzi": "在一起",
             "pinyin": "zàiyìqǐ"
           }
-        ]
+        ],
+        "timestamp": "02:38.17"
       },
       {
         "chinese": "刮风下雨我都陪着你",
         "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
-        "english": "[translation unavailable]",
+        "english": "Through wind and rain, I'll be by your side",
         "segments": [
           {
             "hanzi": "刮风",
@@ -39754,12 +39773,13 @@
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ]
+        ],
+        "timestamp": "02:40.67"
       },
       {
         "chinese": "刮风下雨我都陪着你",
         "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
-        "english": "[translation unavailable]",
+        "english": "Through wind and rain, I'll be by your side",
         "segments": [
           {
             "hanzi": "刮风",
@@ -39789,12 +39809,13 @@
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ]
+        ],
+        "timestamp": "02:52.00"
       },
       {
         "chinese": "刮风下雨我都陪着你",
         "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
-        "english": "[translation unavailable]",
+        "english": "Through wind and rain, I'll be by your side",
         "segments": [
           {
             "hanzi": "刮风",
@@ -39824,7 +39845,8 @@
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ]
+        ],
+        "timestamp": "02:55.00"
       }
     ],
     "album": "我超喜欢你",

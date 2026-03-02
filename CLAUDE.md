@@ -46,10 +46,14 @@ lyric/
 │       └── global.css            # Tailwind + print styles
 ├── scripts/
 │   ├── build-data.ts             # LRCLIB fetch + Gemini translation
-│   ├── add-segments-sonnet.ts    # Word segmentation via Claude Sonnet
-│   └── add-segments-groq.ts      # Word segmentation via Groq (fast/lower quality)
-└── .dev/specs/
-    └── lyric-web-app.md          # Full PRD and task breakdown
+│   ├── sync-playlist.ts          # YouTube Music playlist sync (via Tower)
+│   ├── add-segments-sonnet.ts    # Word segmentation via Claude CLI (⚠️ see Known Constraints)
+│   └── add-segments-groq.ts      # Word segmentation via Groq (poor quality, not recommended)
+├── .dev/
+│   ├── align-timestamps.py       # WhisperX timestamp alignment script
+│   ├── srt-timestamps/           # WhisperX JSON output files (gitignored)
+│   └── specs/
+│       └── lyric-web-app.md      # Full PRD and task breakdown
 ```
 
 ## Data Schema
@@ -100,21 +104,17 @@ This:
 When LRCLIB doesn't have a song:
 
 1. **Find Chinese lyrics** from any source (copy/paste raw text)
-2. **Provide to Claude** - Claude will:
-   - Add pinyin romanization (using pinyin-pro patterns)
-   - Translate to English
-   - **Generate word segments** for ruby alignment (see below)
-   - Format as JSON for songs.json
+2. **Claude generates inline** (no scripts needed):
+   - Pinyin romanization
+   - English translation
+   - **Word segments** for ruby alignment (see below)
+   - Full JSON for songs.json
 3. **Check LRCLIB for timestamps** (song may have been added since):
    ```bash
    curl -s "https://lrclib.net/api/search?artist_name=ARTIST&track_name=TITLE" | jq '.[0].syncedLyrics'
    ```
-4. **If timestamps exist**, merge them with Claude's translations
-5. **Build and push:**
-   ```bash
-   bun run build
-   git add -A && git commit -m "Add lyrics for [song]" && git push
-   ```
+4. **If no LRCLIB timestamps**, use WhisperX (see Workflow 5)
+5. **Validate** (see Workflow 7), then build and push
 
 **Word Segmentation for Ruby Alignment:**
 
@@ -143,8 +143,9 @@ Each lyric line should include a `segments` array that breaks the line into word
 - Single-character grammatical words are separate (的, 是, 我)
 - Spaces in the original text become `{ "hanzi": " ", "pinyin": "" }`
 - Punctuation becomes `{ "hanzi": "，", "pinyin": "" }`
+- Idioms and four-character expressions stay together (刻骨銘心, 念念不忘)
 
-**Note:** Manual entry will NOT have timestamps unless LRCLIB has them. Timestamps enable lyric sync with video playback.
+**Note:** Manual entry will NOT have timestamps unless LRCLIB has them or WhisperX generates them.
 
 ### 3. Adding Lyrics via jspinyin.net
 
@@ -163,34 +164,51 @@ Alternative source when you need pinyin:
 3. Click "Copy JSON" to get the lyrics array
 4. Paste into `data/songs.json` and rebuild
 
-### 5. Generating Timestamps via Whisper (When LRCLIB Unavailable)
+### 5. Generating Timestamps via WhisperX (When LRCLIB Unavailable)
 
-When LRCLIB doesn't have timestamps for a song, use Whisper ASR to generate them:
+When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timestamps:
 
 **Prerequisites:**
-- Whisper ASR service running on Tower (`http://tower:9000/asr`)
-- yt-dlp installed on Tower (`~/.local/bin/yt-dlp`)
+- WhisperX ASR service on Tower (`http://tower:9000/asr`, engine=whisperx, large-v3, GPU)
+- yt-dlp on Tower (`/root/.local/bin/yt-dlp`)
 
 **Process:**
 
 1. **Download audio on Tower** (YouTube blocks datacenter IPs, Tower has residential):
    ```bash
-   ssh tower "~/.local/bin/yt-dlp -x -o '/tmp/VIDEOID.%(ext)s' 'https://youtube.com/watch?v=VIDEOID'"
+   ssh tower "/root/.local/bin/yt-dlp -x -o '/tmp/VIDEOID.%(ext)s' 'https://youtube.com/watch?v=VIDEOID'"
    ```
 
-2. **Transcribe with Whisper** (Chinese language, SRT output):
+2. **Transcribe with WhisperX** (Chinese, JSON output for word-level timestamps):
    ```bash
-   ssh tower "curl -s -X POST 'http://localhost:9000/asr?language=zh&output=srt' \
-     -F 'audio_file=@/tmp/VIDEOID.webm'" > .dev/srt-timestamps/VIDEOID.srt
+   ssh tower "curl -s -X POST 'http://localhost:9000/asr?language=zh&output=json' \
+     -F 'audio_file=@/tmp/VIDEOID.webm'" > .dev/srt-timestamps/VIDEOID.json
    ```
 
-3. **Manual alignment** - Compare SRT timestamps to existing lyrics:
-   - SRT format: `00:00:13,600 --> 00:00:15,800` (start --> end)
-   - Our format: `00:13.60` (just start time, MM:SS.ss)
-   - Match Whisper's Chinese (imperfect) to our lyrics and grab timestamps
-   - Update `data/songs.json` with aligned timestamps
+   The JSON output includes `word_segments` with per-word start/end times:
+   ```json
+   {"word_segments": [{"word": "愛情", "start": 13.5, "end": 14.1}, ...]}
+   ```
 
-4. **Clean up Tower:**
+3. **Automated alignment** via `align-timestamps.py`:
+   ```bash
+   python3 .dev/align-timestamps.py
+   ```
+
+   The script:
+   - Builds a character-level timeline from WhisperX word_segments
+   - Fuzzy-matches each lyric line's first N characters against the timeline
+   - Handles traditional/simplified character normalization
+   - Assigns timestamps in `MM:SS.ss` format to `data/songs.json`
+
+   **Edit `TARGET_IDS` in the script** to select which songs to process.
+
+4. **Review alignment quality** — Match rates vary by song type:
+   - Clean worship/ballads: ~85-90% match rate
+   - Fast rap/complex vocals: ~20-50% (needs manual timestamp review)
+   - Unmatched lines print `NO_MATCH` in output for manual attention
+
+5. **Clean up Tower:**
    ```bash
    ssh tower "rm /tmp/VIDEOID.webm"
    ```
@@ -199,25 +217,48 @@ When LRCLIB doesn't have timestamps for a song, use Whisper ASR to generate them
 ```bash
 # Download all
 ssh tower 'for id in ID1 ID2 ID3; do
-  ~/.local/bin/yt-dlp -x -o "/tmp/lyrics/${id}.%(ext)s" "https://youtube.com/watch?v=${id}"
+  /root/.local/bin/yt-dlp -x -o "/tmp/lyrics/${id}.%(ext)s" "https://youtube.com/watch?v=${id}"
 done'
 
-# Transcribe all
+# Transcribe all (JSON output)
 ssh tower 'for f in /tmp/lyrics/*.webm; do
   id=$(basename "$f" .webm)
-  curl -s -X POST "http://localhost:9000/asr?language=zh&output=srt" -F "audio_file=@${f}" > "/tmp/lyrics/${id}.srt"
+  curl -s -X POST "http://localhost:9000/asr?language=zh&output=json" -F "audio_file=@${f}" > "/tmp/lyrics/${id}.json"
 done'
 
 # Copy locally and clean up
-scp tower:/tmp/lyrics/*.srt .dev/srt-timestamps/
+scp tower:/tmp/lyrics/*.json .dev/srt-timestamps/
 ssh tower "rm -rf /tmp/lyrics"
 ```
 
-**SRT files location:** `.dev/srt-timestamps/` (gitignored, temporary working files)
+**WhisperX files location:** `.dev/srt-timestamps/` (gitignored, temporary working files)
 
-**Note:** Whisper transcription won't be perfect, but timestamps are usually accurate. Manual review is required to match Whisper segments to your lyric lines.
+**Why JSON over SRT:** Word-level timestamps enable character-by-character alignment via `align-timestamps.py`. SRT only gives sentence-level timing and requires manual matching.
 
-### 6. Fixing Translation Issues
+### 6. Quality Validation (Before Commit)
+
+Run these checks before committing new or updated lyrics:
+
+```bash
+# Songs without lyrics
+grep '"hasLyrics": false' data/songs.json
+
+# Missing translations
+grep -n "\[translation unavailable\]" data/songs.json
+
+# LLM noise in translations
+grep -E "I will|I'll check|directory" data/songs.json
+
+# Songs without segments (need segmentation)
+# Look for lyrics entries that have chinese but no segments array
+```
+
+**Manual checks:**
+- **Timestamp coverage**: After WhisperX alignment, check the match rate. Songs below 70% need manual timestamp review.
+- **Segment consistency**: Verify segment hanzi concatenated equals the original chinese line.
+- **Bilingual detection**: Songs with Thai, Japanese, or English mixed in need those sections identified (non-Chinese text won't have valid pinyin).
+
+### 7. Fixing Translation Issues
 
 The `LyricsDisplay.astro` component has a filter to hide LLM-generated noise:
 
@@ -287,8 +328,8 @@ Changes appear at lyric.bwe4.net within ~1 minute.
 - Use `grep -n "pattern" data/songs.json` to check impact
 
 ### LRCLIB Quirks
-- Not all Chinese songs are available
-- LRCLIB is the preferred source for timestamps, but **Whisper ASR can generate them** (see workflow 5)
+- ~60% hit rate for Chinese songs; not all have synced (timestamped) lyrics
+- **WhisperX on Tower** generates timestamps when LRCLIB doesn't have them (see Workflow 5)
 - Search by artist + title in romanized form often works better
 - Try Chinese artist names (鄧紫棋) if English names fail
 - Always check LRCLIB after manual entry - songs get added over time
@@ -305,11 +346,18 @@ Changes appear at lyric.bwe4.net within ~1 minute.
 
 ### Word Segmentation (Ruby Alignment)
 
-**Best Model: Claude Sonnet** - Use for all Chinese word segmentation tasks.
+**Best approach: Inline in Claude Code session.** Claude generates segments directly — no scripts, no session spawning.
+
+**Why not scripts:**
+- `add-segments-sonnet.ts` spawns a `claude -p` session per batch (~72 sessions for all songs). Can't run inside Claude Code due to CLAUDECODE env var blocking nested CLI calls.
+- `add-segments-groq.ts` uses HTTP API (no spawning) but quality is terrible (char-by-char splits).
+- Inline segmentation is higher quality and zero overhead for single-song additions.
+
+**Model quality comparison:**
 
 | Model | Quality | Notes |
 |-------|---------|-------|
-| **Claude Sonnet** | ✅ Excellent | Proper word grouping, preserves idioms |
+| **Claude (inline)** | ✅ Excellent | Proper word grouping, preserves idioms |
 | Llama 70B (Groq) | ❌ Poor | Char-by-char (愛\|情 instead of 愛情) |
 | GPT OSS 120B (Groq) | ❌ Unusable | JSON truncation issues (~60% fail) |
 | Qwen 32B (Groq) | ⚠️ Inconsistent | Good then bad on same task |
@@ -319,13 +367,9 @@ Changes appear at lyric.bwe4.net within ~1 minute.
 - Chinese word segmentation requires linguistic understanding, not just speed
 - Groq models are fast but produce character-by-character splits
 - Gemini's "agentic" behavior outputs thinking text instead of JSON
-- Sonnet properly groups: 愛情, 再見, 刻骨銘心 (idioms stay together)
+- Claude properly groups: 愛情, 再見, 刻骨銘心 (idioms stay together)
 
-**Segmentation scripts:**
-```bash
-bun run scripts/add-segments-sonnet.ts  # Best quality (recommended)
-bun run scripts/add-segments-groq.ts    # Fast but poor quality
-```
+**For batch re-segmentation** (all songs), the right fix would be a script using the Anthropic API directly (HTTP, not CLI) to avoid the CLAUDECODE nesting issue.
 
 ### Pinyin Font Rendering
 Chinese fonts (Noto Sans SC) render Latin diacritics poorly - macrons (ō) shift right. Solution: use system fonts for pinyin.
@@ -338,15 +382,12 @@ Chinese fonts (Noto Sans SC) render Latin diacritics poorly - macrons (ō) shift
 
 ## Checking for Issues
 
+See **Workflow 6: Quality Validation** above for the full checklist. Quick commands:
+
 ```bash
-# Find songs without lyrics
-grep '"hasLyrics": false' data/songs.json
-
-# Find placeholder translations
-grep -n "\[translation unavailable\]" data/songs.json
-
-# Find potential LLM noise in translations
-grep -E "I will|I'll check|directory" data/songs.json
+grep '"hasLyrics": false' data/songs.json              # Songs without lyrics
+grep -n "\[translation unavailable\]" data/songs.json   # Missing translations
+grep -E "I will|I'll check|directory" data/songs.json   # LLM noise
 ```
 
 ## Files to Watch
@@ -364,6 +405,44 @@ grep -E "I will|I'll check|directory" data/songs.json
 | LRCLIB | Synced lyrics | None |
 | YouTube IFrame | Video playback | None |
 | Gemini CLI | Translation | ~/.gemini (local) |
+
+## Known Constraints
+
+### CLAUDECODE Nesting
+Scripts that spawn `claude -p` (like `add-segments-sonnet.ts`) cannot run inside a Claude Code session. The `CLAUDECODE` environment variable blocks nested CLI calls. Workarounds:
+- **Preferred:** Do the work inline (Claude generates segments directly in session)
+- **For automation:** Use the Anthropic HTTP API directly instead of the CLI
+
+### LRCLIB Coverage for Chinese Music
+LRCLIB has ~60% hit rate for Chinese songs. Of those found, not all have synced (timestamped) lyrics. Always check, but expect to need manual lyrics + WhisperX timestamps for many songs.
+
+### WhisperX Alignment Quality
+Timestamp alignment varies dramatically by song type:
+- Clean vocals, ballads, worship: 85-90%
+- Fast delivery, rap: 20-50%
+- Songs with non-Chinese sections: Alignment breaks on those sections
+
+### Script Session Spawning
+Several scripts spawn dozens of headless CLI sessions via `Bun.spawn()` loops:
+- `add-segments-sonnet.ts`: ~72 `claude -p` sessions (all songs)
+- `build-data.ts`: ~19+ `gemini -p` sessions (translations)
+- `add-segments.ts`: ~100+ `gemini` sessions
+
+**Avoid running these scripts.** For single-song additions, all work (translation, segmentation) should be done inline in the Claude Code session. For batch operations, scripts should be rewritten to use HTTP APIs directly.
+
+## Song Addition Pipeline (Recommended)
+
+The end-to-end pipeline for adding a new song:
+
+```
+1. SYNC      → bun run sync (discovers new songs from YouTube Music playlist)
+2. LYRICS    → LRCLIB (auto) → manual sources if needed → Claude generates pinyin/translation/segments inline
+3. TIMESTAMPS → LRCLIB synced lyrics (best) → WhisperX on Tower + align-timestamps.py (fallback)
+4. VALIDATE  → Check: translations, segments, timestamp coverage, bilingual detection
+5. DEPLOY    → git push → Vercel auto-deploys
+```
+
+**Key principle:** Prefer inline work in Claude Code sessions over script automation. The scripts were built for batch processing but create problematic session spawning. For 1-5 songs at a time, inline is faster and higher quality.
 
 ---
 
