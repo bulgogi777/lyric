@@ -38702,12 +38702,25 @@
     "title": "我超喜欢你",
     "artist": "一口甜",
     "hasLyrics": true,
-    "lyricsSource": "lrclib",
+    "lyricsSource": "manual",
     "lyrics": [
       {
+        "timestamp": "00:04.50",
+        "chinese": "one two three",
+        "pinyin": "",
+        "english": "(counting intro)",
+        "segments": [
+          {
+            "hanzi": "one two three",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "timestamp": "00:05.74",
         "chinese": "其实我超喜欢你",
-        "pinyin": "qí shí wǒ chāo xǐ huan nǐ",
-        "english": "Actually, I really like you",
+        "pinyin": "qíshí wǒ chāo xǐhuān nǐ",
+        "english": "Actually I really like you",
         "segments": [
           {
             "hanzi": "其实",
@@ -38723,19 +38736,19 @@
           },
           {
             "hanzi": "喜欢",
-            "pinyin": "xǐhuan"
+            "pinyin": "xǐhuān"
           },
           {
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ],
-        "timestamp": "00:06.30"
+        ]
       },
       {
+        "timestamp": "00:07.30",
         "chinese": "超想和你在一起",
-        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ",
-        "english": "I really want to be with you",
+        "pinyin": "chāo xiǎng hé nǐ zài yīqǐ",
+        "english": "Really want to be with you",
         "segments": [
           {
             "hanzi": "超",
@@ -38755,19 +38768,19 @@
           },
           {
             "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
+            "pinyin": "zàiyīqǐ"
           }
-        ],
-        "timestamp": "00:07.30"
+        ]
       },
       {
+        "timestamp": "00:08.40",
         "chinese": "在一起我们就比个心",
-        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn",
-        "english": "Together, let's make a heart",
+        "pinyin": "zài yīqǐ wǒmen jiù bǐ ge xīn",
+        "english": "Together we'll make a heart shape",
         "segments": [
           {
             "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
+            "pinyin": "zàiyīqǐ"
           },
           {
             "hanzi": "我们",
@@ -38789,12 +38802,12 @@
             "hanzi": "心",
             "pinyin": "xīn"
           }
-        ],
-        "timestamp": "00:09.32"
+        ]
       },
       {
+        "timestamp": "00:11.49",
         "chinese": "如果你对我满意",
-        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì",
+        "pinyin": "rúguǒ nǐ duì wǒ mǎnyì",
         "english": "If you're satisfied with me",
         "segments": [
           {
@@ -38817,12 +38830,12 @@
             "hanzi": "满意",
             "pinyin": "mǎnyì"
           }
-        ],
-        "timestamp": "00:11.49"
+        ]
       },
       {
+        "timestamp": "00:13.53",
         "chinese": "那就天天在一起",
-        "pinyin": "nà jiù tiān tiān zài yì qǐ",
+        "pinyin": "nà jiù tiāntiān zài yīqǐ",
         "english": "Then let's be together every day",
         "segments": [
           {
@@ -38839,15 +38852,15 @@
           },
           {
             "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
+            "pinyin": "zàiyīqǐ"
           }
-        ],
-        "timestamp": "00:13.53"
+        ]
       },
       {
+        "timestamp": "00:16.01",
         "chinese": "刮风下雨我都陪着你",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
-        "english": "Through wind and rain, I'll stay with you",
+        "pinyin": "guāfēng xiàyǔ wǒ dōu péi zhe nǐ",
+        "english": "Rain or shine I'll be by your side",
         "segments": [
           {
             "hanzi": "刮风",
@@ -38877,13 +38890,13 @@
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ],
-        "timestamp": "00:16.04"
+        ]
       },
       {
+        "timestamp": "00:19.97",
         "chinese": "想和你看星星",
-        "pinyin": "xiǎng hé nǐ kàn xīng xīng",
-        "english": "I want to watch the stars with you",
+        "pinyin": "xiǎng hé nǐ kàn xīngxīng",
+        "english": "Want to watch the stars with you",
         "segments": [
           {
             "hanzi": "想",
@@ -38903,15 +38916,15 @@
           },
           {
             "hanzi": "星星",
-            "pinyin": "xīngxing"
+            "pinyin": "xīngxīng"
           }
-        ],
-        "timestamp": "00:19.74"
+        ]
       },
       {
+        "timestamp": "00:21.72",
         "chinese": "想陪你去旅行",
-        "pinyin": "xiǎng péi nǐ qù lǚ xíng",
-        "english": "I want to travel with you",
+        "pinyin": "xiǎng péi nǐ qù lǚxíng",
+        "english": "Want to travel with you",
         "segments": [
           {
             "hanzi": "想",
@@ -38933,13 +38946,13 @@
             "hanzi": "旅行",
             "pinyin": "lǚxíng"
           }
-        ],
-        "timestamp": "00:21.73"
+        ]
       },
       {
+        "timestamp": "00:24.02",
         "chinese": "想对你许下我们的约定",
-        "pinyin": "xiǎng duì nǐ xǔ xià wǒ men de yuē dìng",
-        "english": "I want to make a promise with you",
+        "pinyin": "xiǎng duì nǐ xǔ xià wǒmen de yuēdìng",
+        "english": "Want to make our promise to you",
         "segments": [
           {
             "hanzi": "想",
@@ -38969,13 +38982,13 @@
             "hanzi": "约定",
             "pinyin": "yuēdìng"
           }
-        ],
-        "timestamp": "00:23.75"
+        ]
       },
       {
+        "timestamp": "00:27.62",
         "chinese": "想给你好心情",
-        "pinyin": "xiǎng gěi nǐ hǎo xīn qíng",
-        "english": "I want to give you a good mood",
+        "pinyin": "xiǎng gěi nǐ hǎo xīnqíng",
+        "english": "Want to give you a good mood",
         "segments": [
           {
             "hanzi": "想",
@@ -38997,13 +39010,13 @@
             "hanzi": "心情",
             "pinyin": "xīnqíng"
           }
-        ],
-        "timestamp": "01:31.60"
+        ]
       },
       {
+        "timestamp": "00:30.47",
         "chinese": "想唱歌给你听",
-        "pinyin": "xiǎng chàng gē gěi nǐ tīng",
-        "english": "I want to sing a song for you",
+        "pinyin": "xiǎng chànggē gěi nǐ tīng",
+        "english": "Want to sing a song for you",
         "segments": [
           {
             "hanzi": "想",
@@ -39025,49 +39038,25 @@
             "hanzi": "听",
             "pinyin": "tīng"
           }
-        ],
-        "timestamp": "01:33.70"
+        ]
       },
       {
-        "chinese": "1234567",
-        "pinyin": "1 2 3 4 5 6 7",
-        "english": "One two three four five six seven",
+        "timestamp": "00:32.03",
+        "chinese": "do re mi fa sol la si",
+        "pinyin": "",
+        "english": "(solfege scale)",
         "segments": [
           {
-            "hanzi": "1",
-            "pinyin": "1"
-          },
-          {
-            "hanzi": "2",
-            "pinyin": "2"
-          },
-          {
-            "hanzi": "3",
-            "pinyin": "3"
-          },
-          {
-            "hanzi": "4",
-            "pinyin": "4"
-          },
-          {
-            "hanzi": "5",
-            "pinyin": "5"
-          },
-          {
-            "hanzi": "6",
-            "pinyin": "6"
-          },
-          {
-            "hanzi": "7",
-            "pinyin": "7"
+            "hanzi": "do re mi fa sol la si",
+            "pinyin": ""
           }
-        ],
-        "timestamp": "01:36.00"
+        ]
       },
       {
+        "timestamp": "00:36.17",
         "chinese": "其实我超喜欢你",
-        "pinyin": "qí shí wǒ chāo xǐ huan nǐ",
-        "english": "Actually, I really like you",
+        "pinyin": "qíshí wǒ chāo xǐhuān nǐ",
+        "english": "Actually I really like you",
         "segments": [
           {
             "hanzi": "其实",
@@ -39083,19 +39072,19 @@
           },
           {
             "hanzi": "喜欢",
-            "pinyin": "xǐhuan"
+            "pinyin": "xǐhuān"
           },
           {
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ],
-        "timestamp": "01:41.59"
+        ]
       },
       {
+        "timestamp": "00:37.72",
         "chinese": "超想和你在一起",
-        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ",
-        "english": "I really want to be with you",
+        "pinyin": "chāo xiǎng hé nǐ zài yīqǐ",
+        "english": "Really want to be with you",
         "segments": [
           {
             "hanzi": "超",
@@ -39115,19 +39104,19 @@
           },
           {
             "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
+            "pinyin": "zàiyīqǐ"
           }
-        ],
-        "timestamp": "01:43.29"
+        ]
       },
       {
+        "timestamp": "00:40.00",
         "chinese": "在一起我们就比个心",
-        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn",
-        "english": "Together, let's make a heart",
+        "pinyin": "zài yīqǐ wǒmen jiù bǐ ge xīn",
+        "english": "Together we'll make a heart shape",
         "segments": [
           {
             "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
+            "pinyin": "zàiyīqǐ"
           },
           {
             "hanzi": "我们",
@@ -39149,12 +39138,12 @@
             "hanzi": "心",
             "pinyin": "xīn"
           }
-        ],
-        "timestamp": "01:44.99"
+        ]
       },
       {
+        "timestamp": "00:43.74",
         "chinese": "如果你对我满意",
-        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì",
+        "pinyin": "rúguǒ nǐ duì wǒ mǎnyì",
         "english": "If you're satisfied with me",
         "segments": [
           {
@@ -39177,12 +39166,12 @@
             "hanzi": "满意",
             "pinyin": "mǎnyì"
           }
-        ],
-        "timestamp": "01:49.62"
+        ]
       },
       {
+        "timestamp": "00:45.97",
         "chinese": "那就天天在一起",
-        "pinyin": "nà jiù tiān tiān zài yì qǐ",
+        "pinyin": "nà jiù tiāntiān zài yīqǐ",
         "english": "Then let's be together every day",
         "segments": [
           {
@@ -39199,15 +39188,15 @@
           },
           {
             "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
+            "pinyin": "zàiyīqǐ"
           }
-        ],
-        "timestamp": "01:50.81"
+        ]
       },
       {
+        "timestamp": "00:48.03",
         "chinese": "刮风下雨我都陪着你",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
-        "english": "Through wind and rain, I'll stay with you",
+        "pinyin": "guāfēng xiàyǔ wǒ dōu péi zhe nǐ",
+        "english": "Rain or shine I'll be by your side",
         "segments": [
           {
             "hanzi": "刮风",
@@ -39237,13 +39226,31 @@
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ],
-        "timestamp": "01:52.00"
+        ]
       },
       {
+        "timestamp": "00:55.24",
+        "chinese": "啦啦啦啦啦啦啦啦",
+        "pinyin": "",
+        "english": "(la la la melody)",
+        "segments": [
+          {
+            "hanzi": "啦啦啦啦啦啦啦啦",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "timestamp": "",
+        "chinese": "",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "timestamp": "01:23.63",
         "chinese": "想和你看星星",
-        "pinyin": "xiǎng hé nǐ kàn xīng xīng",
-        "english": "I want to watch the stars with you",
+        "pinyin": "xiǎng hé nǐ kàn xīngxīng",
+        "english": "Want to watch the stars with you",
         "segments": [
           {
             "hanzi": "想",
@@ -39263,15 +39270,15 @@
           },
           {
             "hanzi": "星星",
-            "pinyin": "xīngxing"
+            "pinyin": "xīngxīng"
           }
-        ],
-        "timestamp": "01:54.80"
+        ]
       },
       {
+        "timestamp": "01:25.97",
         "chinese": "想陪你去旅行",
-        "pinyin": "xiǎng péi nǐ qù lǚ xíng",
-        "english": "I want to travel with you",
+        "pinyin": "xiǎng péi nǐ qù lǚxíng",
+        "english": "Want to travel with you",
         "segments": [
           {
             "hanzi": "想",
@@ -39293,13 +39300,13 @@
             "hanzi": "旅行",
             "pinyin": "lǚxíng"
           }
-        ],
-        "timestamp": "01:57.60"
+        ]
       },
       {
+        "timestamp": "01:28.02",
         "chinese": "想对你许下我们的约定",
-        "pinyin": "xiǎng duì nǐ xǔ xià wǒ men de yuē dìng",
-        "english": "I want to make our promise to you",
+        "pinyin": "xiǎng duì nǐ xǔ xià wǒmen de yuēdìng",
+        "english": "Want to make our promise to you",
         "segments": [
           {
             "hanzi": "想",
@@ -39329,13 +39336,13 @@
             "hanzi": "约定",
             "pinyin": "yuēdìng"
           }
-        ],
-        "timestamp": "02:00.40"
+        ]
       },
       {
+        "timestamp": "01:31.73",
         "chinese": "想给你好心情",
-        "pinyin": "xiǎng gěi nǐ hǎo xīn qíng",
-        "english": "I want to give you a good mood",
+        "pinyin": "xiǎng gěi nǐ hǎo xīnqíng",
+        "english": "Want to give you a good mood",
         "segments": [
           {
             "hanzi": "想",
@@ -39357,13 +39364,13 @@
             "hanzi": "心情",
             "pinyin": "xīnqíng"
           }
-        ],
-        "timestamp": "02:03.20"
+        ]
       },
       {
+        "timestamp": "01:33.73",
         "chinese": "想唱歌给你听",
-        "pinyin": "xiǎng chàng gē gěi nǐ tīng",
-        "english": "I want to sing a song for you to hear",
+        "pinyin": "xiǎng chànggē gěi nǐ tīng",
+        "english": "Want to sing a song for you",
         "segments": [
           {
             "hanzi": "想",
@@ -39385,49 +39392,25 @@
             "hanzi": "听",
             "pinyin": "tīng"
           }
-        ],
-        "timestamp": "02:06.00"
+        ]
       },
       {
-        "chinese": "1234567",
-        "pinyin": "1 2 3 4 5 6 7",
-        "english": "One, two, three, four, five, six, seven",
+        "timestamp": "01:36.71",
+        "chinese": "do re mi fa sol la si",
+        "pinyin": "",
+        "english": "(solfege scale)",
         "segments": [
           {
-            "hanzi": "1",
-            "pinyin": "1"
-          },
-          {
-            "hanzi": "2",
-            "pinyin": "2"
-          },
-          {
-            "hanzi": "3",
-            "pinyin": "3"
-          },
-          {
-            "hanzi": "4",
-            "pinyin": "4"
-          },
-          {
-            "hanzi": "5",
-            "pinyin": "5"
-          },
-          {
-            "hanzi": "6",
-            "pinyin": "6"
-          },
-          {
-            "hanzi": "7",
-            "pinyin": "7"
+            "hanzi": "do re mi fa sol la si",
+            "pinyin": ""
           }
-        ],
-        "timestamp": "02:08.80"
+        ]
       },
       {
+        "timestamp": "01:39.36",
         "chinese": "其实我超喜欢你",
-        "pinyin": "qí shí wǒ chāo xǐ huan nǐ",
-        "english": "In fact, I really like you",
+        "pinyin": "qíshí wǒ chāo xǐhuān nǐ",
+        "english": "Actually I really like you",
         "segments": [
           {
             "hanzi": "其实",
@@ -39443,19 +39426,19 @@
           },
           {
             "hanzi": "喜欢",
-            "pinyin": "xǐhuan"
+            "pinyin": "xǐhuān"
           },
           {
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ],
-        "timestamp": "02:12.60"
+        ]
       },
       {
+        "timestamp": "01:42.76",
         "chinese": "超想和你在一起",
-        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ",
-        "english": "I really want to be with you",
+        "pinyin": "chāo xiǎng hé nǐ zài yīqǐ",
+        "english": "Really want to be with you",
         "segments": [
           {
             "hanzi": "超",
@@ -39475,19 +39458,19 @@
           },
           {
             "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
+            "pinyin": "zàiyīqǐ"
           }
-        ],
-        "timestamp": "02:14.30"
+        ]
       },
       {
+        "timestamp": "01:44.00",
         "chinese": "在一起我们就比个心",
-        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn",
-        "english": "Being together, we make a heart shape",
+        "pinyin": "zài yīqǐ wǒmen jiù bǐ ge xīn",
+        "english": "Together we'll make a heart shape",
         "segments": [
           {
             "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
+            "pinyin": "zàiyīqǐ"
           },
           {
             "hanzi": "我们",
@@ -39509,188 +39492,12 @@
             "hanzi": "心",
             "pinyin": "xīn"
           }
-        ],
-        "timestamp": "02:16.00"
+        ]
       },
       {
+        "timestamp": "01:46.93",
         "chinese": "如果你对我满意",
-        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì",
-        "english": "If you are satisfied with me",
-        "segments": [
-          {
-            "hanzi": "如果",
-            "pinyin": "rúguǒ"
-          },
-          {
-            "hanzi": "你",
-            "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "对",
-            "pinyin": "duì"
-          },
-          {
-            "hanzi": "我",
-            "pinyin": "wǒ"
-          },
-          {
-            "hanzi": "满意",
-            "pinyin": "mǎnyì"
-          }
-        ],
-        "timestamp": "02:20.63"
-      },
-      {
-        "chinese": "那就天天在一起",
-        "pinyin": "nà jiù tiān tiān zài yì qǐ",
-        "english": "Then let's be together every day",
-        "segments": [
-          {
-            "hanzi": "那",
-            "pinyin": "nà"
-          },
-          {
-            "hanzi": "就",
-            "pinyin": "jiù"
-          },
-          {
-            "hanzi": "天天",
-            "pinyin": "tiāntiān"
-          },
-          {
-            "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
-          }
-        ],
-        "timestamp": "02:21.95"
-      },
-      {
-        "chinese": "刮风下雨我都陪着你",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
-        "english": "Through wind and rain, I'll stay with you",
-        "segments": [
-          {
-            "hanzi": "刮风",
-            "pinyin": "guāfēng"
-          },
-          {
-            "hanzi": "下雨",
-            "pinyin": "xiàyǔ"
-          },
-          {
-            "hanzi": "我",
-            "pinyin": "wǒ"
-          },
-          {
-            "hanzi": "都",
-            "pinyin": "dōu"
-          },
-          {
-            "hanzi": "陪",
-            "pinyin": "péi"
-          },
-          {
-            "hanzi": "着",
-            "pinyin": "zhe"
-          },
-          {
-            "hanzi": "你",
-            "pinyin": "nǐ"
-          }
-        ],
-        "timestamp": "02:23.27"
-      },
-      {
-        "chinese": "其实我超喜欢你",
-        "pinyin": "qí shí wǒ chāo xǐ huan nǐ",
-        "english": "Actually, I really like you",
-        "segments": [
-          {
-            "hanzi": "其实",
-            "pinyin": "qíshí"
-          },
-          {
-            "hanzi": "我",
-            "pinyin": "wǒ"
-          },
-          {
-            "hanzi": "超",
-            "pinyin": "chāo"
-          },
-          {
-            "hanzi": "喜欢",
-            "pinyin": "xǐhuan"
-          },
-          {
-            "hanzi": "你",
-            "pinyin": "nǐ"
-          }
-        ],
-        "timestamp": "02:30.00"
-      },
-      {
-        "chinese": "超想和你在一起",
-        "pinyin": "chāo xiǎng hé nǐ zài yì qǐ",
-        "english": "I really want to be with you",
-        "segments": [
-          {
-            "hanzi": "超",
-            "pinyin": "chāo"
-          },
-          {
-            "hanzi": "想",
-            "pinyin": "xiǎng"
-          },
-          {
-            "hanzi": "和",
-            "pinyin": "hé"
-          },
-          {
-            "hanzi": "你",
-            "pinyin": "nǐ"
-          },
-          {
-            "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
-          }
-        ],
-        "timestamp": "02:31.70"
-      },
-      {
-        "chinese": "在一起我们就比个心",
-        "pinyin": "zài yì qǐ wǒ men jiù bǐ gè xīn",
-        "english": "Together, let's make a heart",
-        "segments": [
-          {
-            "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
-          },
-          {
-            "hanzi": "我们",
-            "pinyin": "wǒmen"
-          },
-          {
-            "hanzi": "就",
-            "pinyin": "jiù"
-          },
-          {
-            "hanzi": "比",
-            "pinyin": "bǐ"
-          },
-          {
-            "hanzi": "个",
-            "pinyin": "gè"
-          },
-          {
-            "hanzi": "心",
-            "pinyin": "xīn"
-          }
-        ],
-        "timestamp": "02:33.40"
-      },
-      {
-        "chinese": "如果你对我满意",
-        "pinyin": "rú guǒ nǐ duì wǒ mǎn yì",
+        "pinyin": "rúguǒ nǐ duì wǒ mǎnyì",
         "english": "If you're satisfied with me",
         "segments": [
           {
@@ -39713,12 +39520,12 @@
             "hanzi": "满意",
             "pinyin": "mǎnyì"
           }
-        ],
-        "timestamp": "02:38.03"
+        ]
       },
       {
+        "timestamp": "01:49.16",
         "chinese": "那就天天在一起",
-        "pinyin": "nà jiù tiān tiān zài yì qǐ",
+        "pinyin": "nà jiù tiāntiān zài yīqǐ",
         "english": "Then let's be together every day",
         "segments": [
           {
@@ -39735,15 +39542,15 @@
           },
           {
             "hanzi": "在一起",
-            "pinyin": "zàiyìqǐ"
+            "pinyin": "zàiyīqǐ"
           }
-        ],
-        "timestamp": "02:39.35"
+        ]
       },
       {
+        "timestamp": "01:52.03",
         "chinese": "刮风下雨我都陪着你",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
-        "english": "Through wind and rain, I'll be by your side",
+        "pinyin": "guāfēng xiàyǔ wǒ dōu péi zhe nǐ",
+        "english": "Rain or shine I'll be by your side",
         "segments": [
           {
             "hanzi": "刮风",
@@ -39773,13 +39580,165 @@
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ],
-        "timestamp": "02:40.67"
+        ]
       },
       {
+        "timestamp": "02:06.81",
+        "chinese": "啦啦啦啦啦啦啦啦",
+        "pinyin": "",
+        "english": "(la la la melody)",
+        "segments": [
+          {
+            "hanzi": "啦啦啦啦啦啦啦啦",
+            "pinyin": ""
+          }
+        ]
+      },
+      {
+        "timestamp": "02:12.17",
+        "chinese": "其实我超喜欢你",
+        "pinyin": "qíshí wǒ chāo xǐhuān nǐ",
+        "english": "Actually I really like you",
+        "segments": [
+          {
+            "hanzi": "其实",
+            "pinyin": "qíshí"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "超",
+            "pinyin": "chāo"
+          },
+          {
+            "hanzi": "喜欢",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          }
+        ]
+      },
+      {
+        "timestamp": "02:13.71",
+        "chinese": "超想和你在一起",
+        "pinyin": "chāo xiǎng hé nǐ zài yīqǐ",
+        "english": "Really want to be with you",
+        "segments": [
+          {
+            "hanzi": "超",
+            "pinyin": "chāo"
+          },
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": "和",
+            "pinyin": "hé"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "在一起",
+            "pinyin": "zàiyīqǐ"
+          }
+        ]
+      },
+      {
+        "timestamp": "02:16.00",
+        "chinese": "在一起我们就比个心",
+        "pinyin": "zài yīqǐ wǒmen jiù bǐ ge xīn",
+        "english": "Together we'll make a heart shape",
+        "segments": [
+          {
+            "hanzi": "在一起",
+            "pinyin": "zàiyīqǐ"
+          },
+          {
+            "hanzi": "我们",
+            "pinyin": "wǒmen"
+          },
+          {
+            "hanzi": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "hanzi": "比",
+            "pinyin": "bǐ"
+          },
+          {
+            "hanzi": "个",
+            "pinyin": "gè"
+          },
+          {
+            "hanzi": "心",
+            "pinyin": "xīn"
+          }
+        ]
+      },
+      {
+        "timestamp": "02:19.54",
+        "chinese": "如果你对我满意",
+        "pinyin": "rúguǒ nǐ duì wǒ mǎnyì",
+        "english": "If you're satisfied with me",
+        "segments": [
+          {
+            "hanzi": "如果",
+            "pinyin": "rúguǒ"
+          },
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "对",
+            "pinyin": "duì"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "满意",
+            "pinyin": "mǎnyì"
+          }
+        ]
+      },
+      {
+        "timestamp": "02:21.74",
+        "chinese": "那就天天在一起",
+        "pinyin": "nà jiù tiāntiān zài yīqǐ",
+        "english": "Then let's be together every day",
+        "segments": [
+          {
+            "hanzi": "那",
+            "pinyin": "nà"
+          },
+          {
+            "hanzi": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "hanzi": "天天",
+            "pinyin": "tiāntiān"
+          },
+          {
+            "hanzi": "在一起",
+            "pinyin": "zàiyīqǐ"
+          }
+        ]
+      },
+      {
+        "timestamp": "02:24.21",
         "chinese": "刮风下雨我都陪着你",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
-        "english": "Through wind and rain, I'll be by your side",
+        "pinyin": "guāfēng xiàyǔ wǒ dōu péi zhe nǐ",
+        "english": "Rain or shine I'll be by your side",
         "segments": [
           {
             "hanzi": "刮风",
@@ -39809,44 +39768,19 @@
             "hanzi": "你",
             "pinyin": "nǐ"
           }
-        ],
-        "timestamp": "02:52.00"
+        ]
       },
       {
-        "chinese": "刮风下雨我都陪着你",
-        "pinyin": "guā fēng xià yǔ wǒ dōu péi zhe nǐ",
-        "english": "Through wind and rain, I'll be by your side",
+        "timestamp": "02:37.02",
+        "chinese": "啦啦啦啦啦啦啦啦",
+        "pinyin": "",
+        "english": "(la la la melody)",
         "segments": [
           {
-            "hanzi": "刮风",
-            "pinyin": "guāfēng"
-          },
-          {
-            "hanzi": "下雨",
-            "pinyin": "xiàyǔ"
-          },
-          {
-            "hanzi": "我",
-            "pinyin": "wǒ"
-          },
-          {
-            "hanzi": "都",
-            "pinyin": "dōu"
-          },
-          {
-            "hanzi": "陪",
-            "pinyin": "péi"
-          },
-          {
-            "hanzi": "着",
-            "pinyin": "zhe"
-          },
-          {
-            "hanzi": "你",
-            "pinyin": "nǐ"
+            "hanzi": "啦啦啦啦啦啦啦啦",
+            "pinyin": ""
           }
-        ],
-        "timestamp": "02:55.00"
+        ]
       }
     ],
     "album": "我超喜欢你",
