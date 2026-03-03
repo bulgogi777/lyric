@@ -11,7 +11,8 @@
     "data": "bun run scripts/build-data.ts",
     "add": "bun run scripts/add-song.ts",
     "sync": "bun run scripts/sync-playlist.ts",
-    "validate": "bun run scripts/validate.ts"
+    "validate": "bun run scripts/validate.ts",
+    "integrity": "bun run scripts/check-integrity.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",

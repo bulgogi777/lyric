@@ -23,8 +23,9 @@ bun run dev      # Start dev server
 bun run build    # Build for production
 bun run preview  # Preview production build
 bun run data     # Rebuild data from LRCLIB (scripts/build-data.ts)
-bun run validate # Quality check all songs (exits 1 on errors)
-bun run sync     # Sync playlist from YouTube Music
+bun run validate  # Quality check all songs (exits 1 on errors)
+bun run integrity # Cross-check lyrics vs WhisperX transcript
+bun run sync      # Sync playlist from YouTube Music
 ```
 
 ## Project Structure
@@ -395,10 +396,13 @@ Changes appear at lyric.bwe4.net within ~1 minute.
 
 ### LRCLIB Quirks
 - ~60% hit rate for Chinese songs; not all have synced (timestamped) lyrics
+- **LRCLIB can have wrong lyrics** — different arrangement, different version, or different language mix than the YouTube video. Example: 我超喜欢你 LRCLIB had Chinese-only lyrics but the YouTube video is Chinese-Thai bilingual with different structure (missing first chorus, bridge, la-la-la sections). Wrong lyrics → wrong WhisperX alignment → cascading timestamp bugs.
+- **Use `bun run integrity`** to cross-check lyrics against WhisperX transcript when available. Good match = >70% bigram Jaccard and >85% char coverage.
 - **WhisperX on Tower** generates timestamps when LRCLIB doesn't have them (see Workflow 5)
 - Search by artist + title in romanized form often works better
 - Try Chinese artist names (鄧紫棋) if English names fail
 - Always check LRCLIB after manual entry - songs get added over time
+- Never blindly trust LRCLIB text — verify against audio (integrity check or manual listen)
 
 ### Gemini Translation
 - Sometimes produces noise like "I will check the translation..."
@@ -525,8 +529,9 @@ The end-to-end pipeline for adding a new song:
 2. LYRICS     → LRCLIB (auto) → manual sources if needed → Claude generates pinyin/translation/segments inline
 3. TIMESTAMPS → LRCLIB synced lyrics (best) → Demucs + WhisperX on Tower + align-timestamps.py (fallback)
 4. INTERPOLATE → Fix chorus repeats and gaps using segment-level anchors
-5. VALIDATE   → bun run validate SONG_ID (translations, segments, timestamp coverage)
-6. DEPLOY     → git push → Vercel auto-deploys
+5. INTEGRITY  → bun run integrity SONG_ID (cross-check lyrics text vs WhisperX transcript, if available)
+6. VALIDATE   → bun run validate SONG_ID (translations, segments, timestamp coverage)
+7. DEPLOY     → git push → Vercel auto-deploys
 ```
 
 **Timestamp sub-pipeline (step 3-4 detail):**

@@ -25960,6 +25960,11 @@
         ]
       },
       {
+        "chinese": "",
+        "pinyin": "",
+        "english": ""
+      },
+      {
         "chinese": "划一个安全的天空界线",
         "pinyin": "huà yī gè ān quán de tiān kōng jiè xiàn",
         "english": "Drawing a safe boundary in the sky",
@@ -43926,7 +43931,8 @@
             "hanzi": "恩典",
             "pinyin": "ēndiǎn"
           }
-        ]
+        ],
+        "timestamp": "01:30.00"
       },
       {
         "chinese": "永恒的君王 舍弃了荣耀",
@@ -43961,7 +43967,8 @@
             "hanzi": "荣耀",
             "pinyin": "róngyào"
           }
-        ]
+        ],
+        "timestamp": "01:35.00"
       },
       {
         "chinese": "穿戴我罪 承受羞辱",
@@ -43992,7 +43999,8 @@
             "hanzi": "羞辱",
             "pinyin": "xiūrǔ"
           }
-        ]
+        ],
+        "timestamp": "01:39.75"
       },
       {
         "chinese": "十架已诉说 我已被赦免",
@@ -44174,7 +44182,7 @@
             "pinyin": "xīn"
           }
         ],
-        "timestamp": "02:22.70"
+        "timestamp": "02:16.40"
       },
       {
         "chinese": "哈利路亚 死亡失去了权柄",
@@ -44206,7 +44214,7 @@
             "pinyin": "quánbǐng"
           }
         ],
-        "timestamp": "02:44.16"
+        "timestamp": "02:24.00"
       },
       {
         "chinese": "祢破碎所有枷锁",
@@ -44230,7 +44238,7 @@
             "pinyin": "jiāsuǒ"
           }
         ],
-        "timestamp": "02:54.50"
+        "timestamp": "02:27.10"
       },
       {
         "chinese": "救赎就在祢名中",
@@ -44262,7 +44270,7 @@
             "pinyin": "zhōng"
           }
         ],
-        "timestamp": "02:57.53"
+        "timestamp": "02:32.20"
       },
       {
         "chinese": "主耶稣 我的盼望",
@@ -44294,7 +44302,168 @@
             "pinyin": "pànwàng"
           }
         ],
-        "timestamp": "03:00.98"
+        "timestamp": "02:35.70"
+      },
+      {
+        "chinese": "",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "chinese": "哈利路亚 赞美祂释放我心",
+        "pinyin": "hālìlùyà zànměi tā shìfàng wǒ xīn",
+        "english": "Hallelujah, praise Him who sets my heart free",
+        "segments": [
+          {
+            "hanzi": "哈利路亚",
+            "pinyin": "hālìlùyà"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "赞美",
+            "pinyin": "zànměi"
+          },
+          {
+            "hanzi": "祂",
+            "pinyin": "tā"
+          },
+          {
+            "hanzi": "释放",
+            "pinyin": "shìfàng"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "心",
+            "pinyin": "xīn"
+          }
+        ],
+        "timestamp": "02:44.30"
+      },
+      {
+        "chinese": "哈利路亚 死亡失去了权柄",
+        "pinyin": "hālìlùyà sǐwáng shīqù le quánbǐng",
+        "english": "Hallelujah, death has lost its power",
+        "segments": [
+          {
+            "hanzi": "哈利路亚",
+            "pinyin": "hālìlùyà"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "死亡",
+            "pinyin": "sǐwáng"
+          },
+          {
+            "hanzi": "失去",
+            "pinyin": "shīqù"
+          },
+          {
+            "hanzi": "了",
+            "pinyin": "le"
+          },
+          {
+            "hanzi": "权柄",
+            "pinyin": "quánbǐng"
+          }
+        ],
+        "timestamp": "02:48.90"
+      },
+      {
+        "chinese": "祢破碎所有枷锁",
+        "pinyin": "nǐ pòsuì suǒyǒu jiāsuǒ",
+        "english": "You have broken every chain",
+        "segments": [
+          {
+            "hanzi": "祢",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "破碎",
+            "pinyin": "pòsuì"
+          },
+          {
+            "hanzi": "所有",
+            "pinyin": "suǒyǒu"
+          },
+          {
+            "hanzi": "枷锁",
+            "pinyin": "jiāsuǒ"
+          }
+        ],
+        "timestamp": "02:55.80"
+      },
+      {
+        "chinese": "救赎就在祢名中",
+        "pinyin": "jiùshú jiù zài nǐ míng zhōng",
+        "english": "Salvation is found in Your name",
+        "segments": [
+          {
+            "hanzi": "救赎",
+            "pinyin": "jiùshú"
+          },
+          {
+            "hanzi": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "祢",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "名",
+            "pinyin": "míng"
+          },
+          {
+            "hanzi": "中",
+            "pinyin": "zhōng"
+          }
+        ],
+        "timestamp": "02:58.40"
+      },
+      {
+        "chinese": "主耶稣 我的盼望",
+        "pinyin": "zhǔ yēsū wǒ de pànwàng",
+        "english": "Lord Jesus, my living hope",
+        "segments": [
+          {
+            "hanzi": "主",
+            "pinyin": "zhǔ"
+          },
+          {
+            "hanzi": "耶稣",
+            "pinyin": "yēsū"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "盼望",
+            "pinyin": "pànwàng"
+          }
+        ],
+        "timestamp": "03:01.80"
       },
       {
         "chinese": "",
@@ -44439,6 +44608,75 @@
         "timestamp": "03:38.73"
       },
       {
+        "chinese": "",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "chinese": "在沉寂之中 咆哮的狮子",
+        "pinyin": "zài chénjì zhī zhōng páoxiào de shīzi",
+        "english": "In the silence, the roaring Lion",
+        "segments": [
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "沉寂",
+            "pinyin": "chénjì"
+          },
+          {
+            "hanzi": "之中",
+            "pinyin": "zhīzhōng"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "咆哮",
+            "pinyin": "páoxiào"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "狮子",
+            "pinyin": "shīzi"
+          }
+        ],
+        "timestamp": "03:58.80"
+      },
+      {
+        "chinese": "宣告坟墓不再辖制我",
+        "pinyin": "xuāngào fénmù bù zài xiázhì wǒ",
+        "english": "Declared that the grave no longer holds me",
+        "segments": [
+          {
+            "hanzi": "宣告",
+            "pinyin": "xuāngào"
+          },
+          {
+            "hanzi": "坟墓",
+            "pinyin": "fénmù"
+          },
+          {
+            "hanzi": "不再",
+            "pinyin": "bùzài"
+          },
+          {
+            "hanzi": "辖制",
+            "pinyin": "xiázhì"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          }
+        ],
+        "timestamp": "04:08.00"
+      },
+      {
         "chinese": "耶稣祢已全然得胜",
         "pinyin": "yēsū nǐ yǐ quánrán déshèng",
         "english": "Jesus, You have fully overcome",
@@ -44465,6 +44703,328 @@
           }
         ],
         "timestamp": "04:13.41"
+      },
+      {
+        "chinese": "",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "chinese": "哈利路亚 赞美祂释放我心",
+        "pinyin": "hālìlùyà zànměi tā shìfàng wǒ xīn",
+        "english": "Hallelujah, praise Him who sets my heart free",
+        "segments": [
+          {
+            "hanzi": "哈利路亚",
+            "pinyin": "hālìlùyà"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "赞美",
+            "pinyin": "zànměi"
+          },
+          {
+            "hanzi": "祂",
+            "pinyin": "tā"
+          },
+          {
+            "hanzi": "释放",
+            "pinyin": "shìfàng"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "心",
+            "pinyin": "xīn"
+          }
+        ],
+        "timestamp": "04:26.00"
+      },
+      {
+        "chinese": "哈利路亚 死亡失去了权柄",
+        "pinyin": "hālìlùyà sǐwáng shīqù le quánbǐng",
+        "english": "Hallelujah, death has lost its power",
+        "segments": [
+          {
+            "hanzi": "哈利路亚",
+            "pinyin": "hālìlùyà"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "死亡",
+            "pinyin": "sǐwáng"
+          },
+          {
+            "hanzi": "失去",
+            "pinyin": "shīqù"
+          },
+          {
+            "hanzi": "了",
+            "pinyin": "le"
+          },
+          {
+            "hanzi": "权柄",
+            "pinyin": "quánbǐng"
+          }
+        ],
+        "timestamp": "04:30.00"
+      },
+      {
+        "chinese": "祢破碎所有枷锁",
+        "pinyin": "nǐ pòsuì suǒyǒu jiāsuǒ",
+        "english": "You have broken every chain",
+        "segments": [
+          {
+            "hanzi": "祢",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "破碎",
+            "pinyin": "pòsuì"
+          },
+          {
+            "hanzi": "所有",
+            "pinyin": "suǒyǒu"
+          },
+          {
+            "hanzi": "枷锁",
+            "pinyin": "jiāsuǒ"
+          }
+        ],
+        "timestamp": "04:35.00"
+      },
+      {
+        "chinese": "救赎就在祢名中",
+        "pinyin": "jiùshú jiù zài nǐ míng zhōng",
+        "english": "Salvation is found in Your name",
+        "segments": [
+          {
+            "hanzi": "救赎",
+            "pinyin": "jiùshú"
+          },
+          {
+            "hanzi": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "祢",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "名",
+            "pinyin": "míng"
+          },
+          {
+            "hanzi": "中",
+            "pinyin": "zhōng"
+          }
+        ],
+        "timestamp": "04:38.00"
+      },
+      {
+        "chinese": "主耶稣 我的盼望",
+        "pinyin": "zhǔ yēsū wǒ de pànwàng",
+        "english": "Lord Jesus, my living hope",
+        "segments": [
+          {
+            "hanzi": "主",
+            "pinyin": "zhǔ"
+          },
+          {
+            "hanzi": "耶稣",
+            "pinyin": "yēsū"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "盼望",
+            "pinyin": "pànwàng"
+          }
+        ],
+        "timestamp": "04:41.00"
+      },
+      {
+        "chinese": "",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "chinese": "哈利路亚 赞美祂释放我心",
+        "pinyin": "hālìlùyà zànměi tā shìfàng wǒ xīn",
+        "english": "Hallelujah, praise Him who sets my heart free",
+        "segments": [
+          {
+            "hanzi": "哈利路亚",
+            "pinyin": "hālìlùyà"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "赞美",
+            "pinyin": "zànměi"
+          },
+          {
+            "hanzi": "祂",
+            "pinyin": "tā"
+          },
+          {
+            "hanzi": "释放",
+            "pinyin": "shìfàng"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "心",
+            "pinyin": "xīn"
+          }
+        ],
+        "timestamp": "04:53.00"
+      },
+      {
+        "chinese": "哈利路亚 死亡失去了权柄",
+        "pinyin": "hālìlùyà sǐwáng shīqù le quánbǐng",
+        "english": "Hallelujah, death has lost its power",
+        "segments": [
+          {
+            "hanzi": "哈利路亚",
+            "pinyin": "hālìlùyà"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "死亡",
+            "pinyin": "sǐwáng"
+          },
+          {
+            "hanzi": "失去",
+            "pinyin": "shīqù"
+          },
+          {
+            "hanzi": "了",
+            "pinyin": "le"
+          },
+          {
+            "hanzi": "权柄",
+            "pinyin": "quánbǐng"
+          }
+        ],
+        "timestamp": "05:06.20"
+      },
+      {
+        "chinese": "祢破碎所有枷锁",
+        "pinyin": "nǐ pòsuì suǒyǒu jiāsuǒ",
+        "english": "You have broken every chain",
+        "segments": [
+          {
+            "hanzi": "祢",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "破碎",
+            "pinyin": "pòsuì"
+          },
+          {
+            "hanzi": "所有",
+            "pinyin": "suǒyǒu"
+          },
+          {
+            "hanzi": "枷锁",
+            "pinyin": "jiāsuǒ"
+          }
+        ],
+        "timestamp": "05:07.50"
+      },
+      {
+        "chinese": "救赎就在祢名中",
+        "pinyin": "jiùshú jiù zài nǐ míng zhōng",
+        "english": "Salvation is found in Your name",
+        "segments": [
+          {
+            "hanzi": "救赎",
+            "pinyin": "jiùshú"
+          },
+          {
+            "hanzi": "就",
+            "pinyin": "jiù"
+          },
+          {
+            "hanzi": "在",
+            "pinyin": "zài"
+          },
+          {
+            "hanzi": "祢",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "名",
+            "pinyin": "míng"
+          },
+          {
+            "hanzi": "中",
+            "pinyin": "zhōng"
+          }
+        ],
+        "timestamp": "05:09.50"
+      },
+      {
+        "chinese": "主耶稣 我的盼望",
+        "pinyin": "zhǔ yēsū wǒ de pànwàng",
+        "english": "Lord Jesus, my living hope",
+        "segments": [
+          {
+            "hanzi": "主",
+            "pinyin": "zhǔ"
+          },
+          {
+            "hanzi": "耶稣",
+            "pinyin": "yēsū"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "盼望",
+            "pinyin": "pànwàng"
+          }
+        ],
+        "timestamp": "05:12.00"
       }
     ]
   },
