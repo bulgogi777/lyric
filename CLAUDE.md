@@ -12,6 +12,7 @@ A web app for studying Chinese through music. Displays song lyrics with Chinese 
 - **Framework:** Astro v5 (static site generation)
 - **Styling:** Tailwind CSS v4
 - **Pinyin:** pinyin-pro library
+- **Character Conversion:** opencc-js (simplified ↔ traditional toggle, client-side)
 - **Package Manager:** bun (NOT npm/yarn)
 - **Deployment:** Vercel (auto-deploys on push to master)
 - **Data Storage:** Local JSON file (`data/songs.json`)
@@ -49,7 +50,7 @@ lyric/
 │       └── global.css            # Tailwind + print styles
 ├── scripts/
 │   ├── build-data.ts             # LRCLIB fetch + Gemini translation
-│   ├── sync-playlist.ts          # YouTube Music playlist sync (via Tower)
+│   ├── sync-playlist.ts          # YouTube Music playlist sync (via MeTube on Tower)
 │   ├── align-timestamps.py       # WhisperX timestamp alignment script
 │   ├── validate.ts               # Quality validation (bun run validate)
 │   ├── add-segments-sonnet.ts    # Word segmentation via Claude CLI (⚠️ see Known Constraints)
@@ -172,13 +173,13 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
 **Prerequisites:**
 - WhisperX ASR service on Tower (`http://tower:9000/asr`, engine=whisperx, large-v3, GPU)
 - Demucs vocal separator on Tower (`http://tower:7861/api/separate`, `paladini/voice-separator`, GPU)
-- yt-dlp on Tower (`/root/.local/bin/yt-dlp`)
+- yt-dlp via MeTube container on Tower (`docker exec MeTube yt-dlp`)
 
 **Process:**
 
 1. **Download audio on Tower** (YouTube blocks datacenter IPs, Tower has residential):
    ```bash
-   ssh tower "/root/.local/bin/yt-dlp -x -o '/tmp/VIDEOID.%(ext)s' 'https://youtube.com/watch?v=VIDEOID'"
+   ssh tower "docker exec MeTube yt-dlp -x -o '/tmp/VIDEOID.%(ext)s' 'https://youtube.com/watch?v=VIDEOID'"
    ```
 
 2. **Convert to WAV** (required for Demucs — only accepts mp3/wav/flac/aac/m4a):
@@ -243,7 +244,7 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
 ```bash
 # 1. Download all
 ssh tower 'for id in ID1 ID2 ID3; do
-  /root/.local/bin/yt-dlp -x -o "/tmp/lyrics/${id}.%(ext)s" "https://youtube.com/watch?v=${id}"
+  docker exec MeTube yt-dlp -x -o "/tmp/lyrics/${id}.%(ext)s" "https://youtube.com/watch?v=${id}"
 done'
 
 # 2. Convert all to WAV
@@ -351,6 +352,15 @@ function isValidTranslation(text: string): boolean {
 
 **Important:** Be careful not to make patterns too broad - `/^I will/i` would hide valid translations like "I will continue, please get ready".
 
+## Character Mode Toggle (Simplified ↔ Traditional)
+
+Song pages include a 简体/繁體 toggle that converts all Chinese characters between simplified and traditional using opencc-js. Default is simplified. Preference persists via localStorage.
+
+- **Implementation:** Client-side dynamic import of opencc-js (457KB gzipped dictionary, lazy-loaded)
+- **Toggle location:** Song header, below artist name
+- **Conversion:** `tw → cn` for simplified mode, `cn → tw` for traditional mode
+- **Source data stays as-is** — the JSON has mixed traditional/simplified depending on the original source. opencc handles both directions idempotently.
+
 ## YouTube Integration
 
 - **Embedding:** Uses YouTube IFrame API (loaded in `YouTubePlayer.astro`)
@@ -383,9 +393,11 @@ Changes appear at lyric.bwe4.net within ~1 minute.
 ## Lyrics Sources (Priority Order)
 
 1. **LRCLIB** (automatic) - Best source with timestamps
-2. **jspinyin.net** (manual) - Chinese lyrics with pinyin
-3. **Mojim.com** (manual) - Chinese lyrics without pinyin
-4. **Manual entry** - Last resort via admin page
+2. **KKBOX** (web search/fetch) - Excellent Chinese lyrics coverage, schema.org JSON-LD embedded in HTML pages
+3. **zz123.com** (web fetch) - Good coverage, sometimes has LRC timestamps in page data
+4. **jspinyin.net** (manual) - Chinese lyrics with pinyin
+5. **Mojim.com** — ⚠️ DNS blocked (resolves to 192.168.1.2 from both VPS and Tower). Not usable.
+6. **Manual entry** - Last resort via admin page
 
 ## Key Learnings
 
@@ -410,9 +422,15 @@ Changes appear at lyric.bwe4.net within ~1 minute.
 - Can fail to translate certain lines (outputs `[translation unavailable]`)
 
 ### jspinyin.net Extraction
-- Best source for Chinese songs with pinyin
-- Use Steel browser MCP for extraction (handles dynamic content)
+- Good source for Chinese songs with pinyin
 - Format: Chinese line, then pinyin line, alternating
+- Can use WebFetch or agent-browser for extraction
+
+### KKBOX Lyrics Extraction
+- Excellent coverage for Chinese/Taiwanese music
+- Lyrics are embedded as schema.org JSON-LD in the HTML — no JS rendering needed
+- Search via web search: `site:kkbox.com artist title`
+- WebFetch the page and extract from the structured data
 
 ### Word Segmentation (Ruby Alignment)
 
