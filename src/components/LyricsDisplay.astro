@@ -152,6 +152,38 @@ function isValidTranslation(text: string): boolean {
       currentHighlightedIndex = targetIndex;
     }
   });
+
+  // --- Character conversion (simplified ↔ traditional) ---
+  interface CharEntry { el: Element; original: string }
+  const charEntries: CharEntry[] = [];
+
+  document.querySelectorAll('.ruby-hanzi, .chinese').forEach(el => {
+    charEntries.push({ el, original: el.textContent || '' });
+  });
+
+  let openccModule: typeof import('opencc-js') | null = null;
+
+  async function convertCharacters(mode: string) {
+    if (!openccModule) {
+      openccModule = await import('opencc-js');
+    }
+    const converter = mode === 'traditional'
+      ? openccModule.Converter({ from: 'cn', to: 'tw' })
+      : openccModule.Converter({ from: 'tw', to: 'cn' });
+
+    charEntries.forEach(({ el, original }) => {
+      el.textContent = converter(original);
+    });
+  }
+
+  // Apply saved preference on load
+  const charMode = localStorage.getItem('charMode') || 'simplified';
+  convertCharacters(charMode);
+
+  // Listen for toggle
+  window.addEventListener('charModeToggle', ((e: CustomEvent) => {
+    convertCharacters(e.detail.mode);
+  }) as EventListener);
 </script>
 
 <style>

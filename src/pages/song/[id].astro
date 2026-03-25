@@ -26,7 +26,34 @@ const { song } = Astro.props;
       <h1 class="text-3xl font-bold mb-2">{song.title}</h1>
       <p class="text-text-muted text-lg">{song.artist}</p>
       {song.album && <p class="text-text-muted text-sm">Album: {song.album}</p>}
+
+      <!-- Character mode toggle -->
+      <div class="char-toggle no-print" id="char-toggle">
+        <button class="char-toggle-btn" data-mode="simplified">简体</button>
+        <button class="char-toggle-btn" data-mode="traditional">繁體</button>
+      </div>
     </div>
+
+    <script>
+      const toggle = document.getElementById('char-toggle');
+      const buttons = toggle?.querySelectorAll('.char-toggle-btn');
+      const initialMode = localStorage.getItem('charMode') || 'simplified';
+
+      buttons?.forEach(btn => {
+        const mode = btn.getAttribute('data-mode');
+        btn.classList.toggle('active', mode === initialMode);
+      });
+
+      buttons?.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const mode = btn.getAttribute('data-mode') || 'simplified';
+          buttons!.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          localStorage.setItem('charMode', mode);
+          window.dispatchEvent(new CustomEvent('charModeToggle', { detail: { mode } }));
+        });
+      });
+    </script>
 
     <!-- Main content: Player + Lyrics -->
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">

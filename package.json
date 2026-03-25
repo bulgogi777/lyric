@@ -17,6 +17,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.16.8",
+    "opencc-js": "^1.0.5",
     "pinyin-pro": "^3.27.0",
     "tailwindcss": "^4.0.0"
   },
