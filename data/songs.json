@@ -46106,5 +46106,615 @@
         "timestamp": "04:16.55"
       }
     ]
+  },
+  {
+    "id": "ZdxvnWKa52w",
+    "title": "Take My Heart Away (feat. Patrick Brasca)",
+    "artist": "Juice Boy",
+    "hasLyrics": false
+  },
+  {
+    "id": "V8wFrVG_b0M",
+    "title": "蝴蝶",
+    "artist": "派偉俊 Patrick Brasca",
+    "hasLyrics": false
+  },
+  {
+    "id": "s5C6ZWegpSY",
+    "title": "你沒等我去的舊金山",
+    "artist": "派偉俊 Patrick Brasca",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "我站在你家門口",
+        "pinyin": "wǒ zhàn zài nǐ jiā mén kǒu",
+        "english": "I am standing at your doorstep",
+        "timestamp": "00:07.73"
+      },
+      {
+        "chinese": "沈默的心在失控 但一句都說不出口",
+        "pinyin": "shěn mò de xīn zài shī kòng   dàn yí jù dōu shuō bù chū kǒu",
+        "english": "My silent heart is spinning out of control, but I can't say a word",
+        "timestamp": "00:12.03"
+      },
+      {
+        "chinese": "愛原來如此脆弱",
+        "pinyin": "ài yuán lái rú cǐ cuì ruò",
+        "english": "Love turns out to be so fragile",
+        "timestamp": "00:20.78"
+      },
+      {
+        "chinese": "掉入深海的心 我卻不想被誰拯救",
+        "pinyin": "diào rù shēn hǎi de xīn   wǒ què bù xiǎng bèi shuí zhěng jiù",
+        "english": "My heart fell into the deep sea, but I don't want to be saved",
+        "timestamp": "00:25.85"
+      },
+      {
+        "chinese": "堆積的回憶 泛黃的訊息",
+        "pinyin": "duī jī de huí yì   fàn huáng de xùn xī",
+        "english": "Piled up memories, yellowed messages",
+        "timestamp": "00:33.80"
+      },
+      {
+        "chinese": "好不容易失去的太輕易",
+        "pinyin": "hǎo bù róng yì shī qù de tài qīng yì",
+        "english": "What was hard-won was lost all too easily",
+        "timestamp": "00:36.94"
+      },
+      {
+        "chinese": "還在措手不及",
+        "pinyin": "huán zài cuò shǒu bù jí",
+        "english": "Still caught off guard",
+        "timestamp": "00:42.39"
+      },
+      {
+        "chinese": "在每個夜裡 我試著抽離",
+        "pinyin": "zài měi gè yè lǐ   wǒ shì zhù chōu lí",
+        "english": "Every night, I try to detach myself",
+        "timestamp": "00:47.27"
+      },
+      {
+        "chinese": "卻又不斷地從睡夢裡驚醒",
+        "pinyin": "què yòu bú duàn dì cóng shuì mèng lǐ jīng xǐng",
+        "english": "But I keep waking up startled from my dreams",
+        "timestamp": "00:50.38"
+      },
+      {
+        "chinese": "該怎麼不想起",
+        "pinyin": "gāi zěn mó bù xiǎng qǐ",
+        "english": "How can I not remember",
+        "timestamp": "00:55.98"
+      },
+      {
+        "chinese": "你沒等我去的舊金山",
+        "pinyin": "nǐ méi děng wǒ qù de jiù jīn shān",
+        "english": "The San Francisco you didn't wait for me to visit",
+        "timestamp": "01:00.30"
+      },
+      {
+        "chinese": "你沒陪我牽手的聖誕",
+        "pinyin": "nǐ méi péi wǒ qiān shǒu de shèng dàn",
+        "english": "The Christmas you didn't hold my hand",
+        "timestamp": "01:03.63"
+      },
+      {
+        "chinese": "而我卻把你最後的話",
+        "pinyin": "ér wǒ què bǎ nǐ zuì hòu de huà",
+        "english": "And yet I take your final words",
+        "timestamp": "01:06.88"
+      },
+      {
+        "chinese": "一人承擔",
+        "pinyin": "yì rén chéng dān",
+        "english": "And bear them all alone",
+        "timestamp": "01:10.36"
+      },
+      {
+        "chinese": "我被動的接受失落感",
+        "pinyin": "wǒ bèi dòng de jiē shòu shī luò gǎn",
+        "english": "I passively accept this sense of loss",
+        "timestamp": "01:13.77"
+      },
+      {
+        "chinese": "那一句沒說出的晚安",
+        "pinyin": "nà yí jù méi shuō chū de wǎn ān",
+        "english": "That unspoken goodnight",
+        "timestamp": "01:17.11"
+      },
+      {
+        "chinese": "我還在對話框裡打了又刪",
+        "pinyin": "wǒ huán zài duì huà kuàng lǐ dǎ le yòu shān",
+        "english": "I'm still typing and deleting in the chat box",
+        "timestamp": "01:21.04"
+      },
+      {
+        "chinese": "算不算難堪?",
+        "pinyin": "suàn bu suàn nán kān ?",
+        "english": "Does this count as pathetic?",
+        "timestamp": "01:26.52"
+      },
+      {
+        "chinese": "說實話的竟已消失 固著的竟已消失",
+        "pinyin": "shuō shí huà de jìng yǐ xiāo shī   gù zhù de jìng yǐ xiāo shī",
+        "english": "The truth has vanished, the persistence has vanished",
+        "timestamp": "01:27.87"
+      },
+      {
+        "chinese": "還是沒有辦法調適對命運裡的那種偏執",
+        "pinyin": "huán shì méi yǒu bàn fǎ diào shì duì mìng yùn lǐ de nà zhǒng piān zhí",
+        "english": "Still unable to adjust to that obsession with fate",
+        "timestamp": "01:31.21"
+      },
+      {
+        "chinese": "還記得我們的紀念日 記得你固執",
+        "pinyin": "huán jì dé wǒ mén de jì niàn rì   jì dé nǐ gù zhí",
+        "english": "Still remember our anniversary and your stubbornness",
+        "timestamp": "01:34.55"
+      },
+      {
+        "chinese": "還記得你不愛曖昧 只還記得你挑食",
+        "pinyin": "huán jì dé nǐ bú ài ài mèi   zhī huán jì dé nǐ tiāo shí",
+        "english": "Still remember you disliked ambiguity and were a picky eater",
+        "timestamp": "01:38.08"
+      },
+      {
+        "chinese": "從開頭就知道不合適 還是錯過我們曾經",
+        "pinyin": "cóng kāi tóu jiù zhī dào bù hé shì   huán shì cuò guò wǒ mén céng jīng",
+        "english": "Knew from the start we weren't right, yet we missed our past",
+        "timestamp": "01:41.33"
+      },
+      {
+        "chinese": "曾經愛的不合時 現在卻又不合適",
+        "pinyin": "céng jīng ài de bù hé shí   xiàn zài què yòu bù hé shì",
+        "english": "Once we loved at the wrong time, now we are just not right",
+        "timestamp": "01:44.89"
+      },
+      {
+        "chinese": "擁有了那一天到了誰 不會再想起",
+        "pinyin": "yōng yǒu le nà yì tiān dào le shuí   bú huì zài xiǎng qǐ",
+        "english": "Who, having had that day, will never think of it again",
+        "timestamp": "01:48.45"
+      },
+      {
+        "chinese": "後來遇見了新的人 卻不讓你想起",
+        "pinyin": "hòu lái yù jiàn le xīn de rén   què bú ràng nǐ xiǎng qǐ",
+        "english": "Later you met someone new who won't let you remember",
+        "timestamp": "01:51.46"
+      },
+      {
+        "chinese": "你沒等我去的舊金山",
+        "pinyin": "nǐ méi děng wǒ qù de jiù jīn shān",
+        "english": "The San Francisco you didn't wait for me to go to",
+        "timestamp": "01:54.41"
+      },
+      {
+        "chinese": "你沒陪我牽手的聖誕",
+        "pinyin": "nǐ méi péi wǒ qiān shǒu de shèng dàn",
+        "english": "The Christmas you didn't hold my hand",
+        "timestamp": "01:57.88"
+      },
+      {
+        "chinese": "而我卻把你最後的話",
+        "pinyin": "ér wǒ què bǎ nǐ zuì hòu de huà",
+        "english": "While I take your final words",
+        "timestamp": "02:01.07"
+      },
+      {
+        "chinese": "一人承擔",
+        "pinyin": "yì rén chéng dān",
+        "english": "To bear them all alone",
+        "timestamp": "02:04.79"
+      },
+      {
+        "chinese": "我被動的接受失落感",
+        "pinyin": "wǒ bèi dòng de jiē shòu shī luò gǎn",
+        "english": "I passively accept the sense of loss",
+        "timestamp": "02:07.81"
+      },
+      {
+        "chinese": "那一句沒說出的晚安",
+        "pinyin": "nà yí jù méi shuō chū de wǎn ān",
+        "english": "That goodnight that was never spoken",
+        "timestamp": "02:11.30"
+      },
+      {
+        "chinese": "我還在對話框裡打了又刪",
+        "pinyin": "wǒ huán zài duì huà kuàng lǐ dǎ le yòu shān",
+        "english": "Still typing and deleting in the chat box",
+        "timestamp": "02:15.22"
+      },
+      {
+        "chinese": "算不算難堪?",
+        "pinyin": "suàn bu suàn nán kān ?",
+        "english": "Does this count as embarrassing?",
+        "timestamp": "02:20.79"
+      },
+      {
+        "chinese": "說過的話都記得",
+        "pinyin": "shuō guò de huà dōu jì dé",
+        "english": "I remember everything we said",
+        "timestamp": "02:23.26"
+      },
+      {
+        "chinese": "為什麼你沒有捨不得?",
+        "pinyin": "wéi shén mó nǐ méi yǒu shě bù dé ?",
+        "english": "Why aren't you reluctant to let go?",
+        "timestamp": "02:26.43"
+      },
+      {
+        "chinese": "是不是我沒有資格去擁有這平凡中的快樂?",
+        "pinyin": "shì bu shì wǒ méi yǒu zī gé qù yōng yǒu zhè píng fán zhōng de kuài lè ?",
+        "english": "Am I not qualified to have this ordinary happiness?",
+        "timestamp": "02:29.93"
+      },
+      {
+        "chinese": "我過的好不好不曉得",
+        "pinyin": "wǒ guò de hǎo bu hǎo bù xiǎo dé",
+        "english": "Whether I am doing well, I do not know",
+        "timestamp": "02:36.65"
+      },
+      {
+        "chinese": "在每個夜裡我輾轉反側",
+        "pinyin": "zài měi gè yè lǐ wǒ zhǎn zhuǎn fǎn cè",
+        "english": "Every night I toss and turn",
+        "timestamp": "02:39.80"
+      },
+      {
+        "chinese": "終究是逃不了 眼淚突然過熱",
+        "pinyin": "zhōng jiū shì táo bù liǎo   yǎn lèi tū rán guò rè",
+        "english": "I can't escape it after all, tears suddenly run hot",
+        "timestamp": "02:43.01"
+      },
+      {
+        "chinese": "你沒等我去的舊金山",
+        "pinyin": "nǐ méi děng wǒ qù de jiù jīn shān",
+        "english": "The San Francisco where you didn't wait for me",
+        "timestamp": "02:48.44"
+      },
+      {
+        "chinese": "你沒陪我牽手的聖誕",
+        "pinyin": "nǐ méi péi wǒ qiān shǒu de shèng dàn",
+        "english": "The Christmas when you didn't hold my hand",
+        "timestamp": "02:52.00"
+      },
+      {
+        "chinese": "而我卻把你最後的話",
+        "pinyin": "ér wǒ què bǎ nǐ zuì hòu de huà",
+        "english": "But I took your final words",
+        "timestamp": "02:55.24"
+      },
+      {
+        "chinese": "一人承擔",
+        "pinyin": "yì rén chéng dān",
+        "english": "And bore them all alone",
+        "timestamp": "02:58.82"
+      },
+      {
+        "chinese": "我被動的接受失落感",
+        "pinyin": "wǒ bèi dòng de jiē shòu shī luò gǎn",
+        "english": "I passively accept this sense of loss",
+        "timestamp": "03:02.07"
+      },
+      {
+        "chinese": "那一句沒說出的晚安",
+        "pinyin": "nà yí jù méi shuō chū de wǎn ān",
+        "english": "That unspoken goodnight",
+        "timestamp": "03:05.51"
+      },
+      {
+        "chinese": "我還在對話框裡打了又刪",
+        "pinyin": "wǒ huán zài duì huà kuàng lǐ dǎ le yòu shān",
+        "english": "I'm still typing and deleting in the chat box",
+        "timestamp": "03:09.33"
+      },
+      {
+        "chinese": "算不算難堪?",
+        "pinyin": "suàn bu suàn nán kān ?",
+        "english": "Does this count as being pathetic?",
+        "timestamp": "03:14.82"
+      },
+      {
+        "chinese": "Whoa-whoa-whoa",
+        "pinyin": "W h o a - w h o a - w h o a",
+        "english": "Whoa-whoa-whoa",
+        "timestamp": "03:18.04"
+      },
+      {
+        "chinese": "那句沒說的晚安",
+        "pinyin": "nà jù méi shuō de wǎn ān",
+        "english": "That unspoken goodnight",
+        "timestamp": "03:21.31"
+      },
+      {
+        "chinese": "我還在對話框裡打了又刪",
+        "pinyin": "wǒ huán zài duì huà kuàng lǐ dǎ le yòu shān",
+        "english": "I'm still typing and deleting in the chat box",
+        "timestamp": "03:22.84"
+      },
+      {
+        "chinese": "算不算難堪?",
+        "pinyin": "suàn bu suàn nán kān ?",
+        "english": "Does this count as being pathetic?",
+        "timestamp": "03:28.48"
+      }
+    ],
+    "album": "你沒等我去的舊金山",
+    "duration": 230
+  },
+  {
+    "id": "5WYjvoY1lXk",
+    "title": "戀曲2020",
+    "artist": "Shadow Project",
+    "hasLyrics": false
+  },
+  {
+    "id": "pwjMGY1lTO4",
+    "title": "Cold (feat. 莫宰羊)",
+    "artist": "派偉俊 Patrick Brasca",
+    "hasLyrics": false
+  },
+  {
+    "id": "WvqLiU-lWJA",
+    "title": "Till 4ever",
+    "artist": "婁峻碩SHOU",
+    "hasLyrics": false
+  },
+  {
+    "id": "qhHLq8-hvuw",
+    "title": "過熱 Overlitt (Remix)",
+    "artist": "Shadow Project",
+    "hasLyrics": false
+  },
+  {
+    "id": "gRAZ6Pqrlbc",
+    "title": "Blame",
+    "artist": "李浩瑋 Howard Lee",
+    "hasLyrics": true,
+    "lyricsSource": "lrclib",
+    "lyrics": [
+      {
+        "chinese": "All you wanna do is try to blame it on me",
+        "pinyin": "A l l   y o u   w a n n a   d o   i s   t r y   t o   b l a m e   i t   o n   m e",
+        "english": "All you wanna do is try to blame it on me",
+        "timestamp": "00:26.09"
+      },
+      {
+        "chinese": "發生這些事我假裝不去在意",
+        "pinyin": "fā shēng zhè xiē shì wǒ jiǎ zhuāng bú qù zài yì",
+        "english": "When these things happen, I pretend not to care",
+        "timestamp": "00:29.32"
+      },
+      {
+        "chinese": "All you wanna do is try to blame it on me",
+        "pinyin": "A l l   y o u   w a n n a   d o   i s   t r y   t o   b l a m e   i t   o n   m e",
+        "english": "All you wanna do is try to blame it on me",
+        "timestamp": "00:32.74"
+      },
+      {
+        "chinese": "I know I know I know why",
+        "pinyin": "I   k n o w   I   k n o w   I   k n o w   w h y",
+        "english": "I know I know I know why",
+        "timestamp": "00:35.58"
+      },
+      {
+        "chinese": "天天想著你我假裝不去在意",
+        "pinyin": "tiān tiān xiǎng zhù nǐ wǒ jiǎ zhuāng bú qù zài yì",
+        "english": "Thinking of you every day, I pretend not to care",
+        "timestamp": "00:39.25"
+      },
+      {
+        "chinese": "They try to blame it on me (ya I",
+        "pinyin": "T h e y   t r y   t o   b l a m e   i t   o n   m e   ( y a   I",
+        "english": "They try to blame it on me (ya I",
+        "timestamp": "00:43.03"
+      },
+      {
+        "chinese": "I just keep",
+        "pinyin": "I   j u s t   k e e p",
+        "english": "I just keep",
+        "timestamp": "00:46.53"
+      },
+      {
+        "chinese": "Pretending pretending pretending的沒意義",
+        "pinyin": "P r e t e n d i n g   p r e t e n d i n g   p r e t e n d i n g de méi yì yì",
+        "english": "Pretending, pretending, pretending is meaningless",
+        "timestamp": "00:47.58"
+      },
+      {
+        "chinese": "我陪你玩這場遊戲看似沒有盡頭",
+        "pinyin": "wǒ péi nǐ wán zhè chǎng yóu xì kàn sì méi yǒu jìn tóu",
+        "english": "Playing this game with you, it seems endless",
+        "timestamp": "00:52.15"
+      },
+      {
+        "chinese": "沒有你沒有我 變得空洞",
+        "pinyin": "méi yǒu nǐ méi yǒu wǒ   biàn dé kòng dòng",
+        "english": "Without you, without me, everything becomes hollow",
+        "timestamp": "00:58.95"
+      },
+      {
+        "chinese": "再想起回憶起 變得軟弱",
+        "pinyin": "zài xiǎng qǐ huí yì qǐ   biàn dé ruǎn ruò",
+        "english": "Thinking back, remembering, I become weak",
+        "timestamp": "01:02.07"
+      },
+      {
+        "chinese": "我知道發生這些事都不能重來",
+        "pinyin": "wǒ zhī dào fā shēng zhè xiē shì dōu bù néng zhòng lái",
+        "english": "I know what happened cannot be redone",
+        "timestamp": "01:05.52"
+      },
+      {
+        "chinese": "我們之間太多的誤會 太多意外",
+        "pinyin": "wǒ mén zhī jiàn tài duō de wù huì   tài duō yì wài",
+        "english": "Too many misunderstandings between us, too many accidents",
+        "timestamp": "01:08.61"
+      },
+      {
+        "chinese": "I probly never had a chance to say goodbye(Oh woo",
+        "pinyin": "I   p r o b l y   n e v e r   h a d   a   c h a n c e   t o   s a y   g o o d b y e ( O h   w o o",
+        "english": "I probably never had a chance to say goodbye (Oh woo",
+        "timestamp": "01:11.91"
+      },
+      {
+        "chinese": "All you wanna do is try to blame it on me",
+        "pinyin": "A l l   y o u   w a n n a   d o   i s   t r y   t o   b l a m e   i t   o n   m e",
+        "english": "All you wanna do is try to blame it on me",
+        "timestamp": "01:18.64"
+      },
+      {
+        "chinese": "發生這些事我假裝不去在意",
+        "pinyin": "fā shēng zhè xiē shì wǒ jiǎ zhuāng bú qù zài yì",
+        "english": "When these things happen, I pretend not to care",
+        "timestamp": "01:21.96"
+      },
+      {
+        "chinese": "All you wanna do is try to blame it on me",
+        "pinyin": "A l l   y o u   w a n n a   d o   i s   t r y   t o   b l a m e   i t   o n   m e",
+        "english": "All you wanna do is try to blame it on me",
+        "timestamp": "01:25.22"
+      },
+      {
+        "chinese": "I know I know I know why",
+        "pinyin": "I   k n o w   I   k n o w   I   k n o w   w h y",
+        "english": "I know I know I know why",
+        "timestamp": "01:28.02"
+      },
+      {
+        "chinese": "天天想著你我假裝不去在意",
+        "pinyin": "tiān tiān xiǎng zhù nǐ wǒ jiǎ zhuāng bú qù zài yì",
+        "english": "Thinking of you every day, I pretend not to care",
+        "timestamp": "01:31.83"
+      },
+      {
+        "chinese": "They try to blame it on me (ya I",
+        "pinyin": "T h e y   t r y   t o   b l a m e   i t   o n   m e   ( y a   I",
+        "english": "They try to blame it on me (ya I",
+        "timestamp": "01:35.41"
+      },
+      {
+        "chinese": "I just keep",
+        "pinyin": "I   j u s t   k e e p",
+        "english": "I just keep",
+        "timestamp": "01:38.97"
+      },
+      {
+        "chinese": "Pretending pretending pretending的沒意義",
+        "pinyin": "P r e t e n d i n g   p r e t e n d i n g   p r e t e n d i n g de méi yì yì",
+        "english": "Pretending pretending pretending is meaningless",
+        "timestamp": "01:40.02"
+      },
+      {
+        "chinese": "我不希望你有天變成我",
+        "pinyin": "wǒ bù xī wàng nǐ yǒu tiān biàn chéng wǒ",
+        "english": "I don't want you to become like me one day",
+        "timestamp": "01:44.93"
+      },
+      {
+        "chinese": "腳步變得更沉重",
+        "pinyin": "jiǎo bù biàn dé gèng chén zhòng",
+        "english": "My footsteps become heavier",
+        "timestamp": "01:47.03"
+      },
+      {
+        "chinese": "腦袋中住滿bad thoughts",
+        "pinyin": "nǎo dài zhōng zhù mǎn b a d   t h o u g h t s",
+        "english": "My head is filled with bad thoughts",
+        "timestamp": "01:48.78"
+      },
+      {
+        "chinese": "所以我現在停手",
+        "pinyin": "suǒ yǐ wǒ xiàn zài tíng shǒu",
+        "english": "So I'm stopping now",
+        "timestamp": "01:50.45"
+      },
+      {
+        "chinese": "不再成為誰和誰和誰和誰之間的藉口",
+        "pinyin": "bú zài chéng wéi shuí hé shuí hé shuí hé shuí zhī jiàn de jiè kǒu",
+        "english": "No longer being an excuse between anyone",
+        "timestamp": "01:52.19"
+      },
+      {
+        "chinese": "Girl you gonna belive me right now",
+        "pinyin": "G i r l   y o u   g o n n a   b e l i v e   m e   r i g h t   n o w",
+        "english": "Girl you gonna believe me right now",
+        "timestamp": "01:58.44"
+      },
+      {
+        "chinese": "Girl you gonna belive me right now",
+        "pinyin": "G i r l   y o u   g o n n a   b e l i v e   m e   r i g h t   n o w",
+        "english": "Girl you gonna believe me right now",
+        "timestamp": "02:01.79"
+      },
+      {
+        "chinese": "Girl you gonna belive me right now",
+        "pinyin": "G i r l   y o u   g o n n a   b e l i v e   m e   r i g h t   n o w",
+        "english": "Girl you gonna believe me right now",
+        "timestamp": "02:04.97"
+      },
+      {
+        "chinese": "All you wanna do is try to blame it on me",
+        "pinyin": "A l l   y o u   w a n n a   d o   i s   t r y   t o   b l a m e   i t   o n   m e",
+        "english": "All you wanna do is try to blame it on me",
+        "timestamp": "02:12.08"
+      },
+      {
+        "chinese": "發生這些事我假裝不去在意",
+        "pinyin": "fā shēng zhè xiē shì wǒ jiǎ zhuāng bú qù zài yì",
+        "english": "I pretend not to care about these things happening",
+        "timestamp": "02:15.38"
+      },
+      {
+        "chinese": "All you wanna do is try to blame it on me",
+        "pinyin": "A l l   y o u   w a n n a   d o   i s   t r y   t o   b l a m e   i t   o n   m e",
+        "english": "All you wanna do is try to blame it on me",
+        "timestamp": "02:18.70"
+      },
+      {
+        "chinese": "I know I know I know why",
+        "pinyin": "I   k n o w   I   k n o w   I   k n o w   w h y",
+        "english": "I know I know I know why",
+        "timestamp": "02:21.63"
+      },
+      {
+        "chinese": "天天想著你我假裝不去在意",
+        "pinyin": "tiān tiān xiǎng zhù nǐ wǒ jiǎ zhuāng bú qù zài yì",
+        "english": "Thinking of you every day, I pretend not to care",
+        "timestamp": "02:25.37"
+      },
+      {
+        "chinese": "They try to blame it on me (ya I",
+        "pinyin": "T h e y   t r y   t o   b l a m e   i t   o n   m e   ( y a   I",
+        "english": "They try to blame it on me (ya I",
+        "timestamp": "02:29.06"
+      },
+      {
+        "chinese": "I just keep",
+        "pinyin": "I   j u s t   k e e p",
+        "english": "I just keep",
+        "timestamp": "02:32.26"
+      },
+      {
+        "chinese": "Pretending pretending pretending的沒意義",
+        "pinyin": "P r e t e n d i n g   p r e t e n d i n g   p r e t e n d i n g de méi yì yì",
+        "english": "Pretending pretending pretending is meaningless",
+        "timestamp": "02:33.51"
+      }
+    ],
+    "album": "Diamond In The Rough",
+    "duration": 190
+  },
+  {
+    "id": "8nJOcu0C7xU",
+    "title": "Don’t Wanna Lie (feat. 8lak, Hosea)",
+    "artist": "派偉俊 Patrick Brasca",
+    "hasLyrics": false
+  },
+  {
+    "id": "bQXkHAFMgkc",
+    "title": "王謙 Goatak【別再互相折磨 I Still Love You】Official Music Video",
+    "artist": "滾石唱片 ROCK RECORDS",
+    "hasLyrics": false
   }
 ]

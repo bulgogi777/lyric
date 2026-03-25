@@ -51,7 +51,8 @@ async function fetchPlaylist(): Promise<PlaylistEntry[]> {
 
   const proc = Bun.spawn([
     'ssh', 'tower',
-    '/root/.local/bin/yt-dlp',
+    'docker', 'exec', 'MeTube',
+    'yt-dlp',
     '--flat-playlist',
     '-J',
     PLAYLIST_URL,
