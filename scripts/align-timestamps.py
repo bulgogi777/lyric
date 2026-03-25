@@ -27,7 +27,14 @@ SONGS_JSON = Path("/home/debian/apex/x/code/lyric/data/songs.json")
 SRT_DIR    = Path("/home/debian/apex/x/code/lyric/scripts/srt-timestamps")
 
 TARGET_IDS = [
-    "Pi5xzNsmmZU",   # 聽媽媽的話 (Demucs-enhanced)
+    "ZdxvnWKa52w",   # Take My Heart Away
+    "V8wFrVG_b0M",   # 蝴蝶
+    "5WYjvoY1lXk",   # 戀曲2020
+    "pwjMGY1lTO4",   # Cold
+    "WvqLiU-lWJA",   # Till 4ever
+    "qhHLq8-hvuw",   # 過熱 Overlitt
+    "8nJOcu0C7xU",   # Don't Wanna Lie
+    "bQXkHAFMgkc",   # 別再互相折磨
 ]
 
 # Chars to use for probe matching
