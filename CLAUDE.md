@@ -52,6 +52,7 @@ lyric/
 │   ├── build-data.ts             # LRCLIB fetch + Gemini translation
 │   ├── sync-playlist.ts          # YouTube Music playlist sync (via MeTube on Tower)
 │   ├── align-timestamps.py       # WhisperX timestamp alignment script
+│   ├── interpolate-timestamps.py # Fill gaps between aligned anchors
 │   ├── validate.ts               # Quality validation (bun run validate)
 │   ├── add-segments-sonnet.ts    # Word segmentation via Claude CLI (⚠️ see Known Constraints)
 │   ├── add-segments-groq.ts      # Word segmentation via Groq (poor quality, not recommended)
@@ -184,9 +185,11 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
 
 2. **Convert to WAV** (required for Demucs — only accepts mp3/wav/flac/aac/m4a):
    ```bash
+   # yt-dlp now outputs .opus (not .webm) — adjust extension accordingly
    ssh tower "docker run --rm -v /tmp:/tmp jrottenberg/ffmpeg \
-     -i /tmp/VIDEOID.webm -vn -acodec pcm_s16le -ar 44100 -ac 2 /tmp/VIDEOID.wav"
+     -i /tmp/VIDEOID.opus -vn -acodec pcm_s16le -ar 44100 -ac 2 /tmp/VIDEOID.wav"
    ```
+   **Note:** ffmpeg is NOT installed on Tower directly — must use the Docker image. Also, MeTube downloads go to `/mnt/user/Videos/MeTube/` — mount that path if downloading via MeTube.
 
 3. **Separate vocals with Demucs** (removes instrumentals for much better transcription):
    ```bash
@@ -233,11 +236,15 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
    - Fast rap/complex vocals: ~50-65% (needs manual interpolation for chorus repeats)
    - Unmatched lines print `NO_MATCH` in output for manual attention
 
-7. **Manual interpolation for remaining gaps** (see "Fixing Chorus Repeats" below)
+7. **Automated interpolation** for remaining gaps:
+   ```bash
+   python3 scripts/interpolate-timestamps.py
+   ```
+   The script fills all unmatched lines using linear interpolation between anchor timestamps, proportional to character count. Edit `TARGET_IDS` in the script to select songs. After running, all lines will have timestamps.
 
 8. **Clean up Tower:**
    ```bash
-   ssh tower "rm /tmp/VIDEOID.wav /tmp/VIDEOID.webm"
+   ssh tower "rm /tmp/VIDEOID.wav /tmp/VIDEOID.opus"
    ```
 
 **Batch processing (multiple songs):**
@@ -247,11 +254,11 @@ ssh tower 'for id in ID1 ID2 ID3; do
   docker exec MeTube yt-dlp -x -o "/tmp/lyrics/${id}.%(ext)s" "https://youtube.com/watch?v=${id}"
 done'
 
-# 2. Convert all to WAV
-ssh tower 'for f in /tmp/lyrics/*.webm; do
-  id=$(basename "$f" .webm)
+# 2. Convert all to WAV (yt-dlp outputs .opus now, not .webm)
+ssh tower 'for f in /tmp/lyrics/*.opus; do
+  id=$(basename "$f" .opus)
   docker run --rm -v /tmp/lyrics:/tmp/lyrics jrottenberg/ffmpeg \
-    -i "/tmp/lyrics/${id}.webm" -vn -acodec pcm_s16le -ar 44100 -ac 2 "/tmp/lyrics/${id}.wav"
+    -i "/tmp/lyrics/${id}.opus" -vn -acodec pcm_s16le -ar 44100 -ac 2 "/tmp/lyrics/${id}.wav"
 done'
 
 # 3. Separate vocals with Demucs (start container first)
@@ -521,6 +528,9 @@ Timestamp alignment varies dramatically by song type. **Always use Demucs first*
 
 **WhisperX word-level timestamps are unreliable for singing.** The model compresses sung content into sub-second intervals (10 chars in 0.2s). Always use segment-level boundaries as anchors and interpolate line positions within segments.
 
+### Near-Duplicate Timestamps in Dense Sections
+Dense bilingual rap sections (e.g., 過熱 Overlitt, 戀曲2020, Take My Heart Away) will always produce near-duplicate timestamp validation errors. When N lyric lines compress into < N seconds of audio, sub-1s gaps are physically unavoidable. These are **correct timestamps**, not bugs — the validator flags them but they are not actionable. Bilingual songs also show lower WhisperX match rates (20-40%) because English lines produce NO_MATCH by design.
+
 ### Demucs on Tower
 Docker image: `paladini/voice-separator` with `--gpus all` (RTX 3090, 24GB VRAM)
 - **Port:** 7861 (API docs at `http://tower:7861/docs`)
@@ -546,7 +556,7 @@ The end-to-end pipeline for adding a new song:
 1. SYNC       → bun run sync (discovers new songs from YouTube Music playlist)
 2. LYRICS     → LRCLIB (auto) → manual sources if needed → Claude generates pinyin/translation/segments inline
 3. TIMESTAMPS → LRCLIB synced lyrics (best) → Demucs + WhisperX on Tower + align-timestamps.py (fallback)
-4. INTERPOLATE → Fix chorus repeats and gaps using segment-level anchors
+4. INTERPOLATE → python3 scripts/interpolate-timestamps.py (fills all gaps automatically)
 5. INTEGRITY  → bun run integrity SONG_ID (cross-check lyrics text vs WhisperX transcript, if available)
 6. VALIDATE   → bun run validate SONG_ID (translations, segments, timestamp coverage)
 7. DEPLOY     → git push → Vercel auto-deploys
@@ -554,7 +564,7 @@ The end-to-end pipeline for adding a new song:
 
 **Timestamp sub-pipeline (step 3-4 detail):**
 ```
-yt-dlp audio → ffmpeg webm→wav → Demucs vocal separation → WhisperX transcription → align-timestamps.py → manual interpolation for gaps → validate
+yt-dlp audio (.opus) → ffmpeg opus→wav → Demucs vocal separation → WhisperX transcription → align-timestamps.py → interpolate-timestamps.py → validate
 ```
 
 **Key principle:** Prefer inline work in Claude Code sessions over script automation. The scripts were built for batch processing but create problematic session spawning. For 1-5 songs at a time, inline is faster and higher quality.
