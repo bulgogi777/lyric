@@ -61092,5 +61092,1356 @@
         "timestamp": "03:46.05"
       }
     ]
+  },
+  {
+    "id": "cQZ_2B5c2aI",
+    "title": "膽小鬼",
+    "artist": "持修ChihSiou",
+    "hasLyrics": true,
+    "album": "房間裡的大象",
+    "duration": 219,
+    "lyricsSource": "jspinyin",
+    "lyrics": [
+      {
+        "chinese": "偽裝堅強但比誰都脆弱 脆弱",
+        "pinyin": "wěi zhuāng jiān qiáng dàn bǐ shuí dōu cuì ruò cuì ruò",
+        "english": "Pretending to be strong, but more fragile than anyone, fragile",
+        "segments": [
+          {
+            "hanzi": "偽裝",
+            "pinyin": "wěizhuāng"
+          },
+          {
+            "hanzi": "堅強",
+            "pinyin": "jiānqiáng"
+          },
+          {
+            "hanzi": "但",
+            "pinyin": "dàn"
+          },
+          {
+            "hanzi": "比",
+            "pinyin": "bǐ"
+          },
+          {
+            "hanzi": "誰",
+            "pinyin": "shuí"
+          },
+          {
+            "hanzi": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "hanzi": "脆弱",
+            "pinyin": "cuìruò"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "脆弱",
+            "pinyin": "cuìruò"
+          }
+        ],
+        "timestamp": "00:14.19"
+      },
+      {
+        "chinese": "被現實的潮汐淹沒 淹沒",
+        "pinyin": "bèi xiàn shí de cháo xī yān mò yān mò",
+        "english": "Submerged by the tides of reality, submerged",
+        "segments": [
+          {
+            "hanzi": "被",
+            "pinyin": "bèi"
+          },
+          {
+            "hanzi": "現實",
+            "pinyin": "xiànshí"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "潮汐",
+            "pinyin": "cháoxī"
+          },
+          {
+            "hanzi": "淹沒",
+            "pinyin": "yānmò"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "淹沒",
+            "pinyin": "yānmò"
+          }
+        ],
+        "timestamp": "00:21.42"
+      },
+      {
+        "chinese": "照劇本演是個悲傷小丑 小丑",
+        "pinyin": "zhào jù běn yǎn shì ge bēi shāng xiǎo chǒu xiǎo chǒu",
+        "english": "Following the script, acting as a sad clown, a clown",
+        "segments": [
+          {
+            "hanzi": "照",
+            "pinyin": "zhào"
+          },
+          {
+            "hanzi": "劇本",
+            "pinyin": "jùběn"
+          },
+          {
+            "hanzi": "演",
+            "pinyin": "yǎn"
+          },
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": "個",
+            "pinyin": "ge"
+          },
+          {
+            "hanzi": "悲傷",
+            "pinyin": "bēishāng"
+          },
+          {
+            "hanzi": "小丑",
+            "pinyin": "xiǎochǒu"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "小丑",
+            "pinyin": "xiǎochǒu"
+          }
+        ],
+        "timestamp": "00:28.41"
+      },
+      {
+        "chinese": "不思念也只能低頭 低頭",
+        "pinyin": "bù sī niàn yě zhǐ néng dī tóu dī tóu",
+        "english": "Even if I don't miss you, I can only lower my head, lower my head",
+        "segments": [
+          {
+            "hanzi": "不",
+            "pinyin": "bù"
+          },
+          {
+            "hanzi": "思念",
+            "pinyin": "sīniàn"
+          },
+          {
+            "hanzi": "也",
+            "pinyin": "yě"
+          },
+          {
+            "hanzi": "只能",
+            "pinyin": "zhǐnéng"
+          },
+          {
+            "hanzi": "低頭",
+            "pinyin": "dītóu"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "低頭",
+            "pinyin": "dītóu"
+          }
+        ],
+        "timestamp": "00:35.39"
+      },
+      {
+        "chinese": "裝模作樣的膽小鬼",
+        "pinyin": "zhuāng mú zuò yàng de dǎn xiǎo guǐ",
+        "english": "A coward putting on an act",
+        "segments": [
+          {
+            "hanzi": "裝模作樣",
+            "pinyin": "zhuāngmúzuòyàng"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "膽小鬼",
+            "pinyin": "dǎnxiǎoguǐ"
+          }
+        ],
+        "timestamp": "00:41.47"
+      },
+      {
+        "chinese": "只喜歡看著地面",
+        "pinyin": "zhǐ xǐ huān kàn zhe dì miàn",
+        "english": "Only likes looking at the ground",
+        "segments": [
+          {
+            "hanzi": "只",
+            "pinyin": "zhǐ"
+          },
+          {
+            "hanzi": "喜歡",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "看著",
+            "pinyin": "kànzhe"
+          },
+          {
+            "hanzi": "地面",
+            "pinyin": "dìmiàn"
+          }
+        ],
+        "timestamp": "00:46.25"
+      },
+      {
+        "chinese": "裝模作樣的膽小鬼",
+        "pinyin": "zhuāng mú zuò yàng de dǎn xiǎo guǐ",
+        "english": "A coward putting on an act",
+        "segments": [
+          {
+            "hanzi": "裝模作樣",
+            "pinyin": "zhuāngmúzuòyàng"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "膽小鬼",
+            "pinyin": "dǎnxiǎoguǐ"
+          }
+        ],
+        "timestamp": "00:49.51"
+      },
+      {
+        "chinese": "只喜歡看著地面",
+        "pinyin": "zhǐ xǐ huān kàn zhe dì miàn",
+        "english": "Only likes looking at the ground",
+        "segments": [
+          {
+            "hanzi": "只",
+            "pinyin": "zhǐ"
+          },
+          {
+            "hanzi": "喜歡",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "看著",
+            "pinyin": "kànzhe"
+          },
+          {
+            "hanzi": "地面",
+            "pinyin": "dìmiàn"
+          }
+        ],
+        "timestamp": "00:52.77"
+      },
+      {
+        "chinese": "我不懂自己 也不知道愛算什麼",
+        "pinyin": "wǒ bù dǒng zì jǐ yě bù zhī dào ài suàn shén me",
+        "english": "I don't understand myself, and I don't know what love counts as",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "不懂",
+            "pinyin": "bùdǒng"
+          },
+          {
+            "hanzi": "自己",
+            "pinyin": "zìjǐ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "也",
+            "pinyin": "yě"
+          },
+          {
+            "hanzi": "不知道",
+            "pinyin": "bùzhīdào"
+          },
+          {
+            "hanzi": "愛",
+            "pinyin": "ài"
+          },
+          {
+            "hanzi": "算",
+            "pinyin": "suàn"
+          },
+          {
+            "hanzi": "什麼",
+            "pinyin": "shénme"
+          }
+        ],
+        "timestamp": "00:57.83"
+      },
+      {
+        "chinese": "燒焦的內心 也不知道剩下什麼",
+        "pinyin": "shāo jiāo de nèi xīn yě bù zhī dào shèng xià shén me",
+        "english": "My scorched heart doesn't know what is left either",
+        "segments": [
+          {
+            "hanzi": "燒焦",
+            "pinyin": "shāojiāo"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "內心",
+            "pinyin": "nèixīn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "也",
+            "pinyin": "yě"
+          },
+          {
+            "hanzi": "不知道",
+            "pinyin": "bùzhīdào"
+          },
+          {
+            "hanzi": "剩下",
+            "pinyin": "shèngxià"
+          },
+          {
+            "hanzi": "什麼",
+            "pinyin": "shénme"
+          }
+        ],
+        "timestamp": "01:07.01"
+      },
+      {
+        "chinese": "你還會想 帶 我 離開？",
+        "pinyin": "nǐ hái huì xiǎng dài wǒ lí kāi?",
+        "english": "Would you still want to take me away?",
+        "segments": [
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "還",
+            "pinyin": "hái"
+          },
+          {
+            "hanzi": "會",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          }
+        ],
+        "timestamp": "01:13.83"
+      },
+      {
+        "chinese": "帶 我 離開？",
+        "pinyin": "dài wǒ lí kāi?",
+        "english": "Take me away?",
+        "segments": [
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          }
+        ],
+        "timestamp": "01:17.36"
+      },
+      {
+        "chinese": "想 帶 我 離開？ 離開",
+        "pinyin": "xiǎng dài wǒ lí kāi? lí kāi",
+        "english": "Want to take me away? Away",
+        "segments": [
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          }
+        ],
+        "timestamp": "01:21.22"
+      },
+      {
+        "chinese": "偽裝堅強但比誰都脆弱 脆弱",
+        "pinyin": "wěi zhuāng jiān qiáng dàn bǐ shuí dōu cuì ruò cuì ruò",
+        "english": "Pretending to be strong, but more fragile than anyone, fragile",
+        "segments": [
+          {
+            "hanzi": "偽裝",
+            "pinyin": "wěizhuāng"
+          },
+          {
+            "hanzi": "堅強",
+            "pinyin": "jiānqiáng"
+          },
+          {
+            "hanzi": "但",
+            "pinyin": "dàn"
+          },
+          {
+            "hanzi": "比",
+            "pinyin": "bǐ"
+          },
+          {
+            "hanzi": "誰",
+            "pinyin": "shuí"
+          },
+          {
+            "hanzi": "都",
+            "pinyin": "dōu"
+          },
+          {
+            "hanzi": "脆弱",
+            "pinyin": "cuìruò"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "脆弱",
+            "pinyin": "cuìruò"
+          }
+        ],
+        "timestamp": "01:26.61"
+      },
+      {
+        "chinese": "被現實的潮汐淹沒 淹沒",
+        "pinyin": "bèi xiàn shí de cháo xī yān mò yān mò",
+        "english": "Submerged by the tides of reality, submerged",
+        "segments": [
+          {
+            "hanzi": "被",
+            "pinyin": "bèi"
+          },
+          {
+            "hanzi": "現實",
+            "pinyin": "xiànshí"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "潮汐",
+            "pinyin": "cháoxī"
+          },
+          {
+            "hanzi": "淹沒",
+            "pinyin": "yānmò"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "淹沒",
+            "pinyin": "yānmò"
+          }
+        ],
+        "timestamp": "01:33.25"
+      },
+      {
+        "chinese": "照劇本演是個悲傷小丑 小丑",
+        "pinyin": "zhào jù běn yǎn shì ge bēi shāng xiǎo chǒu xiǎo chǒu",
+        "english": "Following the script, acting as a sad clown, a clown",
+        "segments": [
+          {
+            "hanzi": "照",
+            "pinyin": "zhào"
+          },
+          {
+            "hanzi": "劇本",
+            "pinyin": "jùběn"
+          },
+          {
+            "hanzi": "演",
+            "pinyin": "yǎn"
+          },
+          {
+            "hanzi": "是",
+            "pinyin": "shì"
+          },
+          {
+            "hanzi": "個",
+            "pinyin": "ge"
+          },
+          {
+            "hanzi": "悲傷",
+            "pinyin": "bēishāng"
+          },
+          {
+            "hanzi": "小丑",
+            "pinyin": "xiǎochǒu"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "小丑",
+            "pinyin": "xiǎochǒu"
+          }
+        ],
+        "timestamp": "01:40.20"
+      },
+      {
+        "chinese": "不思念也只能低頭 低頭",
+        "pinyin": "bù sī niàn yě zhǐ néng dī tóu dī tóu",
+        "english": "Even if I don't miss you, I can only lower my head, lower my head",
+        "segments": [
+          {
+            "hanzi": "不",
+            "pinyin": "bù"
+          },
+          {
+            "hanzi": "思念",
+            "pinyin": "sīniàn"
+          },
+          {
+            "hanzi": "也",
+            "pinyin": "yě"
+          },
+          {
+            "hanzi": "只能",
+            "pinyin": "zhǐnéng"
+          },
+          {
+            "hanzi": "低頭",
+            "pinyin": "dītóu"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "低頭",
+            "pinyin": "dītóu"
+          }
+        ],
+        "timestamp": "01:47.16"
+      },
+      {
+        "chinese": "裝模作樣的膽小鬼",
+        "pinyin": "zhuāng mú zuò yàng de dǎn xiǎo guǐ",
+        "english": "A coward putting on an act",
+        "segments": [
+          {
+            "hanzi": "裝模作樣",
+            "pinyin": "zhuāngmúzuòyàng"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "膽小鬼",
+            "pinyin": "dǎnxiǎoguǐ"
+          }
+        ],
+        "timestamp": "01:53.65"
+      },
+      {
+        "chinese": "只喜歡看著地面",
+        "pinyin": "zhǐ xǐ huān kàn zhe dì miàn",
+        "english": "Only likes looking at the ground",
+        "segments": [
+          {
+            "hanzi": "只",
+            "pinyin": "zhǐ"
+          },
+          {
+            "hanzi": "喜歡",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "看著",
+            "pinyin": "kànzhe"
+          },
+          {
+            "hanzi": "地面",
+            "pinyin": "dìmiàn"
+          }
+        ],
+        "timestamp": "01:58.10"
+      },
+      {
+        "chinese": "裝模作樣的膽小鬼",
+        "pinyin": "zhuāng mú zuò yàng de dǎn xiǎo guǐ",
+        "english": "A coward putting on an act",
+        "segments": [
+          {
+            "hanzi": "裝模作樣",
+            "pinyin": "zhuāngmúzuòyàng"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "膽小鬼",
+            "pinyin": "dǎnxiǎoguǐ"
+          }
+        ],
+        "timestamp": "02:01.12"
+      },
+      {
+        "chinese": "只喜歡看著地面",
+        "pinyin": "zhǐ xǐ huān kàn zhe dì miàn",
+        "english": "Only likes looking at the ground",
+        "segments": [
+          {
+            "hanzi": "只",
+            "pinyin": "zhǐ"
+          },
+          {
+            "hanzi": "喜歡",
+            "pinyin": "xǐhuān"
+          },
+          {
+            "hanzi": "看著",
+            "pinyin": "kànzhe"
+          },
+          {
+            "hanzi": "地面",
+            "pinyin": "dìmiàn"
+          }
+        ],
+        "timestamp": "02:05.13"
+      },
+      {
+        "chinese": "我不懂自己 也不知道愛算什麼",
+        "pinyin": "wǒ bù dǒng zì jǐ yě bù zhī dào ài suàn shén me",
+        "english": "I don't understand myself, and I don't know what love counts as",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "不懂",
+            "pinyin": "bùdǒng"
+          },
+          {
+            "hanzi": "自己",
+            "pinyin": "zìjǐ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "也",
+            "pinyin": "yě"
+          },
+          {
+            "hanzi": "不知道",
+            "pinyin": "bùzhīdào"
+          },
+          {
+            "hanzi": "愛",
+            "pinyin": "ài"
+          },
+          {
+            "hanzi": "算",
+            "pinyin": "suàn"
+          },
+          {
+            "hanzi": "什麼",
+            "pinyin": "shénme"
+          }
+        ],
+        "timestamp": "02:09.83"
+      },
+      {
+        "chinese": "燒焦的內心 也不知道剩下什麼",
+        "pinyin": "shāo jiāo de nèi xīn yě bù zhī dào shèng xià shén me",
+        "english": "My scorched heart doesn't know what is left either",
+        "segments": [
+          {
+            "hanzi": "燒焦",
+            "pinyin": "shāojiāo"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "內心",
+            "pinyin": "nèixīn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "也",
+            "pinyin": "yě"
+          },
+          {
+            "hanzi": "不知道",
+            "pinyin": "bùzhīdào"
+          },
+          {
+            "hanzi": "剩下",
+            "pinyin": "shèngxià"
+          },
+          {
+            "hanzi": "什麼",
+            "pinyin": "shénme"
+          }
+        ],
+        "timestamp": "02:19.04"
+      },
+      {
+        "chinese": "你還會想 帶 我 離開？",
+        "pinyin": "nǐ hái huì xiǎng dài wǒ lí kāi?",
+        "english": "Would you still want to take me away?",
+        "segments": [
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "還",
+            "pinyin": "hái"
+          },
+          {
+            "hanzi": "會",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          }
+        ],
+        "timestamp": "02:25.89"
+      },
+      {
+        "chinese": "帶 我 離開？",
+        "pinyin": "dài wǒ lí kāi?",
+        "english": "Take me away?",
+        "segments": [
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          }
+        ],
+        "timestamp": "02:28.42"
+      },
+      {
+        "chinese": "想 帶 我 離開？ 離開",
+        "pinyin": "xiǎng dài wǒ lí kāi? lí kāi",
+        "english": "Want to take me away? Away",
+        "segments": [
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          }
+        ],
+        "timestamp": "02:32.64"
+      },
+      {
+        "chinese": "這樣的自己我也害怕",
+        "pinyin": "zhè yàng de zì jǐ wǒ yě hài pà",
+        "english": "I'm afraid of myself like this too",
+        "segments": [
+          {
+            "hanzi": "這樣",
+            "pinyin": "zhèyàng"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "自己",
+            "pinyin": "zìjǐ"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "也",
+            "pinyin": "yě"
+          },
+          {
+            "hanzi": "害怕",
+            "pinyin": "hàipà"
+          }
+        ],
+        "timestamp": "02:38.22"
+      },
+      {
+        "chinese": "這樣的自己我也害怕",
+        "pinyin": "zhè yàng de zì jǐ wǒ yě hài pà",
+        "english": "I'm afraid of myself like this too",
+        "segments": [
+          {
+            "hanzi": "這樣",
+            "pinyin": "zhèyàng"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "自己",
+            "pinyin": "zìjǐ"
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "也",
+            "pinyin": "yě"
+          },
+          {
+            "hanzi": "害怕",
+            "pinyin": "hàipà"
+          }
+        ],
+        "timestamp": "02:42.73"
+      },
+      {
+        "chinese": "你還會想 帶 我 離開？",
+        "pinyin": "nǐ hái huì xiǎng dài wǒ lí kāi?",
+        "english": "Would you still want to take me away?",
+        "segments": [
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "還",
+            "pinyin": "hái"
+          },
+          {
+            "hanzi": "會",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          }
+        ],
+        "timestamp": "02:49.36"
+      },
+      {
+        "chinese": "帶 我 離開？",
+        "pinyin": "dài wǒ lí kāi?",
+        "english": "Take me away?",
+        "segments": [
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          }
+        ],
+        "timestamp": "02:54.03"
+      },
+      {
+        "chinese": "想 帶 我 離開？ 離開",
+        "pinyin": "xiǎng dài wǒ lí kāi? lí kāi",
+        "english": "Want to take me away? Away",
+        "segments": [
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          }
+        ],
+        "timestamp": "02:58.32"
+      },
+      {
+        "chinese": "我不懂自己 也不知道愛算什麼",
+        "pinyin": "wǒ bù dǒng zì jǐ yě bù zhī dào ài suàn shén me",
+        "english": "I don't understand myself, and I don't know what love counts as",
+        "segments": [
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": "不懂",
+            "pinyin": "bùdǒng"
+          },
+          {
+            "hanzi": "自己",
+            "pinyin": "zìjǐ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "也",
+            "pinyin": "yě"
+          },
+          {
+            "hanzi": "不知道",
+            "pinyin": "bùzhīdào"
+          },
+          {
+            "hanzi": "愛",
+            "pinyin": "ài"
+          },
+          {
+            "hanzi": "算",
+            "pinyin": "suàn"
+          },
+          {
+            "hanzi": "什麼",
+            "pinyin": "shénme"
+          }
+        ],
+        "timestamp": "03:01.62"
+      },
+      {
+        "chinese": "燒焦的內心 也不知道剩下什麼",
+        "pinyin": "shāo jiāo de nèi xīn yě bù zhī dào shèng xià shén me",
+        "english": "My scorched heart doesn't know what is left either",
+        "segments": [
+          {
+            "hanzi": "燒焦",
+            "pinyin": "shāojiāo"
+          },
+          {
+            "hanzi": "的",
+            "pinyin": "de"
+          },
+          {
+            "hanzi": "內心",
+            "pinyin": "nèixīn"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "也",
+            "pinyin": "yě"
+          },
+          {
+            "hanzi": "不知道",
+            "pinyin": "bùzhīdào"
+          },
+          {
+            "hanzi": "剩下",
+            "pinyin": "shèngxià"
+          },
+          {
+            "hanzi": "什麼",
+            "pinyin": "shénme"
+          }
+        ],
+        "timestamp": "03:04.80"
+      },
+      {
+        "chinese": "你還會想 帶 我 離開？",
+        "pinyin": "nǐ hái huì xiǎng dài wǒ lí kāi?",
+        "english": "Would you still want to take me away?",
+        "segments": [
+          {
+            "hanzi": "你",
+            "pinyin": "nǐ"
+          },
+          {
+            "hanzi": "還",
+            "pinyin": "hái"
+          },
+          {
+            "hanzi": "會",
+            "pinyin": "huì"
+          },
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          }
+        ],
+        "timestamp": "03:07.37"
+      },
+      {
+        "chinese": "帶 我 離開？",
+        "pinyin": "dài wǒ lí kāi?",
+        "english": "Take me away?",
+        "segments": [
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          }
+        ],
+        "timestamp": "03:09.33"
+      },
+      {
+        "chinese": "想 帶 我 離開？ 離開",
+        "pinyin": "xiǎng dài wǒ lí kāi? lí kāi",
+        "english": "Want to take me away? Away",
+        "segments": [
+          {
+            "hanzi": "想",
+            "pinyin": "xiǎng"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "帶",
+            "pinyin": "dài"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "我",
+            "pinyin": "wǒ"
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          },
+          {
+            "hanzi": "？",
+            "pinyin": ""
+          },
+          {
+            "hanzi": " ",
+            "pinyin": ""
+          },
+          {
+            "hanzi": "離開",
+            "pinyin": "líkāi"
+          }
+        ],
+        "timestamp": "03:22.12"
+      }
+    ]
   }
 ]
