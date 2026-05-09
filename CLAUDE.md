@@ -182,6 +182,10 @@ When LRCLIB doesn't have timestamps, use WhisperX on Tower for word-level timest
    ```bash
    ssh tower "docker exec MeTube yt-dlp -x -o '/tmp/VIDEOID.%(ext)s' 'https://youtube.com/watch?v=VIDEOID'"
    ```
+   **Important:** `docker exec MeTube ... -o /tmp/...` writes inside the MeTube container, not Tower's host `/tmp`. Copy it out before ffmpeg/Demucs:
+   ```bash
+   ssh tower "docker cp MeTube:/tmp/VIDEOID.opus /tmp/VIDEOID.opus"
+   ```
 
 2. **Convert to WAV** (required for Demucs — only accepts mp3/wav/flac/aac/m4a):
    ```bash
@@ -416,7 +420,7 @@ Changes appear at lyric.bwe4.net within ~1 minute.
 ### LRCLIB Quirks
 - ~60% hit rate for Chinese songs; not all have synced (timestamped) lyrics
 - **LRCLIB can have wrong lyrics** — different arrangement, different version, or different language mix than the YouTube video. Example: 我超喜欢你 LRCLIB had Chinese-only lyrics but the YouTube video is Chinese-Thai bilingual with different structure (missing first chorus, bridge, la-la-la sections). Wrong lyrics → wrong WhisperX alignment → cascading timestamp bugs.
-- **Use `bun run integrity`** to cross-check lyrics against WhisperX transcript when available. Good match = >70% bigram Jaccard and >85% char coverage.
+- **Use `bun run integrity`** to cross-check lyrics against WhisperX transcript when available. Good match = >70% bigram Jaccard and >85% char coverage. A "Partial match" can still be acceptable when lyrics→transcript coverage is high (~95%) and mismatches are obvious WhisperX singing/ASR errors (e.g., mishearing 裝模作樣的膽小鬼 as unrelated homophones).
 - **WhisperX on Tower** generates timestamps when LRCLIB doesn't have them (see Workflow 5)
 - Search by artist + title in romanized form often works better
 - Try Chinese artist names (鄧紫棋) if English names fail
